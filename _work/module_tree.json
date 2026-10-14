@@ -1,0 +1,36 @@
+{
+ "name": "ROOT",
+ "slug": "",
+ "children": [
+  {
+   "name": "Developer Modules",
+   "slug": "Developer",
+   "group": "Developer",
+   "children": []
+  },
+  {
+   "name": "Editor Modules",
+   "slug": "Editor",
+   "group": "Editor",
+   "children": []
+  },
+  {
+   "name": "Runtime Modules",
+   "slug": "Runtime",
+   "group": "Runtime",
+   "children": []
+  },
+  {
+   "name": "Plugins",
+   "slug": "PluginIndex",
+   "group": "Runtime",
+   "children": []
+  },
+  {
+   "name": "Plugins Modules",
+   "slug": "Plugins",
+   "group": "Modules",
+   "children": []
+  }
+ ]
+}

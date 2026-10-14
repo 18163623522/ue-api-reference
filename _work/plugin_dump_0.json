@@ -1,0 +1,32 @@
+{
+  "cursor": 6,
+  "total": 842,
+  "done": false,
+  "count": 6,
+  "newItems": [
+    {
+      "slug": "PluginIndex/AbilitySystemGameFeatureActions",
+      "status": "err"
+    },
+    {
+      "slug": "PluginIndex/AccumulationDOF",
+      "status": "err"
+    },
+    {
+      "slug": "PluginIndex/ACLPlugin",
+      "status": "err"
+    },
+    {
+      "slug": "PluginIndex/ActorLayerUtilities",
+      "status": "err"
+    },
+    {
+      "slug": "PluginIndex/ActorModifier",
+      "status": "err"
+    },
+    {
+      "slug": "PluginIndex/ActorModifierCore",
+      "status": "err"
+    }
+  ]
+}

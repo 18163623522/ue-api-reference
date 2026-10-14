@@ -1,0 +1,475 @@
+{
+  "cursor": 80,
+  "total": 616,
+  "done": false,
+  "count": 608,
+  "newItems": [
+    {
+      "s": "Input/GestureValues",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Niagara/AcquireNiagaraGPURayTracedCollis-",
+      "dir": false,
+      "d": "Returns a free collision group for use in HWRT collision group filtering. Returns -1 on failure.",
+      "t": "Niagara Function Library"
+    },
+    {
+      "s": "Camera/ActivateCameraSystemforPlayerCon-",
+      "dir": false,
+      "d": "Sets this component's actor as the view target for the given player.",
+      "t": "Gameplay Camera System Component"
+    },
+    {
+      "s": "Audio/ActivateReverbEffect",
+      "dir": false,
+      "d": "Activates a Reverb Effect without the need for an Audio Volume",
+      "t": "Gameplay Statics"
+    },
+    {
+      "s": "Widget/Accessibility",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Networking/EnableInterpolationMode",
+      "dir": false,
+      "d": "Enable Interpolation Mode",
+      "t": "Parametric Movement Component"
+    },
+    {
+      "s": "Input/GetInputMode",
+      "dir": false,
+      "d": "Returns the current input mode set on Enhanced Input. This mode will control what mappings are currently being processed",
+      "t": "Enhanced Input Subsystem Interface"
+    },
+    {
+      "s": "Niagara/AdvanceSimulation",
+      "dir": false,
+      "d": "Advances this system's simulation by the specified number of ticks and delta time.",
+      "t": "Niagara Particle System Component"
+    },
+    {
+      "s": "Camera/ActivateCameraSystemforPlayerInd-",
+      "dir": false,
+      "d": "Sets this component's actor as the view target for the given player.",
+      "t": "Gameplay Camera System Component"
+    },
+    {
+      "s": "Audio/Analysis",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Widget/AddChildtoGrid",
+      "dir": false,
+      "d": "Add Child to Grid",
+      "t": "Grid Panel"
+    },
+    {
+      "s": "Networking/FlushNetDormancy",
+      "dir": false,
+      "d": "Forces dormant actor to replicate but doesn't change NetDormancy state (i.e., they will go dormant again if left dormant",
+      "t": "Actor"
+    },
+    {
+      "s": "Input/GetMappingName",
+      "dir": false,
+      "d": "Returns the name of the mapping based on setting behavior used. If no name is found in the Mappable Key Settings it will",
+      "t": "Enhanced Input Library"
+    },
+    {
+      "s": "Niagara/AdvanceSimulationbyTime",
+      "dir": false,
+      "d": "Advances this system's simulation by the specified time in seconds and delta time. Advancement is done in whole ticks of",
+      "t": "Niagara Particle System Component"
+    },
+    {
+      "s": "Camera/ActivateCameraforPlayerControlle-",
+      "dir": false,
+      "d": "Activates the camera for the given player.",
+      "t": "Gameplay Camera Component Base"
+    },
+    {
+      "s": "Audio/AreAnyListenersWithinRange",
+      "dir": false,
+      "d": "Determines if any audio listeners are within range of the specified location",
+      "t": "Gameplay Statics"
+    },
+    {
+      "s": "Widget/AddChildtoHorizontalBox",
+      "dir": false,
+      "d": "Add Child to Horizontal Box",
+      "t": "Horizontal Box"
+    },
+    {
+      "s": "Networking/ForceNetUpdate",
+      "dir": false,
+      "d": "Force actor to be updated to clients/demo net drivers",
+      "t": "Actor"
+    },
+    {
+      "s": "Input/GetOuterAPlayerController",
+      "dir": false,
+      "d": "Return's this object casted to a player controller. This can be null if there is no player controller.",
+      "t": "Player Input"
+    },
+    {
+      "s": "Niagara/ClearEmitterFixedBounds",
+      "dir": false,
+      "d": "Clear any previously set fixed bounds for the emitter instance.",
+      "t": "Niagara Particle System Component"
+    },
+    {
+      "s": "Camera/ActivateCameraforPlayerIndex",
+      "dir": false,
+      "d": "Activates the camera for the given player.",
+      "t": "Gameplay Camera Component Base"
+    },
+    {
+      "s": "Audio/AudioInputDeviceInfoToString",
+      "dir": false,
+      "d": "Returns the device info in a human readable format",
+      "t": "Audio Capture Blueprint Library"
+    },
+    {
+      "s": "Widget/AddChildtoOverlay",
+      "dir": false,
+      "d": "Add Child to Overlay",
+      "t": "Overlay"
+    },
+    {
+      "s": "Networking/GetLocalRole",
+      "dir": false,
+      "d": "Returns how much control the local machine has over this actor.",
+      "t": "Actor"
+    },
+    {
+      "s": "Input/GetOverridePlayerInputClass",
+      "dir": false,
+      "d": "Get Override Player Input Class",
+      "t": "Player Controller"
+    },
+    {
+      "s": "Niagara/ClearParameterCollectionOverride-",
+      "dir": false,
+      "d": "Clear all parameter collection overrides.",
+      "t": "Niagara Particle System Component"
+    },
+    {
+      "s": "Camera/ActivateGameplayCamera",
+      "dir": false,
+      "d": "Activates the given component inside the manager's camera system.",
+      "t": "Gameplay Cameras Player Camera Manager"
+    },
+    {
+      "s": "Audio/AudioInsights",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Widget/AddChildtoUniformGrid",
+      "dir": false,
+      "d": "Add Child to Uniform Grid",
+      "t": "Uniform Grid Panel"
+    },
+    {
+      "s": "Networking/GetRemoteRole",
+      "dir": false,
+      "d": "Returns how much control the remote machine has over this actor.",
+      "t": "Actor"
+    },
+    {
+      "s": "Input/GetPlayerMappableKeySettings",
+      "dir": false,
+      "d": "Returns the Player Mappable Key Settings owned by the Action Key Mapping or by the referenced Input Action, or nothing b",
+      "t": "Enhanced Input Library"
+    },
+    {
+      "s": "Niagara/ClearSystemFixedBounds",
+      "dir": false,
+      "d": "Clear any previously set fixed bounds for the system instance.",
+      "t": "Niagara Particle System Component"
+    },
+    {
+      "s": "Camera/ActivatePersistentBaseCameraRig",
+      "dir": false,
+      "d": "Activates the given camera rig prefab in the base layer.",
+      "t": "Gameplay Cameras Player Camera Manager"
+    },
+    {
+      "s": "Audio/AudioOutputDeviceInfoToString",
+      "dir": false,
+      "d": "Returns the device info in a human readable format",
+      "t": "Audio Mixer Blueprint Library"
+    },
+    {
+      "s": "Widget/Brush",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Networking/HasAuthority",
+      "dir": false,
+      "d": "Returns whether this actor has network authority",
+      "t": "Actor"
+    },
+    {
+      "s": "Input/GetTypeName",
+      "dir": false,
+      "d": "Get Type Name",
+      "t": "Niagara Clipboard Editor Scripting Utilities"
+    },
+    {
+      "s": "Niagara/CreateNiagaraParameterCollection-",
+      "dir": false,
+      "d": "Create a parameter collection instance for the provided parameter collection. This can return null if not in a game worl",
+      "t": "Niagara Function Library"
+    },
+    {
+      "s": "Camera/ActivatePersistentGlobalCameraRi-",
+      "dir": false,
+      "d": "Activates the given camera rig prefab in the global layer.",
+      "t": "Gameplay Cameras Player Camera Manager"
+    },
+    {
+      "s": "Audio/Bounce",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Widget/ClearError",
+      "dir": false,
+      "d": "Clear Error",
+      "t": "Text Box"
+    },
+    {
+      "s": "Networking/IsDedicatedServer",
+      "dir": false,
+      "d": "Returns whether this is running on a dedicated server",
+      "t": "Kismet System Library"
+    },
+    {
+      "s": "Input/HeadMountedDisplay",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Niagara/GetAgeUpdateMode",
+      "dir": false,
+      "d": "Get Age Update Mode",
+      "t": "Niagara Particle System Component"
+    },
+    {
+      "s": "Camera/ActivatePersistentVisualCameraRi-",
+      "dir": false,
+      "d": "Activates the given camera rig prefab in the visual layer.",
+      "t": "Gameplay Cameras Player Camera Manager"
+    },
+    {
+      "s": "Audio/Bus",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Widget/ClearFill",
+      "dir": false,
+      "d": "Clear Fill",
+      "t": "Grid Panel"
+    },
+    {
+      "s": "Networking/IsServer",
+      "dir": false,
+      "d": "Returns whether the world this object is in is the host or not",
+      "t": "Kismet System Library"
+    },
+    {
+      "s": "Input/InjectInputVectorforAction",
+      "dir": false,
+      "d": "Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying in",
+      "t": "Enhanced Input Subsystem Interface"
+    },
+    {
+      "s": "Niagara/GetAllEmitters",
+      "dir": false,
+      "d": "Returns basic info on all emitters of a niagara system.",
+      "t": "Niagara Function Library"
+    },
+    {
+      "s": "Camera/AddGenericCameraLensEffect",
+      "dir": false,
+      "d": "Creates a camera lens effect of the given class on this camera.",
+      "t": "Player Camera Manager"
+    },
+    {
+      "s": "Audio/Cache",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Widget/DragAndDrop",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Networking/IsStandalone",
+      "dir": false,
+      "d": "Returns whether this game instance is stand alone (no networking).",
+      "t": "Kismet System Library"
+    },
+    {
+      "s": "Input/InjectInputVectorforPlayerMappin-",
+      "dir": false,
+      "d": "Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying in",
+      "t": "Enhanced Input Subsystem Interface"
+    },
+    {
+      "s": "Niagara/GetAllUserParameters",
+      "dir": false,
+      "d": "Returns basic info on all user parameters of a niagara system.",
+      "t": "Niagara Function Library"
+    },
+    {
+      "s": "Camera/BlendCameraEvaluationData",
+      "dir": false,
+      "d": "Interpolates one camera data towards another.",
+      "t": "Blueprint Camera Evaluation Data Function Library"
+    },
+    {
+      "s": "Audio/ClearSoundMixClassOverride",
+      "dir": false,
+      "d": "Clears any existing override of the Sound Class Adjuster in the given Sound Mix",
+      "t": "Gameplay Statics"
+    },
+    {
+      "s": "Widget/EventReply",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Networking/MarkPropertyDirty",
+      "dir": false,
+      "d": "Mark replicated property as dirty with the Push Model networking system",
+      "t": "Net Push Model Helpers"
+    },
+    {
+      "s": "Input/InjectInputforAction",
+      "dir": false,
+      "d": "Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying in",
+      "t": "Enhanced Input Subsystem Interface"
+    },
+    {
+      "s": "Niagara/GetBoolParameter",
+      "dir": false,
+      "d": "Accessors from Blueprint. For now just exposing common types but ideally we can expose any somehow in future.",
+      "t": "Niagara Parameter Collection Instance"
+    },
+    {
+      "s": "Camera/ClearCameraLensEffects",
+      "dir": false,
+      "d": "Removes all camera lens effects.",
+      "t": "Player Camera Manager"
+    },
+    {
+      "s": "Audio/ClearSoundMixModifiers",
+      "dir": false,
+      "d": "Clear all sound mix modifiers from the audio system",
+      "t": "Gameplay Statics"
+    },
+    {
+      "s": "Widget/ForceLayoutPrepass",
+      "dir": false,
+      "d": "Forces a pre-pass. A pre-pass caches the desired size of the widget hierarchy owned by this widget. One pre-pass already",
+      "t": "Widget"
+    },
+    {
+      "s": "Networking/SetNetDormancy",
+      "dir": false,
+      "d": "Puts actor in dormant networking state",
+      "t": "Actor"
+    },
+    {
+      "s": "Input/InjectInputforPlayerMapping",
+      "dir": false,
+      "d": "Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying in",
+      "t": "Enhanced Input Subsystem Interface"
+    },
+    {
+      "s": "Niagara/GetColorParameter",
+      "dir": false,
+      "d": "Get Color Parameter",
+      "t": "Niagara Parameter Collection Instance"
+    },
+    {
+      "s": "Camera/DeactivateCameraRig",
+      "dir": false,
+      "d": "Deactivates a previously activated base, global, or visual camera rig.",
+      "t": "Gameplay Cameras Player Camera Manager"
+    },
+    {
+      "s": "Audio/Close",
+      "dir": false,
+      "d": "Close",
+      "t": "Simple Audio Encoder"
+    },
+    {
+      "s": "Widget/ForceVolatile",
+      "dir": false,
+      "d": "Sets the forced volatility of the widget.",
+      "t": "Widget"
+    },
+    {
+      "s": "Networking/SetReplicateMovement",
+      "dir": false,
+      "d": "Set whether this actor's movement replicates to network clients.",
+      "t": "Actor"
+    },
+    {
+      "s": "Input/InputEvent",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Niagara/GetCustomTimeDilation",
+      "dir": false,
+      "d": "Get Custom Time Dilation",
+      "t": "Niagara Particle System Component"
+    },
+    {
+      "s": "Camera/DeactivateCameraSystem",
+      "dir": false,
+      "d": "Removes this component's actor from being the view target.",
+      "t": "Gameplay Camera System Component"
+    },
+    {
+      "s": "Audio/Components",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Widget/GetAccessibleSummaryText",
+      "dir": false,
+      "d": "Gets the accessible summary text from the underlying Slate accessible widget.",
+      "t": "Widget"
+    },
+    {
+      "s": "Networking/SetReplicates",
+      "dir": false,
+      "d": "Set whether this actor replicates to network clients. When this actor is spawned on the server it will be sent to client",
+      "t": "Actor"
+    },
+    {
+      "s": "Input/InputPlayRootMotionSource",
+      "dir": false,
+      "d": "Input Play Root Motion Source",
+      "t": "Mock Root Motion Component"
+    },
+    {
+      "s": "Niagara/GetDataInterface",
+      "dir": false,
+      "d": "Get Data Interface",
+      "t": "Niagara Particle System Component"
+    }
+  ]
+}

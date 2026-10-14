@@ -1,0 +1,1684 @@
+[
+  {
+    "s": "AI/AIMoveTo",
+    "dir": false,
+    "d": "Simple order for Pawn with AIController to move to a specific location."
+  },
+  {
+    "s": "AI/BehaviorTree",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "AI/ClearFocus",
+    "dir": false,
+    "d": "Clears Focus, will also clear FocalPoint as a result",
+    "t": "AIController"
+  },
+  {
+    "s": "AI/Components",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "AI/Debug",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "AI/EQS",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "AI/GetAIController",
+    "dir": false,
+    "d": "The way it works exactly is if the actor passed in is a pawn, then the function retrieves pawn's controller cast to AICo",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/GetAvoidanceVelocityforComponent",
+    "dir": false,
+    "d": "Calculate avoidance velocity for component (avoids collisions with the supplied component)",
+    "t": "Avoidance Manager"
+  },
+  {
+    "s": "AI/GetBlackboard",
+    "dir": false,
+    "d": "Get Blackboard",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/GetCurrentPath",
+    "dir": false,
+    "d": "Returns a NEW UOBJECT that is a COPY of navigation path given controller is currently using. The result being a copy mea",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/GetCurrentPathIndex",
+    "dir": false,
+    "d": "Return the path index the given controller is currently at. Returns INDEX_NONE if no path.",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/GetCurrentPathPoints",
+    "dir": false,
+    "d": "Returns an array of navigation path points given controller is currently using.",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/GetFocalPoint",
+    "dir": false,
+    "d": "Retrieve the final position that controller should be looking at.",
+    "t": "AIController"
+  },
+  {
+    "s": "AI/GetFocalPointonActor",
+    "dir": false,
+    "d": "Retrieve the focal point this controller should focus to on given actor.",
+    "t": "AIController"
+  },
+  {
+    "s": "AI/GetFocusActor",
+    "dir": false,
+    "d": "Get the focused actor.",
+    "t": "AIController"
+  },
+  {
+    "s": "AI/GetNewAvoidanceUID",
+    "dir": false,
+    "d": "Get appropriate UID for use when reporting to this function or requesting RVO assistance.",
+    "t": "Avoidance Manager"
+  },
+  {
+    "s": "AI/GetNextNavLinkIndex",
+    "dir": false,
+    "d": "Return the path index of the next nav link for the current path of the given controller. Returns INDEX_NONE if no path o",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/GetObjectCount",
+    "dir": false,
+    "d": "Get the number of avoidance objects currently in the manager.",
+    "t": "Avoidance Manager"
+  },
+  {
+    "s": "AI/IsValidAIDirection",
+    "dir": false,
+    "d": "Is Valid AIDirection",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/IsValidAILocation",
+    "dir": false,
+    "d": "Is Valid AILocation",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/IsValidAIRotation",
+    "dir": false,
+    "d": "Is Valid AIRotation",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/Logic",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "AI/MakeNoise",
+    "dir": false,
+    "d": "Trigger a noise caused by a given Pawn, at a given location. Note that the NoiseInstigator Pawn MUST have a PawnNoiseEmi",
+    "t": "Actor"
+  },
+  {
+    "s": "AI/Movement",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "AI/NavMovement",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "AI/Navigation",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "AI/PawnMakeNoise",
+    "dir": false,
+    "d": "Inform AIControllers that you've made a noise they might hear (they are sent a HearNoise message if they have bHearNoise",
+    "t": "Pawn"
+  },
+  {
+    "s": "AI/Perception",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "AI/RegisterMovementComponent",
+    "dir": false,
+    "d": "Register with the given avoidance manager.",
+    "t": "Avoidance Manager"
+  },
+  {
+    "s": "AI/RunBehaviorTree",
+    "dir": false,
+    "d": "Starts executing behavior tree.",
+    "t": "AIController"
+  },
+  {
+    "s": "AI/RunStateTree",
+    "dir": false,
+    "d": "Starts executing an instance of the provided state tree asset on the specified actor. This will use the existing require",
+    "t": "Gameplay State Tree Blueprint Function Library"
+  },
+  {
+    "s": "AI/Say",
+    "dir": false,
+    "d": "Exec command to broadcast a string to all players",
+    "t": "Game Mode"
+  },
+  {
+    "s": "AI/SendAIMessage",
+    "dir": false,
+    "d": "Send AIMessage",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/SetFocalPoint",
+    "dir": false,
+    "d": "Set the position that controller should be looking at.",
+    "t": "AIController"
+  },
+  {
+    "s": "AI/SetFocus",
+    "dir": false,
+    "d": "Set Focus for actor, will set FocalPoint as a result.",
+    "t": "AIController"
+  },
+  {
+    "s": "AI/SpawnAIFromClass",
+    "dir": false,
+    "d": "Spawns AI agent of a given class. The PawnClass needs to have AIController set for the function to spawn a controller as",
+    "t": "AIBlueprint Helper Library"
+  },
+  {
+    "s": "AI/Tasks",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "AI/UseBlackboard",
+    "dir": false,
+    "d": "Makes AI use the specified Blackboard asset & creates a Blackboard Component if one does not already exist.",
+    "t": "AIController"
+  },
+  {
+    "s": "Collision/BoxOverlapActors",
+    "dir": false,
+    "d": "Returns an array of actors that overlap the given axis-aligned box.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/BoxOverlapActorsWithOrientation",
+    "dir": false,
+    "d": "Returns an array of actors that overlap the given axis-aligned box.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/BoxOverlapComponent",
+    "dir": false,
+    "d": "Perform a box overlap against a single component as an AABB (No rotation)",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/BoxOverlapComponents",
+    "dir": false,
+    "d": "Returns an array of components that overlap the given axis-aligned box.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/BoxOverlapComponentsWithOrientat-",
+    "dir": false,
+    "d": "Returns an array of components that overlap the given box.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/BoxTraceByChannel",
+    "dir": false,
+    "d": "Sweeps a box along the given line and returns the first blocking hit encountered. This trace finds the objects that RESP",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/BoxTraceByProfile",
+    "dir": false,
+    "d": "Sweep a box against the world and return the first blocking hit using a specific profile",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/BoxTraceForObjects",
+    "dir": false,
+    "d": "Sweeps a box along the given line and returns the first hit encountered. This only finds objects that are of a type spec",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/BreakHitResult",
+    "dir": false,
+    "d": "Extracts data from a HitResult.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Collision/CanCharacterStepUp",
+    "dir": false,
+    "d": "Return true if the given Pawn can step up onto this component. This controls whether they can try to step up on it when ",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/CapsuleOverlapActors",
+    "dir": false,
+    "d": "Returns an array of actors that overlap the given capsule.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/CapsuleOverlapActorsWithOrientat-",
+    "dir": false,
+    "d": "Returns an array of actors that overlap the given capsule.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/CapsuleOverlapComponents",
+    "dir": false,
+    "d": "Returns an array of components that overlap the given capsule.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/CapsuleOverlapComponentsWithOrie-",
+    "dir": false,
+    "d": "Returns an array of components that overlap the given capsule.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/CapsuleTraceByChannel",
+    "dir": false,
+    "d": "Sweeps a capsule along the given line and returns the first blocking hit encountered. This trace finds the objects that ",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/CapsuleTraceByProfile",
+    "dir": false,
+    "d": "Sweep a capsule against the world and return the first blocking hit using a specific profile",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/CapsuleTraceForObjects",
+    "dir": false,
+    "d": "Sweeps a capsule along the given line and returns the first hit encountered. This only finds objects that are of a type ",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/ClearMoveIgnoreActors",
+    "dir": false,
+    "d": "Clear the list of actors we ignore when moving.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/ClearMoveIgnoreComponents",
+    "dir": false,
+    "d": "Clear the list of components we ignore when moving.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/ComponentOverlapActors",
+    "dir": false,
+    "d": "Returns an array of actors that overlap the given component.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/ComponentOverlapComponents",
+    "dir": false,
+    "d": "Returns an array of components that overlap the given component.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/FindCollisionUV",
+    "dir": false,
+    "d": "Try and find the UV for a collision impact. Note this ONLY works if 'Support UV From Hit Results' is enabled in Physics ",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Collision/GetActorArrayBounds",
+    "dir": false,
+    "d": "Bind the bounds of an array of Actors",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Collision/GetActorBounds",
+    "dir": false,
+    "d": "Returns the bounding box of all components that make up this Actor (excluding ChildActorComponents).",
+    "t": "Actor"
+  },
+  {
+    "s": "Collision/GetActorEnableCollision",
+    "dir": false,
+    "d": "Get current state of collision for the whole actor",
+    "t": "Actor"
+  },
+  {
+    "s": "Collision/GetClosestPointonCollision",
+    "dir": false,
+    "d": "Returns the distance and closest point to the collision surface. Component must have simple collision to be queried for ",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/GetCollisionComponents",
+    "dir": false,
+    "d": "Returns body's collision components",
+    "t": "Water Body Component"
+  },
+  {
+    "s": "Collision/GetCollisionEnabled",
+    "dir": false,
+    "d": "Returns the form of collision for this component",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/GetCollisionObjectType",
+    "dir": false,
+    "d": "Gets the collision object type",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/GetCollisionProfileName",
+    "dir": false,
+    "d": "Get the collision profile name",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/GetCollisionResponsetoChannel",
+    "dir": false,
+    "d": "Gets the response type given a specific channel",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/GetComponentBounds",
+    "dir": false,
+    "d": "Get bounds",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/GetMoveIgnoreActors",
+    "dir": false,
+    "d": "Returns the list of actors we currently ignore when moving.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/GetMoveIgnoreComponents",
+    "dir": false,
+    "d": "Returns the list of actors we currently ignore when moving.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/GetOverlappingActors",
+    "dir": false,
+    "d": "Returns a list of actors that this component is overlapping.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/GetOverlappingComponents",
+    "dir": false,
+    "d": "Returns unique list of components this component is overlapping.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/GetSurfaceType",
+    "dir": false,
+    "d": "Returns the EPhysicalSurface type of the given Hit. To edit surface type for your project, use ProjectSettings/Physics/P",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Collision/IgnoreActorwhenMoving",
+    "dir": false,
+    "d": "Tells this component whether to ignore collision with all components of a specific Actor when this component is moved. C",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/IgnoreComponentwhenMoving",
+    "dir": false,
+    "d": "Tells this component whether to ignore collision with another component when this component is moved. The other componen",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/IsCollisionEnabled",
+    "dir": false,
+    "d": "Utility to see if there is any form of collision (query or physics) enabled on this component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/IsOverlappingActor",
+    "dir": false,
+    "d": "Check whether any component of this Actor is overlapping any component of another Actor.",
+    "t": "Actor"
+  },
+  {
+    "s": "Collision/IsOverlappingComponent",
+    "dir": false,
+    "d": "Check whether this component is overlapping another component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/IsPhysicsCollisionEnabled",
+    "dir": false,
+    "d": "Utility to see if there is any physics collision enabled on this component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/IsQueryCollisionEnabled",
+    "dir": false,
+    "d": "Utility to see if there is any query collision enabled on this component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/LineTraceByChannel",
+    "dir": false,
+    "d": "Does a collision trace along the given line and returns the first blocking hit encountered. This trace finds the objects",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/LineTraceByProfile",
+    "dir": false,
+    "d": "Trace a ray against the world using a specific profile and return the first blocking hit",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/LineTraceComponent",
+    "dir": false,
+    "d": "Perform a line trace against a single component",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Collision/LineTraceForObjects",
+    "dir": false,
+    "d": "Does a collision trace along the given line and returns the first hit encountered. This only finds objects that are of a",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MakeHitResult",
+    "dir": false,
+    "d": "Create a HitResult struct",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Collision/MultiBoxTraceByChannel",
+    "dir": false,
+    "d": "Sweeps a box along the given line and returns all hits encountered. This trace finds the objects that RESPONDS to the gi",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiBoxTraceByProfile",
+    "dir": false,
+    "d": "Sweep a box against the world and return all initial overlaps using a specific profile, then overlapping hits and then f",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiBoxTraceForObjects",
+    "dir": false,
+    "d": "Sweeps a box along the given line and returns all hits encountered. This only finds objects that are of a type specified",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiCapsuleTraceByChannel",
+    "dir": false,
+    "d": "Sweeps a capsule along the given line and returns all hits encountered up to and including the first blocking hit. This ",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiCapsuleTraceByProfile",
+    "dir": false,
+    "d": "Sweep a capsule against the world and return all initial overlaps using a specific profile, then overlapping hits and th",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiCapsuleTraceForObjects",
+    "dir": false,
+    "d": "Sweeps a capsule along the given line and returns all hits encountered. This only finds objects that are of a type speci",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiLineTraceByChannel",
+    "dir": false,
+    "d": "Does a collision trace along the given line and returns all hits encountered up to and including the first blocking hit.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiLineTraceByProfile",
+    "dir": false,
+    "d": "Trace a ray against the world using a specific profile and return overlapping hits and then first blocking hit Results a",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiLineTraceForObjects",
+    "dir": false,
+    "d": "Does a collision trace along the given line and returns all hits encountered. This only finds objects that are of a type",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiSphereTraceByChannel",
+    "dir": false,
+    "d": "Sweeps a sphere along the given line and returns all hits encountered up to and including the first blocking hit. This t",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiSphereTraceByProfile",
+    "dir": false,
+    "d": "Sweep a sphere against the world and return all initial overlaps using a specific profile, then overlapping hits and the",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/MultiSphereTraceForObjects",
+    "dir": false,
+    "d": "Sweeps a sphere along the given line and returns all hits encountered. This only finds objects that are of a type specif",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Collision/OnActorBeginOverlap",
+    "dir": false,
+    "d": "Called when another actor begins to overlap this actor, for example a player walking into a trigger. For events when obj"
+  },
+  {
+    "s": "Collision/OnActorEndOverlap",
+    "dir": false,
+    "d": "Called when another actor stops overlapping this actor."
+  },
+  {
+    "s": "Collision/OnActorHit",
+    "dir": false,
+    "d": "Called when this Actor hits (or is hit by) something solid. This could happen due to things like Character movement, usi"
+  },
+  {
+    "s": "Collision/OnChaosPhysicsCollision",
+    "dir": false,
+    "d": ""
+  },
+  {
+    "s": "Collision/OnComponentBeginOverlap",
+    "dir": false,
+    "d": "Event called when something starts to overlaps this component, for example a player walking into a trigger. For events w"
+  },
+  {
+    "s": "Input/GestureValues",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/AcquireNiagaraGPURayTracedCollis-",
+    "dir": false,
+    "d": "Returns a free collision group for use in HWRT collision group filtering. Returns -1 on failure.",
+    "t": "Niagara Function Library"
+  },
+  {
+    "s": "Camera/ActivateCameraSystemforPlayerCon-",
+    "dir": false,
+    "d": "Sets this component's actor as the view target for the given player.",
+    "t": "Gameplay Camera System Component"
+  },
+  {
+    "s": "Audio/ActivateReverbEffect",
+    "dir": false,
+    "d": "Activates a Reverb Effect without the need for an Audio Volume",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/Accessibility",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Networking/EnableInterpolationMode",
+    "dir": false,
+    "d": "Enable Interpolation Mode",
+    "t": "Parametric Movement Component"
+  },
+  {
+    "s": "Input/GetInputMode",
+    "dir": false,
+    "d": "Returns the current input mode set on Enhanced Input. This mode will control what mappings are currently being processed",
+    "t": "Enhanced Input Subsystem Interface"
+  },
+  {
+    "s": "Niagara/AdvanceSimulation",
+    "dir": false,
+    "d": "Advances this system's simulation by the specified number of ticks and delta time.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/ActivateCameraSystemforPlayerInd-",
+    "dir": false,
+    "d": "Sets this component's actor as the view target for the given player.",
+    "t": "Gameplay Camera System Component"
+  },
+  {
+    "s": "Audio/Analysis",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Widget/AddChildtoGrid",
+    "dir": false,
+    "d": "Add Child to Grid",
+    "t": "Grid Panel"
+  },
+  {
+    "s": "Networking/FlushNetDormancy",
+    "dir": false,
+    "d": "Forces dormant actor to replicate but doesn't change NetDormancy state (i.e., they will go dormant again if left dormant",
+    "t": "Actor"
+  },
+  {
+    "s": "Input/GetMappingName",
+    "dir": false,
+    "d": "Returns the name of the mapping based on setting behavior used. If no name is found in the Mappable Key Settings it will",
+    "t": "Enhanced Input Library"
+  },
+  {
+    "s": "Niagara/AdvanceSimulationbyTime",
+    "dir": false,
+    "d": "Advances this system's simulation by the specified time in seconds and delta time. Advancement is done in whole ticks of",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/ActivateCameraforPlayerControlle-",
+    "dir": false,
+    "d": "Activates the camera for the given player.",
+    "t": "Gameplay Camera Component Base"
+  },
+  {
+    "s": "Audio/AreAnyListenersWithinRange",
+    "dir": false,
+    "d": "Determines if any audio listeners are within range of the specified location",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/AddChildtoHorizontalBox",
+    "dir": false,
+    "d": "Add Child to Horizontal Box",
+    "t": "Horizontal Box"
+  },
+  {
+    "s": "Networking/ForceNetUpdate",
+    "dir": false,
+    "d": "Force actor to be updated to clients/demo net drivers",
+    "t": "Actor"
+  },
+  {
+    "s": "Input/GetOuterAPlayerController",
+    "dir": false,
+    "d": "Return's this object casted to a player controller. This can be null if there is no player controller.",
+    "t": "Player Input"
+  },
+  {
+    "s": "Niagara/ClearEmitterFixedBounds",
+    "dir": false,
+    "d": "Clear any previously set fixed bounds for the emitter instance.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/ActivateCameraforPlayerIndex",
+    "dir": false,
+    "d": "Activates the camera for the given player.",
+    "t": "Gameplay Camera Component Base"
+  },
+  {
+    "s": "Audio/AudioInputDeviceInfoToString",
+    "dir": false,
+    "d": "Returns the device info in a human readable format",
+    "t": "Audio Capture Blueprint Library"
+  },
+  {
+    "s": "Widget/AddChildtoOverlay",
+    "dir": false,
+    "d": "Add Child to Overlay",
+    "t": "Overlay"
+  },
+  {
+    "s": "Networking/GetLocalRole",
+    "dir": false,
+    "d": "Returns how much control the local machine has over this actor.",
+    "t": "Actor"
+  },
+  {
+    "s": "Input/GetOverridePlayerInputClass",
+    "dir": false,
+    "d": "Get Override Player Input Class",
+    "t": "Player Controller"
+  },
+  {
+    "s": "Niagara/ClearParameterCollectionOverride-",
+    "dir": false,
+    "d": "Clear all parameter collection overrides.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/ActivateGameplayCamera",
+    "dir": false,
+    "d": "Activates the given component inside the manager's camera system.",
+    "t": "Gameplay Cameras Player Camera Manager"
+  },
+  {
+    "s": "Audio/AudioInsights",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Widget/AddChildtoUniformGrid",
+    "dir": false,
+    "d": "Add Child to Uniform Grid",
+    "t": "Uniform Grid Panel"
+  },
+  {
+    "s": "Networking/GetRemoteRole",
+    "dir": false,
+    "d": "Returns how much control the remote machine has over this actor.",
+    "t": "Actor"
+  },
+  {
+    "s": "Input/GetPlayerMappableKeySettings",
+    "dir": false,
+    "d": "Returns the Player Mappable Key Settings owned by the Action Key Mapping or by the referenced Input Action, or nothing b",
+    "t": "Enhanced Input Library"
+  },
+  {
+    "s": "Niagara/ClearSystemFixedBounds",
+    "dir": false,
+    "d": "Clear any previously set fixed bounds for the system instance.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/ActivatePersistentBaseCameraRig",
+    "dir": false,
+    "d": "Activates the given camera rig prefab in the base layer.",
+    "t": "Gameplay Cameras Player Camera Manager"
+  },
+  {
+    "s": "Audio/AudioOutputDeviceInfoToString",
+    "dir": false,
+    "d": "Returns the device info in a human readable format",
+    "t": "Audio Mixer Blueprint Library"
+  },
+  {
+    "s": "Widget/Brush",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Networking/HasAuthority",
+    "dir": false,
+    "d": "Returns whether this actor has network authority",
+    "t": "Actor"
+  },
+  {
+    "s": "Input/GetTypeName",
+    "dir": false,
+    "d": "Get Type Name",
+    "t": "Niagara Clipboard Editor Scripting Utilities"
+  },
+  {
+    "s": "Niagara/CreateNiagaraParameterCollection-",
+    "dir": false,
+    "d": "Create a parameter collection instance for the provided parameter collection. This can return null if not in a game worl",
+    "t": "Niagara Function Library"
+  },
+  {
+    "s": "Camera/ActivatePersistentGlobalCameraRi-",
+    "dir": false,
+    "d": "Activates the given camera rig prefab in the global layer.",
+    "t": "Gameplay Cameras Player Camera Manager"
+  },
+  {
+    "s": "Audio/Bounce",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Widget/ClearError",
+    "dir": false,
+    "d": "Clear Error",
+    "t": "Text Box"
+  },
+  {
+    "s": "Networking/IsDedicatedServer",
+    "dir": false,
+    "d": "Returns whether this is running on a dedicated server",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Input/HeadMountedDisplay",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetAgeUpdateMode",
+    "dir": false,
+    "d": "Get Age Update Mode",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/ActivatePersistentVisualCameraRi-",
+    "dir": false,
+    "d": "Activates the given camera rig prefab in the visual layer.",
+    "t": "Gameplay Cameras Player Camera Manager"
+  },
+  {
+    "s": "Audio/Bus",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Widget/ClearFill",
+    "dir": false,
+    "d": "Clear Fill",
+    "t": "Grid Panel"
+  },
+  {
+    "s": "Networking/IsServer",
+    "dir": false,
+    "d": "Returns whether the world this object is in is the host or not",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Input/InjectInputVectorforAction",
+    "dir": false,
+    "d": "Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying in",
+    "t": "Enhanced Input Subsystem Interface"
+  },
+  {
+    "s": "Niagara/GetAllEmitters",
+    "dir": false,
+    "d": "Returns basic info on all emitters of a niagara system.",
+    "t": "Niagara Function Library"
+  },
+  {
+    "s": "Camera/AddGenericCameraLensEffect",
+    "dir": false,
+    "d": "Creates a camera lens effect of the given class on this camera.",
+    "t": "Player Camera Manager"
+  },
+  {
+    "s": "Audio/Cache",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Widget/DragAndDrop",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Networking/IsStandalone",
+    "dir": false,
+    "d": "Returns whether this game instance is stand alone (no networking).",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Input/InjectInputVectorforPlayerMappin-",
+    "dir": false,
+    "d": "Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying in",
+    "t": "Enhanced Input Subsystem Interface"
+  },
+  {
+    "s": "Niagara/GetAllUserParameters",
+    "dir": false,
+    "d": "Returns basic info on all user parameters of a niagara system.",
+    "t": "Niagara Function Library"
+  },
+  {
+    "s": "Camera/BlendCameraEvaluationData",
+    "dir": false,
+    "d": "Interpolates one camera data towards another.",
+    "t": "Blueprint Camera Evaluation Data Function Library"
+  },
+  {
+    "s": "Audio/ClearSoundMixClassOverride",
+    "dir": false,
+    "d": "Clears any existing override of the Sound Class Adjuster in the given Sound Mix",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/EventReply",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Networking/MarkPropertyDirty",
+    "dir": false,
+    "d": "Mark replicated property as dirty with the Push Model networking system",
+    "t": "Net Push Model Helpers"
+  },
+  {
+    "s": "Input/InjectInputforAction",
+    "dir": false,
+    "d": "Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying in",
+    "t": "Enhanced Input Subsystem Interface"
+  },
+  {
+    "s": "Niagara/GetBoolParameter",
+    "dir": false,
+    "d": "Accessors from Blueprint. For now just exposing common types but ideally we can expose any somehow in future.",
+    "t": "Niagara Parameter Collection Instance"
+  },
+  {
+    "s": "Camera/ClearCameraLensEffects",
+    "dir": false,
+    "d": "Removes all camera lens effects.",
+    "t": "Player Camera Manager"
+  },
+  {
+    "s": "Audio/ClearSoundMixModifiers",
+    "dir": false,
+    "d": "Clear all sound mix modifiers from the audio system",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/ForceLayoutPrepass",
+    "dir": false,
+    "d": "Forces a pre-pass. A pre-pass caches the desired size of the widget hierarchy owned by this widget. One pre-pass already",
+    "t": "Widget"
+  },
+  {
+    "s": "Networking/SetNetDormancy",
+    "dir": false,
+    "d": "Puts actor in dormant networking state",
+    "t": "Actor"
+  },
+  {
+    "s": "Input/InjectInputforPlayerMapping",
+    "dir": false,
+    "d": "Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying in",
+    "t": "Enhanced Input Subsystem Interface"
+  },
+  {
+    "s": "Niagara/GetColorParameter",
+    "dir": false,
+    "d": "Get Color Parameter",
+    "t": "Niagara Parameter Collection Instance"
+  },
+  {
+    "s": "Camera/DeactivateCameraRig",
+    "dir": false,
+    "d": "Deactivates a previously activated base, global, or visual camera rig.",
+    "t": "Gameplay Cameras Player Camera Manager"
+  },
+  {
+    "s": "Audio/Close",
+    "dir": false,
+    "d": "Close",
+    "t": "Simple Audio Encoder"
+  },
+  {
+    "s": "Widget/ForceVolatile",
+    "dir": false,
+    "d": "Sets the forced volatility of the widget.",
+    "t": "Widget"
+  },
+  {
+    "s": "Networking/SetReplicateMovement",
+    "dir": false,
+    "d": "Set whether this actor's movement replicates to network clients.",
+    "t": "Actor"
+  },
+  {
+    "s": "Input/InputEvent",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetCustomTimeDilation",
+    "dir": false,
+    "d": "Get Custom Time Dilation",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/DeactivateCameraSystem",
+    "dir": false,
+    "d": "Removes this component's actor from being the view target.",
+    "t": "Gameplay Camera System Component"
+  },
+  {
+    "s": "Audio/Components",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Widget/GetAccessibleSummaryText",
+    "dir": false,
+    "d": "Gets the accessible summary text from the underlying Slate accessible widget.",
+    "t": "Widget"
+  },
+  {
+    "s": "Networking/SetReplicates",
+    "dir": false,
+    "d": "Set whether this actor replicates to network clients. When this actor is spawned on the server it will be sent to client",
+    "t": "Actor"
+  },
+  {
+    "s": "Input/InputPlayRootMotionSource",
+    "dir": false,
+    "d": "Input Play Root Motion Source",
+    "t": "Mock Root Motion Component"
+  },
+  {
+    "s": "Niagara/GetDataInterface",
+    "dir": false,
+    "d": "Get Data Interface",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/DeactivateGameplayCamera",
+    "dir": false,
+    "d": "Deactivates a previously activated component.",
+    "t": "Gameplay Cameras Player Camera Manager"
+  },
+  {
+    "s": "Audio/CreateSound2D",
+    "dir": false,
+    "d": "This function allows users to create Audio Components in advance of playback with settings specifically for non-spatiali",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/GetAccessibleText",
+    "dir": false,
+    "d": "Gets the accessible text from the underlying Slate accessible widget",
+    "t": "Widget"
+  },
+  {
+    "s": "Networking/TearOff",
+    "dir": false,
+    "d": "Networking - Server - TearOff this actor to stop replication to clients. Will set bTearOff to true.",
+    "t": "Actor"
+  },
+  {
+    "s": "Input/InputPlayRootMotionSourcebyClass",
+    "dir": false,
+    "d": "Input Play Root Motion Source by Class",
+    "t": "Mock Root Motion Component"
+  },
+  {
+    "s": "Niagara/GetDesiredAge",
+    "dir": false,
+    "d": "Gets the desired age of the System instance. This is only relevant when using the DesiredAge age update mode.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/DeprojectSceneCaptureComponentto-",
+    "dir": false,
+    "d": "Transforms the given 2D UV coordinate into a 3D world-space point and direction.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Audio/DeactivateReverbEffect",
+    "dir": false,
+    "d": "Deactivates a Reverb Effect that was applied outside of an Audio Volume",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/GetAllWidgetsOfClass",
+    "dir": false,
+    "d": "Find all widgets of a certain class.",
+    "t": "Widget Blueprint Library"
+  },
+  {
+    "s": "Input/IsActionKeyMappingPlayerMappable",
+    "dir": false,
+    "d": "Returns true if this Action Key Mapping either holds a Player Mappable Key Settings or is set bIsPlayerMappable.",
+    "t": "Enhanced Input Library"
+  },
+  {
+    "s": "Niagara/GetDesiredAgeSeekDelta",
+    "dir": false,
+    "d": "Gets the delta value which is used when seeking from the current age, to the desired age. This is only relevant when usi",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/DeprojectSceneCapturetoWorld",
+    "dir": false,
+    "d": "Transforms the given 2D UV coordinate into a 3D world-space point and direction.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Audio/Effects",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Widget/GetAllWidgetswithInterface",
+    "dir": false,
+    "d": "Find all widgets in the world with the specified interface. This is a slow operation, use with caution e.g. do not use e",
+    "t": "Widget Blueprint Library"
+  },
+  {
+    "s": "Input/IsLookInputIgnored",
+    "dir": false,
+    "d": "Returns true if look input is ignored.",
+    "t": "Controller"
+  },
+  {
+    "s": "Niagara/GetEmitterFixedBounds",
+    "dir": false,
+    "d": "Gets the fixed bounds for an emitter instance. This will return the user set fixed bounds if set, or the emitters fixed ",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/DeprojectScreentoWorld",
+    "dir": false,
+    "d": "Transforms the given 2D screen space coordinate into a 3D world-space point and direction.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Audio/EnvelopeFollowing",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Widget/GetAvailableWidgetSlotNames",
+    "dir": false,
+    "d": "Returns slot names not already occupied in SlotWidgets.",
+    "t": "Widget Preview"
+  },
+  {
+    "s": "Input/IsMoveInputIgnored",
+    "dir": false,
+    "d": "Returns true if movement input is ignored.",
+    "t": "Controller"
+  },
+  {
+    "s": "Niagara/GetFloatParameter",
+    "dir": false,
+    "d": "Get Float Parameter",
+    "t": "Niagara Parameter Collection Instance"
+  },
+  {
+    "s": "Camera/GetAimDir",
+    "dir": false,
+    "d": "Gets the facing direction of the camera pose.",
+    "t": "Blueprint Camera Pose Function Library"
+  },
+  {
+    "s": "Audio/GetActiveSpatialPluginName",
+    "dir": false,
+    "d": "Get currently active Audio Spatialization Plugin name",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/GetCacheChildren",
+    "dir": false,
+    "d": "Gets the current caching behavior.",
+    "t": "Common Widget Carousel"
+  },
+  {
+    "s": "Input/Key",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetIntParameter",
+    "dir": false,
+    "d": "Get Int Parameter",
+    "t": "Niagara Parameter Collection Instance"
+  },
+  {
+    "s": "Camera/GetAimRay",
+    "dir": false,
+    "d": "Gets the aim ray of the camera pose.",
+    "t": "Blueprint Camera Pose Function Library"
+  },
+  {
+    "s": "Audio/GetAvailableAudioInputDevices",
+    "dir": false,
+    "d": "Gets information about all audio output devices available in the system",
+    "t": "Audio Capture Blueprint Library"
+  },
+  {
+    "s": "Widget/GetCachedGeometry",
+    "dir": false,
+    "d": "Gets the last geometry used to Tick the widget. This data may not exist yet if this call happens prior to the widget hav",
+    "t": "Widget"
+  },
+  {
+    "s": "Input/KeyEvent",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetLockDesiredAgeDeltaTimetoSeek-",
+    "dir": false,
+    "d": "Gets whether or not the delta time used to tick the system instance when using desired age is locked to the seek delta. ",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetBooleanVariable",
+    "dir": false,
+    "d": "Gets a camera variable's value from the given table.",
+    "t": "Blueprint Camera Variable Table Function Library"
+  },
+  {
+    "s": "Audio/GetAvailableAudioOutputDevices",
+    "dir": false,
+    "d": "Gets information about all audio output devices available in the system",
+    "t": "Audio Mixer Blueprint Library"
+  },
+  {
+    "s": "Widget/GetCheckedState",
+    "dir": false,
+    "d": "Returns the full current checked state.",
+    "t": "Check Box"
+  },
+  {
+    "s": "Input/KeyboardEvents",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetMaxDesiredAgeTickDelta",
+    "dir": false,
+    "d": "Get the maximum CPU time in seconds we will simulate to the desired age, when we go beyond this limit ticks will be proc",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetCameraLocation",
+    "dir": false,
+    "d": "Returns camera's current location.",
+    "t": "Player Camera Manager"
+  },
+  {
+    "s": "Audio/GetAvailableSpatialPluginNames",
+    "dir": false,
+    "d": "Get list of available Audio Spatialization Plugin names",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/GetClipping",
+    "dir": false,
+    "d": "Gets the clipping state of this widget.",
+    "t": "Widget"
+  },
+  {
+    "s": "Input/KeyboardValues",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetNiagaraParameterCollection",
+    "dir": false,
+    "d": "This is gonna be totally reworked UFUNCTION(BlueprintCallable, Category = Niagara, meta = (Keywords = \"niagara System\", ",
+    "t": "Niagara Function Library"
+  },
+  {
+    "s": "Camera/GetCameraPose",
+    "dir": false,
+    "d": "Gets the camera pose.",
+    "t": "Blueprint Camera Evaluation Data Function Library"
+  },
+  {
+    "s": "Audio/GetClosestListenerLocation",
+    "dir": false,
+    "d": "Finds and returns the position of the closest listener to the specified location",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/GetDecoratorbyClass",
+    "dir": false,
+    "d": "Get Decorator by Class",
+    "t": "Rich Text Block"
+  },
+  {
+    "s": "Input/MakeInputActionValueOfType",
+    "dir": false,
+    "d": "Builds an ActionValue from X, Y, Z. Inherits type from an existing ActionValue. Ignores axis values unused by the provid",
+    "t": "Enhanced Input Library"
+  },
+  {
+    "s": "Niagara/GetNiagaraSystemAsset",
+    "dir": false,
+    "d": "Get Niagara System Asset",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetCameraRotation",
+    "dir": false,
+    "d": "Returns camera's current rotation.",
+    "t": "Player Camera Manager"
+  },
+  {
+    "s": "Audio/GetCodec",
+    "dir": false,
+    "d": "Get Codec",
+    "t": "Simple Audio Encoder"
+  },
+  {
+    "s": "Widget/GetDesiredSize",
+    "dir": false,
+    "d": "Gets the widgets desired size. NOTE: The underlying Slate widget must exist and be valid, also at least one pre-pass mus",
+    "t": "Widget"
+  },
+  {
+    "s": "Input/MappingQueries",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetNiagaraVariable_Bool",
+    "dir": false,
+    "d": "Gets a Niagara bool parameter by name.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetCameraView",
+    "dir": false,
+    "d": "Returns camera's Point of View. Called by Camera class. Subclass and postprocess to add any effects.",
+    "t": "Camera Component"
+  },
+  {
+    "s": "Audio/GetConfig",
+    "dir": false,
+    "d": "Get Config",
+    "t": "Simple Audio Encoder"
+  },
+  {
+    "s": "Widget/GetGameInstance",
+    "dir": false,
+    "d": "Gets the game instance associated with this UI.",
+    "t": "Widget"
+  },
+  {
+    "s": "Input/ModifierKeys",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetNiagaraVariable_Float",
+    "dir": false,
+    "d": "Gets a Niagara float parameter by name.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetCineCameraComponent",
+    "dir": false,
+    "d": "Returns the CineCameraComponent of this CineCamera",
+    "t": "Cine Camera Actor"
+  },
+  {
+    "s": "Audio/GetCuePoints",
+    "dir": false,
+    "d": "Filters for the cue points that are not loop regions and returns those as a new array",
+    "t": "Sound Wave"
+  },
+  {
+    "s": "Widget/GetHintText_EditableText",
+    "dir": false,
+    "d": "Gets the Hint text that appears when there is no text in the text box",
+    "t": "Editable Text"
+  },
+  {
+    "s": "Input/MotionEvents",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetNiagaraVariable_Int32",
+    "dir": false,
+    "d": "Gets a Niagara int parameter by name.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetClassData",
+    "dir": false,
+    "d": "Gets a value from the given camera context data table.",
+    "t": "Blueprint Camera Context Data Table Function Library"
+  },
+  {
+    "s": "Audio/GetCurrentAudioOutputDeviceName",
+    "dir": false,
+    "d": "Gets information about the currently used audio output device",
+    "t": "Audio Mixer Blueprint Library"
+  },
+  {
+    "s": "Widget/GetHintText_Multi_LineEditableTe-",
+    "dir": false,
+    "d": "Returns the Hint text that appears when there is no text in the text box",
+    "t": "Editable Text (Multi-Line)"
+  },
+  {
+    "s": "Input/MotionTracking",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetNiagaraVariable_LinearColor",
+    "dir": false,
+    "d": "Gets a Niagara Linear Color parameter by name.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetConditionalCameraData",
+    "dir": false,
+    "d": "Gets the camera evaluation data for a given sub-set of camera rigs in this component's evaluation context.",
+    "t": "Gameplay Camera Component Base"
+  },
+  {
+    "s": "Audio/GetCurrentReverbEffect",
+    "dir": false,
+    "d": "Returns the highest priority reverb settings currently active from any source (Audio Volumes or manual settings).",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/GetHintText_Multi_LineTextBox",
+    "dir": false,
+    "d": "Returns the Hint text that appears when there is no text in the text box",
+    "t": "Text Box (Multi-Line)"
+  },
+  {
+    "s": "Input/MouseEvents",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetNiagaraVariable_Matrix",
+    "dir": false,
+    "d": "Gets a Niagara matrix parameter by name.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetDoubleVariable",
+    "dir": false,
+    "d": "Gets a camera variable's value from the given table.",
+    "t": "Blueprint Camera Variable Table Function Library"
+  },
+  {
+    "s": "Audio/GetFrameRate",
+    "dir": false,
+    "d": "Get Frame Rate",
+    "t": "Sound Wave Timecode Utils"
+  },
+  {
+    "s": "Widget/GetInputEventfromCharacterEvent",
+    "dir": false,
+    "d": "Get Input Event from Character Event",
+    "t": "Widget Blueprint Library"
+  },
+  {
+    "s": "Input/MouseInput",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetNiagaraVariable_Position",
+    "dir": false,
+    "d": "Gets a Niagara Position parameter by name.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetEffectiveFieldOfView",
+    "dir": false,
+    "d": "Gets the effective field of view of the camera pose, possibly computed from focal length.",
+    "t": "Blueprint Camera Pose Function Library"
+  },
+  {
+    "s": "Audio/GetLoopRegions",
+    "dir": false,
+    "d": "Filters for the cue points that are loop regions and returns those as a new array",
+    "t": "Sound Wave"
+  },
+  {
+    "s": "Widget/GetInputEventfromKeyEvent",
+    "dir": false,
+    "d": "Get Input Event from Key Event",
+    "t": "Widget Blueprint Library"
+  },
+  {
+    "s": "Input/MouseValues",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Niagara/GetNiagaraVariable_Quaternion",
+    "dir": false,
+    "d": "Gets a Niagara quaternion parameter by name.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetEnumData",
+    "dir": false,
+    "d": "Gets a value from the given camera context data table.",
+    "t": "Blueprint Camera Context Data Table Function Library"
+  },
+  {
+    "s": "Audio/GetMaxAudioChannelCount",
+    "dir": false,
+    "d": "Retrieves the max voice count currently used by the audio engine.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Widget/GetInputEventfromNavigationEvent",
+    "dir": false,
+    "d": "Get Input Event from Navigation Event",
+    "t": "Widget Blueprint Library"
+  },
+  {
+    "s": "Input/OnControlMappingsRebuilt",
+    "dir": false,
+    "d": "Blueprint Event that is called at the end of any frame that Control Mappings have been rebuilt."
+  },
+  {
+    "s": "Niagara/GetNiagaraVariable_Vector2",
+    "dir": false,
+    "d": "Gets a Niagara Vector2 parameter by name.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetEvaluatedCameraRotation",
+    "dir": false,
+    "d": "Gets the last evaluated orientation of the camera.",
+    "t": "Gameplay Camera Component Base"
+  },
+  {
+    "s": "Audio/GetSoundAssetCompressionType",
+    "dir": false,
+    "d": "Returns the sound's asset compression type.",
+    "t": "Sound Wave"
+  },
+  {
+    "s": "Widget/GetInputEventfromPointerEvent",
+    "dir": false,
+    "d": "Get Input Event from Pointer Event",
+    "t": "Widget Blueprint Library"
+  },
+  {
+    "s": "Input/OnMappingContextAdded",
+    "dir": false,
+    "d": "A callback fired when a mapping context is added (AddMappingContext is called on this subsystem)"
+  },
+  {
+    "s": "Niagara/GetNiagaraVariable_Vector3",
+    "dir": false,
+    "d": "Gets a Niagara Vector3 parameter by name.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetFOVAngle",
+    "dir": false,
+    "d": "Returns the camera's current full FOV angle, in degrees.",
+    "t": "Player Camera Manager"
+  },
+  {
+    "s": "Audio/GetTimecode",
+    "dir": false,
+    "d": "Get Timecode",
+    "t": "Sound Wave Timecode Utils"
+  },
+  {
+    "s": "Widget/GetIsEnabled",
+    "dir": false,
+    "d": "Gets the current enabled status of the widget",
+    "t": "Widget"
+  },
+  {
+    "s": "Input/OnMappingContextRemoved",
+    "dir": false,
+    "d": "A callback fired when a mapping context is removed (RemoveMappingContext is called on this subsystem)"
+  },
+  {
+    "s": "Niagara/GetNiagaraVariable_Vector4",
+    "dir": false,
+    "d": "Gets a Niagara Vector4 parameter by name.",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetFloatVariable",
+    "dir": false,
+    "d": "Gets a camera variable's value from the given table.",
+    "t": "Blueprint Camera Variable Table Function Library"
+  },
+  {
+    "s": "Audio/HasTimecode",
+    "dir": false,
+    "d": "Has Timecode",
+    "t": "Sound Wave Timecode Utils"
+  },
+  {
+    "s": "Widget/GetIsScrolling",
+    "dir": false,
+    "d": "Returns true when the widget is currently inertial scrolling",
+    "t": "Scroll Box"
+  },
+  {
+    "s": "Input/OnPostUserSettingsInitialized",
+    "dir": false,
+    "d": "Delegate that is fired after this local player's User Settings object has been created and loaded for the first time."
+  },
+  {
+    "s": "Niagara/GetOcclusionQueryMode",
+    "dir": false,
+    "d": "Get Occlusion Query Mode",
+    "t": "Niagara Particle System Component"
+  },
+  {
+    "s": "Camera/GetIntegerVariable",
+    "dir": false,
+    "d": "Gets a camera variable's value from the given table.",
+    "t": "Blueprint Camera Variable Table Function Library"
+  },
+  {
+    "s": "Audio/HasTimecodeRate",
+    "dir": false,
+    "d": "Has Timecode Rate",
+    "t": "Sound Wave Timecode Utils"
+  },
+  {
+    "s": "Widget/GetIsSelectingKey",
+    "dir": false,
+    "d": "Returns true if the widget is currently selecting a key, otherwise returns false.",
+    "t": "Input Key Selector"
+  }
+]

@@ -1,0 +1,1046 @@
+{
+  "cursor": 176,
+  "total": 1277,
+  "done": false,
+  "okCount": 176,
+  "newItems": [
+    {
+      "s": "Animation/ACL",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Material/AddMissingMaterialstoGroup",
+      "dir": false,
+      "d": "Add all UMaterials to the Material Validation Group which are found in its material search directories. This will only a",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/AnimMixer",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/ClearFavoriteRating",
+      "dir": false,
+      "d": "Clears the favorite rating.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/AddMaterial",
+      "dir": false,
+      "d": "Adds a new material and return its slot name",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "SkeletalMesh/BeginEditSkeletalMeshAssemblyBui-",
+      "dir": false,
+      "d": "Creates a Nanite Assembly Skeletal Mesh builder to add assembly parts to the specified Skeletal Mesh, or overwrite its a",
+      "t": "Nanite Assembly Skeletal Mesh Builder"
+    },
+    {
+      "s": "Spline/AddPoint",
+      "dir": false,
+      "d": "Adds an FSplinePoint to the spline. This contains its input key, position, tangent, rotation and scale.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/AddMultipleSmartObjects",
+      "dir": false,
+      "d": "Adds to the simulation all smart objects for multiple actors.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/AddSource",
+      "dir": false,
+      "d": "Add a source by a source class.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/AllocateNewShotOverrideConfig",
+      "dir": false,
+      "d": "Allocate New Shot Override Config",
+      "t": "Movie Pipeline Executor Shot"
+    },
+    {
+      "s": "Effector/GetActiveEffects",
+      "dir": false,
+      "d": "Get Active Effects",
+      "t": "Motion Design Effector Component"
+    },
+    {
+      "s": "Cloner/GetActiveExtensions",
+      "dir": false,
+      "d": "Retrieves all active extensions on this cloner",
+      "t": "Motion Design Cloner Component"
+    },
+    {
+      "s": "DrawDebugLibrary/AddtoFloatHistoryArray",
+      "dir": false,
+      "d": "Convenience function that adds a float to the end of an array, popping values from the front once the max is reached",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/AddGameplayTag",
+      "dir": false,
+      "d": "Adds a gameplay tag to this Mover Component. Note: Duplicate tags will not be added",
+      "t": "Mover Component"
+    },
+    {
+      "s": "StateTree/BindDelegate",
+      "dir": false,
+      "d": "Registers the callback to the listener. If the listener was previously registered, then unregister it first before regis",
+      "t": "State Tree Task Blueprint Base"
+    },
+    {
+      "s": "Landscape/DeleteUnusedLayers",
+      "dir": false,
+      "d": "Delete all unused layers in components. Warning: any update of the component could re-introduce them.",
+      "t": "Landscape Proxy"
+    },
+    {
+      "s": "Animation/AddAnimationModifierOfClass",
+      "dir": false,
+      "d": "Add Animation Modifier Of Class",
+      "t": "Animation Modifiers Asset User Data"
+    },
+    {
+      "s": "Material/GetAllGroups",
+      "dir": false,
+      "d": "Get all configured Material Validation Groups.",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/Binding",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/ClearIsFlagged",
+      "dir": false,
+      "d": "Clear IsFlagged flag.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/AddSocket",
+      "dir": false,
+      "d": "Add a socket object in this StaticMesh.",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "SkeletalMesh/BeginNewSkeletalMeshAssemblyBuil-",
+      "dir": false,
+      "d": "Creates a Nanite Assembly Skeletal Mesh builder to generate a new Skeletal Mesh asset. Requires a base mesh with a valid",
+      "t": "Nanite Assembly Skeletal Mesh Builder"
+    },
+    {
+      "s": "Spline/AddPoints",
+      "dir": false,
+      "d": "Adds an array of FSplinePoints to the spline.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/AddSmartObject",
+      "dir": false,
+      "d": "Adds to the simulation all smart objects for an actor.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/AddSourceforActor",
+      "dir": false,
+      "d": "Add an actor as a source.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/ApplyDefaultConfigurationTypetoJ-",
+      "dir": false,
+      "d": "Applies the user's default configuration type to the given job.",
+      "t": "Movie Pipeline Editor Blueprint Library"
+    },
+    {
+      "s": "Effector/GetActiveMode",
+      "dir": false,
+      "d": "Get Active Mode",
+      "t": "Motion Design Effector Component"
+    },
+    {
+      "s": "Cloner/GetActiveLayout",
+      "dir": false,
+      "d": "Get Active Layout",
+      "t": "Motion Design Cloner Component"
+    },
+    {
+      "s": "DrawDebugLibrary/AddtoNameHistoryArray",
+      "dir": false,
+      "d": "Convenience function that adds a name to the end of an array, popping values from the front once the max is reached",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/AddGameplayTags",
+      "dir": false,
+      "d": "Adds a series of gameplay tags to this Mover Component Note: Duplicate tags will not be added",
+      "t": "Mover Component"
+    },
+    {
+      "s": "StateTree/BroadcastDelegate",
+      "dir": false,
+      "d": "Broadcasts the dispatcher. It will triggers bound callback (bound with BindDelegate) and bound transitions.",
+      "t": "State Tree Task Blueprint Base"
+    },
+    {
+      "s": "Landscape/Editor",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Animation/AddNodeAssetOverride",
+      "dir": false,
+      "d": "Adds an Animation Asset override for the provided AnimationBlueprint, replacing any instance of Target with Override",
+      "t": "Animation Blueprint Library"
+    },
+    {
+      "s": "Material/GetMaterialHierarchyInfo",
+      "dir": false,
+      "d": "Get all of the material instance data for a single material hierarchy.",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/Decorations",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/ClearIsNoGood",
+      "dir": false,
+      "d": "Clear the IsNoGood flag.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/BeginEditStaticMeshAssemblyBuild",
+      "dir": false,
+      "d": "Creates a Nanite Assembly Static Mesh builder to add assembly parts to the specified Static Mesh, or overwrite its assem",
+      "t": "Nanite Assembly Static Mesh Builder"
+    },
+    {
+      "s": "SkeletalMesh/FinishAssemblyBuild",
+      "dir": false,
+      "d": "Finalizes the assembly build and returns the finished assembly mesh.",
+      "t": "Nanite Assembly Skeletal Mesh Builder"
+    },
+    {
+      "s": "Spline/AddSplinePoint",
+      "dir": false,
+      "d": "Adds a point to the spline",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/AddTagtoInstance",
+      "dir": false,
+      "d": "Adds a single tag to the smart object instance represented by the provided handle.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/CanReviewLastRecording",
+      "dir": false,
+      "d": "Can we review the last recording?",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/AssignDefaultGraphPresettoJob",
+      "dir": false,
+      "d": "Assigns the project's default graph configuration to the given job, and switches it to graph configuration mode.",
+      "t": "Movie Pipeline Editor Blueprint Library"
+    },
+    {
+      "s": "Effector/GetActiveType",
+      "dir": false,
+      "d": "Get Active Type",
+      "t": "Motion Design Effector Component"
+    },
+    {
+      "s": "Cloner/GetAttachmentCount",
+      "dir": false,
+      "d": "Returns the number of root attachment currently on this cloner",
+      "t": "Motion Design Cloner Component"
+    },
+    {
+      "s": "DrawDebugLibrary/AddtoVectorHistoryArray",
+      "dir": false,
+      "d": "Convenience function that adds a vector to the end of an array, popping values from the front once the max is reached",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/AddMovementModefromClass",
+      "dir": false,
+      "d": "Add a movement mode to available movement modes. Returns true if the movement mode was added successfully. Returns the m",
+      "t": "Mover Component"
+    },
+    {
+      "s": "StateTree/Extension",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Landscape/ForceLayersFullUpdate",
+      "dir": false,
+      "d": "Force Layers Full Update",
+      "t": "Landscape"
+    },
+    {
+      "s": "Animation/AddSocket",
+      "dir": false,
+      "d": "Add a skeletal socket object to this SkeletalMesh, and optionally promotes it to USkeleton socket.",
+      "t": "Skeletal Mesh"
+    },
+    {
+      "s": "Material/GetMaterialPaths",
+      "dir": false,
+      "d": "Get UMaterial assets resolved to FSoftObjectPaths.",
+      "t": "Material Validation Group"
+    },
+    {
+      "s": "Sequencer/Director",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/ClearIsRecorded",
+      "dir": false,
+      "d": "Clear IsRecorded flag.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/BeginNewStaticMeshAssemblyBuild",
+      "dir": false,
+      "d": "Creates a Nanite Assembly Static Mesh builder to generate a new Static Mesh asset.",
+      "t": "Nanite Assembly Static Mesh Builder"
+    },
+    {
+      "s": "SkeletalMesh/MorphTarget",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Spline/AddSplinePointatIndex",
+      "dir": false,
+      "d": "Adds a point to the spline at the specified index",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/AddTagtoSlot",
+      "dir": false,
+      "d": "Adds a single tag to the smart object slot represented by the provided handle.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/CancelRecording",
+      "dir": false,
+      "d": "Cancel an in-progress recording.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/BuildNewProcessCommandLineArgs",
+      "dir": false,
+      "d": "When rendering in a new process some settings may need to provide command line arguments to affect engine settings that ",
+      "t": "Movie Pipeline Setting"
+    },
+    {
+      "s": "Effector/GetAttractionForceEnabled",
+      "dir": false,
+      "d": "Get Attraction Force Enabled",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetClonerComponent",
+      "dir": false,
+      "d": "Get Cloner Component",
+      "t": "Motion Design Cloner Actor"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugAngle",
+      "dir": false,
+      "d": "Debug Draw an angle",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/AddMovementModefromObject",
+      "dir": false,
+      "d": "Add a movement mode to available movement modes. Returns true if the movement mode was added successfully",
+      "t": "Mover Component"
+    },
+    {
+      "s": "StateTree/FinishTask",
+      "dir": false,
+      "d": "Finish the task and sets it's status.",
+      "t": "State Tree Task Blueprint Base"
+    },
+    {
+      "s": "Landscape/GetGrassEnabled",
+      "dir": false,
+      "d": "Get Grass Enabled",
+      "t": "Landscape"
+    },
+    {
+      "s": "Animation/AnimNext",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Material/GetMaterialProperties",
+      "dir": false,
+      "d": "Get all the material properties for a material hierarchy.",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/DynamicBinding",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/ClearIsSubSequence",
+      "dir": false,
+      "d": "Clear IsSubSequence flag.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/BuildfromStaticMeshDescriptions",
+      "dir": false,
+      "d": "Builds static mesh LODs from the array of StaticMeshDescriptions passed in",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/ClearSplinePoints",
+      "dir": false,
+      "d": "Clears all the points in the spline",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/AddorRemoveMultipleSmartObjects",
+      "dir": false,
+      "d": "Adds to the simulation all smart objects for multiple actors or removes them according to 'bAdd'.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/ClearPendingTake",
+      "dir": false,
+      "d": "Clear the pending take.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/CanUseConsoleVariableOverrides",
+      "dir": false,
+      "d": "Returns true if console variable overrides can be used in the active configuration.",
+      "t": "Movie Pipeline Executor Job"
+    },
+    {
+      "s": "Effector/GetAttractionForceFalloff",
+      "dir": false,
+      "d": "Get Attraction Force Falloff",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetCollisionGridResolution",
+      "dir": false,
+      "d": "Get Collision Grid Resolution",
+      "t": "CECloner Collision Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugAngleBetween",
+      "dir": false,
+      "d": "Debug Draw the angle between the vectors P0 - P1 and P2 - P1",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ApplyAngularVelocity",
+      "dir": false,
+      "d": "Applies a desired angular velocity to a starting rotator over time. Returns the new orientation rotator.",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "StateTree/GetDescriptionfor_lt_None_gt",
+      "dir": false,
+      "d": "Returns text describing the specified member variable."
+    },
+    {
+      "s": "Landscape/GetRenderComponent",
+      "dir": false,
+      "d": "Returns associated landscape component",
+      "t": "Landscape Heightfield Collision Component"
+    },
+    {
+      "s": "Animation/Attributes",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Material/GetMaterialPropertyValues",
+      "dir": false,
+      "d": "Get all the material property values for a material instance in a material hierarchy.",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/Event",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/CopyMetaData",
+      "dir": false,
+      "d": "Copy the specified meta data into this level sequence, overwriting any existing meta-data of the same type Meta-data may",
+      "t": "Level Sequence"
+    },
+    {
+      "s": "StaticMesh/CreateStaticMeshDescription",
+      "dir": false,
+      "d": "Create an empty StaticMeshDescription object, to describe a static mesh at runtime",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/ConvertSplineSegmenttoPolyLine",
+      "dir": false,
+      "d": "Given a threshold, returns a list of vertices along the spline segment that, treated as a list of segments (polyline), m",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/AddorRemoveSmartObject",
+      "dir": false,
+      "d": "Adds to the simulation all smart objects for an actor or removes them according to 'bAdd'.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/ClearSources",
+      "dir": false,
+      "d": "Remove all sources from the current sequence.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/CancelAllJobs",
+      "dir": false,
+      "d": "Abort the currently executing job and skip all other jobs.",
+      "t": "Movie Pipeline Executor Base"
+    },
+    {
+      "s": "Effector/GetAttractionForceStrength",
+      "dir": false,
+      "d": "Get Attraction Force Strength",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetCollisionGridSize",
+      "dir": false,
+      "d": "Get Collision Grid Size",
+      "t": "CECloner Collision Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugArc",
+      "dir": false,
+      "d": "Debug Draw an arc around the XY axis",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ApplyAngularVelocitytoQuat",
+      "dir": false,
+      "d": "Applies a desired angular velocity to a starting quaternion over time. Returns the new orientation quaternion.",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "StateTree/GetEditorData",
+      "dir": false,
+      "d": "Target is State Tree Editor Data",
+      "t": "State Tree Editor Data"
+    },
+    {
+      "s": "Landscape/Grass",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Animation/BindtoAnimationEvent",
+      "dir": false,
+      "d": "Allows binding to a specific animation's event.",
+      "t": "User Widget"
+    },
+    {
+      "s": "Material/GetMaterialValidationDescDiff",
+      "dir": false,
+      "d": "Get the diff between two versions of a UMaterialValidationGroup for a single base material. Compares the raw stored data",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/GetAnimatedObject",
+      "dir": false,
+      "d": "Get Animated Object",
+      "t": "SequencerTrackInstance"
+    },
+    {
+      "s": "LevelSequence/FindMetaDatabyClass",
+      "dir": false,
+      "d": "Find meta-data of a particular type for this level sequence instance.",
+      "t": "Level Sequence"
+    },
+    {
+      "s": "StaticMesh/FindSocket",
+      "dir": false,
+      "d": "Find a socket object in this StaticMesh by name. Entering NAME_None will return NULL. If there are multiple sockets with",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/ConvertSplinetoPolyLine",
+      "dir": false,
+      "d": "Given a threshold, returns a list of vertices along the spline that, treated as a list of segments (polyline), matches t",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/FindSmartObject",
+      "dir": false,
+      "d": "Spatial lookup for first slot in range respecting request criteria and selection conditions.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/ComputeNextTakeNumber",
+      "dir": false,
+      "d": "Compute the next unused sequential take number for the specified slate",
+      "t": "Takes Core Blueprint Library"
+    },
+    {
+      "s": "MovieRenderPipeline/CancelCurrentJob",
+      "dir": false,
+      "d": "Abort the currently executing job.",
+      "t": "Movie Pipeline Executor Base"
+    },
+    {
+      "s": "Effector/GetBehavior",
+      "dir": false,
+      "d": "Get Behavior",
+      "t": "CEEffector Cull Mode"
+    },
+    {
+      "s": "Cloner/GetCollisionIterations",
+      "dir": false,
+      "d": "Get Collision Iterations",
+      "t": "CECloner Collision Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugArcArrow",
+      "dir": false,
+      "d": "Debug Draw an arc around the XY axis with arrow heads",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ApplyAngularVelocitytoRotator",
+      "dir": false,
+      "d": "Applies a desired angular velocity to a starting rotator over time. Returns the new orientation rotator.",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "StateTree/GetNodeDescription",
+      "dir": false,
+      "d": "Returns the description for the node for UI. Handles the name override logic, figures out required data for the GetDescr",
+      "t": "State Tree Editor Data"
+    },
+    {
+      "s": "Landscape/RequestLandscapeUpdate",
+      "dir": false,
+      "d": "Request Landscape Update",
+      "t": "Landscape Blueprint Brush Base"
+    },
+    {
+      "s": "Animation/BindtoAnimationFinished",
+      "dir": false,
+      "d": "Bind an animation finished delegate.",
+      "t": "User Widget"
+    },
+    {
+      "s": "Material/GetModifiedShaderCount",
+      "dir": false,
+      "d": "Get the number of shaders used by all permutations of a base material taking into account local changes in the materials",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/GetBoundObjectForSequencer",
+      "dir": false,
+      "d": "Retrieve the bound object that this interface wants to animate. Could be 'this' or a transient child object.",
+      "t": "Movie Scene Bound Object Proxy"
+    },
+    {
+      "s": "LevelSequence/FindorAddMetaDatabyClass",
+      "dir": false,
+      "d": "Find meta-data of a particular type for this level sequence instance, adding it if it doesn't already exist.",
+      "t": "Level Sequence"
+    },
+    {
+      "s": "StaticMesh/FinishAssemblyBuild",
+      "dir": false,
+      "d": "Finalizes the assembly build and returns the finished assembly mesh.",
+      "t": "Nanite Assembly Static Mesh Builder"
+    },
+    {
+      "s": "Spline/ConvertSplinetoPolyLinewithDista-",
+      "dir": false,
+      "d": "Given a threshold, returns a list of vertices along the spline that, treated as a list of segments (polyline), matches t",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/FindSmartObjects",
+      "dir": false,
+      "d": "Blueprint function for spatial lookup for slot candidates respecting request criteria and selection conditions.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/FindTakes",
+      "dir": false,
+      "d": "Find all the existing takes that were recorded with the specified slate",
+      "t": "Takes Core Blueprint Library"
+    },
+    {
+      "s": "MovieRenderPipeline/ConnectSocket",
+      "dir": false,
+      "d": "Attempts to connect a socket to the specified host and port. This is a blocking call.",
+      "t": "Movie Pipeline Executor Base"
+    },
+    {
+      "s": "Effector/GetChannelIdentifier",
+      "dir": false,
+      "d": "Get the effector channel identifier",
+      "t": "Motion Design Effector Component"
+    },
+    {
+      "s": "Cloner/GetCollisionRadii",
+      "dir": false,
+      "d": "Get Collision Radii",
+      "t": "CECloner Collision Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugArrow",
+      "dir": false,
+      "d": "Debug Draw an arrow",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ApplyGravitytoOrientationIntent",
+      "dir": false,
+      "d": "Converts intended orientation into orientation rotated by out current gravity",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "StateTree/GetStateTree",
+      "dir": false,
+      "d": "Get State Tree",
+      "t": "Gameplay Interaction Smart Object Behavior Definition"
+    },
+    {
+      "s": "Landscape/Runtime",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Animation/BindtoAnimationStarted",
+      "dir": false,
+      "d": "Bind an animation started delegate.",
+      "t": "User Widget"
+    },
+    {
+      "s": "Material/GetShaderCount",
+      "dir": false,
+      "d": "Get the number of shaders used by all permutations of a base material using only the information stored in the group.",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/GetBoundObjectForSequencer_Messa-",
+      "dir": false,
+      "d": "Retrieve the bound object that this interface wants to animate. Could be 'this' or a transient child object.",
+      "t": "Movie Scene Bound Object Proxy"
+    },
+    {
+      "s": "LevelSequence/GetFavoriteRating",
+      "dir": false,
+      "d": "Gets the favorite rating. The favorite rating is like a star rating, usually 1-3 if it was rated.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetBoundingBox",
+      "dir": false,
+      "d": "Returns the bounding box, in local space including bounds extension(s), of the StaticMesh asset",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/ConvertSplinetoPolylineinDistanc-",
+      "dir": false,
+      "d": "Given a threshold and a start and end distance range, returns a list of vertices along the spline that, treated as a lis",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/FindSmartObjectsinActor",
+      "dir": false,
+      "d": "Search a given Actor for slot candidates respecting the request criteria and selection conditions.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/GetActiveRecorder",
+      "dir": false,
+      "d": "Retrieve the currently active recorder, or None if there none are active",
+      "t": "Take Recorder Blueprint Library"
+    },
+    {
+      "s": "MovieRenderPipeline/ConvertManifestFiletoString",
+      "dir": false,
+      "d": "Loads the specified manifest file and converts it into an FString to be embedded with HTTP REST requests. Use in combina",
+      "t": "Movie Pipeline Editor Blueprint Library"
+    },
+    {
+      "s": "Effector/GetColor",
+      "dir": false,
+      "d": "Get Color",
+      "t": "Motion Design Effector Component"
+    },
+    {
+      "s": "Cloner/GetCollisionRadiusMode",
+      "dir": false,
+      "d": "Get Collision Radius Mode",
+      "t": "CECloner Collision Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugArrowHead",
+      "dir": false,
+      "d": "Debug Draw an arrow head",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/AttemptTeleport",
+      "dir": false,
+      "d": "Attempt to teleport to TargetTransform. The teleport is not guaranteed to happen. This function is meant to be called by",
+      "t": "Mover Simulation"
+    },
+    {
+      "s": "StateTree/PropertyRef",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Landscape/SetGrassEnabled",
+      "dir": false,
+      "d": "Set Grass Enabled",
+      "t": "Landscape"
+    },
+    {
+      "s": "Animation/BlendStack",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Material/IsMaterialInstanceinGroup",
+      "dir": false,
+      "d": "Get whether a material instance belongs to the group and whether it has a known permutation.",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/GetInput",
+      "dir": false,
+      "d": "Get Input",
+      "t": "SequencerTrackInstance"
+    },
+    {
+      "s": "LevelSequence/GetFavoriteRatingAssetTag",
+      "dir": false,
+      "d": "Target is Level Sequence Shot Meta Data Library",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetBounds",
+      "dir": false,
+      "d": "Returns the number of bounds of the mesh.",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/ConvertSplinetoPolylineinTimeRan-",
+      "dir": false,
+      "d": "Given a threshold and start and end time range, returns a list of vertices along the spline that, treated as a list of s",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/FindSmartObjectsinComponent",
+      "dir": false,
+      "d": "Search a given Smart Object Component for slot candidates respecting the request criteria and selection conditions.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/GetAdditionalSettings",
+      "dir": false,
+      "d": "Retrieve Additional Settings Objects - eg. The Audio Input Device to access Microphone Recorder settings.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/CopyFrom",
+      "dir": false,
+      "d": "Copy this configuration from another existing configuration.",
+      "t": "Movie Pipeline Config Base"
+    },
+    {
+      "s": "Effector/GetCurlNoiseForceEnabled",
+      "dir": false,
+      "d": "Get Curl Noise Force Enabled",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetCollisionVelocityEnabled",
+      "dir": false,
+      "d": "Get Collision Velocity Enabled",
+      "t": "CECloner Collision Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugBackpack",
+      "dir": false,
+      "d": "Debug draw a backpack",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/BindProcessGeneratedMovement",
+      "dir": false,
+      "d": "Binds event for processing movement after it has been generated. Allows for final modifications to proposed movement bef",
+      "t": "Mover Component"
+    },
+    {
+      "s": "StateTree/Reference",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Animation/CalculateDirection",
+      "dir": false,
+      "d": "Calculate Direction",
+      "t": "Anim Instance"
+    },
+    {
+      "s": "Material/IsMaterialinGroup",
+      "dir": false,
+      "d": "Get whether a material belongs to a group.",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/GetInputs",
+      "dir": false,
+      "d": "Get Inputs",
+      "t": "SequencerTrackInstance"
+    },
+    {
+      "s": "LevelSequence/GetFavoriteRatingbyAssetData",
+      "dir": false,
+      "d": "Gets the favorite rating. The favorite rating is like a star rating, usually 1-3 if it was rated.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetMaterial",
+      "dir": false,
+      "d": "Gets a Material given a Material Index and an LOD number",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/DivideSplineIntoPolylineRecursiv-",
+      "dir": false,
+      "d": "Given a threshold, recursively sub-divides the spline section until the list of segments (polyline) matches the spline s",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/FindSmartObjectsinList",
+      "dir": false,
+      "d": "Search list of specific actors (often from a physics query) for slot candidates respecting request criteria and selectio",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/GetCountdownSeconds",
+      "dir": false,
+      "d": "Access the number of seconds remaining before this recording will start",
+      "t": "Take Recorder"
+    },
+    {
+      "s": "MovieRenderPipeline/CreateJobfromSequence",
+      "dir": false,
+      "d": "Create a job from a level sequence. Sets the map as the currently editor world, the author, the sequence and the job nam",
+      "t": "Movie Pipeline Editor Blueprint Library"
+    },
+    {
+      "s": "Effector/GetCurlNoiseForceFrequency",
+      "dir": false,
+      "d": "Get Curl Noise Force Frequency",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetColor",
+      "dir": false,
+      "d": "Get Color",
+      "t": "Motion Design Cloner Component"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugBone",
+      "dir": false,
+      "d": "Debug Draw a bone",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/CanActorJump",
+      "dir": false,
+      "d": "Can this Actor jump?",
+      "t": "Character Mover Component"
+    },
+    {
+      "s": "StateTree/SetStateTree",
+      "dir": false,
+      "d": "Set State Tree",
+      "t": "Gameplay Interaction Smart Object Behavior Definition"
+    },
+    {
+      "s": "Animation/ClearAllTransitionEvents",
+      "dir": false,
+      "d": "Removes all queued transition requests",
+      "t": "Anim Instance"
+    },
+    {
+      "s": "Material/RefreshParametricMaterial",
+      "dir": false,
+      "d": "Used to trigger a refresh of the parametric material if needed through RC or blueprint",
+      "t": "Ava Shape Actor"
+    },
+    {
+      "s": "Sequencer/GetNumInputs",
+      "dir": false,
+      "d": "Get Num Inputs",
+      "t": "SequencerTrackInstance"
+    },
+    {
+      "s": "LevelSequence/GetIsFlagged",
+      "dir": false,
+      "d": "Gets whether this was flagged by a user.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetMaterialIndex",
+      "dir": false,
+      "d": "Gets a Material index given a slot name",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/DivideSplineIntoPolylineRecursiv-_1",
+      "dir": false,
+      "d": "Given a threshold, recursively sub-divides the spline section until the list of segments (polyline) matches the spline s",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/FindSmartObjectsinTargetingReque-",
+      "dir": false,
+      "d": "Search the results of the given targeting handle request for smart objects that match the request criteria",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/GetDefaultParameters",
+      "dir": false,
+      "d": "Get the default recorder parameters according to the project and user settings",
+      "t": "Take Recorder Blueprint Library"
+    },
+    {
+      "s": "MovieRenderPipeline/DisconnectSocket",
+      "dir": false,
+      "d": "Disconnects the socket (if currently connected.)",
+      "t": "Movie Pipeline Executor Base"
+    }
+  ]
+}

@@ -1,0 +1,2515 @@
+{
+  "cursor": 197,
+  "total": 197,
+  "done": true,
+  "count": 197,
+  "newItems": [
+    {
+      "slug": "Services",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Mobile"
+      ]
+    },
+    {
+      "slug": "Set",
+      "n_dirs": 13,
+      "n_actions": 0,
+      "dirs": [
+        "Add Selection to Set Item",
+        "Delete All Set Items",
+        "Delete Set Item",
+        "Get Item Color",
+        "Get Item Name",
+        "Get Item Row",
+        "Is Multi Asset",
+        "Key All",
+        "Remove Selection from Set Item",
+        "Rename Set Item",
+        "Select Item",
+        "Set Item Color",
+        "Set Item Row"
+      ]
+    },
+    {
+      "slug": "Sets",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Create Mirror",
+        "Create Set Item from Selection"
+      ]
+    },
+    {
+      "slug": "Settings",
+      "n_dirs": 187,
+      "n_actions": 0,
+      "dirs": [
+        "Add Action Mapping",
+        "Add Axis Mapping",
+        "Add Collection",
+        "Add Condition Group",
+        "Add Console Variable",
+        "Add Layer Modifier",
+        "Add Query",
+        "Add Render Layer",
+        "Add or Update Console Variable",
+        "Apply",
+        "Apply Hardware Benchmark Results",
+        "Apply Non Resolution Settings",
+        "Apply Resolution Settings",
+        "Apply Settings",
+        "Clear Active Render Layer",
+        "Confirm Video Mode",
+        "Duplicate Query",
+        "Dynamic Pins",
+        "Enable HDR Display Output",
+        "Evaluate",
+        "Evaluate Actors and Components",
+        "Force Rebuild Keymaps",
+        "Get Action Mapping by Name",
+        "Get Action Names",
+        "Get Active Render Layer",
+        "Get Anti Aliasing Quality",
+        "Get Audio Quality Level",
+        "Get Axis Mapping by Name",
+        "Get Axis Names",
+        "Get Closest Monitor Index",
+        "Get Collection Name",
+        "Get Collection by Name",
+        "Get Collections",
+        "Get Condition Groups",
+        "Get Console Variables",
+        "Get Current HDR Display Nits",
+        "Get Default Resolution",
+        "Get Default Resolution Scale",
+        "Get Default Window Mode",
+        "Get Default Window Position",
+        "Get Desktop Resolution",
+        "Get Display ID",
+        "Get Display Index",
+        "Get Distance",
+        "Get Foliage Quality",
+        "Get Frame Pace",
+        "Get Frame Rate Limit",
+        "Get Fullscreen Mode",
+        "Get Game Maps and Modes Settings",
+        "Get Game User Settings",
+        "Get Global Illumination Quality",
+        "Get HDRPaper White Nits",
+        "Get HDRUILuminance Nits",
+        "Get Input Settings",
+        "Get Landscape Quality",
+        "Get Last Confirmed Display ID",
+        "Get Last Confirmed Display Index",
+        "Get Last Confirmed Fullscreen Mode",
+        "Get Last Confirmed Screen Resolution",
+        "Get Layer Modifiers",
+        "Get Maximum HDRDisplay Nits",
+        "Get Operation Type",
+        "Get Overall Scalability Level",
+        "Get Post Processing Quality",
+        "Get Preferred Fullscreen Mode",
+        "Get Queries",
+        "Get Recommended Resolution Scale",
+        "Get Reflection Quality",
+        "Get Render Layer Name",
+        "Get Render Layers",
+        "GetResolutionScaleInformation",
+        "Get Resolution Scale Normalized",
+        "Get Screen Resolution",
+        "Get Settings",
+        "Get Shading Quality",
+        "Get Shadow Quality",
+        "Get Source Pelvis Bone",
+        "Get Source Root Bone",
+        "Get Sync Interval",
+        "Get Target Pelvis Bone"
+      ]
+    },
+    {
+      "slug": "ShallowWater",
+      "n_dirs": 5,
+      "n_actions": 0,
+      "dirs": [
+        "Add Collision Tracker for Actor",
+        "Get All Overlapping Water Bodies and Update Collision Trackers",
+        "Register Impact",
+        "Remove Collision Tracker for Actor",
+        "Set Water Body MIDParameters"
+      ]
+    },
+    {
+      "slug": "ShallowWaterRiver",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Set Paused"
+      ]
+    },
+    {
+      "slug": "Shape",
+      "n_dirs": 23,
+      "n_actions": 0,
+      "dirs": [
+        "Get Allow Edit Size",
+        "Get Material",
+        "Get Material Type",
+        "Get Material UVParams",
+        "Get Mesh Section Names",
+        "Get Override Primary UVParams",
+        "Get Parametric Material",
+        "Get Size 2D",
+        "Get Size 3D",
+        "Get Uniform Scaled Size",
+        "Get Use Primary Material Everywhere",
+        "Is Mesh Section Visible",
+        "Is Valid Mesh Index",
+        "Set Line Thickness",
+        "Set Material",
+        "Set Material Type",
+        "Set Material UVParams",
+        "Set Override Primary UVParams",
+        "Set Parametric Material",
+        "Set Size 2D",
+        "Set Size 3D",
+        "Set Uniform Scaled Size",
+        "Set Use Primary Material Everywhere"
+      ]
+    },
+    {
+      "slug": "Shapes",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Set Rectangle"
+      ]
+    },
+    {
+      "slug": "SharedImage",
+      "n_dirs": 6,
+      "n_actions": 0,
+      "dirs": [
+        "Get Height",
+        "Get Pixel Linear Color",
+        "Get Pixel Value",
+        "Get Size",
+        "Get Width",
+        "Is Valid"
+      ]
+    },
+    {
+      "slug": "Sharing",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Set Mode",
+        "Set Unique Name"
+      ]
+    },
+    {
+      "slug": "SimCache",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Clear Sim Cache",
+        "Get Sim Cache",
+        "Set Sim Cache"
+      ]
+    },
+    {
+      "slug": "Simulation",
+      "n_dirs": 6,
+      "n_actions": 0,
+      "dirs": [
+        "Add Collision Component",
+        "Get Niagara Component",
+        "Reset Collision Components",
+        "Reset Simulation",
+        "Set Enable Simulation",
+        "Set Physics Asset"
+      ]
+    },
+    {
+      "slug": "Size",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Get Page Table Size",
+        "Get Size"
+      ]
+    },
+    {
+      "slug": "SkeletalMesh",
+      "n_dirs": 4,
+      "n_actions": 0,
+      "dirs": [
+        "Begin Edit Skeletal Mesh Assembly Build",
+        "Begin New Skeletal Mesh Assembly Build",
+        "Finish Assembly Build",
+        "Morph Target"
+      ]
+    },
+    {
+      "slug": "SkeletalMeshUtilities",
+      "n_dirs": 20,
+      "n_actions": 0,
+      "dirs": [
+        "Get Bone Children",
+        "Get Bone Parent",
+        "Get LODMaterial Slot",
+        "Get Material Slot Overlay Material",
+        "Get Num Sections",
+        "Get Num Verts",
+        "Get Section Cast Shadow",
+        "Get Section Recompute Tangent",
+        "Get Section Recompute Tangents Vertex Mask Channel",
+        "Get Section Visible in Ray Tracing",
+        "Get Skeletal Mesh Overlay Material",
+        "Regenerate LOD",
+        "Remove Socket",
+        "Rename Socket",
+        "Set Material Slot Overlay Material",
+        "Set Section Cast Shadow",
+        "Set Section Recompute Tangent",
+        "Set Section Recompute Tangents Vertex Mask Channel",
+        "Set Section Visible in Ray Tracing",
+        "Set Skeletal Mesh Overlay Material"
+      ]
+    },
+    {
+      "slug": "Skeleton",
+      "n_dirs": 25,
+      "n_actions": 0,
+      "dirs": [
+        "Add Bone",
+        "Add Bones",
+        "Add Compatible Skeleton",
+        "AddCompatibleSkeleton",
+        "Get All Bone Names",
+        "Get Blend Profile",
+        "Get Bone Transform",
+        "Get Children Names",
+        "Get Parent Name",
+        "Get Skeleton Additional Preview Meshes",
+        "Get Skeleton Preview Mesh",
+        "Mirror Bone",
+        "Mirror Bones",
+        "Orient Bone",
+        "Orient Bones",
+        "Parent Bone",
+        "Parent Bones",
+        "Remove Bone",
+        "Remove Bones",
+        "Rename Bone",
+        "Rename Bones",
+        "Set Bone Transform",
+        "Set Bones Transforms",
+        "Set Skeleton Additional Preview Meshes",
+        "Set Skeleton Preview Mesh"
+      ]
+    },
+    {
+      "slug": "SkeletonMerge",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Merge Skeletons"
+      ]
+    },
+    {
+      "slug": "Skills",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "InitStats"
+      ]
+    },
+    {
+      "slug": "SkyLight",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Set Cubemap",
+        "Set Cubemap Blend"
+      ]
+    },
+    {
+      "slug": "SlateFX",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Get Mutable Slate Post Setting",
+        "Get Slate Post Processor",
+        "Get Slate Post Setting"
+      ]
+    },
+    {
+      "slug": "SlateFont",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Make Slate Font Info"
+      ]
+    },
+    {
+      "slug": "SlateIM",
+      "n_dirs": 13,
+      "n_actions": 0,
+      "dirs": [
+        "Canvas",
+        "Containers",
+        "Controls",
+        "Graph",
+        "Image",
+        "Input",
+        "Menu",
+        "Misc",
+        "Queries",
+        "Roots",
+        "Tabs",
+        "Text",
+        "Utils"
+      ]
+    },
+    {
+      "slug": "SlateScreenReader",
+      "n_dirs": 19,
+      "n_actions": 0,
+      "dirs": [
+        "Activate Screen Reader",
+        "Activate User",
+        "Deactivate Screen Reader",
+        "Deactivate User",
+        "Get Speech Rate",
+        "Get Speech Volume",
+        "Is Screen Reader Active",
+        "Is Speaking",
+        "Is Speech Muted",
+        "Is User Registered",
+        "Mute Speech",
+        "Register User",
+        "Request Speak",
+        "Request Speak Focused Widget",
+        "Set Speech Rate",
+        "Set Speech Volume",
+        "Stop Speaking",
+        "Unmute Speech",
+        "Unregister User"
+      ]
+    },
+    {
+      "slug": "Slot",
+      "n_dirs": 14,
+      "n_actions": 0,
+      "dirs": [
+        "Slot as Border Slot",
+        "Slot as Canvas Slot",
+        "Slot as Grid Slot",
+        "Slot as Horizontal Box Slot",
+        "Slot as Overlay Slot",
+        "Slot as Safe Box Slot",
+        "Slot as Scale Box Slot",
+        "Slot as Scroll Box Slot",
+        "Slot as Size Box Slot",
+        "Slot as Stack Box Slot",
+        "Slot as Uniform Grid Slot",
+        "Slot as Vertical Box Slot",
+        "Slot as Widget Switcher Slot",
+        "Slot as Wrap Box Slot"
+      ]
+    },
+    {
+      "slug": "Slots",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Get Slot Selection Data",
+        "Set Single Slot Selection"
+      ]
+    },
+    {
+      "slug": "SmartObject",
+      "n_dirs": 57,
+      "n_actions": 0,
+      "dirs": [
+        "Add Multiple Smart Objects",
+        "Add Smart Object",
+        "Add Tag to Instance",
+        "Add Tag to Slot",
+        "Add or Remove Multiple Smart Objects",
+        "Add or Remove Smart Object",
+        "Find Smart Object",
+        "Find Smart Objects",
+        "Find Smart Objects in Actor",
+        "Find Smart Objects in Component",
+        "Find Smart Objects in List",
+        "Find Smart Objects in Targeting Request",
+        "Get Activity Tags",
+        "Get All Slots",
+        "Get Behavior Definition",
+        "Get Behavior Definition by Request Result",
+        "Get Bounds",
+        "Get Instance Tags",
+        "Get Mutable Slot",
+        "Get Num Slot Entrances",
+        "Get Slot Activity Tags (By Index)",
+        "Get Slot Definition Data By Type",
+        "Get Slot Entrance Offset and Rotation",
+        "Get Slot Entrance Transform",
+        "Get Slot Location",
+        "Get Slot State",
+        "Get Slot Tags",
+        "Get Slot Transform",
+        "Get Slot Transform from Request Result",
+        "Get Slot World Transform",
+        "Get Smart Object Component",
+        "Get Smart Object Component by Request Result",
+        "Get Smart Object Slot Definitions",
+        "Get User Tag Filter",
+        "Get User Tags Filtering Policy",
+        "Get Value as SOClaim Handle",
+        "Is Bound to Simulation",
+        "Is SmartObject Enabled (for any reason)",
+        "Is SmartObject Enabled (for specific reason)",
+        "Is Valid Slot Index",
+        "Is Valid (Smart Object Claim Handle)",
+        "Mark Smart Object Slot as Claimed",
+        "Mark Smart Object Slot as Free",
+        "Mark Smart Object Slot as Occupied",
+        "OnSmartObjectEvent",
+        "Remove Multiple Smart Objects",
+        "Remove Smart Object",
+        "Remove Tag from Instance",
+        "Remove Tag from Slot",
+        "SetMultipleSmartObjectsEnabled",
+        "Set Slot Enabled",
+        "Set Smart Object Enabled",
+        "Set SmartObject Enabled (default reason: Gameplay)",
+        "Set SmartObject Enabled (specific reason)",
+        "Set User Tag Filter",
+        "Set Value as SOClaim Handle",
+        "Smart Object Claim Handle Invalid"
+      ]
+    },
+    {
+      "slug": "SmartObjects",
+      "n_dirs": 4,
+      "n_actions": 0,
+      "dirs": [
+        "Equal (SmartObjectHandle)",
+        "Equal (SmartObjectSlotHandle)",
+        "Is Valid (Smart Object Handle)",
+        "Is Valid (Smart Object Slot Handle)"
+      ]
+    },
+    {
+      "slug": "Snapshot",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Capture Snapshot"
+      ]
+    },
+    {
+      "slug": "SocketParameters",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Get Socket Local Transform",
+        "Set Socket Local Transform",
+        "Set Socket Parent"
+      ]
+    },
+    {
+      "slug": "SongData",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Get Song Length Bars",
+        "Get Song Length Beats",
+        "Get Song Length Ms"
+      ]
+    },
+    {
+      "slug": "SoundUtilitiesBPLibrary",
+      "n_dirs": 12,
+      "n_actions": 0,
+      "dirs": [
+        "Convert Decibels to Linear",
+        "Convert Linear to Decibels",
+        "Get Bandwidth from Q",
+        "Get Beat Tempo",
+        "Get Frequency Multiplier from Semitones",
+        "Get Frequency from MIDIPitch",
+        "Get Gain from Midi Velocity",
+        "Get Linear Frequency Clamped",
+        "Get Log Frequency Clamped",
+        "Get MIDIPitch from Frequency",
+        "Get Pitch Scale from MIDIPitch",
+        "Get Q From Bandwidth"
+      ]
+    },
+    {
+      "slug": "Soundscape",
+      "n_dirs": 13,
+      "n_actions": 0,
+      "dirs": [
+        "Add Color Point Collection",
+        "Add Palette Collection",
+        "Check Color Point Density",
+        "Clear State",
+        "Is Playing",
+        "Play",
+        "Remove Color Point Collection",
+        "Remove Palette Collection",
+        "Restart Soundscape",
+        "Set State",
+        "Spawn Soundscape Color",
+        "Spawn Soundscape Palette",
+        "Stop"
+      ]
+    },
+    {
+      "slug": "SourceEffectPreset",
+      "n_dirs": 8,
+      "n_actions": 0,
+      "dirs": [
+        "Set Bit Modulator",
+        "Set Bit Modulators",
+        "Set Bits",
+        "Set Modulation Settings",
+        "Set Sample Rate",
+        "Set Sample Rate Modulator",
+        "Set Sample Rate Modulators",
+        "Set Settings"
+      ]
+    },
+    {
+      "slug": "SourceEffectPresets",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Set Settings"
+      ]
+    },
+    {
+      "slug": "SparseVolumeTextureStreaming",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Set Streaming Mip Bias"
+      ]
+    },
+    {
+      "slug": "SpatialData",
+      "n_dirs": 22,
+      "n_actions": 0,
+      "dirs": [
+        "Add Data",
+        "Add Difference",
+        "Get Bounds",
+        "Get Dimension",
+        "Get Normal",
+        "Get Point",
+        "Get Points",
+        "Get Points Copy",
+        "Get Strict Bounds",
+        "Has Non Trivial Transform",
+        "Initialize",
+        "Initialize from Data",
+        "Initialize from Data with Params",
+        "Intersect With",
+        "Project On",
+        "Project Point",
+        "Sample Point",
+        "Set Points",
+        "Subtract",
+        "To Base Point Data with Context",
+        "To Point Data with Context",
+        "Union With"
+      ]
+    },
+    {
+      "slug": "SpatialReadiness",
+      "n_dirs": 6,
+      "n_actions": 0,
+      "dirs": [
+        "Is Ready",
+        "Mark Ready",
+        "Mark Unready",
+        "Set Bounds",
+        "Set Description",
+        "Set Readiness"
+      ]
+    },
+    {
+      "slug": "Spawning",
+      "n_dirs": 7,
+      "n_actions": 0,
+      "dirs": [
+        "Clear Templates",
+        "Do Despawning",
+        "Do Spawning",
+        "Get Count",
+        "Get Spawning Count Scale",
+        "Scale Spawning Count",
+        "Unload Config"
+      ]
+    },
+    {
+      "slug": "Spec",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Clone Spec Handle",
+        "Make Spec Handle (By Class)"
+      ]
+    },
+    {
+      "slug": "SpinBox",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Events"
+      ]
+    },
+    {
+      "slug": "Spline",
+      "n_dirs": 97,
+      "n_actions": 0,
+      "dirs": [
+        "Add Point",
+        "Add Points",
+        "Add Spline Point",
+        "Add Spline Point at Index",
+        "Clear Spline Points",
+        "Convert Spline Segment to Poly Line",
+        "Convert Spline to Poly Line",
+        "Convert Spline to Poly Line with Distances",
+        "Convert Spline to Polyline in Distance Range",
+        "Convert Spline to Polyline in Time Range",
+        "Divide Spline Into Polyline Recursive",
+        "Divide Spline Into Polyline Recursive with Distances",
+        "Find Direction Closest to World Location",
+        "Find Input Key Closest to World Location",
+        "Find Input Key on Segment Closest to World Location",
+        "Find Location Closest to World Location",
+        "Find Right Vector Closest to World Location",
+        "Find Roll Closest to World Location",
+        "Find Rotation Closest to World Location",
+        "Find Scale Closest to World Location",
+        "Find Tangent Closest to World Location",
+        "Find Transform Closest to World Location",
+        "Find Up Vector Closest to World Location",
+        "Get Arrive Tangent at Spline Point",
+        "Get Default Up Vector",
+        "Get Direction at Distance Along Spline",
+        "Get Direction at Spline Input Key",
+        "Get Direction at Spline Point",
+        "Get Direction at Time",
+        "Get Distance Along Spline at Location",
+        "Get Distance Along Spline at Spline Input Key",
+        "Get Distance Along Spline at Spline Point",
+        "Get Float Property at Spline Point",
+        "Get Input Key Value at Distance Along Spline",
+        "Get Input Key Value at Spline Point",
+        "Get Input Key Value at Time",
+        "Get Leave Tangent at Spline Point",
+        "Get Location and Tangent at Spline Point",
+        "Get Location at Distance Along Spline",
+        "Get Location at Spline Input Key",
+        "Get Location at Spline Point",
+        "Get Location at Time",
+        "Get Number Of Spline Points",
+        "Get Number Of Spline Segments",
+        "Get Right Vector at Distance Along Spline",
+        "Get Right Vector at Spline Input Key",
+        "Get Right Vector at Spline Point",
+        "Get Right Vector at Time",
+        "Get Roll at Distance Along Spline",
+        "Get Roll at Spline Input Key",
+        "Get Roll at Spline Point",
+        "Get Roll at Time",
+        "Get Rotation at Distance Along Spline",
+        "Get Rotation at Spline Input Key",
+        "Get Rotation at Spline Point",
+        "Get Rotation at Time",
+        "Get Scale at Distance Along Spline",
+        "Get Scale at Spline Input Key",
+        "Get Scale at Spline Point",
+        "Get Scale at Time",
+        "Get Spline Length",
+        "Get Spline Point At",
+        "Get Spline Point Type",
+        "Get Tangent at Distance Along Spline",
+        "Get Tangent at Spline Input Key",
+        "Get Tangent at Spline Point",
+        "Get Tangent at Time",
+        "Get Time at Distance Along Spline",
+        "Get Transform at Distance Along Spline",
+        "Get Transform at Spline Input Key",
+        "Get Transform at Spline Point",
+        "Get Transform at Time",
+        "Get Up Vector at Distance Along Spline",
+        "Get Up Vector at Spline Input Key",
+        "Get Up Vector at Spline Point",
+        "Get Up Vector at Time",
+        "Get Vector Property at Spline Point",
+        "Is Closed Loop",
+        "Metadata",
+        "Remove Spline Point"
+      ]
+    },
+    {
+      "slug": "SplineData",
+      "n_dirs": 4,
+      "n_actions": 0,
+      "dirs": [
+        "Get Metadata Entry Keys for Spline Points",
+        "Get Spline Points",
+        "Initialize From Spline Component",
+        "Initialize From Spline Points"
+      ]
+    },
+    {
+      "slug": "SplineMesh",
+      "n_dirs": 32,
+      "n_actions": 0,
+      "dirs": [
+        "Get Boundary Max",
+        "Get Boundary Min",
+        "Get End Offset",
+        "Get End Position",
+        "Get End Roll",
+        "Get End Scale",
+        "Get End Tangent",
+        "Get Forward Axis",
+        "Get Spline Up Dir",
+        "Get Start Offset",
+        "Get Start Position",
+        "Get Start Roll",
+        "Get Start Scale",
+        "Get Start Tangent",
+        "Set Boundary Max",
+        "Set Boundary Min",
+        "Set End Offset",
+        "Set End Position",
+        "Set End Roll Degrees",
+        "Set End Roll Radians",
+        "Set End Scale",
+        "Set End Tangent",
+        "Set Forward Axis",
+        "Set Spline Up Dir",
+        "Set Start Offset",
+        "Set Start Position",
+        "Set Start Roll Degrees",
+        "Set Start Roll Radians",
+        "Set Start Scale",
+        "Set Start Tangent",
+        "Set Start and End",
+        "Update Mesh"
+      ]
+    },
+    {
+      "slug": "SpringArm",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Get Target Rotation"
+      ]
+    },
+    {
+      "slug": "Sprite",
+      "n_dirs": 37,
+      "n_actions": 0,
+      "dirs": [
+        "Add New Layer",
+        "Break Tile",
+        "Create New Tile Map",
+        "Get Flipbook",
+        "Get Key Frame Index at Time",
+        "Get Layer Color",
+        "Get Map Size",
+        "Get Num Frames",
+        "Get Num Key Frames",
+        "Get Sprite",
+        "Get Sprite Color",
+        "Get Sprite at Frame",
+        "Get Sprite at Time",
+        "Get Tile",
+        "Get Tile Center Position",
+        "Get Tile Corner Position",
+        "Get Tile Map Color",
+        "Get Tile Polygon",
+        "Get Tile Transform",
+        "Get Tile User Data",
+        "Get Total Duration",
+        "Is Valid Key Frame Index",
+        "Make Tile",
+        "Make Tile Map Editable",
+        "Owns Tile Map",
+        "Rebuild Collision",
+        "Resize Map",
+        "Set Default Collision Thickness",
+        "Set Flipbook",
+        "Set Layer Collision",
+        "Set Layer Color",
+        "Set Sprite",
+        "Set Sprite Color",
+        "Set Terrain Color",
+        "Set Tile",
+        "Set Tile Map",
+        "Set Tile Map Color"
+      ]
+    },
+    {
+      "slug": "State",
+      "n_dirs": 27,
+      "n_actions": 0,
+      "dirs": [
+        "Add Selected in Sequencer",
+        "Get Active",
+        "Get Active Selection Sets",
+        "Get Cached Input Data",
+        "Get Context Object",
+        "Get Gear",
+        "Get Item Guids",
+        "Get Keyed",
+        "Get Lock",
+        "Get Name",
+        "Get Rpm",
+        "Get Runtime Info",
+        "Get Selected",
+        "Get Show and Set Selected Only",
+        "Get Type",
+        "Get Weight",
+        "Is Active",
+        "Remove Selected in Sequencer",
+        "Select Weight Channel",
+        "Set Active",
+        "Set Keyed",
+        "Set Lock",
+        "Set Name",
+        "Set Selected",
+        "Set Show and Set Selected Only",
+        "Set Type",
+        "Set Weight"
+      ]
+    },
+    {
+      "slug": "StateMachine",
+      "n_dirs": 8,
+      "n_actions": 0,
+      "dirs": [
+        "Convert to Animation State",
+        "Convert to Animation State Machine",
+        "Get Relevant Anim Time Remaining",
+        "Get Relevant Anim Time Remaining Fraction",
+        "Get State",
+        "Is State Blending In",
+        "Is State Blending Out",
+        "Set State"
+      ]
+    },
+    {
+      "slug": "StateTree",
+      "n_dirs": 14,
+      "n_actions": 0,
+      "dirs": [
+        "Bind Delegate",
+        "Broadcast Delegate",
+        "Extension",
+        "Finish Task",
+        "Get Description for <None>",
+        "Get Editor Data",
+        "Get Node Description",
+        "Get State Tree",
+        "Property Ref",
+        "Reference",
+        "Set State Tree",
+        "StateTree Request Transition",
+        "StateTree Send Event",
+        "Unbind Delegate"
+      ]
+    },
+    {
+      "slug": "StaticCameraPerfTest",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Get Map from Asset Name"
+      ]
+    },
+    {
+      "slug": "StaticMesh",
+      "n_dirs": 33,
+      "n_actions": 0,
+      "dirs": [
+        "Add Material",
+        "Add Socket",
+        "Begin Edit Static Mesh Assembly Build",
+        "Begin New Static Mesh Assembly Build",
+        "Build from Static Mesh Descriptions",
+        "Create Static Mesh Description",
+        "Find Socket",
+        "Finish Assembly Build",
+        "Get Bounding Box",
+        "Get Bounds",
+        "Get Material",
+        "Get Material Index",
+        "Get Min LODFor Quality Levels",
+        "Get Minimum LODFor Platform",
+        "Get Minimum LODFor Platforms",
+        "Get Minimum LODFor Quality Level",
+        "Get Minimum LODFor Quality Levels",
+        "Get Num LODs",
+        "Get Num Nanite Triangles",
+        "Get Num Nanite Vertices",
+        "Get Num Sections",
+        "Get Num Tex Coords",
+        "Get Num Triangles",
+        "Get Num Vertices",
+        "Get Sockets by Tag",
+        "Get Static Mesh Description",
+        "Is LODScreen Size Auto Computed",
+        "Remove Socket",
+        "Set Material",
+        "Set Min LODFor Quality Levels",
+        "Set Minimum LODFor Platform",
+        "Set Minimum LODFor Platforms",
+        "Set Num Source Models"
+      ]
+    },
+    {
+      "slug": "StaticMeshUtilities",
+      "n_dirs": 49,
+      "n_actions": 0,
+      "dirs": [
+        "Add Simple Collisions",
+        "Add Simple Collisions with Notification",
+        "Add UVChannel",
+        "Bulk Set Convex Decomposition Collisions with Notification",
+        "Bulk Set Convex Decomposition Collisions",
+        "Enable Section Affect Distance Field Lighting",
+        "Enable Section Cast Shadow",
+        "Enable Section Collision",
+        "Enable Section Force Opaque",
+        "Enable Section Visible in Ray Tracing",
+        "Generate Box UVChannel",
+        "Generate Cylindrical UVChannel",
+        "Generate Planar UVChannel",
+        "Get Collision Complexity",
+        "Get Convex Collision Count",
+        "Get LODMaterial Slot",
+        "Get Lod Count",
+        "Get Lod Screen Sizes",
+        "Get Nanite Settings",
+        "Get Num UVChannels",
+        "Get Number Materials",
+        "Get Number Verts",
+        "Get Simple Collision Count",
+        "Has Instance Vertex Colors",
+        "Has Vertex Colors",
+        "Insert UVChannel",
+        "Is Section Affect Distance Field Lighting Enabled",
+        "Is Section Cast Shadow Enabled",
+        "Is Section Collision Enabled",
+        "Is Section Force Opaque Enabled",
+        "Is Section Visible in Ray Tracing Enabled",
+        "Remove Collisions",
+        "Remove Collisions with Notification",
+        "Remove Lods",
+        "Remove UVChannel",
+        "Replace Mesh Components Materials",
+        "Replace Mesh Components Materials on Actors",
+        "Replace Mesh Components Meshes",
+        "Replace Mesh Components Meshes on Actors",
+        "Set Allow CPUAccess",
+        "Set Convex Decomposition Collisions",
+        "Set Convex Decomposition Collisions with Notification",
+        "Set Generate Lightmap UVs",
+        "Set LODMaterial Slot",
+        "Set Lod Screen Sizes",
+        "Set Lod from Static Mesh",
+        "Set Lods",
+        "Set Lods with Notification",
+        "Set Nanite Settings"
+      ]
+    },
+    {
+      "slug": "Status",
+      "n_dirs": 9,
+      "n_actions": 0,
+      "dirs": [
+        "Get Average Build Time",
+        "Get Instance",
+        "Get Instance Checked",
+        "Get Num Instances",
+        "Get Num Pending Instances",
+        "Get Plugin Version",
+        "Get Texture Memory Used",
+        "Get Total Instances",
+        "Is Update Result Valid"
+      ]
+    },
+    {
+      "slug": "Stereo",
+      "n_dirs": 7,
+      "n_actions": 0,
+      "dirs": [
+        "Get Interpupillary Distance",
+        "Get Stereo Offset",
+        "Get Swap Eyes",
+        "Set Interpupillary Distance",
+        "Set Stereo Offset",
+        "Set Swap Eyes",
+        "Toggle Swap Eyes"
+      ]
+    },
+    {
+      "slug": "Storage",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Rescan Asset Directory"
+      ]
+    },
+    {
+      "slug": "Streaming",
+      "n_dirs": 5,
+      "n_actions": 0,
+      "dirs": [
+        "Disable Streaming Source",
+        "Enable Streaming Source",
+        "Is All Streaming Completed",
+        "Is Streaming Completed",
+        "Is Streaming Source Enabled"
+      ]
+    },
+    {
+      "slug": "Submix",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Connect",
+        "Disconnect",
+        "Find Dynamic Ancestor"
+      ]
+    },
+    {
+      "slug": "SubobjectData",
+      "n_dirs": 28,
+      "n_actions": 0,
+      "dirs": [
+        "Can Copy",
+        "Can Delete",
+        "Can Duplicate",
+        "Can Edit",
+        "Can Rename",
+        "Can Reparent",
+        "Get Associated Object",
+        "Get Blueprint",
+        "Get Data",
+        "Get Display Name",
+        "Get Handle",
+        "Get Object for Blueprint",
+        "Get Parent Handle",
+        "Get Variable Name",
+        "Is Actor",
+        "Is Attached To",
+        "Is Child Actor",
+        "Is Component",
+        "Is Default Scene Root",
+        "Is Handle Valid",
+        "Is Inherited Component",
+        "Is Instanced Actor",
+        "Is Instanced Component",
+        "Is Native Component",
+        "Is Root Actor",
+        "Is Root Component",
+        "Is Scene Component",
+        "Is Valid"
+      ]
+    },
+    {
+      "slug": "SubobjectDataSubsystem",
+      "n_dirs": 25,
+      "n_actions": 0,
+      "dirs": [
+        "Add New Subobject",
+        "Attach Subobject",
+        "Can Copy Subobjects",
+        "Can Paste Subobjects",
+        "Change Subobject Class",
+        "Copy Subobjects",
+        "Create New Blueprint Component",
+        "Create New C++ Component",
+        "Delete Subobject from Blueprint",
+        "Delete Subobject from Instance",
+        "Delete Subobjects from Blueprint",
+        "Delete Subobjects from Instance",
+        "Detach Subobject",
+        "Duplicate Subobjects",
+        "Find Handle for Object",
+        "FindSubobjectDataFromHandle",
+        "Gather Subobject Data For Blueprint",
+        "Gather Subobject Data For Instance",
+        "Is Valid Rename",
+        "Make New Scene Root",
+        "Paste Subobjects",
+        "Rename Subobject",
+        "Rename Subobject Member Variable",
+        "Reparent Subobject",
+        "Reparent Subobjects"
+      ]
+    },
+    {
+      "slug": "Subsonic",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Collection",
+        "Create Executor"
+      ]
+    },
+    {
+      "slug": "Subtitles",
+      "n_dirs": 8,
+      "n_actions": 0,
+      "dirs": [
+        "Is Subtitle Active",
+        "Queue Single Subtitle",
+        "Queue Subtitle",
+        "Queue Subtitles from Asset",
+        "Replace Subtitle Widget",
+        "Stop All Subtitles",
+        "Stop Subtitle",
+        "Stop Subtitles in Asset"
+      ]
+    },
+    {
+      "slug": "SunPosition",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Get Sun Position"
+      ]
+    },
+    {
+      "slug": "SwitchActor",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Get Options",
+        "Get Selected Option",
+        "Select Option"
+      ]
+    },
+    {
+      "slug": "Switchboard",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Get Switchboard Editor Settings",
+        "Get Switchboard Project Settings"
+      ]
+    },
+    {
+      "slug": "Switcher",
+      "n_dirs": 6,
+      "n_actions": 0,
+      "dirs": [
+        "Get Active Widget",
+        "Get Active Widget Index",
+        "Get Num Widgets",
+        "Get Widget at Index",
+        "Set Active Widget",
+        "Set Active Widget Index"
+      ]
+    },
+    {
+      "slug": "Synchronization",
+      "n_dirs": 4,
+      "n_actions": 0,
+      "dirs": [
+        "Get Media Component",
+        "Get Sequence",
+        "Play",
+        "Synchronize to Server"
+      ]
+    },
+    {
+      "slug": "Synth",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Components",
+        "Preset"
+      ]
+    },
+    {
+      "slug": "Synthesis",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Add Modular Synth Preset to Bank Asset"
+      ]
+    },
+    {
+      "slug": "SynthesisUtilitiesLibrary",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Get Linear Frequency",
+        "Get Log Frequency"
+      ]
+    },
+    {
+      "slug": "SystemCollection",
+      "n_dirs": 5,
+      "n_actions": 0,
+      "dirs": [
+        "Get Systems",
+        "Load Async",
+        "Load Synchronous",
+        "Num",
+        "Release"
+      ]
+    },
+    {
+      "slug": "TabList",
+      "n_dirs": 22,
+      "n_actions": 0,
+      "dirs": [
+        "Disable Tab with Reason",
+        "Get Active Tab",
+        "Get Linked Switcher",
+        "Get Selected Tab Id",
+        "Get Tab Button Base by ID",
+        "Get Tab Count",
+        "Get Tab Id at Index",
+        "Has Tab Content Widget",
+        "On Tab Button Creation",
+        "On Tab Button Removal",
+        "On Tab List Rebuilt",
+        "On Tab Selected",
+        "Register Tab",
+        "Register Tab Content Widget",
+        "Remove All Tabs",
+        "Remove Tab",
+        "Select Tab by ID",
+        "Set Linked Switcher",
+        "Set Listening for Input",
+        "Set Tab Enabled",
+        "Set Tab Interaction Enabled",
+        "Set Tab Visibility"
+      ]
+    },
+    {
+      "slug": "Take",
+      "n_dirs": 28,
+      "n_actions": 0,
+      "dirs": [
+        "Generate Asset Path",
+        "Get Description",
+        "Get Duration",
+        "Get Frame Rate",
+        "Get Frame Rate from Timecode",
+        "Get Level Origin",
+        "Get Level Path",
+        "Get Preset Origin",
+        "Get Slate",
+        "Get Take Number",
+        "Get Timecode In",
+        "Get Timecode Out",
+        "Get Timestamp",
+        "Is Locked",
+        "Lock",
+        "Recorded",
+        "Set Description",
+        "Set Duration",
+        "Set Frame Rate",
+        "Set Frame Rate from Timecode",
+        "Set Level Origin",
+        "Set Preset Origin",
+        "Set Slate",
+        "Set Take Number",
+        "Set Timecode In",
+        "Set Timecode Out",
+        "Set Timestamp",
+        "Unlock"
+      ]
+    },
+    {
+      "slug": "TakeArchiveIngestDeviceSettings",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Get Settings"
+      ]
+    },
+    {
+      "slug": "TakeInfo",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Get Date Time String"
+      ]
+    },
+    {
+      "slug": "TakeRecorder",
+      "n_dirs": 75,
+      "n_actions": 0,
+      "dirs": [
+        "Add Source",
+        "Add Source for Actor",
+        "Can Review Last Recording",
+        "Cancel Recording",
+        "Clear Pending Take",
+        "Clear Sources",
+        "Compute Next Take Number",
+        "Find Takes",
+        "Get Active Recorder",
+        "Get Additional Settings",
+        "Get Countdown Seconds",
+        "Get Default Parameters",
+        "Get Frame Rate",
+        "Get Global Record Settings",
+        "Get Last Recorded Level Sequence",
+        "Get Level Sequence",
+        "Get Next Take Number",
+        "Get Number Of Takes",
+        "Get Pending Take",
+        "Get Preset Target Record Class",
+        "Get Sequence",
+        "Get Slates",
+        "Get Source Actor",
+        "Get Source Record Settings",
+        "Get Source by Class",
+        "Get Sources",
+        "Get Sources (Copy)",
+        "Get State",
+        "Get Take Meta Data",
+        "Get Take Recorder Mode",
+        "Get Take Recorder Panel",
+        "Increment Take Number",
+        "Is Recording",
+        "Is Recording Using Existing Sequence",
+        "Is Reviewing",
+        "Is Take Recorder Enabled",
+        "Mark Frame",
+        "Microphone Audio",
+        "Open Take Recorder Panel",
+        "Panel",
+        "Pending Take Cleared",
+        "Remove Actor from Sources",
+        "Remove Source",
+        "Reset to Pending Take",
+        "Revert Changes",
+        "Review Last Recording",
+        "Set Countdown",
+        "Set Default Parameters",
+        "Set Frame Rate",
+        "Set Frame Rate from Timecode",
+        "Set Global Record Settings",
+        "Set On Take Recorder Panel Changed",
+        "Set Preset Target Record Class",
+        "Set Sequence Countdown",
+        "Set Slate Name",
+        "Set Take Number",
+        "Set Target Sequence",
+        "Set on Take Recorder Slate Changed",
+        "Set on Take Recorder Take Number Changed",
+        "Start Recording",
+        "Start Recording Source",
+        "Stop Recording",
+        "Take Recorder Cancelled",
+        "Take Recorder Finished",
+        "Take Recorder Initialized",
+        "Take Recorder Marked Frame Added",
+        "Take Recorder Pre Initialize",
+        "Take Recorder Slate Changed",
+        "Take Recorder Source Added",
+        "Take Recorder Source Modified",
+        "Take Recorder Source Removed",
+        "Take Recorder Started",
+        "Take Recorder Stopped",
+        "Take Recorder Take Number Changed",
+        "Try Get Sequence Countdown"
+      ]
+    },
+    {
+      "slug": "TakeRecorderActorSource",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Get Source Actor",
+        "Set Source Actor"
+      ]
+    },
+    {
+      "slug": "TargetDeviceServicesScripting",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Get Device Snapshots"
+      ]
+    },
+    {
+      "slug": "Targeting",
+      "n_dirs": 4,
+      "n_actions": 0,
+      "dirs": [
+        "Add Hit Result",
+        "Add Target Actor",
+        "Get Targeting Handle",
+        "Get Targeting Subsystem"
+      ]
+    },
+    {
+      "slug": "TargetingSystem",
+      "n_dirs": 5,
+      "n_actions": 0,
+      "dirs": [
+        "Async Request",
+        "Data Stores",
+        "Instant Request",
+        "Targeting Results",
+        "Targeting Types"
+      ]
+    },
+    {
+      "slug": "Task",
+      "n_dirs": 7,
+      "n_actions": 0,
+      "dirs": [
+        "Finish Executing Task",
+        "Finish Task",
+        "Get Context Object",
+        "Get Event Stream",
+        "Get Root State",
+        "Set Task Notification Text",
+        "Was Cancel Requested"
+      ]
+    },
+    {
+      "slug": "TechAnimUtils",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Set Align Offset",
+        "Set Transform Name"
+      ]
+    },
+    {
+      "slug": "TechAudioTools",
+      "n_dirs": 14,
+      "n_actions": 0,
+      "dirs": [
+        "Audio Component",
+        "Find MetaSound Input Viewmodel by Name",
+        "Find MetaSound Output Viewmodel by Name",
+        "Get Display Range Max",
+        "Get Display Range Min",
+        "Get Display Units",
+        "Get MetaSound Data Type Pin Color",
+        "Get MetaSound Literal Value as Text",
+        "Get Source Range Max",
+        "Get Source Range Min",
+        "Get Source Units",
+        "Is MetaSound Array Type",
+        "Is MetaSound Constructor Type",
+        "Is MetaSound Interface Member"
+      ]
+    },
+    {
+      "slug": "Teleporter",
+      "n_dirs": 9,
+      "n_actions": 0,
+      "dirs": [
+        "Do Teleport",
+        "Get Interactor Trying Teleport",
+        "Get VRMode",
+        "Is Aiming",
+        "Is Teleporting",
+        "Set Color",
+        "Set Visibility",
+        "Start Aiming",
+        "Stop Aiming"
+      ]
+    },
+    {
+      "slug": "Template",
+      "n_dirs": 4,
+      "n_actions": 0,
+      "dirs": [
+        "Get Notation",
+        "Is Fully Unresolved",
+        "Is Resolved",
+        "Is Singleton"
+      ]
+    },
+    {
+      "slug": "Test",
+      "n_dirs": 12,
+      "n_actions": 0,
+      "dirs": [
+        "Disable Custom Tests",
+        "Enable Custom Tests",
+        "Get Camera Cache POV",
+        "Get Last Frame Camera Cache POV",
+        "Get Obj",
+        "Get Post Process Blend Cache",
+        "Get Value B",
+        "Get Value C",
+        "Reset Tests",
+        "Run Tests",
+        "Set Test Setter Float",
+        "Trigger"
+      ]
+    },
+    {
+      "slug": "Tests",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Get Pipeline Properties as JSON"
+      ]
+    },
+    {
+      "slug": "Text3D",
+      "n_dirs": 44,
+      "n_actions": 0,
+      "dirs": [
+        "Block Build Texts",
+        "Geometry",
+        "Get Bounds",
+        "Get Font Size",
+        "Get Formatted Text",
+        "Get Geometry Extension",
+        "Get Layout Effects",
+        "Get Layout Extension",
+        "Get Material Extension",
+        "Get Rendering Extension",
+        "Get Style Extension",
+        "Get Text Renderer",
+        "Get Text Renderer Class",
+        "Get Token Extension",
+        "Is Building Text",
+        "Layout",
+        "Material",
+        "Rendering",
+        "Set Back Material",
+        "Set Bevel",
+        "Set Bevel Material",
+        "Set Bevel Segments",
+        "Set Bevel Type",
+        "Set Cast Shadow",
+        "Set Extrude",
+        "Set Extrude Material",
+        "Set Font Size",
+        "Set Front Material",
+        "Set Has Max Height",
+        "Set Has Max Width",
+        "Set Has Outline",
+        "Set Horizontal Alignment",
+        "Set Kerning",
+        "Set Line Spacing",
+        "Set Max Height",
+        "Set Max Width",
+        "Set Max Width Handling",
+        "Set Outline Expand",
+        "Set Scale Proportionally",
+        "Set Text Renderer Class",
+        "Set Vertical Alignment",
+        "Set Word Spacing",
+        "Style",
+        "Transform"
+      ]
+    },
+    {
+      "slug": "TextBox",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Event"
+      ]
+    },
+    {
+      "slug": "TexttoSpeech",
+      "n_dirs": 22,
+      "n_actions": 0,
+      "dirs": [
+        "Activate All Channels",
+        "Activate Channel",
+        "Add Custom Channel",
+        "Add Default Channel",
+        "Deactivate All Channels",
+        "Deactivate Channel",
+        "Does Channel Exist",
+        "Get Number Of Channels",
+        "Get Rate on Channel",
+        "Get Volume on Channel",
+        "Is Channel Active",
+        "Is Channel Muted",
+        "Is Speaking on Channel",
+        "Mute Channel",
+        "Remove All Channels",
+        "Remove Channel",
+        "Set Rate on Channel",
+        "Set Volume on Channel",
+        "Speak on Channel",
+        "Stop Speaking on All Channels",
+        "Stop Speaking on Channel",
+        "Unmute Channel"
+      ]
+    },
+    {
+      "slug": "Texture",
+      "n_dirs": 11,
+      "n_actions": 0,
+      "dirs": [
+        "Export to Disk",
+        "Get Frame Transform",
+        "Get Num Frames",
+        "Get Num Mip Levels",
+        "Get Size X",
+        "Get Size Y",
+        "Get Size Z",
+        "Get Texture",
+        "Get Texture Streaming Method",
+        "Set Texture",
+        "Set Virtual Texture Streaming"
+      ]
+    },
+    {
+      "slug": "TextureAssetActions",
+      "n_dirs": 4,
+      "n_actions": 0,
+      "dirs": [
+        "Compress Texture Source with JPEG",
+        "Convert to 8bit Texture Source",
+        "Resize Texture Source",
+        "Resize Texture Source to Power Of Two"
+      ]
+    },
+    {
+      "slug": "TextureGraph",
+      "n_dirs": 19,
+      "n_actions": 0,
+      "dirs": [
+        "Export Texture Graph",
+        "Get Bool Parameter Value",
+        "Get Color Parameter Value",
+        "Get Scalar Parameter Value",
+        "Get Settings Parameter Value",
+        "Get String Parameter Value",
+        "Get Texture Parameter Value",
+        "Get Vector Parameter Value",
+        "On Done",
+        "Render Texture Graph",
+        "Set Bool Parameter Value",
+        "Set Color Parameter Value",
+        "Set Scalar Parameter Value",
+        "Set Settings Parameter Value",
+        "Set String Parameter Value",
+        "Set Texture Parameter Value",
+        "Set Vector Parameter Value",
+        "Texture Graph Export (Async)",
+        "Texture Graph Render (Async)"
+      ]
+    },
+    {
+      "slug": "TextureShare",
+      "n_dirs": 5,
+      "n_actions": 0,
+      "dirs": [
+        "Get All TextureShare Objects",
+        "Get or Create TextureShare Object",
+        "Remove TextureShare Object",
+        "Send Custom Data",
+        "TextureShareAPI"
+      ]
+    },
+    {
+      "slug": "ThrottleState",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "On Engine Blowoff",
+        "On Throttle Engaged",
+        "On Throttle Released"
+      ]
+    },
+    {
+      "slug": "Tick",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Custom Tick",
+        "Editor Tick",
+        "Tick to Ms"
+      ]
+    },
+    {
+      "slug": "Ticker",
+      "n_dirs": 16,
+      "n_actions": 0,
+      "dirs": [
+        "Can Queue Elements",
+        "Get Destroy Distance",
+        "Get Padding",
+        "Get Queue Limit Count",
+        "Get Queue Limit Type",
+        "Get Start Location",
+        "Get Velocity",
+        "Queue Actor",
+        "Set Destroy Distance",
+        "Set Limit Queue",
+        "Set Padding",
+        "Set Queue Limit Count",
+        "Set Queue Limit Type",
+        "Set Start Location",
+        "Set Velocity",
+        "Should Limit Queue"
+      ]
+    },
+    {
+      "slug": "Ticking",
+      "n_dirs": 7,
+      "n_actions": 0,
+      "dirs": [
+        "Add Tick Dependency",
+        "Get Enable Produce Input",
+        "Get Use Async Movement Simulation Tick",
+        "Get Use Async Produce Input",
+        "Set Enable Produce Input",
+        "Set Use Async Movement Simulation Tick",
+        "Set Use Async Produce Input"
+      ]
+    },
+    {
+      "slug": "TileView",
+      "n_dirs": 4,
+      "n_actions": 0,
+      "dirs": [
+        "Get Entry Height",
+        "Get Entry Width",
+        "Set Entry Height",
+        "Set Entry Width"
+      ]
+    },
+    {
+      "slug": "TimeOfDay",
+      "n_dirs": 10,
+      "n_actions": 0,
+      "dirs": [
+        "Get Apparent Time Of Day",
+        "Get Day Length",
+        "Get Initial Time Of Day",
+        "Get Static Time Of Day",
+        "Get Time Of Day",
+        "Get Time Of Day Preview",
+        "Get Time Per Cycle",
+        "Has Static Time Of Day",
+        "Set Time Of Day",
+        "Set Time Of Day Preview"
+      ]
+    },
+    {
+      "slug": "TimeSynth",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Get Envelope Value",
+        "Get Normalized Spectral Data",
+        "Get Spectral Data"
+      ]
+    },
+    {
+      "slug": "TimedDataMonitor",
+      "n_dirs": 10,
+      "n_actions": 0,
+      "dirs": [
+        "Apply Time Correction",
+        "Calibrate",
+        "Channel",
+        "Get All Channels",
+        "Get All Enabled Channels",
+        "Get All Inputs",
+        "Get Evaluation State",
+        "Input",
+        "OnSourceIdentifierListChanged",
+        "Reset All Buffer Stats"
+      ]
+    },
+    {
+      "slug": "ToneGenerator",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Set Frequency",
+        "Set Volume"
+      ]
+    },
+    {
+      "slug": "ToolCallExceptionHandlerTest",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Test Empty Error",
+        "Test Multiple Refs",
+        "Test Spec Object Param"
+      ]
+    },
+    {
+      "slug": "ToolMenus",
+      "n_dirs": 43,
+      "n_actions": 0,
+      "dirs": [
+        "Add Dynamic Section",
+        "Add Entry",
+        "Add Entry Object",
+        "Add Menu Entry",
+        "Add Menu Entry Object",
+        "Add Section",
+        "Add Sub Menu Script",
+        "Break Script Slate Icon",
+        "Break String Command",
+        "Break Tool Menu Owner",
+        "Debug Log Context Object Classes",
+        "Extend Menu",
+        "Find Context",
+        "Find Menu",
+        "Find by Class",
+        "Get",
+        "Get Blueprint Obj",
+        "Get Editing Objects",
+        "Get Label",
+        "Get Selected Objects",
+        "Get Tool Tip",
+        "Init Menu",
+        "Init Menu Entry",
+        "Is Menu Registered",
+        "Load Selected Objects",
+        "Load Selected Objects if Needed",
+        "Make Script Slate Icon",
+        "Make String Command",
+        "Make Tool Menu Owner",
+        "Refresh All Widgets",
+        "Refresh Menu Widget",
+        "Register Menu",
+        "Remove Entry",
+        "Remove Menu",
+        "Remove Menu Entry Object",
+        "Remove Section",
+        "Set Icon",
+        "Set Label",
+        "Set Section Label",
+        "Set Section Position",
+        "Set String Command",
+        "Set Tool Tip",
+        "Unregister Owner by Name"
+      ]
+    },
+    {
+      "slug": "ToolsetLibrary",
+      "n_dirs": 7,
+      "n_actions": 0,
+      "dirs": [
+        "Get Active Undo Count",
+        "Get Derived Classes",
+        "Get Derived Structs",
+        "Get Object Properties",
+        "List Struct Properties",
+        "Set Object Properties",
+        "Undo Transaction"
+      ]
+    },
+    {
+      "slug": "ToolsetRegistry",
+      "n_dirs": 14,
+      "n_actions": 0,
+      "dirs": [
+        "Broadcast on Completed if Complete",
+        "Execute Tool",
+        "Get All Toolset Json Schemas",
+        "Get Toolset Json Schema",
+        "Get Value as Json String",
+        "Is Available",
+        "Is Toolset Class Registered",
+        "Is Toolset Registered",
+        "On Completed",
+        "Register Toolset Class",
+        "Set Completed",
+        "Set Error",
+        "Set Value",
+        "Unregister Toolset Class"
+      ]
+    },
+    {
+      "slug": "TrackingAlignment",
+      "n_dirs": 6,
+      "n_actions": 0,
+      "dirs": [
+        "Capture Sample",
+        "Clear Samples",
+        "Find and Update Origin Actor",
+        "Get Aligned Tracker BOrigin",
+        "Get Minimum Required Tracker Aligment Sample Count",
+        "Remove Sample"
+      ]
+    },
+    {
+      "slug": "Training",
+      "n_dirs": 1,
+      "n_actions": 0,
+      "dirs": [
+        "Get Training Device"
+      ]
+    },
+    {
+      "slug": "TrainingData",
+      "n_dirs": 13,
+      "n_actions": 0,
+      "dirs": [
+        "Get Mask Index Per Sample Array",
+        "Get Model",
+        "Get Needs Resampling",
+        "Get Number Sample Curves",
+        "Get Number Sample Deltas",
+        "Get Number Sample Transforms",
+        "Get Training Input Anim Mask Data",
+        "Get Training Input Anim Masks",
+        "Next Sample",
+        "Num Samples",
+        "Reset Sampling",
+        "Set Needs Resampling",
+        "Set Num Floats Per Curve"
+      ]
+    },
+    {
+      "slug": "TrainingModel",
+      "n_dirs": 6,
+      "n_actions": 0,
+      "dirs": [
+        "Generate Bone Group Indices",
+        "Generate Curve Group Indices",
+        "Get Morph Target Masks",
+        "Get Num Bone Groups",
+        "Get Num Curve Groups",
+        "Set Device List"
+      ]
+    },
+    {
+      "slug": "Transaction",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Add Objects to Transaction",
+        "Add Object to Transaction"
+      ]
+    },
+    {
+      "slug": "Transactions",
+      "n_dirs": 5,
+      "n_actions": 0,
+      "dirs": [
+        "Begin Transaction",
+        "Cancel Transaction",
+        "End Transaction",
+        "Snapshot Object",
+        "Transact Object"
+      ]
+    },
+    {
+      "slug": "TransformProviders",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Anim Bank",
+        "Anim Runtime",
+        "Anim Sequence"
+      ]
+    },
+    {
+      "slug": "Transformation",
+      "n_dirs": 78,
+      "n_actions": 0,
+      "dirs": [
+        "Add Actor Local Offset",
+        "Add Actor Local Rotation",
+        "Add Actor Local Transform",
+        "Add Actor World Offset",
+        "Add Actor World Rotation",
+        "Add Actor World Transform",
+        "Add Actor World Transform Keep Scale",
+        "Add Local Offset",
+        "Add Local Rotation",
+        "Add Local Transform",
+        "Add Relative Location",
+        "Add Relative Rotation",
+        "Add World Offset",
+        "Add World Rotation",
+        "Add World Transform",
+        "Add World Transform Keep Scale",
+        "Attach Actor To Actor",
+        "Attach Actor To Component",
+        "Attach Component To Component",
+        "Detach From Actor",
+        "Detach From Component",
+        "Does Socket Exist",
+        "Get Actor Array Average Location",
+        "Get Actor Forward Vector",
+        "Get Actor Location",
+        "Get Actor Relative Scale 3D",
+        "Get Actor Right Vector",
+        "Get Actor Rotation",
+        "Get Actor Scale 3D",
+        "Get Actor Transform",
+        "Get Actor Up Vector",
+        "Get All Socket Names",
+        "Get Attach Parent",
+        "Get Attach Socket Name",
+        "Get Bone Transform",
+        "Get Component Velocity",
+        "Get Distance To",
+        "Get Dot Product To",
+        "Get Forward Vector",
+        "Get Horizontal Distance To",
+        "Get Horizontal Dot Product To",
+        "Get Relative Transform",
+        "Get Right Vector",
+        "Get Socket Location",
+        "Get Socket Rotation",
+        "Get Socket Transform",
+        "Get Squared Distance To",
+        "Get Squared Horizontal Distance To",
+        "Get Up Vector",
+        "Get Velocity",
+        "Get Vertical Distance To",
+        "Get World Location",
+        "Get World Rotation",
+        "Get World Scale",
+        "Get World Transform",
+        "Reset Relative Transform",
+        "Set Absolute",
+        "Set Actor Location",
+        "Set Actor Location And Rotation",
+        "Set Actor Relative Location",
+        "Set Actor Relative Rotation",
+        "Set Actor Relative Scale 3D",
+        "Set Actor Relative Transform",
+        "Set Actor Rotation",
+        "Set Actor Scale 3D",
+        "Set Actor Transform",
+        "Set Mobility",
+        "Set Relative Location",
+        "Set Relative Location And Rotation",
+        "Set Relative Rotation",
+        "Set Relative Scale 3D",
+        "Set Relative Transform",
+        "Set World Location",
+        "Set World Location And Rotation",
+        "Set World Rotation",
+        "Set World Scale 3D",
+        "Set World Transform",
+        "Teleport"
+      ]
+    },
+    {
+      "slug": "TransformfromBounds",
+      "n_dirs": 2,
+      "n_actions": 0,
+      "dirs": [
+        "Copy Bounds",
+        "Copy Rotation"
+      ]
+    },
+    {
+      "slug": "TransitionLogic",
+      "n_dirs": 11,
+      "n_actions": 0,
+      "dirs": [
+        "Are Scenes Transitioning",
+        "Camera",
+        "Get Instancing Mode",
+        "Get Instancing Mode (Message)",
+        "Get Transition Behavior",
+        "Get Transition Layer",
+        "Get Transition Layer (Message)",
+        "Get Transition Tree",
+        "Get Transition Type",
+        "Is Transition Active in Layers",
+        "Remote Control"
+      ]
+    },
+    {
+      "slug": "TransitionParameters",
+      "n_dirs": 0,
+      "n_actions": 0,
+      "dirs": []
+    },
+    {
+      "slug": "TreeView",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Collapse All",
+        "Expand All",
+        "Set Item Expansion"
+      ]
+    },
+    {
+      "slug": "Trigger",
+      "n_dirs": 3,
+      "n_actions": 0,
+      "dirs": [
+        "Get Trigger Type",
+        "Is Actuated",
+        "Update State"
+      ]
+    },
+    {
+      "slug": "Tutorial",
+      "n_dirs": 7,
+      "n_actions": 0,
+      "dirs": [
+        "Begin Tutorial",
+        "Get Actor Reference",
+        "Get Engine Folder Visibilty",
+        "Go to Next Tutorial Stage",
+        "Go to Previous Tutorial Stage",
+        "Open Asset",
+        "Set Engine Folder Visibilty"
+      ]
+    },
+    {
+      "slug": "TypedElementFramework",
+      "n_dirs": 10,
+      "n_actions": 0,
+      "dirs": [
+        "Actor",
+        "Common",
+        "Component",
+        "Handle",
+        "List",
+        "Object",
+        "Registry",
+        "Selection",
+        "Static Mesh Instance",
+        "Testing"
+      ]
+    },
+    {
+      "slug": "TypedElementInterfaces",
+      "status": 429
+    },
+    {
+      "slug": "UAF",
+      "status": 429
+    },
+    {
+      "slug": "UAFTest",
+      "status": 429
+    },
+    {
+      "slug": "UIFramework",
+      "status": 429
+    },
+    {
+      "slug": "UMG",
+      "status": 429
+    },
+    {
+      "slug": "URigHierarchy",
+      "status": 429
+    },
+    {
+      "slug": "URigHierarchyController",
+      "status": 429
+    },
+    {
+      "slug": "USD",
+      "status": 429
+    },
+    {
+      "slug": "USDPregen",
+      "status": 429
+    },
+    {
+      "slug": "USDPregenManifest",
+      "status": 429
+    },
+    {
+      "slug": "USDTranslator",
+      "status": 429
+    },
+    {
+      "slug": "UVREditorInteractor",
+      "status": 429
+    },
+    {
+      "slug": "UniversalObjectLocators",
+      "status": 429
+    },
+    {
+      "slug": "UserInterface",
+      "status": 429
+    },
+    {
+      "slug": "UserListEntry",
+      "status": 429
+    },
+    {
+      "slug": "UserObjectListEntry",
+      "status": 429
+    },
+    {
+      "slug": "UserToolbox",
+      "status": 429
+    },
+    {
+      "slug": "UserToolboxLibrary",
+      "status": 429
+    },
+    {
+      "slug": "UserToolboxSubsystem",
+      "status": 429
+    },
+    {
+      "slug": "Utilities",
+      "status": 429
+    },
+    {
+      "slug": "Utility",
+      "status": 429
+    },
+    {
+      "slug": "VCam",
+      "status": 429
+    },
+    {
+      "slug": "VCamConnections",
+      "status": 429
+    },
+    {
+      "slug": "VCamInput",
+      "status": 429
+    },
+    {
+      "slug": "VM",
+      "status": 429
+    },
+    {
+      "slug": "VPBookmarks",
+      "status": 429
+    },
+    {
+      "slug": "VREditorInteractor",
+      "status": 429
+    },
+    {
+      "slug": "VREditorMode",
+      "status": 429
+    },
+    {
+      "slug": "Validation",
+      "status": 429
+    },
+    {
+      "slug": "Value",
+      "status": 429
+    },
+    {
+      "slug": "Variables",
+      "status": 429
+    },
+    {
+      "slug": "Variant",
+      "status": 429
+    },
+    {
+      "slug": "VariantManager",
+      "status": 429
+    },
+    {
+      "slug": "VariantSet",
+      "status": 429
+    },
+    {
+      "slug": "Variants",
+      "status": 429
+    },
+    {
+      "slug": "Vehicles",
+      "status": 429
+    },
+    {
+      "slug": "VertexPaint",
+      "status": 429
+    },
+    {
+      "slug": "Video",
+      "status": 429
+    },
+    {
+      "slug": "VideoPlayer",
+      "status": 429
+    },
+    {
+      "slug": "View",
+      "status": 429
+    },
+    {
+      "slug": "Viewmodel",
+      "status": 429
+    },
+    {
+      "slug": "Viewport",
+      "status": 429
+    },
+    {
+      "slug": "ViewportStatsSubsystem",
+      "status": 429
+    },
+    {
+      "slug": "ViewportWorldInteraction",
+      "status": 429
+    },
+    {
+      "slug": "VirtualCamera",
+      "status": 429
+    },
+    {
+      "slug": "VirtualKeyboard",
+      "status": 429
+    },
+    {
+      "slug": "VirtualProduction",
+      "status": 429
+    },
+    {
+      "slug": "VirtualScouting",
+      "status": 429
+    },
+    {
+      "slug": "VirtualScoutingEditor",
+      "status": 429
+    },
+    {
+      "slug": "VirtualTexture",
+      "status": 429
+    },
+    {
+      "slug": "Visibility",
+      "status": 429
+    },
+    {
+      "slug": "Volume",
+      "status": 429
+    },
+    {
+      "slug": "WFCFunctions",
+      "status": 429
+    },
+    {
+      "slug": "Water",
+      "status": 429
+    },
+    {
+      "slug": "WaterBody",
+      "status": 429
+    },
+    {
+      "slug": "WaterMeshPreview",
+      "status": 429
+    },
+    {
+      "slug": "Wave",
+      "status": 429
+    },
+    {
+      "slug": "WaveFunctionCollapse",
+      "status": 429
+    },
+    {
+      "slug": "WebAPI",
+      "status": 429
+    },
+    {
+      "slug": "WebBrowser",
+      "status": 429
+    },
+    {
+      "slug": "WeightChannels",
+      "status": 429
+    },
+    {
+      "slug": "Weights",
+      "status": 429
+    },
+    {
+      "slug": "Widget",
+      "status": 429
+    },
+    {
+      "slug": "WidgetEvent",
+      "status": 429
+    },
+    {
+      "slug": "Wind",
+      "status": 429
+    },
+    {
+      "slug": "Workspace",
+      "status": 429
+    },
+    {
+      "slug": "WorldPartition",
+      "status": 429
+    },
+    {
+      "slug": "WorldSubsystems",
+      "status": 429
+    },
+    {
+      "slug": "XR",
+      "status": 429
+    },
+    {
+      "slug": "XRCreative",
+      "status": 429
+    },
+    {
+      "slug": "XRCreativeEditor",
+      "status": 429
+    },
+    {
+      "slug": "XRCreative_1",
+      "status": 429
+    },
+    {
+      "slug": "Zipline",
+      "status": 429
+    },
+    {
+      "slug": "Zone",
+      "status": 429
+    },
+    {
+      "slug": "ZoneGraphAnnotations",
+      "status": 429
+    },
+    {
+      "slug": "googleArcoreAugmentedimages",
+      "status": 429
+    },
+    {
+      "slug": "nDisplay_1",
+      "status": 429
+    }
+  ]
+}

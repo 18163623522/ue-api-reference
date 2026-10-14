@@ -1,0 +1,550 @@
+[
+  {
+    "node": "AI/AIMoveTo",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Simple order for Pawn with AIController to move to a specific location.",
+      "Inherits bAllowStrafe setting from AIController.",
+      "Only performs strafe when Target Actor is provided."
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "object",
+        "Pawn"
+      ],
+      [
+        "vector",
+        "Destination"
+      ],
+      [
+        "object",
+        "Target Actor"
+      ],
+      [
+        "real",
+        "Acceptance Radius"
+      ],
+      [
+        "boolean",
+        "Stop on Overlap"
+      ],
+      [
+        "exec",
+        "Out"
+      ],
+      [
+        "exec",
+        "On Success"
+      ]
+    ],
+    "len": 1573
+  },
+  {
+    "node": "AI/ClearFocus",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Clears Focus, will also clear FocalPoint as a result",
+      "Target is AIController"
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "object",
+        "Target"
+      ],
+      [
+        "exec",
+        "Out"
+      ]
+    ],
+    "len": 872
+  },
+  {
+    "node": "Collision/BoxTraceByChannel",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Sweeps a box along the given line and returns the first blocking hit encountered. This trace finds the objects that RESPONDS to the given TraceChannel",
+      "Target is Kismet System Library"
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "vector",
+        "Start Start of line segment."
+      ],
+      [
+        "vector",
+        "End End of line segment."
+      ],
+      [
+        "vector",
+        "Half Size Distance from the center of box along each axis"
+      ],
+      [
+        "rotator",
+        "Orientation Orientation of the box"
+      ],
+      [
+        "enum",
+        "Trace Channel"
+      ],
+      [
+        "boolean",
+        "Trace Complex True to test against complex collision, false to test against simp"
+      ],
+      [
+        "object",
+        "Actors to Ignore"
+      ]
+    ],
+    "len": 2363
+  },
+  {
+    "node": "Collision/BoxOverlapActors",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Returns an array of actors that overlap the given axis-aligned box.",
+      "Target is Kismet System Library"
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "vector",
+        "Box Pos Center of box."
+      ],
+      [
+        "vector",
+        "Box Extent Extents of box."
+      ],
+      [
+        "enum",
+        "Object Types"
+      ],
+      [
+        "class",
+        "Actor Class Filter"
+      ],
+      [
+        "object",
+        "Actors to Ignore Ignore these actors in the list"
+      ],
+      [
+        "exec",
+        "Out"
+      ],
+      [
+        "object",
+        "Out Actors Returned array of actors. Unsorted."
+      ]
+    ],
+    "len": 1591
+  },
+  {
+    "node": "GameplayTags/AddGameplayTag",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Adds a single tag to the passed in tag container",
+      "Target is Blueprint Gameplay Tag Library"
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "struct",
+        "Tag Container"
+      ],
+      [
+        "struct",
+        "Tag The tag to add to the container"
+      ],
+      [
+        "exec",
+        "Out"
+      ]
+    ],
+    "len": 1020
+  },
+  {
+    "node": "GameplayTags/DoesContainerMatchTagQuery",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Check if the specified tag container matches the given Tag Query",
+      "Target is Blueprint Gameplay Tag Library"
+    ],
+    "rows": [
+      [
+        "struct",
+        "Tag Container Container to check if it matches all of the tags in the other cont"
+      ],
+      [
+        "struct",
+        "Tag Query Query to match against"
+      ],
+      [
+        "boolean",
+        "Return Value True if the container matches the query, false otherwise."
+      ]
+    ],
+    "len": 1097
+  },
+  {
+    "node": "Utilities/AddForce",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Add a force to a single rigid body. This is like a 'thruster'. Good for adding a burst over some (non zero) time. Should be called every frame for the duration of the force.",
+      "Target is Physics Thread Library"
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "struct",
+        "Handle"
+      ],
+      [
+        "vector",
+        "Force Force vector to apply. Magnitude indicates strength of force."
+      ],
+      [
+        "boolean",
+        "Accel Change If true, Force is taken as a change in acceleration instead of a ph"
+      ],
+      [
+        "exec",
+        "Out"
+      ]
+    ],
+    "len": 1354
+  },
+  {
+    "node": "Utilities/AsyncLoadAsset",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Asynchronously loads a Soft Object Reference and returns object of the correct type if the load succeeds"
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "softobject",
+        "Asset"
+      ],
+      [
+        "exec",
+        "Out"
+      ],
+      [
+        "exec",
+        "Completed"
+      ],
+      [
+        "object",
+        "Object"
+      ]
+    ],
+    "len": 1071
+  },
+  {
+    "node": "Utilities/Array",
+    "h2": [
+      "Navigation",
+      "Actions and Categories"
+    ],
+    "desc": [],
+    "rows": [],
+    "len": 5222
+  },
+  {
+    "node": "Game/GetGameMode",
+    "h2": [
+      "Navigation",
+      "Outputs"
+    ],
+    "desc": [
+      "Returns the current GameModeBase or Null if it can't be retrieved, such as on the client",
+      "Target is Gameplay Statics"
+    ],
+    "rows": [
+      [
+        "object",
+        "Return Value"
+      ]
+    ],
+    "len": 610
+  },
+  {
+    "node": "Game/Damage",
+    "h2": [
+      "Navigation",
+      "Actions and Categories"
+    ],
+    "desc": [],
+    "rows": [],
+    "len": 2234
+  },
+  {
+    "node": "Physics/AddImpulse",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Add an impulse to a single rigid body. Good for one time instant burst.",
+      "Target is Primitive Component"
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "object",
+        "Target"
+      ],
+      [
+        "vector",
+        "Impulse Magnitude and direction of impulse to apply."
+      ],
+      [
+        "name",
+        "Bone Name If a SkeletalMeshComponent, name of body to apply impulse to. 'None' i"
+      ],
+      [
+        "boolean",
+        "Vel Change If true, the Strength is taken as a change in velocity instead of an "
+      ],
+      [
+        "exec",
+        "Out"
+      ]
+    ],
+    "len": 1393
+  },
+  {
+    "node": "Input/AddMappingContext",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Add a control mapping context.",
+      "Target is Enhanced Input Subsystem Interface"
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "interface",
+        "Target"
+      ],
+      [
+        "object",
+        "Mapping Context A set of key to action mappings to apply to this player"
+      ],
+      [
+        "integer",
+        "Priority Higher priority mappings will be applied first and, if they consume inp"
+      ],
+      [
+        "struct",
+        "Options Options to consider when adding this mapping context."
+      ],
+      [
+        "exec",
+        "Out"
+      ]
+    ],
+    "len": 1349
+  },
+  {
+    "node": "Networking/HasAuthority",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Returns whether this actor has network authority",
+      "Target is Actor"
+    ],
+    "rows": [
+      [
+        "object",
+        "Target"
+      ],
+      [
+        "boolean",
+        "Return Value"
+      ]
+    ],
+    "len": 815
+  },
+  {
+    "node": "Niagara/SetFloatParameter",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Set Float Parameter",
+      "Target is Niagara Parameter Collection Instance"
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "object",
+        "Target"
+      ],
+      [
+        "string",
+        "In Variable Name"
+      ],
+      [
+        "real",
+        "In Value"
+      ],
+      [
+        "exec",
+        "Out"
+      ]
+    ],
+    "len": 1044
+  },
+  {
+    "node": "Camera/ActivateCameraforPlayerController",
+    "status": 302
+  },
+  {
+    "node": "Audio/CreateSound2D",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "This function allows users to create Audio Components in advance of playback with settings specifically for non-spatialized, non-distance-attenuated sounds. Audio Components created using this function by default will not have Spatialization applied.",
+      "Target is Gameplay Statics"
+    ],
+    "rows": [
+      [
+        "exec",
+        "In"
+      ],
+      [
+        "object",
+        "Sound Sound to create."
+      ],
+      [
+        "real",
+        "Volume Multiplier A linear scalar multiplied with the volume, in order to make t"
+      ],
+      [
+        "real",
+        "Pitch Multiplier A linear scalar multiplied with the pitch."
+      ],
+      [
+        "real",
+        "Start Time How far into the sound to begin playback at"
+      ],
+      [
+        "object",
+        "Concurrency Settings Override concurrency settings package to play sound with"
+      ],
+      [
+        "boolean",
+        "Persist Across Level Transition"
+      ],
+      [
+        "boolean",
+        "Auto Destroy Whether the returned audio component will be automatically cleaned "
+      ]
+    ],
+    "len": 2154
+  },
+  {
+    "node": "StaticMesh/GetMaterial",
+    "h2": [
+      "Navigation",
+      "Inputs",
+      "Outputs"
+    ],
+    "desc": [
+      "Gets a Material given a Material Index and an LOD number",
+      "Target is Static Mesh"
+    ],
+    "rows": [
+      [
+        "object",
+        "Target"
+      ],
+      [
+        "integer",
+        "Material Index"
+      ],
+      [
+        "object",
+        "Return Value Requested material"
+      ]
+    ],
+    "len": 934
+  }
+]

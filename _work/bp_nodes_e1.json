@@ -1,0 +1,1097 @@
+{
+  "cursor": 360,
+  "total": 1277,
+  "done": false,
+  "okCount": 360,
+  "newItems": [
+    {
+      "s": "Effector/GetCurlNoiseForceStrength",
+      "dir": false,
+      "d": "Get Curl Noise Force Strength",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetConstraint",
+      "dir": false,
+      "d": "Get Constraint",
+      "t": "CECloner Constraint Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugBoneLink",
+      "dir": false,
+      "d": "Debug Draw a link between a child and parent bone",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/CanCrouch",
+      "dir": false,
+      "d": "Whether this actor can currently crouch or not",
+      "t": "Character Mover Component"
+    },
+    {
+      "s": "StateTree/StateTreeRequestTransition",
+      "dir": false,
+      "d": "Request state transition.",
+      "t": "State Tree Node Blueprint Base"
+    },
+    {
+      "s": "Animation/ClearRetargetSourceAsset",
+      "dir": false,
+      "d": "Resets the retarget source asset",
+      "t": "Anim Sequence"
+    },
+    {
+      "s": "Material/RemoveInvalidMaterialsfromGroup",
+      "dir": false,
+      "d": "Remove all UMaterials that no longer exist on disk from the Material Validation Group.",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/Keys",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/GetIsFlaggedAssetTag",
+      "dir": false,
+      "d": "Target is Level Sequence Shot Meta Data Library",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetMinLODForQualityLevels",
+      "dir": false,
+      "d": "Get Min LODFor Quality Levels",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindDirectionClosesttoWorldLocat-",
+      "dir": false,
+      "d": "Given a location, in world space, return a unit direction vector of the spline tangent closest to the location.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetActivityTags",
+      "dir": false,
+      "d": "Returns the list of tags describing the activity associated to this definition",
+      "t": "Smart Object Definition"
+    },
+    {
+      "s": "TakeRecorder/GetFrameRate",
+      "dir": false,
+      "d": "Access the frame rate for this take",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/DuplicateSequence",
+      "dir": false,
+      "d": "Duplicates the specified sequence using a medium depth copy. Standard duplication will only duplicate the top level Sequ",
+      "t": "Movie Pipeline Blueprint Library"
+    },
+    {
+      "s": "Effector/GetDelayEnabled",
+      "dir": false,
+      "d": "Get Delay Enabled",
+      "t": "CEEffector Delay Effect"
+    },
+    {
+      "s": "Cloner/GetCustomTextureAsset",
+      "dir": false,
+      "d": "Get Custom Texture Asset",
+      "t": "CECloner Texture Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugBox",
+      "dir": false,
+      "d": "Debug Draw an oriented box",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/CanEscapeGravity",
+      "dir": false,
+      "d": "Checks whether a given velocity is strong enough to lift off against gravity",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "StateTree/StateTreeSendEvent",
+      "dir": false,
+      "d": "Sends event to the StateTree.",
+      "t": "State Tree Node Blueprint Base"
+    },
+    {
+      "s": "Animation/ClearTransitionEvents",
+      "dir": false,
+      "d": "Removes all queued transition requests with the given event name",
+      "t": "Anim Instance"
+    },
+    {
+      "s": "Material/ResetGroup",
+      "dir": false,
+      "d": "Remove all UMaterials from a Material Validation Group.",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/Player",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/GetIsFlaggedbyAssetData",
+      "dir": false,
+      "d": "Gets whether this was flagged by a user.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetMinimumLODForPlatform",
+      "dir": false,
+      "d": "Get Minimum LODFor Platform",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindInputKeyClosesttoWorldLocati-",
+      "dir": false,
+      "d": "Given a location, in world space, return the input key closest to that location.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetAllSlots",
+      "dir": false,
+      "d": "Return all slots of a given smart object.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/GetGlobalRecordSettings",
+      "dir": false,
+      "d": "Retrieve the global take recorder settings.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/EnsureJobHasDefaultSettings",
+      "dir": false,
+      "d": "Ensure the job has the settings specified by the project settings added. Idempotent per-job: once defaults have been app",
+      "t": "Movie Pipeline Editor Blueprint Library"
+    },
+    {
+      "s": "Effector/GetDelayOutDuration",
+      "dir": false,
+      "d": "Get Delay Out Duration",
+      "t": "CEEffector Delay Effect"
+    },
+    {
+      "s": "Cloner/GetCustomTextureUVClamp",
+      "dir": false,
+      "d": "Get Custom Texture UVClamp",
+      "t": "CECloner Texture Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugBoxSphereBounds",
+      "dir": false,
+      "d": "Debug Draw a FBoxSphereBounds",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/CanStepUponHitSurface",
+      "dir": false,
+      "d": "Can Step Up on Hit Surface",
+      "t": "Ground Movement Utils"
+    },
+    {
+      "s": "StateTree/UnbindDelegate",
+      "dir": false,
+      "d": "Unregisters the callback bound to the listener.",
+      "t": "State Tree Task Blueprint Base"
+    },
+    {
+      "s": "Animation/ControlRig",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Material/UpdateMaterialPermutationsinGrou-",
+      "dir": false,
+      "d": "Recalculate and reregister all existing permutations for all the existing materials in a Material Validation Group (can ",
+      "t": "Material Validation Library"
+    },
+    {
+      "s": "Sequencer/Section",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/GetIsNoGood",
+      "dir": false,
+      "d": "Gets whether the user has marked this shot as no good.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetMinimumLODForPlatforms",
+      "dir": false,
+      "d": "Get Minimum LODFor Platforms",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindInputKeyonSegmentClosesttoWo-",
+      "dir": false,
+      "d": "Given a location, in world space, return the input key closest to that location on the specified segment.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetBehaviorDefinition",
+      "dir": false,
+      "d": "Return the behavior definition of a given type from a claimed object.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/GetLastRecordedLevelSequence",
+      "dir": false,
+      "d": "Retrieve the Last Recorded Level Sequence if it exists.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/Execute",
+      "dir": false,
+      "d": "Execute the provided Queue. You are responsible for deciding how to handle each job in the queue and processing them. On",
+      "t": "Movie Pipeline Executor Base"
+    },
+    {
+      "s": "Effector/GetDelaySpringFalloff",
+      "dir": false,
+      "d": "Get Delay Spring Falloff",
+      "t": "CEEffector Delay Effect"
+    },
+    {
+      "s": "Cloner/GetCustomTextureUVOffset",
+      "dir": false,
+      "d": "Get Custom Texture UVOffset",
+      "t": "CECloner Texture Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugBoxStruct",
+      "dir": false,
+      "d": "Debug Draw an FBox",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/CancelFeatureswithTag",
+      "dir": false,
+      "d": "Cancel any active or queued movement features (layered moves, modifiers, etc.) that have a matching gameplay tag. Does n",
+      "t": "Mover Component"
+    },
+    {
+      "s": "Animation/ControlRigLayer",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Sequencer/Sequence",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/GetIsNoGoodAssetTag",
+      "dir": false,
+      "d": "Target is Level Sequence Shot Meta Data Library",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetMinimumLODForQualityLevel",
+      "dir": false,
+      "d": "Get Minimum LODFor Quality Level",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindLocationClosesttoWorldLocati-",
+      "dir": false,
+      "d": "Given a location, in world space, return the point on the curve that is closest to the location.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetBehaviorDefinitionbyRequestRe-",
+      "dir": false,
+      "d": "Return the behavior definition of a given type from a request result.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/GetLevelSequence",
+      "dir": false,
+      "d": "Return the level sequence we are using.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/ExportConfigtoAsset",
+      "dir": false,
+      "d": "Export Config to Asset",
+      "t": "Movie Pipeline Editor Blueprint Library"
+    },
+    {
+      "s": "Effector/GetDelaySpringFrequency",
+      "dir": false,
+      "d": "Get Delay Spring Frequency",
+      "t": "CEEffector Delay Effect"
+    },
+    {
+      "s": "Cloner/GetCustomTextureUVPlane",
+      "dir": false,
+      "d": "Get Custom Texture UVPlane",
+      "t": "CECloner Texture Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugBriefcase",
+      "dir": false,
+      "d": "Debug draw a briefcase",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/CancelModifierfromHandle",
+      "dir": false,
+      "d": "Cancel Modifier from Handle",
+      "t": "Chaos Mover Simulation"
+    },
+    {
+      "s": "Animation/ConverttoModifyCurveNode",
+      "dir": false,
+      "d": "Get a modify curve node context from an anim node context",
+      "t": "Modify Curve Anim Library"
+    },
+    {
+      "s": "Sequencer/Tags",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/GetIsNoGoodbyAssetData",
+      "dir": false,
+      "d": "Gets whether the user has marked this shot as no good.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetMinimumLODForQualityLevels",
+      "dir": false,
+      "d": "Get Minimum LODFor Quality Levels",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindRightVectorClosesttoWorldLoc-",
+      "dir": false,
+      "d": "Given a location, in world space, return a unit direction vector corresponding to the spline's right vector closest to t",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetBounds",
+      "dir": false,
+      "d": "Return bounds encapsulating all slots",
+      "t": "Smart Object Definition"
+    },
+    {
+      "s": "TakeRecorder/GetNextTakeNumber",
+      "dir": false,
+      "d": "Compute the next take number given a slate.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/FindSettingbyClass",
+      "dir": false,
+      "d": "Find a setting of a particular type for this config.",
+      "t": "Movie Pipeline Config Base"
+    },
+    {
+      "s": "Effector/GetDelayinDuration",
+      "dir": false,
+      "d": "Get Delay in Duration",
+      "t": "CEEffector Delay Effect"
+    },
+    {
+      "s": "Cloner/GetCustomTextureUVRotation",
+      "dir": false,
+      "d": "Get Custom Texture UVRotation",
+      "t": "CECloner Texture Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCamera",
+      "dir": false,
+      "d": "Debug draw a camera shape",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeAngularVelocity",
+      "dir": false,
+      "d": "Compute Angular Velocity",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "Animation/ConverttoModifyCurvenode_1",
+      "dir": false,
+      "d": "Get a modify curve context from an anim node context (pure)",
+      "t": "Modify Curve Anim Library"
+    },
+    {
+      "s": "Sequencer/TimeWarp",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/GetIsRecorded",
+      "dir": false,
+      "d": "Gets whether this was recorded.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetNumLODs",
+      "dir": false,
+      "d": "Returns the number of LODs used by the mesh.",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindRollClosesttoWorldLocation",
+      "dir": false,
+      "d": "Given a location, in world space, return the spline's roll closest to the location, in degrees.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetInstanceTags",
+      "dir": false,
+      "d": "Returns the list of tags associated to the smart object instance represented by the provided handle.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/GetNumberOfTakes",
+      "dir": false,
+      "d": "Find both the current maximum take value and the total number of takes for a given slate.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/FindSettingsbyClass",
+      "dir": false,
+      "d": "Find all settings of a particular type for this config.",
+      "t": "Movie Pipeline Config Base"
+    },
+    {
+      "s": "Effector/GetDragForceEnabled",
+      "dir": false,
+      "d": "Get Drag Force Enabled",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetCustomTextureUVScale",
+      "dir": false,
+      "d": "Get Custom Texture UVScale",
+      "t": "CECloner Texture Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCanvasName",
+      "dir": false,
+      "d": "Draw a name on the canvas. Only does anything with a ScreenDebugDrawer or CanvasDebugDrawer.",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeAngularVelocityDegrees",
+      "dir": false,
+      "d": "Computes the angular velocity needed to change from one orientation to another within a time frame. Use the optional Tur",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "Animation/CreateSlotAnimationasDynamicMont-",
+      "dir": false,
+      "d": "Utility function to create dynamic montage from AnimSequence with blend in settings",
+      "t": "Anim Montage"
+    },
+    {
+      "s": "Sequencer/Track",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/GetIsRecordedAssetTag",
+      "dir": false,
+      "d": "Target is Level Sequence Shot Meta Data Library",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetNumNaniteTriangles",
+      "dir": false,
+      "d": "Returns the number of triangles of the Nanite representation of this mesh.",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindRotationClosesttoWorldLocati-",
+      "dir": false,
+      "d": "Given a location, in world space, return rotation corresponding to the spline's rotation closest to the location.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetMutableSlot",
+      "dir": false,
+      "d": "Target is Smart Object Definition",
+      "t": "Smart Object Definition"
+    },
+    {
+      "s": "TakeRecorder/GetPendingTake",
+      "dir": false,
+      "d": "Retrieve the pending take. This may be null.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/FindorAddSettingbyClass",
+      "dir": false,
+      "d": "Finds a setting of a particular type for this pipeline config, adding it if it doesn't already exist.",
+      "t": "Movie Pipeline Config Base"
+    },
+    {
+      "s": "Effector/GetDragForceLinear",
+      "dir": false,
+      "d": "Get Drag Force Linear",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetCylinderCenter",
+      "dir": false,
+      "d": "Get Cylinder Center",
+      "t": "CECloner Constraint Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCanvasString",
+      "dir": false,
+      "d": "Draw a string on the canvas. Only does anything with a ScreenDebugDrawer or CanvasDebugDrawer.",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeCombinedVelocity",
+      "dir": false,
+      "d": "Returns new velocity based on previous state, movement intent, movement mode's influence and movement settings",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "Animation/CurveExpression",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/GetIsRecordedbyAssetData",
+      "dir": false,
+      "d": "Gets whether this was recorded.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetNumNaniteVertices",
+      "dir": false,
+      "d": "Returns the number of vertices of the Nanite representation of this mesh.",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindScaleClosesttoWorldLocation",
+      "dir": false,
+      "d": "Given a location, in world space, return the spline's scale closest to the location.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetNumSlotEntrances",
+      "dir": false,
+      "d": "Returns the number of entrance annotations on a slot. Use this to iterate entrances with GetSlotEntranceOffsetAndRotatio",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/GetPresetTargetRecordClass",
+      "dir": false,
+      "d": "Retrieve the target record class of the Take Preset.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/FindorGetDefaultSettingforShot",
+      "dir": false,
+      "d": "Allows access to a setting of provided type for specific shot.",
+      "t": "Movie Pipeline Blueprint Library"
+    },
+    {
+      "s": "Effector/GetDragForceRotational",
+      "dir": false,
+      "d": "Get Drag Force Rotational",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetCylinderHeight",
+      "dir": false,
+      "d": "Get Cylinder Height",
+      "t": "CECloner Constraint Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCanvasText",
+      "dir": false,
+      "d": "Draw some text on the canvas. Only does anything with a ScreenDebugDrawer or CanvasDebugDrawer.",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeControlledFreeMove",
+      "dir": false,
+      "d": "Generate a new movement based on move/orientation intents and the prior state, unconstrained like when flying",
+      "t": "Air Movement Utils"
+    },
+    {
+      "s": "Animation/Curves",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/GetIsSubSequence",
+      "dir": false,
+      "d": "Gets whether this was recorded as a subsequence.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetNumSections",
+      "dir": false,
+      "d": "Returns number of Sections that this StaticMesh has, in the supplied LOD (LOD 0 is the highest)",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindTangentClosesttoWorldLocatio-",
+      "dir": false,
+      "d": "Given a location, in world space, return the tangent vector of the spline closest to the location.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetSlotActivityTags_ByIndex",
+      "dir": false,
+      "d": "Fills the provided GameplayTagContainer with the activity tags associated to the slot according to the tag merging polic",
+      "t": "Smart Object Definition"
+    },
+    {
+      "s": "TakeRecorder/GetSequence",
+      "dir": false,
+      "d": "Access the sequence asset that this recorder is recording into",
+      "t": "Take Recorder"
+    },
+    {
+      "s": "MovieRenderPipeline/GetActiveExecutor",
+      "dir": false,
+      "d": "Returns the active executor (if there is one). This can be used to subscribe to events on an already in-progress render.",
+      "t": "MoviePipeline Runtime Subsystem"
+    },
+    {
+      "s": "Effector/GetEasing",
+      "dir": false,
+      "d": "Get Easing",
+      "t": "CEEffector Bound Type"
+    },
+    {
+      "s": "Cloner/GetCylinderRadius",
+      "dir": false,
+      "d": "Get Cylinder Radius",
+      "t": "CECloner Constraint Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCapsule",
+      "dir": false,
+      "d": "Debug Draw a capsule",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeControlledGroundMove",
+      "dir": false,
+      "d": "Generate a new movement based on move/orientation intents and the prior state, constrained to the ground movement plane.",
+      "t": "Ground Movement Utils"
+    },
+    {
+      "s": "Animation/Dynamics",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/GetIsSubSequenceAssetTag",
+      "dir": false,
+      "d": "Target is Level Sequence Shot Meta Data Library",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetNumTexCoords",
+      "dir": false,
+      "d": "Returns the number of tex coords for the specified LOD.",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindTransformClosesttoWorldLocat-",
+      "dir": false,
+      "d": "Given a location, in world space, return an FTransform closest to that location.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetSlotDefinitionDataByType",
+      "dir": false,
+      "d": "Returns all definition data entries of a specific struct type from a slot's DefinitionData. Set the output pin to the de",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/GetSlates",
+      "dir": false,
+      "d": "Retrieve all slates.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/GetAllSettings",
+      "dir": false,
+      "d": "Get All Settings",
+      "t": "Movie Pipeline Primary Config"
+    },
+    {
+      "s": "Effector/GetEffectorComponent",
+      "dir": false,
+      "d": "Get Effector Component",
+      "t": "Motion Design Effector Actor"
+    },
+    {
+      "s": "Cloner/GetDefaultMeshes",
+      "dir": false,
+      "d": "GetDefaultMeshes",
+      "t": "CECloner Mesh Renderer Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCapsuleLine",
+      "dir": false,
+      "d": "Debug Draw a capsule using the start and end location",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeControlledWaterMove",
+      "dir": false,
+      "d": "Generate a new movement based on move/orientation intents and the prior state for the swimming move",
+      "t": "Water Movement Utils"
+    },
+    {
+      "s": "Animation/EvaluateChooser",
+      "dir": false,
+      "d": "Evaluates an Chooser Table, and returns the resulting Object or Objects."
+    },
+    {
+      "s": "LevelSequence/GetIsSubSequencebyAssetData",
+      "dir": false,
+      "d": "Gets whether this was recorded as a sub sequence.",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetNumTriangles",
+      "dir": false,
+      "d": "Returns the number of triangles in the render data for the specified LOD.",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/FindUpVectorClosesttoWorldLocati-",
+      "dir": false,
+      "d": "Given a location, in world space, return a unit direction vector corresponding to the spline's up vector closest to the ",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetSlotEntranceOffsetandRotation",
+      "dir": false,
+      "d": "Returns the entrance offset and rotation for a specific entrance annotation on a slot.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/GetSourceActor",
+      "dir": false,
+      "d": "Retrieve the actor from a source, if applicable.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/GetBackbufferResolution",
+      "dir": false,
+      "d": "Gets the resolution that will be used by the engine when rendering a frame. Includes overscan and tiling",
+      "t": "Movie Pipeline Blueprint Library"
+    },
+    {
+      "s": "Effector/GetEnabled",
+      "dir": false,
+      "d": "Get Enabled",
+      "t": "Motion Design Effector Component"
+    },
+    {
+      "s": "Cloner/GetDeltaStepEnabled",
+      "dir": false,
+      "d": "Get Delta Step Enabled",
+      "t": "CECloner Step Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCatmullRomSpline",
+      "dir": false,
+      "d": "Debug Draw a catmull rom spline",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeDeflectedMoveOntoRamp",
+      "dir": false,
+      "d": "Used to change a movement to be along a ramp's surface, typically to prevent slow movement when running up/down a ramp",
+      "t": "Ground Movement Utils"
+    },
+    {
+      "s": "Animation/EvaluateProxy",
+      "dir": false,
+      "d": "Evaluates an Chooser Table, and returns the resulting Object or Objects."
+    },
+    {
+      "s": "LevelSequence/HasFavoriteRating",
+      "dir": false,
+      "d": "Target is Level Sequence Shot Meta Data Library",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetNumVertices",
+      "dir": false,
+      "d": "Returns the number of vertices for the specified LOD.",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/GetArriveTangentatSplinePoint",
+      "dir": false,
+      "d": "Get the arrive tangent at spline point",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetSlotEntranceTransform",
+      "dir": false,
+      "d": "Returns the entrance transform (offset and rotation combined) for a specific entrance annotation on a slot. This is equi",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/GetSourceRecordSettings",
+      "dir": false,
+      "d": "Retrieve additional settings objects from a source.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/GetBasicConfig",
+      "dir": false,
+      "d": "Gets the basic configuration object, or nullptr if basic configuration has not been set up. A non-null Basic config does",
+      "t": "Movie Pipeline Executor Job"
+    },
+    {
+      "s": "Effector/GetExtension",
+      "dir": false,
+      "d": "Get Extension",
+      "t": "Motion Design Effector Component"
+    },
+    {
+      "s": "Cloner/GetDeltaStepPosition",
+      "dir": false,
+      "d": "Get Delta Step Position",
+      "t": "CECloner Step Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCatmullRomSplineEnd",
+      "dir": false,
+      "d": "Debug Draw the end section of a catmull rom spline",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeDirectionIntent",
+      "dir": false,
+      "d": "Computes the directional movement intent based on input vector and associated type",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "Animation/Experimental",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "LevelSequence/HasFavoriteRatingbyAssetData",
+      "dir": false,
+      "d": "Target is Level Sequence Shot Meta Data Library",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetSocketsbyTag",
+      "dir": false,
+      "d": "Returns a list of sockets with the provided tag.",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/GetDefaultUpVector",
+      "dir": false,
+      "d": "Gets the default up vector used by this spline",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetSlotLocation",
+      "dir": false,
+      "d": "Returns the position (in world space) of the slot associated to the given claim handle.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/GetSourcebyClass",
+      "dir": false,
+      "d": "Retrieve the first source of the given class.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/GetBasicShotConfig",
+      "dir": false,
+      "d": "Gets the basic shot config overrides. Returns nullptr if no shot overrides are set. A non-null Basic config override doe",
+      "t": "Movie Pipeline Executor Shot"
+    },
+    {
+      "s": "Effector/GetExtensionName",
+      "dir": false,
+      "d": "Get Extension Name",
+      "t": "CEEffector Extension Base"
+    },
+    {
+      "s": "Cloner/GetDeltaStepRotation",
+      "dir": false,
+      "d": "Get Delta Step Rotation",
+      "t": "CECloner Step Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCatmullRomSplineSection",
+      "dir": false,
+      "d": "Debug Draw a full segment of a catmull rom spline",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeSlideDelta",
+      "dir": false,
+      "d": "Returns an alternative move delta to slide along a surface, based on parameters describing a blocked attempted move",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "Animation/FindMetaDatabyClass",
+      "dir": false,
+      "d": "Returns the first metadata of the specified class",
+      "t": "Animation Asset"
+    },
+    {
+      "s": "LevelSequence/HasIsFlagged",
+      "dir": false,
+      "d": "Target is Level Sequence Shot Meta Data Library",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/GetStaticMeshDescription",
+      "dir": false,
+      "d": "Return a new StaticMeshDescription referencing the MeshDescription of the given LOD",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/GetDirectionatDistanceAlongSplin-",
+      "dir": false,
+      "d": "Given a distance along the length of this spline, return a unit direction vector of the spline tangent there.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetSlotState",
+      "dir": false,
+      "d": "Returns the state of the given smart object Slot handle.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/GetSources",
+      "dir": false,
+      "d": "Retrieve the sources.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/GetCameraName",
+      "dir": false,
+      "d": "Get Camera Name",
+      "t": "Movie Pipeline Executor Shot"
+    },
+    {
+      "s": "Effector/GetForcesEnabled",
+      "dir": false,
+      "d": "Get Forces Enabled",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetDeltaStepScale",
+      "dir": false,
+      "d": "Get Delta Step Scale",
+      "t": "CECloner Step Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCatmullRomSplineStart",
+      "dir": false,
+      "d": "Debug Draw the start section of a catmull rom spline",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeVelocity",
+      "dir": false,
+      "d": "Returns new ground-based velocity (worldspace) based on previous state, movement intent (worldspace), and movement setti",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "Animation/FindSocket",
+      "dir": false,
+      "d": "Find a socket object in this SkeletalMesh by name. Entering NAME_None will return NULL. If there are multiple sockets wi",
+      "t": "Skinned Asset"
+    },
+    {
+      "s": "LevelSequence/HasIsFlaggedbyAssetData",
+      "dir": false,
+      "d": "Target is Level Sequence Shot Meta Data Library",
+      "t": "Level Sequence Shot Meta Data Library"
+    },
+    {
+      "s": "StaticMesh/IsLODScreenSizeAutoComputed",
+      "dir": false,
+      "d": "Is LODScreen Size Auto Computed",
+      "t": "Static Mesh"
+    },
+    {
+      "s": "Spline/GetDirectionatSplineInputKey",
+      "dir": false,
+      "d": "Get unit direction along spline at the provided input key value",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/GetSlotTags",
+      "dir": false,
+      "d": "Returns the list of tags associated to the smart object slot represented by the provided handle.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/GetSources_Copy",
+      "dir": false,
+      "d": "Retrieves a copy of the list of sources that are being recorded. This is intended for Blueprint usages which cannot use ",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/GetCompletionPercentage",
+      "dir": false,
+      "d": "Gets the completion percent of the Pipeline in 0-1",
+      "t": "Movie Pipeline Blueprint Library"
+    },
+    {
+      "s": "Effector/GetFrequency",
+      "dir": false,
+      "d": "Get Frequency",
+      "t": "CEEffector Procedural Mode"
+    },
+    {
+      "s": "Cloner/GetDisplacementEnabled",
+      "dir": false,
+      "d": "Get Displacement Enabled",
+      "t": "CECloner Displacement Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugChair",
+      "dir": false,
+      "d": "Debug draw a basic chair shape",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/ComputeVelocityfromGravity",
+      "dir": false,
+      "d": "Returns velocity (units per second) contributed by gravitational acceleration over a given time",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "Animation/FindSocketInfo",
+      "dir": false,
+      "d": "Find a socket object and associated info in this SkeletalMesh by name. Entering NAME_None will return NULL. If there are",
+      "t": "Skinned Asset"
+    },
+    {
+      "s": "LevelSequence/HasIsNoGood",
+      "dir": false,
+      "d": "Target is Level Sequence Shot Meta Data Library",
+      "t": "Level Sequence Shot Meta Data Library"
+    }
+  ]
+}

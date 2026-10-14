@@ -1,0 +1,290 @@
+[
+ {
+  "name": "AActor",
+  "mod": "Engine",
+  "funcs": 643,
+  "vars": 117,
+  "derived": 210,
+  "ctors": 2,
+  "desc": "Actor is the base class for an Object that can be placed or spawned in a level. Actors may contain a collection of ActorComponents, which can be used to control how actors move, how they are rendered, etc. The other main"
+ },
+ {
+  "name": "UEditorEngine",
+  "mod": "UnrealEd",
+  "funcs": 497,
+  "vars": 129,
+  "derived": 1,
+  "ctors": 1,
+  "desc": "Engine that drives the Editor. Separate from UGameEngine because it may have much different functionality than desired for an instance of a game itself."
+ },
+ {
+  "name": "UWorld",
+  "mod": "Engine",
+  "funcs": 450,
+  "vars": 196,
+  "derived": 0,
+  "ctors": 1,
+  "desc": "The World is the top level object representing a map or a sandbox in which Actors and Components will exist and be rendered."
+ },
+ {
+  "name": "UCharacterMovementComponent",
+  "mod": "Engine",
+  "funcs": 354,
+  "vars": 236,
+  "derived": 1,
+  "ctors": 1,
+  "desc": "CharacterMovementComponent handles movement logic for the associated Character owner. It supports various movement modes including: walking, falling, swimming, flying, custom."
+ },
+ {
+  "name": "UNavigationSystemV1",
+  "mod": "NavigationSystem",
+  "funcs": 277,
+  "vars": 22,
+  "derived": 0,
+  "ctors": 1,
+  "desc": ""
+ },
+ {
+  "name": "UUserWidget",
+  "mod": "UMG",
+  "funcs": 250,
+  "vars": 38,
+  "derived": 12,
+  "ctors": 1,
+  "desc": "A widget that enables UI extensibility through WidgetBlueprint."
+ },
+ {
+  "name": "UMaterial",
+  "mod": "Engine",
+  "funcs": 224,
+  "vars": 145,
+  "derived": 2,
+  "ctors": 3,
+  "desc": "A Material is an asset which can be applied to a mesh to control the visual look of the scene. When light from the scene hits the surface, the shading model of the material is used to calculate how that light interacts w"
+ },
+ {
+  "name": "SWidget",
+  "mod": "SlateCore",
+  "funcs": 205,
+  "vars": 35,
+  "derived": 7,
+  "ctors": 1,
+  "desc": "HOW TO DEPRECATE SLATE_ATTRIBUTES"
+ },
+ {
+  "name": "UStaticMeshComponent",
+  "mod": "Engine",
+  "funcs": 183,
+  "vars": 62,
+  "derived": 17,
+  "ctors": 1,
+  "desc": "StaticMeshComponent is used to create an instance of a UStaticMesh . A static mesh is a piece of geometry that consists of a static set of polygons."
+ },
+ {
+  "name": "UObject",
+  "mod": "CoreUObject",
+  "funcs": 179,
+  "vars": 0,
+  "derived": 2001,
+  "ctors": 4,
+  "desc": "The base class of all UE objects. The type of an object is defined by its UClass . This provides support functions for creating and using objects, and virtual functions that should be overridden in child classes."
+ },
+ {
+  "name": "SWindow",
+  "mod": "SlateCore",
+  "funcs": 175,
+  "vars": 11,
+  "derived": 18,
+  "ctors": 1,
+  "desc": "SWindow is a platform-agnostic representation of a top-level window."
+ },
+ {
+  "name": "ACharacter",
+  "mod": "Engine",
+  "funcs": 173,
+  "vars": 88,
+  "derived": 3,
+  "ctors": 1,
+  "desc": "Characters are Pawns that have a mesh, collision, and built-in movement logic. They are responsible for all physical interaction between the player or AI and the world, and also implement basic networking and input model"
+ },
+ {
+  "name": "UGameplayStatics",
+  "mod": "Engine",
+  "funcs": 164,
+  "vars": 0,
+  "derived": 0,
+  "ctors": 1,
+  "desc": "Static class with useful gameplay utility functions that can be called from both Blueprint and C++"
+ },
+ {
+  "name": "FArchive",
+  "mod": "Core",
+  "funcs": 152,
+  "vars": 44,
+  "derived": 26,
+  "ctors": 2,
+  "desc": "Base class for archives that can be used for loading, saving, and garbage collecting in a byte order neutral way."
+ },
+ {
+  "name": "ALandscape",
+  "mod": "Landscape",
+  "funcs": 138,
+  "vars": 30,
+  "derived": 0,
+  "ctors": 1,
+  "desc": ""
+ },
+ {
+  "name": "UBehaviorTreeComponent",
+  "mod": "AIModule",
+  "funcs": 105,
+  "vars": 0,
+  "derived": 0,
+  "ctors": 2,
+  "desc": ""
+ },
+ {
+  "name": "UGameInstance",
+  "mod": "Engine",
+  "funcs": 99,
+  "vars": 10,
+  "derived": 3,
+  "ctors": 1,
+  "desc": "GameInstance: high-level manager object for an instance of the running game. Spawned at game creation and not destroyed until game instance is shut down. Running as a standalone game, there will be one of these. Running "
+ },
+ {
+  "name": "AAIController",
+  "mod": "AIModule",
+  "funcs": 80,
+  "vars": 12,
+  "derived": 2,
+  "ctors": 1,
+  "desc": "AIController is the base class of controllers for AI-controlled Pawns."
+ },
+ {
+  "name": "UPackage",
+  "mod": "CoreUObject",
+  "funcs": 78,
+  "vars": 20,
+  "derived": 0,
+  "ctors": 2,
+  "desc": "A package."
+ },
+ {
+  "name": "AGameModeBase",
+  "mod": "Engine",
+  "funcs": 74,
+  "vars": 15,
+  "derived": 5,
+  "ctors": 1,
+  "desc": "The GameModeBase defines the game being played. It governs the game rules, scoring, what actors are allowed to exist in this game type, and who may enter the game."
+ },
+ {
+  "name": "FGeometryCollection",
+  "mod": "Chaos",
+  "funcs": 59,
+  "vars": 26,
+  "derived": 2,
+  "ctors": 3,
+  "desc": "FGeometryCollection ( FTransformCollection )"
+ },
+ {
+  "name": "FRHICommandList",
+  "mod": "RHI",
+  "funcs": 58,
+  "vars": 0,
+  "derived": 3,
+  "ctors": 3,
+  "desc": ""
+ },
+ {
+  "name": "UAIPerceptionComponent",
+  "mod": "AIModule",
+  "funcs": 54,
+  "vars": 9,
+  "derived": 0,
+  "ctors": 1,
+  "desc": "AIPerceptionComponent is used to register as stimuli listener in AIPerceptionSystem and gathers registered stimuli. UpdatePerception is called when component gets new stimuli (batched)"
+ },
+ {
+  "name": "UMovieSceneSequence",
+  "mod": "MovieScene",
+  "funcs": 54,
+  "vars": 2,
+  "derived": 8,
+  "ctors": 1,
+  "desc": "Abstract base class for movie scene animations (C++ version)."
+ },
+ {
+  "name": "UInterchangeBaseNodeContainer",
+  "mod": "InterchangeCore",
+  "funcs": 39,
+  "vars": 2,
+  "derived": 0,
+  "ctors": 1,
+  "desc": "The Interchange UInterchangeBaseNode graph is a format used to feed factories and writers when they import, reimport, and export an asset or scene."
+ },
+ {
+  "name": "FVertexFactory",
+  "mod": "RenderCore",
+  "funcs": 29,
+  "vars": 6,
+  "derived": 11,
+  "ctors": 1,
+  "desc": "Encapsulates a vertex data source which can be linked into a vertex shader."
+ },
+ {
+  "name": "FDDoSDetection",
+  "mod": "NetCore",
+  "funcs": 27,
+  "vars": 1,
+  "derived": 0,
+  "ctors": 1,
+  "desc": "The main DDoS detection tracking class, for counting packets and applying restrictions. Implemented separate to the NetDriver, to allow wider use e.g. potentially at socket level, if useful."
+ },
+ {
+  "name": "ULevelSequencePlayer",
+  "mod": "LevelSequence",
+  "funcs": 20,
+  "vars": 8,
+  "derived": 1,
+  "ctors": 1,
+  "desc": "ULevelSequencePlayer is used to actually \"play\" an level sequence asset at runtime."
+ },
+ {
+  "name": "FAssetRegistryModule",
+  "mod": "AssetRegistry",
+  "funcs": 20,
+  "vars": 0,
+  "derived": 0,
+  "ctors": 0,
+  "desc": "Asset registry module"
+ },
+ {
+  "name": "UNNEModelData",
+  "mod": "NNE",
+  "funcs": 15,
+  "vars": 7,
+  "derived": 0,
+  "ctors": 0,
+  "desc": "This class represents assets that store neural network model data."
+ },
+ {
+  "name": "UMassEntitySubsystem",
+  "mod": "MassEntity",
+  "funcs": 3,
+  "vars": 0,
+  "derived": 1,
+  "ctors": 1,
+  "desc": "The sole responsibility of this world subsystem class is to host the default instance of FMassEntityManager for a given UWorld . All the gameplay-related use cases of Mass (found in MassGameplay and related plugins) use "
+ },
+ {
+  "name": "UChaosSolver",
+  "mod": "ChaosSolverEngine",
+  "funcs": 1,
+  "vars": 0,
+  "derived": 0,
+  "ctors": 2,
+  "desc": "UChaosSolver ( UObject )"
+ }
+]

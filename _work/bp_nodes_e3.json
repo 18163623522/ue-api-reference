@@ -1,0 +1,534 @@
+{
+  "cursor": 88,
+  "total": 789,
+  "done": false,
+  "okCount": 576,
+  "newItems": [
+    {
+      "s": "MovieRenderPipeline/GetCurrentShotFrameNumber",
+      "dir": false,
+      "d": "Get Current Shot Frame Number",
+      "t": "Movie Pipeline Blueprint Library"
+    },
+    {
+      "s": "Effector/GetOrientationForceMin",
+      "dir": false,
+      "d": "Get Orientation Force Min",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetEnabled",
+      "dir": false,
+      "d": "Get Enabled",
+      "t": "Motion Design Cloner Component"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCurvesfromSkeletalMeshC-",
+      "dir": false,
+      "d": "Draws all of the active curve values from a skeletal mesh component",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/GetAngularVelocityDegreesfromSyn-",
+      "dir": false,
+      "d": "Returns the angular velocity in world space, in degrees per second",
+      "t": "Mover Data Model Blueprint Library"
+    },
+    {
+      "s": "Animation/GetDuration",
+      "dir": false,
+      "d": "Get Duration",
+      "t": "Animated Sparse Volume Texture Controller"
+    },
+    {
+      "s": "Spline/GetLocationatSplinePoint",
+      "dir": false,
+      "d": "Get the location at spline point",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/IsValid_SmartObjectClaimHandle",
+      "dir": false,
+      "d": "Is Valid (Smart Object Claim Handle)",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/PendingTakeCleared",
+      "dir": false,
+      "d": "Multicast delegate when the pending take is cleared."
+    },
+    {
+      "s": "MovieRenderPipeline/GetCurrentShotTimecode",
+      "dir": false,
+      "d": "Get Current Shot Timecode",
+      "t": "Movie Pipeline Blueprint Library"
+    },
+    {
+      "s": "Effector/GetOrientationForceRate",
+      "dir": false,
+      "d": "Get Orientation Force Rate",
+      "t": "CEEffector Force Effect"
+    },
+    {
+      "s": "Cloner/GetExtension",
+      "dir": false,
+      "d": "Get Extension",
+      "t": "Motion Design Cloner Component"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugCurvestoCanvasfromSkele-",
+      "dir": false,
+      "d": "Draws all of the active curve values from a skeletal mesh component as CanvasText. Only does anything with Screen or Can",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/GetBaseVisualComponentTransform",
+      "dir": false,
+      "d": "Gets BaseVisualComponentTransform used for cases where we want to move the visual component away from the root component",
+      "t": "Mover Component"
+    },
+    {
+      "s": "Animation/GetEndTime",
+      "dir": false,
+      "d": "Get the end time of this animation.",
+      "t": "Widget Animation"
+    },
+    {
+      "s": "Spline/GetLocationatTime",
+      "dir": false,
+      "d": "Given a time from 0 to the spline duration, return the point in space where this puts you",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/MarkSmartObjectSlotasClaimed",
+      "dir": false,
+      "d": "Marks a smart object slot from a request result as claimed.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/RemoveActorfromSources",
+      "dir": false,
+      "d": "Remove the given actor from TakeRecorderSources.",
+      "t": "Take Recorder Actor Source"
+    },
+    {
+      "s": "MovieRenderPipeline/GetCurrentVersionNumber",
+      "dir": false,
+      "d": "Retrieves the cached version number calculated for the current shot, which depends on where the version token was used i",
+      "t": "Movie Pipeline Blueprint Library"
+    },
+    {
+      "s": "Effector/GetOuterExtent",
+      "dir": false,
+      "d": "Get Outer Extent",
+      "t": "CEEffector Box Type"
+    },
+    {
+      "s": "Cloner/GetExtensionName",
+      "dir": false,
+      "d": "Get Extension Name",
+      "t": "CECloner Extension Base"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugDecagon",
+      "dir": false,
+      "d": "Debug Draw a decagon on the XY axis",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/GetBlackboard",
+      "dir": false,
+      "d": "Warning: the regular blackboard will be fully replaced by the rollback blackboard in the future",
+      "t": "Mover Simulation"
+    },
+    {
+      "s": "Animation/GetFloatValuefromCurve",
+      "dir": false,
+      "d": "Helper function to extract the float value from a curve asset at a given time. To be used inside AnimationBlueprint and ",
+      "t": "Animation Warping Library"
+    },
+    {
+      "s": "Spline/GetNumberOfSplinePoints",
+      "dir": false,
+      "d": "Get the number of points that make up this spline",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/MarkSmartObjectSlotasFree",
+      "dir": false,
+      "d": "Marks a claimed or occupied smart object as free.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/RemoveSource",
+      "dir": false,
+      "d": "Remove the specified source from this list",
+      "t": "Take Recorder Sources"
+    },
+    {
+      "s": "MovieRenderPipeline/GetDesiredOutputResolution",
+      "dir": false,
+      "d": "Gets the desired output resolution for the movie render queue as specified by the user. Does not include overscan, tilin",
+      "t": "Movie Pipeline Blueprint Library"
+    },
+    {
+      "s": "Effector/GetOuterRadius",
+      "dir": false,
+      "d": "Get Outer Radius",
+      "t": "CEEffector Sphere Type"
+    },
+    {
+      "s": "Cloner/GetGlobalRotation",
+      "dir": false,
+      "d": "Get Global Rotation",
+      "t": "Motion Design Cloner Component"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugDiamond",
+      "dir": false,
+      "d": "Debug Draw a diamond on the XY axis",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/GetBlackboardMutable",
+      "dir": false,
+      "d": "Warning: the regular blackboard will be fully replaced by the rollback blackboard in the future",
+      "t": "Mover Simulation"
+    },
+    {
+      "s": "Animation/GetFractionalFrameIndex",
+      "dir": false,
+      "d": "Get Fractional Frame Index",
+      "t": "Animated Sparse Volume Texture Controller"
+    },
+    {
+      "s": "Spline/GetNumberOfSplineSegments",
+      "dir": false,
+      "d": "Get the number of segments that make up this spline",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/MarkSmartObjectSlotasOccupied",
+      "dir": false,
+      "d": "Marks a previously claimed smart object slot as occupied.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/ResettoPendingTake",
+      "dir": false,
+      "d": "Reset to the pending take.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/GetDisplayOutputPathfromJob",
+      "dir": false,
+      "d": "Returns display string for output directory for this job. Does not resolve the full path from tokens.",
+      "t": "Movie Pipeline Editor Blueprint Library"
+    },
+    {
+      "s": "Effector/GetPan",
+      "dir": false,
+      "d": "Get Pan",
+      "t": "CEEffector Procedural Mode"
+    },
+    {
+      "s": "Cloner/GetGlobalScale",
+      "dir": false,
+      "d": "Get Global Scale",
+      "t": "Motion Design Cloner Component"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugDirection",
+      "dir": false,
+      "d": "Debug Draw an arrow at the given location facing in the given direction",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/GetCrouchIntent",
+      "dir": false,
+      "d": "Get Crouch Intent",
+      "t": "Character Mover Component"
+    },
+    {
+      "s": "Animation/GetFramebyIndex",
+      "dir": false,
+      "d": "Get Frame by Index",
+      "t": "Animated Sparse Volume Texture Controller"
+    },
+    {
+      "s": "Spline/GetRightVectoratDistanceAlongSpl-",
+      "dir": false,
+      "d": "Given a distance along the length of this spline, return a unit direction vector corresponding to the spline's right vec",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/OnSmartObjectEvent",
+      "dir": false,
+      "d": ""
+    },
+    {
+      "s": "TakeRecorder/RevertChanges",
+      "dir": false,
+      "d": "Revert any changes restoring the preset origin.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/GetEffectiveFrameRate",
+      "dir": false,
+      "d": "Returns the frame rate override from the Primary Configuration (if any) or the Sequence frame rate if no override is spe",
+      "t": "Movie Pipeline Primary Config"
+    },
+    {
+      "s": "Effector/GetPattern",
+      "dir": false,
+      "d": "Get Pattern",
+      "t": "CEEffector Procedural Mode"
+    },
+    {
+      "s": "Cloner/GetInvertConstraint",
+      "dir": false,
+      "d": "Get Invert Constraint",
+      "t": "CECloner Constraint Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugDoor",
+      "dir": false,
+      "d": "Debug draw a basic door shape",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/GetDebugSimData",
+      "dir": false,
+      "d": "Collection for holding extra debug data, that will be sent to the Chaos Visual Debugger for debugging",
+      "t": "Chaos Mover Simulation"
+    },
+    {
+      "s": "Animation/GetLODLevel",
+      "dir": false,
+      "d": "Get the 'animation' LOD level, which by default is the PredictedLODLevel of this anim instance's skeletal mesh component",
+      "t": "Anim Instance"
+    },
+    {
+      "s": "Spline/GetRightVectoratSplineInputKey",
+      "dir": false,
+      "d": "Get right vector at the provided input key value",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/RemoveMultipleSmartObjects",
+      "dir": false,
+      "d": "Removes from the simulation all smart objects for multiple actors.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/ReviewLastRecording",
+      "dir": false,
+      "d": "Supply the last recording if it exists.",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/GetEstimatedTimeRemaining",
+      "dir": false,
+      "d": "Get the estimated amount of time remaining for the current pipeline. Based on looking at the total amount of samples to ",
+      "t": "Movie Pipeline Blueprint Library"
+    },
+    {
+      "s": "Effector/GetPlaneSpacing",
+      "dir": false,
+      "d": "Get Plane Spacing",
+      "t": "CEEffector Plane Type"
+    },
+    {
+      "s": "Cloner/GetInvertProgress",
+      "dir": false,
+      "d": "Get Invert Progress",
+      "t": "CECloner Progress Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugEvent",
+      "dir": false,
+      "d": "Debug draw a phase-representation of an event at a location",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/GetFutureTrajectory",
+      "dir": false,
+      "d": "Get Future Trajectory",
+      "t": "Mover Component"
+    },
+    {
+      "s": "Animation/GetLength",
+      "dir": false,
+      "d": "Get Length",
+      "t": "Anim Single Node Instance"
+    },
+    {
+      "s": "Spline/GetRightVectoratSplinePoint",
+      "dir": false,
+      "d": "Get the right vector at spline point",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/RemoveSmartObject",
+      "dir": false,
+      "d": "Removes from the simulation all smart objects for an actor.",
+      "t": "Smart Object Blueprint Function Library"
+    },
+    {
+      "s": "TakeRecorder/SetCountdown",
+      "dir": false,
+      "d": "Sets the current countdown time in seconds.",
+      "t": "Take Recorder"
+    },
+    {
+      "s": "MovieRenderPipeline/GetGraphPreset",
+      "dir": false,
+      "d": "Gets the graph-style preset that this shot is using. A non-null graph config does not imply the graph config is the conf",
+      "t": "Movie Pipeline Executor Shot"
+    },
+    {
+      "s": "Effector/GetPushDirection",
+      "dir": false,
+      "d": "Get Push Direction",
+      "t": "CEEffector Push Mode"
+    },
+    {
+      "s": "Cloner/GetLayoutClass",
+      "dir": false,
+      "d": "Get Layout Class",
+      "t": "Motion Design Cloner Component"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugFlatArrow",
+      "dir": false,
+      "d": "Draws a flat 2d arrow motif",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/GetGameplayTags",
+      "dir": false,
+      "d": "Get the gameplay tags currently active, combining simulation-reported tags and externally-added tags. In the async backe",
+      "t": "Mover Component"
+    },
+    {
+      "s": "Animation/GetMainAnimInstance",
+      "dir": false,
+      "d": "Get the 'main' anim instance, i.e. the one that is hosted on the skeletal mesh component",
+      "t": "Anim Instance"
+    },
+    {
+      "s": "Spline/GetRightVectoratTime",
+      "dir": false,
+      "d": "Given a time from 0 to the spline duration, return the spline's right vector there.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/RemoveTagfromInstance",
+      "dir": false,
+      "d": "Removes a single tag from the smart object instance represented by the provided handle.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/SetDefaultParameters",
+      "dir": false,
+      "d": "Set the default recorder parameters",
+      "t": "Take Recorder Blueprint Library"
+    },
+    {
+      "s": "MovieRenderPipeline/GetInitializationTime",
+      "dir": false,
+      "d": "Returns the time this movie pipeline was initialized at.",
+      "t": "Movie Pipeline"
+    },
+    {
+      "s": "Effector/GetPushStrength",
+      "dir": false,
+      "d": "Get Push Strength",
+      "t": "CEEffector Push Mode"
+    },
+    {
+      "s": "Cloner/GetLayoutName",
+      "dir": false,
+      "d": "Get Layout Name",
+      "t": "Motion Design Cloner Component"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugFrustum",
+      "dir": false,
+      "d": "Debug Draw a Frustum",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/GetGravityAcceleration",
+      "dir": false,
+      "d": "Get the current acceleration due to gravity (cm/s^2) in worldspace",
+      "t": "Mover Component"
+    },
+    {
+      "s": "Animation/GetMetaHumanMassAnimDesc",
+      "dir": false,
+      "d": "Get Meta Human Mass Anim Desc",
+      "t": "Metahuman Mass Crowd Actor Blueprint Interface"
+    },
+    {
+      "s": "Spline/GetRollatDistanceAlongSpline",
+      "dir": false,
+      "d": "Given a distance along the length of this spline, return the spline's roll there, in degrees.",
+      "t": "Spline Component"
+    },
+    {
+      "s": "SmartObject/RemoveTagfromSlot",
+      "dir": false,
+      "d": "Removes a single tag from the smart object slot represented by the provided handle.",
+      "t": "Smart Object Subsystem"
+    },
+    {
+      "s": "TakeRecorder/SetFrameRate",
+      "dir": false,
+      "d": "Set the frame rate for this take",
+      "t": "Take Recorder Subsystem"
+    },
+    {
+      "s": "MovieRenderPipeline/GetInitializationTimeOffset",
+      "dir": false,
+      "d": "The offset that should be applied to the GetInitializationTime() when generating the {time} related filename tokens. Get",
+      "t": "Movie Pipeline"
+    },
+    {
+      "s": "Effector/GetRadialAngle",
+      "dir": false,
+      "d": "Get Radial Angle",
+      "t": "CEEffector Radial Type"
+    },
+    {
+      "s": "Cloner/GetLifetimeEnabled",
+      "dir": false,
+      "d": "Get Lifetime Enabled",
+      "t": "CECloner Lifetime Extension"
+    },
+    {
+      "s": "DrawDebugLibrary/DrawDebugGraph",
+      "dir": false,
+      "d": "Debug Draw a simple graph.",
+      "t": "Draw Debug Library"
+    },
+    {
+      "s": "Mover/GetGravityVerticalComponent",
+      "dir": false,
+      "d": "Returns the component of the vector in the gravity-space vertical direction.",
+      "t": "Movement Utils"
+    },
+    {
+      "s": "Animation/GetMetaHumanMassAnimDesc_Message",
+      "dir": false,
+      "d": "Get Meta Human Mass Anim Desc",
+      "t": "Metahuman Mass Crowd Actor Blueprint Interface"
+    },
+    {
+      "s": "Spline/GetRollatSplineInputKey",
+      "dir": false,
+      "d": "Get roll in degrees at the provided input key value",
+      "t": "Spline Component"
+    }
+  ]
+}

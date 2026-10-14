@@ -1,0 +1,285 @@
+{
+  "cursor": 48,
+  "total": 372,
+  "done": false,
+  "count": 48,
+  "okCount": 48,
+  "newItems": [
+    {
+      "s": "GameplayTags/AddGameplayTag",
+      "dir": false,
+      "d": "Adds a single tag to the passed in tag container",
+      "t": "Blueprint Gameplay Tag Library"
+    },
+    {
+      "s": "Utilities/AddForce",
+      "dir": false,
+      "d": "Add a force to a single rigid body. This is like a 'thruster'. Good for adding a burst over some (non zero) time. Should",
+      "t": "Physics Thread Library"
+    },
+    {
+      "s": "Game/AbortMatch",
+      "dir": false,
+      "d": "Report that a match has failed due to unrecoverable error",
+      "t": "Game Mode"
+    },
+    {
+      "s": "Physics/AccumulateAllBodiesBelowPhysicsB-",
+      "dir": false,
+      "d": "Accumulate AddPhysicsBlendWeight to physics blendweight for all of the bones below passed in bone to be simulated",
+      "t": "Skeletal Mesh Component"
+    },
+    {
+      "s": "GameplayTags/AppendGameplayTagContainers",
+      "dir": false,
+      "d": "Appends all tags in the InTagContainer to InOutTagContainer",
+      "t": "Blueprint Gameplay Tag Library"
+    },
+    {
+      "s": "Utilities/Animation",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Game/AddComponentbyClass",
+      "dir": false,
+      "d": "Adds a component to an actor"
+    },
+    {
+      "s": "Physics/AddAngularImpulseinDegrees",
+      "dir": false,
+      "d": "Add an angular impulse to a single rigid body. Good for one time instant burst.",
+      "t": "Primitive Component"
+    },
+    {
+      "s": "GameplayTags/BindEventWrappertoAnyOfGameplayT-",
+      "dir": false,
+      "d": "Binds to changes in the given TagContainer on the given ASC's owned tags. Cache off the returned handle and call one of ",
+      "t": "Ability System Blueprint Library"
+    },
+    {
+      "s": "Utilities/Array",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Game/Audio",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Physics/AddAngularImpulseinRadians",
+      "dir": false,
+      "d": "Add an angular impulse to a single rigid body. Good for one time instant burst.",
+      "t": "Primitive Component"
+    },
+    {
+      "s": "GameplayTags/BindEventWrappertoAnyOfGameplayT-_1",
+      "dir": false,
+      "d": "Binds to changes in the given Tags on the given ASC's owned tags. Cache off the returned handle and call one of the 'Unb",
+      "t": "Ability System Blueprint Library"
+    },
+    {
+      "s": "Utilities/AsyncLoadAsset",
+      "dir": false,
+      "d": "Asynchronously loads a Soft Object Reference and returns object of the correct type if the load succeeds"
+    },
+    {
+      "s": "Game/ChangeName",
+      "dir": false,
+      "d": "Sets the name for a controller",
+      "t": "Game Mode Base"
+    },
+    {
+      "s": "Physics/AddConstrainedBodies",
+      "dir": false,
+      "d": "Add Constrained Bodies",
+      "t": "Deformable Constraints Component"
+    },
+    {
+      "s": "GameplayTags/BindEventWrappertoGameplayTagCha-",
+      "dir": false,
+      "d": "Binds to changes in the given Tag on the given ASC's owned tags. Cache off the returned handle and call one of the 'Unbi",
+      "t": "Ability System Blueprint Library"
+    },
+    {
+      "s": "Utilities/AsyncLoadAssets",
+      "dir": false,
+      "d": "Asynchronously loads a list Soft Object References and returns the objects of the correct type if the load succeeds"
+    },
+    {
+      "s": "Game/Cinematic",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Physics/AddForce",
+      "dir": false,
+      "d": "Add a force to a single rigid body. This is like a 'thruster'. Good for adding a burst over some (non zero) time. Should",
+      "t": "Primitive Component"
+    },
+    {
+      "s": "GameplayTags/BreakGameplayTagContainer",
+      "dir": false,
+      "d": "Breaks tag container into explicit array of tags",
+      "t": "Blueprint Gameplay Tag Library"
+    },
+    {
+      "s": "Utilities/AsyncLoadClassAsset",
+      "dir": false,
+      "d": "Asynchronously loads a Soft Class Reference and returns class of the correct type if the load succeeds"
+    },
+    {
+      "s": "Game/Components",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Physics/AddForceatLocation",
+      "dir": false,
+      "d": "Add a force to a single rigid body at a particular location in world space. This is like a 'thruster'. Good for adding a",
+      "t": "Primitive Component"
+    },
+    {
+      "s": "GameplayTags/DoesContainerMatchTagQuery",
+      "dir": false,
+      "d": "Check if the specified tag container matches the given Tag Query",
+      "t": "Blueprint Gameplay Tag Library"
+    },
+    {
+      "s": "Utilities/BreakARFilter",
+      "dir": false,
+      "d": "Breaks an ARFilter struct into its component pieces. You should be using ClassPaths and RecursiveClassPathsExclusionSet ",
+      "t": "Kismet System Library"
+    },
+    {
+      "s": "Game/ConstructObjectfromClass",
+      "dir": false,
+      "d": "Attempts to spawn a new object"
+    },
+    {
+      "s": "Physics/AddForceatLocationLocal",
+      "dir": false,
+      "d": "Add a force to a single rigid body at a particular location. Both Force and Location should be in body space. This is li",
+      "t": "Primitive Component"
+    },
+    {
+      "s": "GameplayTags/Filter",
+      "dir": false,
+      "d": "Returns a filtered version of this container, returns all tags that match against any of the tags in OtherContainer",
+      "t": "Blueprint Gameplay Tag Library"
+    },
+    {
+      "s": "Utilities/BreakSoftClassPath",
+      "dir": false,
+      "d": "Gets the path string out of a Soft Class Path",
+      "t": "Kismet System Library"
+    },
+    {
+      "s": "Game/CreateInstance",
+      "dir": false,
+      "d": "Creates a new instance of this streaming level with a provided unique instance name",
+      "t": "Level Streaming"
+    },
+    {
+      "s": "Physics/AddForcetoAllBodiesBelow",
+      "dir": false,
+      "d": "Add a force to all rigid bodies below. This is like a 'thruster'. Good for adding a burst over some (non zero) time. Sho",
+      "t": "Skeletal Mesh Component"
+    },
+    {
+      "s": "GameplayTags/GetAllActorsOfClassMatchingTagQu-",
+      "dir": false,
+      "d": "Get an array of all actors of a specific class (or subclass of that class) which match the specified gameplay tag query.",
+      "t": "Blueprint Gameplay Tag Library"
+    },
+    {
+      "s": "Utilities/BreakSoftObjectPath",
+      "dir": false,
+      "d": "Gets the path string out of a Soft Object Path",
+      "t": "Kismet System Library"
+    },
+    {
+      "s": "Game/CreateLocalPlayer",
+      "dir": false,
+      "d": "Create a new local player for this game, for cases like local multiplayer.",
+      "t": "Gameplay Statics"
+    },
+    {
+      "s": "Physics/AddImpulse",
+      "dir": false,
+      "d": "Add an impulse to a single rigid body. Good for one time instant burst.",
+      "t": "Primitive Component"
+    },
+    {
+      "s": "GameplayTags/GetBlackboardAsset",
+      "dir": false,
+      "d": "Returns BlackboardData referenced by the owner object.",
+      "t": "Blackboard Asset Provider"
+    },
+    {
+      "s": "Utilities/BreakTopLevelAssetPath",
+      "dir": false,
+      "d": "Gets the path string out of a TopLevelAssetPath",
+      "t": "Kismet System Library"
+    },
+    {
+      "s": "Game/CreateLocalPlayerForPlatformUser",
+      "dir": false,
+      "d": "Create a new local player for this game, for cases like local multiplayer.",
+      "t": "Gameplay Statics"
+    },
+    {
+      "s": "Physics/AddImpulseatLocation",
+      "dir": false,
+      "d": "Add an impulse to a single rigid body at a specific location.",
+      "t": "Primitive Component"
+    },
+    {
+      "s": "GameplayTags/GetBlackboardAsset_Message",
+      "dir": false,
+      "d": "Returns BlackboardData referenced by the owner object.",
+      "t": "Blackboard Asset Provider"
+    },
+    {
+      "s": "Utilities/CastToClass",
+      "dir": false,
+      "d": "Casts from an object to a class, this will only work if the object is already a class",
+      "t": "Kismet System Library"
+    },
+    {
+      "s": "Game/Damage",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Physics/AddImpulsetoAllBodiesBelow",
+      "dir": false,
+      "d": "Add impulse to all single rigid bodies below. Good for one time instant burst.",
+      "t": "Skeletal Mesh Component"
+    },
+    {
+      "s": "GameplayTags/GetDebugStringfromGameplayTag",
+      "dir": false,
+      "d": "Returns an FString representation of a gameplay tag for debugging purposes.",
+      "t": "Blueprint Gameplay Tag Library"
+    },
+    {
+      "s": "Utilities/Casting",
+      "dir": true,
+      "d": ""
+    },
+    {
+      "s": "Game/EnableLiveStreaming",
+      "dir": false,
+      "d": "Toggle live DVR streaming.",
+      "t": "Gameplay Statics"
+    },
+    {
+      "s": "Physics/AddRadialForce",
+      "dir": false,
+      "d": "Add a force to all bodies in this component, originating from the supplied world-space location.",
+      "t": "Primitive Component"
+    }
+  ]
+}

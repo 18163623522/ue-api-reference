@@ -1,0 +1,1824 @@
+[
+  {
+    "s": "GameplayTags/AddGameplayTag",
+    "dir": false,
+    "d": "Adds a single tag to the passed in tag container",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/AddForce",
+    "dir": false,
+    "d": "Add a force to a single rigid body. This is like a 'thruster'. Good for adding a burst over some (non zero) time. Should",
+    "t": "Physics Thread Library"
+  },
+  {
+    "s": "Game/AbortMatch",
+    "dir": false,
+    "d": "Report that a match has failed due to unrecoverable error",
+    "t": "Game Mode"
+  },
+  {
+    "s": "Physics/AccumulateAllBodiesBelowPhysicsB-",
+    "dir": false,
+    "d": "Accumulate AddPhysicsBlendWeight to physics blendweight for all of the bones below passed in bone to be simulated",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/AppendGameplayTagContainers",
+    "dir": false,
+    "d": "Appends all tags in the InTagContainer to InOutTagContainer",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/Animation",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/AddComponentbyClass",
+    "dir": false,
+    "d": "Adds a component to an actor"
+  },
+  {
+    "s": "Physics/AddAngularImpulseinDegrees",
+    "dir": false,
+    "d": "Add an angular impulse to a single rigid body. Good for one time instant burst.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/BindEventWrappertoAnyOfGameplayT-",
+    "dir": false,
+    "d": "Binds to changes in the given TagContainer on the given ASC's owned tags. Cache off the returned handle and call one of ",
+    "t": "Ability System Blueprint Library"
+  },
+  {
+    "s": "Utilities/Array",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/Audio",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Physics/AddAngularImpulseinRadians",
+    "dir": false,
+    "d": "Add an angular impulse to a single rigid body. Good for one time instant burst.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/BindEventWrappertoAnyOfGameplayT-_1",
+    "dir": false,
+    "d": "Binds to changes in the given Tags on the given ASC's owned tags. Cache off the returned handle and call one of the 'Unb",
+    "t": "Ability System Blueprint Library"
+  },
+  {
+    "s": "Utilities/AsyncLoadAsset",
+    "dir": false,
+    "d": "Asynchronously loads a Soft Object Reference and returns object of the correct type if the load succeeds"
+  },
+  {
+    "s": "Game/ChangeName",
+    "dir": false,
+    "d": "Sets the name for a controller",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/AddConstrainedBodies",
+    "dir": false,
+    "d": "Add Constrained Bodies",
+    "t": "Deformable Constraints Component"
+  },
+  {
+    "s": "GameplayTags/BindEventWrappertoGameplayTagCha-",
+    "dir": false,
+    "d": "Binds to changes in the given Tag on the given ASC's owned tags. Cache off the returned handle and call one of the 'Unbi",
+    "t": "Ability System Blueprint Library"
+  },
+  {
+    "s": "Utilities/AsyncLoadAssets",
+    "dir": false,
+    "d": "Asynchronously loads a list Soft Object References and returns the objects of the correct type if the load succeeds"
+  },
+  {
+    "s": "Game/Cinematic",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Physics/AddForce",
+    "dir": false,
+    "d": "Add a force to a single rigid body. This is like a 'thruster'. Good for adding a burst over some (non zero) time. Should",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/BreakGameplayTagContainer",
+    "dir": false,
+    "d": "Breaks tag container into explicit array of tags",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/AsyncLoadClassAsset",
+    "dir": false,
+    "d": "Asynchronously loads a Soft Class Reference and returns class of the correct type if the load succeeds"
+  },
+  {
+    "s": "Game/Components",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Physics/AddForceatLocation",
+    "dir": false,
+    "d": "Add a force to a single rigid body at a particular location in world space. This is like a 'thruster'. Good for adding a",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/DoesContainerMatchTagQuery",
+    "dir": false,
+    "d": "Check if the specified tag container matches the given Tag Query",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/BreakARFilter",
+    "dir": false,
+    "d": "Breaks an ARFilter struct into its component pieces. You should be using ClassPaths and RecursiveClassPathsExclusionSet ",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/ConstructObjectfromClass",
+    "dir": false,
+    "d": "Attempts to spawn a new object"
+  },
+  {
+    "s": "Physics/AddForceatLocationLocal",
+    "dir": false,
+    "d": "Add a force to a single rigid body at a particular location. Both Force and Location should be in body space. This is li",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/Filter",
+    "dir": false,
+    "d": "Returns a filtered version of this container, returns all tags that match against any of the tags in OtherContainer",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/BreakSoftClassPath",
+    "dir": false,
+    "d": "Gets the path string out of a Soft Class Path",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/CreateInstance",
+    "dir": false,
+    "d": "Creates a new instance of this streaming level with a provided unique instance name",
+    "t": "Level Streaming"
+  },
+  {
+    "s": "Physics/AddForcetoAllBodiesBelow",
+    "dir": false,
+    "d": "Add a force to all rigid bodies below. This is like a 'thruster'. Good for adding a burst over some (non zero) time. Sho",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/GetAllActorsOfClassMatchingTagQu-",
+    "dir": false,
+    "d": "Get an array of all actors of a specific class (or subclass of that class) which match the specified gameplay tag query.",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/BreakSoftObjectPath",
+    "dir": false,
+    "d": "Gets the path string out of a Soft Object Path",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/CreateLocalPlayer",
+    "dir": false,
+    "d": "Create a new local player for this game, for cases like local multiplayer.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/AddImpulse",
+    "dir": false,
+    "d": "Add an impulse to a single rigid body. Good for one time instant burst.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/GetBlackboardAsset",
+    "dir": false,
+    "d": "Returns BlackboardData referenced by the owner object.",
+    "t": "Blackboard Asset Provider"
+  },
+  {
+    "s": "Utilities/BreakTopLevelAssetPath",
+    "dir": false,
+    "d": "Gets the path string out of a TopLevelAssetPath",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/CreateLocalPlayerForPlatformUser",
+    "dir": false,
+    "d": "Create a new local player for this game, for cases like local multiplayer.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/AddImpulseatLocation",
+    "dir": false,
+    "d": "Add an impulse to a single rigid body at a specific location.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/GetBlackboardAsset_Message",
+    "dir": false,
+    "d": "Returns BlackboardData referenced by the owner object.",
+    "t": "Blackboard Asset Provider"
+  },
+  {
+    "s": "Utilities/CastToClass",
+    "dir": false,
+    "d": "Casts from an object to a class, this will only work if the object is already a class",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/Damage",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Physics/AddImpulsetoAllBodiesBelow",
+    "dir": false,
+    "d": "Add impulse to all single rigid bodies below. Good for one time instant burst.",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/GetDebugStringfromGameplayTag",
+    "dir": false,
+    "d": "Returns an FString representation of a gameplay tag for debugging purposes.",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/Casting",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/EnableLiveStreaming",
+    "dir": false,
+    "d": "Toggle live DVR streaming.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/AddRadialForce",
+    "dir": false,
+    "d": "Add a force to all bodies in this component, originating from the supplied world-space location.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/GetDebugStringfromGameplayTagCon-",
+    "dir": false,
+    "d": "Returns an FString listing all of the gameplay tags in the tag container for debugging purposes.",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/ClassIsChildOf",
+    "dir": false,
+    "d": "Determine if a class is a child of another class.",
+    "t": "Kismet Math Library"
+  },
+  {
+    "s": "Game/EndMatch",
+    "dir": false,
+    "d": "Transition from InProgress to WaitingPostMatch. You can call this manually, will also get called if ReadyToEndMatch retu",
+    "t": "Game Mode"
+  },
+  {
+    "s": "Physics/AddRadialImpulse",
+    "dir": false,
+    "d": "Add an impulse to all rigid bodies in this component, radiating out from the specified position.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/GetGameplayTagCount",
+    "dir": false,
+    "d": "Returns the current count of the given gameplay tag. This includes both loose tags, and tags granted by gameplay effects",
+    "t": "Ability System Component"
+  },
+  {
+    "s": "Utilities/Collision",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/Feedback",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Physics/AddStaticMeshComponent",
+    "dir": false,
+    "d": "Add Static Mesh Component",
+    "t": "Deformable Collisions Component"
+  },
+  {
+    "s": "GameplayTags/GetNumGameplayTagsinContainer",
+    "dir": false,
+    "d": "Get the number of gameplay tags in the specified container",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/ConvComponentReferencetoSoftComp-",
+    "dir": false,
+    "d": "Conv Component Reference to Soft Component Reference",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/FindPlayerStart",
+    "dir": false,
+    "d": "Return the specific player start actor that should be used for the next spawn This will either use a previously saved st",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/AddTorqueinDegrees",
+    "dir": false,
+    "d": "Add a torque to a single rigid body.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/GetOwnedGameplayTags",
+    "dir": false,
+    "d": "Target is Blueprint Gameplay Tag Library",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/Copy",
+    "dir": false,
+    "d": "Outputs a copy of the value passed into it."
+  },
+  {
+    "s": "Game/FlushLevelStreaming",
+    "dir": false,
+    "d": "Flushes level streaming in blocking fashion and returns when all sub-levels are loaded / visible / hidden",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/AddTorqueinRadians",
+    "dir": false,
+    "d": "Add a torque to a single rigid body.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/GetTagName",
+    "dir": false,
+    "d": "Returns FName of this tag",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/DMX",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/GetCurrentLevelName",
+    "dir": false,
+    "d": "Get the name of the currently-open level.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/AddVelocityChangeImpulseatLocati-",
+    "dir": false,
+    "d": "Add an impulse to a single rigid body at a specific location. The Strength is taken as a change in angular velocity inst",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/HasAllMatchingGameplayTags",
+    "dir": false,
+    "d": "Check if the asset has gameplay tags that matches against all of the specified tags (expands to include parents of asset",
+    "t": "Gameplay Tag Asset Interface"
+  },
+  {
+    "s": "Utilities/Debugging",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/GetGameBundleId",
+    "dir": false,
+    "d": "Retrieves the game's platform-specific bundle identifier or package name of the game",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Physics/BreakConstraint",
+    "dir": false,
+    "d": "Break a constraint off a Gore mesh.",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/HasAllMatchingGameplayTags_Messa-",
+    "dir": false,
+    "d": "Check if the asset has gameplay tags that matches against all of the specified tags (expands to include parents of asset",
+    "t": "Gameplay Tag Asset Interface"
+  },
+  {
+    "s": "Utilities/DoesClassImplementInterface",
+    "dir": false,
+    "d": "Checks if the given class implements a specific interface, works for both native and blueprint interfacse",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetGameInstance",
+    "dir": false,
+    "d": "Returns the game instance object",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/CanTriggerResimulation",
+    "dir": false,
+    "d": "Can this body trigger a resimulation when Physics Prediction is enabled",
+    "t": "Actor"
+  },
+  {
+    "s": "GameplayTags/HasAllTags",
+    "dir": false,
+    "d": "Check if the specified tag container has ALL of the tags in the other container",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/DoesObjectImplementInterface",
+    "dir": false,
+    "d": "Checks if the given object implements a specific interface, works for both native and blueprint interfacse",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetGameMode",
+    "dir": false,
+    "d": "Returns the current GameModeBase or Null if it can't be retrieved, such as on the client",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/Components",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "GameplayTags/HasAnyMatchingGameplayTags",
+    "dir": false,
+    "d": "Check if the asset has gameplay tags that matches against any of the specified tags (expands to include parents of asset",
+    "t": "Gameplay Tag Asset Interface"
+  },
+  {
+    "s": "Utilities/DuplicateObject",
+    "dir": false,
+    "d": "Duplicate an object to a new instance",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetGameName",
+    "dir": false,
+    "d": "Get the name of the current game",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Physics/Constraints",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "GameplayTags/HasAnyMatchingGameplayTags_Messa-",
+    "dir": false,
+    "d": "Check if the asset has gameplay tags that matches against any of the specified tags (expands to include parents of asset",
+    "t": "Gameplay Tag Asset Interface"
+  },
+  {
+    "s": "Utilities/EditorDestroyed",
+    "dir": false,
+    "d": "Editor Destroyed",
+    "t": "VPViewport Tickable Actor Base"
+  },
+  {
+    "s": "Game/GetGameState",
+    "dir": false,
+    "d": "Returns the current GameStateBase or Null if it can't be retrieved",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/DisableSimulation",
+    "dir": false,
+    "d": "Disable Simulation",
+    "t": "Deformable Physics Component"
+  },
+  {
+    "s": "GameplayTags/HasAnyTags",
+    "dir": false,
+    "d": "Check if the specified tag container has ANY of the tags in the other container",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/EngineTime",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/GetInstigator",
+    "dir": false,
+    "d": "Returns the instigator for this actor, or nullptr if there is none.",
+    "t": "Actor"
+  },
+  {
+    "s": "Physics/EnableSimulation",
+    "dir": false,
+    "d": "Enable Simulation",
+    "t": "Deformable Physics Component"
+  },
+  {
+    "s": "GameplayTags/HasMatchingGameplayTag",
+    "dir": false,
+    "d": "Check if the asset has a gameplay tag that matches against the specified tag (expands to include parents of asset tags)",
+    "t": "Gameplay Tag Asset Interface"
+  },
+  {
+    "s": "Utilities/Enum",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/GetInstigatorController",
+    "dir": false,
+    "d": "Returns the instigator's controller for this actor, or nullptr if there is none.",
+    "t": "Actor"
+  },
+  {
+    "s": "Physics/EnableSimulationfromActor",
+    "dir": false,
+    "d": "Enable Simulation from Actor",
+    "t": "Deformable Physics Component"
+  },
+  {
+    "s": "GameplayTags/HasMatchingGameplayTag_Message",
+    "dir": false,
+    "d": "Check if the asset has a gameplay tag that matches against the specified tag (expands to include parents of asset tags)",
+    "t": "Gameplay Tag Asset Interface"
+  },
+  {
+    "s": "Utilities/FlowControl",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/GetLoadedLevel",
+    "dir": false,
+    "d": "Gets a pointer to the LoadedLevel value",
+    "t": "Level Streaming"
+  },
+  {
+    "s": "Physics/FindConstraintBoneName",
+    "dir": false,
+    "d": "Find Constraint Name from index",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/HasTag",
+    "dir": false,
+    "d": "Check if the tag container has the specified tag",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetAtmosphereTransmitanceOnGroun-",
+    "dir": false,
+    "d": "Get Atmosphere Transmitance On Ground At Planet Top",
+    "t": "Sky Atmosphere Component"
+  },
+  {
+    "s": "Game/GetLocalPlayerControllerFromID",
+    "dir": false,
+    "d": "Returns the player controller with the specified physical controller ID. This only works for local players.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/FindLeafTransformbyLineTrace",
+    "dir": false,
+    "d": "Find a leaf transform from a line trace",
+    "t": "Geometry Collection Component"
+  },
+  {
+    "s": "GameplayTags/IsGameplayTagValid",
+    "dir": false,
+    "d": "Returns true if the passed in gameplay tag is non-null",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetAtmosphericLightToMatchIllumi-",
+    "dir": false,
+    "d": "This function can be used for instance in order to evaluate a directional atmospheric light outer space illuminance for ",
+    "t": "Sky Atmosphere Component"
+  },
+  {
+    "s": "Game/GetLocalPlayerControllerFromPlat-",
+    "dir": false,
+    "d": "Returns the player controller with the specified physical controller ID. This only works for local players.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/ForceBrokenforCustomRenderer",
+    "dir": false,
+    "d": "Force any custom renderer to render using the broken/decayed path. This can be set at runtime",
+    "t": "Geometry Collection Component"
+  },
+  {
+    "s": "GameplayTags/IsTagQueryEmpty",
+    "dir": false,
+    "d": "Check if the specified tag query is empty",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetClass",
+    "dir": false,
+    "d": "Returns the class of a passed in Object, will always be valid if Object is not NULL",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Game/GetLocalPlayerControllerID",
+    "dir": false,
+    "d": "Gets what physical controller ID a player is using. This only works for local player controllers.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetAngularDamping",
+    "dir": false,
+    "d": "Returns the angular damping of this component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/MakeGameplayTagContainerfromArra-",
+    "dir": false,
+    "d": "Creates a FGameplayTagContainer from the array of passed in tags",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetClassDisplayName",
+    "dir": false,
+    "d": "Returns the display name of a class",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetMatchState",
+    "dir": false,
+    "d": "Returns the current match state, this is an accessor to protect the state machine flow",
+    "t": "Game Mode"
+  },
+  {
+    "s": "Physics/GetBodyInstanceAsyncPhysicsTickH-",
+    "dir": false,
+    "d": "Returns BodyInstanceAsyncPhysicsTickHandle of the component. For use in the Async Physics Tick event",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/MakeGameplayTagContainerfromTag",
+    "dir": false,
+    "d": "Creates a FGameplayTagContainer containing a single tag",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetClassPathName_TopLevelAssetPa-",
+    "dir": false,
+    "d": "Returns the full path to the specified class as a Top Level Asset Path used by asset utilities",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetNumLocalPlayerControllers",
+    "dir": false,
+    "d": "Returns the number of fully initialized local players, this will be 0 on dedicated servers. Indexes up to this can be us",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetBoneLinearVelocity",
+    "dir": false,
+    "d": "Get Bone Linear Velocity",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/MakeGameplayTagQuery",
+    "dir": false,
+    "d": "Creates a literal FGameplayTagQuery",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetClassfromSoftPath",
+    "dir": false,
+    "d": "Gets the UClass associated with a SoftPath, loading if necessary.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetNumPlayerControllers",
+    "dir": false,
+    "d": "Returns the total number of available player controllers, including remote players when called on a server. Indexes up t",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetBoneMass",
+    "dir": false,
+    "d": "Returns the mass (in kg) of the given bone",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/MakeGameplayTagQueryMatchAllTags",
+    "dir": false,
+    "d": "Creates a literal FGameplayTagQuery with a prepopulated AllTagsMatch expression",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetCommandLine",
+    "dir": false,
+    "d": "Returns the command line that the process was launched with.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetNumPlayerStates",
+    "dir": false,
+    "d": "Returns the number of active player states, there is one player state for every connected player even if they are a remo",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetCenterOfMass",
+    "dir": false,
+    "d": "Get the center of mass of a single body. In the case of a welded body this will return the center of mass of the entire ",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/MakeGameplayTagQueryMatchAnyTags",
+    "dir": false,
+    "d": "Creates a literal FGameplayTagQuery with a prepopulated AnyTagsMatch expression",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetDataTableRow",
+    "dir": false,
+    "d": "Attempts to retrieve a TableRow from a DataTable via it's RowName"
+  },
+  {
+    "s": "Game/GetNumPlayers",
+    "dir": false,
+    "d": "Returns number of active human players, excluding spectators",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/GetConstraintbyName",
+    "dir": false,
+    "d": "Gets a constraint by its name",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/MakeGameplayTagQueryMatchNoTags",
+    "dir": false,
+    "d": "Creates a literal FGameplayTagQuery with a prepopulated NoTagsMatch expression",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetDisplayName",
+    "dir": false,
+    "d": "Returns the display name (or actor label), for displaying as a debugging aid. Note: In editor builds, this is the actor ",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetNumSpectators",
+    "dir": false,
+    "d": "Returns number of human players currently spectating",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/GetConstraints",
+    "dir": false,
+    "d": "Gets all the constraints",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/MakeLiteralGameplayTag",
+    "dir": false,
+    "d": "Creates a literal FGameplayTag",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetEditorProperty",
+    "dir": false,
+    "d": "Attempts to retrieve the value of a named property from the given object.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetPlatformName",
+    "dir": false,
+    "d": "Returns the string name of the current platform, to perform different behavior based on platform. (Platform names includ",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetConstraintsfromBody",
+    "dir": false,
+    "d": "Gets all the constraints attached to a body",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/MakeLiteralGameplayTagContainer",
+    "dir": false,
+    "d": "Creates a literal FGameplayTagContainer",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetEnumPathName_TopLevelAssetPat-",
+    "dir": false,
+    "d": "Returns the full path to the specified enum as a Top Level Asset Path used by asset utilities",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetPlayerCameraManager",
+    "dir": false,
+    "d": "Returns the camera manager for the Player Controller at the specified player index. This will not include remote clients",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetCurrentJointAngles",
+    "dir": false,
+    "d": "Gets the current Angular state for a named bone constraint",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "GameplayTags/MatchesAnyTags",
+    "dir": false,
+    "d": "Determine if TagOne matches against any tag in OtherContainer",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetFrameCount",
+    "dir": false,
+    "d": "Returns the value of GFrameCounter, a running count of the number of frames that have occurred.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetPlayerCharacter",
+    "dir": false,
+    "d": "Returns the pawn for the player controller at the specified player index, will return null if the pawn is not a characte",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetGyroscopicTorqueEnabled",
+    "dir": false,
+    "d": "Returns whether this component is affected by gyroscopic torque.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/MatchesTag",
+    "dir": false,
+    "d": "Determine if TagOne matches against TagTwo",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetObjectName",
+    "dir": false,
+    "d": "Returns the actual object name.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetPlayerController",
+    "dir": false,
+    "d": "Returns the player controller found while iterating through the local and available remote player controllers. On a netw",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetInertiaTensor",
+    "dir": false,
+    "d": "Returns the inertia tensor of this component in kg cm^2. The inertia tensor is in local component space.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/RemoveGameplayTag",
+    "dir": false,
+    "d": "Remove a single tag from the passed in tag container, returns true if found",
+    "t": "Blueprint Gameplay Tag Library"
+  },
+  {
+    "s": "Utilities/GetObjectPathString",
+    "dir": false,
+    "d": "Returns the full path to the specified object as a string",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetPlayerPawn",
+    "dir": false,
+    "d": "Returns the pawn for the player controller at the specified player index. This will not include pawns of remote clients ",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetLinearDamping",
+    "dir": false,
+    "d": "Returns the linear damping of this component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/TagContainer",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Utilities/GetObjectfromSoftPath",
+    "dir": false,
+    "d": "Gets the UObject associated with a SoftPath, loading if necessary.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetPlayerState",
+    "dir": false,
+    "d": "Returns the player state at the given index in the game state's PlayerArray. This will work on both the client and serve",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetMass",
+    "dir": false,
+    "d": "Returns the mass of this component in kg.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/UnbindAllGameplayTagChangedEvent-",
+    "dir": false,
+    "d": "Unbinds the event wrapper tag change event bound via a BindEventWrapper method that is tied to the given Handle. (expect",
+    "t": "Ability System Blueprint Library"
+  },
+  {
+    "s": "Utilities/GetOuterObject",
+    "dir": false,
+    "d": "Returns the outer object of an object.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetPlayerStatefromUniqueNetId",
+    "dir": false,
+    "d": "Returns the player state that matches the passed in online id, or null for an invalid one. This will work on both the cl",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetMassScale",
+    "dir": false,
+    "d": "Returns the mass scale used to calculate the mass of a single physics body",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "GameplayTags/UnbindGameplayTagChangedEventWra-",
+    "dir": false,
+    "d": "Unbinds the event wrapper tag change event bound via a BindEventWrapper method that is tied to the given Handle, for the",
+    "t": "Ability System Blueprint Library"
+  },
+  {
+    "s": "Utilities/GetSkipAssigningGamepadtoPlayer1",
+    "dir": false,
+    "d": "Get Skip Assigning Gamepad to Player 1",
+    "t": "Game Maps Settings"
+  },
+  {
+    "s": "Game/GetStreamingLevel",
+    "dir": false,
+    "d": "Returns level streaming object with specified level package name",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetMaxDepenetrationVelocity",
+    "dir": false,
+    "d": "The maximum velocity used to depenetrate this object from others when spawned or teleported with initial overlaps (does ",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/GetSoftClassPath",
+    "dir": false,
+    "d": "Returns the full path to the specified class as a Soft Class Path (that can be used as a Soft Object Path)",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetWorldAssetPackageFName",
+    "dir": false,
+    "d": "Gets the package name for the world asset referred to by this level streaming as an FName",
+    "t": "Level Streaming"
+  },
+  {
+    "s": "Physics/GetNormalizedCompressionScalar",
+    "dir": false,
+    "d": "Returns the spring compression as a normalized scalar along spring direction. 0 implies spring is at rest 1 implies full",
+    "t": "Physics Spring Component"
+  },
+  {
+    "s": "Utilities/GetSoftClassTopLevelAssetPath",
+    "dir": false,
+    "d": "Converts a Soft Class Reference to a Top Level Asset Path used by asset utilities",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/GetWorldOriginLocation",
+    "dir": false,
+    "d": "Returns world origin current location.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetPhysicsAngularVelocityinDegre-",
+    "dir": false,
+    "d": "Get the angular velocity of a single body, in degrees per second.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/GetSoftObjectPath",
+    "dir": false,
+    "d": "Returns the full path to the specified object as a Soft Object Path",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/HasMatchEnded",
+    "dir": false,
+    "d": "Returns true if the match can be considered ended",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/GetPhysicsAngularVelocityinRadia-",
+    "dir": false,
+    "d": "Get the angular velocity of a single body, in radians per second.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/GetStructPathName_TopLevelAssetP-",
+    "dir": false,
+    "d": "Returns the full path to the specified struct as a Top Level Asset Path used by asset utilities",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/HasMatchStarted",
+    "dir": false,
+    "d": "Returns true if the match start callbacks have been called",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/GetPhysicsHistoryCount",
+    "dir": false,
+    "d": "Get Physics History Count",
+    "t": "Physics"
+  },
+  {
+    "s": "Utilities/HasLaunchOption",
+    "dir": false,
+    "d": "Checks the commandline to see if the desired option was specified on the commandline (e.g. -demobuild)",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Game/ImagePlate",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Physics/GetPhysicsLinearVelocity",
+    "dir": false,
+    "d": "Get the linear velocity of a single body.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/InstancedStruct",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/IsActorBeingDestroyed",
+    "dir": false,
+    "d": "Returns true if this actor is currently being destroyed, some gameplay events may be unsafe",
+    "t": "Actor"
+  },
+  {
+    "s": "Physics/GetPhysicsLinearVelocityatPoint",
+    "dir": false,
+    "d": "Get the linear velocity of a point on a single body.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/Internationalization",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/IsAnyLocalPlayerCameraWithinRang-",
+    "dir": false,
+    "d": "Determines if any local player controller's camera is within range of the specified location.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetResimulationThreshold",
+    "dir": false,
+    "d": "Get the error threshold in centimeters before this object should enforce a resimulation to trigger.",
+    "t": "Actor"
+  },
+  {
+    "s": "Utilities/IsA",
+    "dir": false,
+    "d": "Returns whether or not the object passed in is of (or inherits from) the class type.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Game/IsGamePaused",
+    "dir": false,
+    "d": "Returns the game's paused state",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetRestCollection",
+    "dir": false,
+    "d": "Get Rest Collection",
+    "t": "Deformable Tetrahedral Component"
+  },
+  {
+    "s": "Utilities/IsA_soft",
+    "dir": false,
+    "d": "Returns true if Object is of type SoftClass - either an instance of the class or child class, or implements the interfac",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/IsLevelLoaded",
+    "dir": false,
+    "d": "Returns whether streaming level is loaded",
+    "t": "Level Streaming"
+  },
+  {
+    "s": "Physics/GetSkeletalCenterOfMass",
+    "dir": false,
+    "d": "Returns the center of mass of the skeletal mesh, instead of the root body's location",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/IsEditorPropertyOverridden",
+    "dir": false,
+    "d": "Attempts to query whether the value of a named property on the given object overrides the value of its archetype (ie, wo",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/IsLevelVisible",
+    "dir": false,
+    "d": "Returns whether streaming level is visible",
+    "t": "Level Streaming"
+  },
+  {
+    "s": "Physics/GetSkeletalMeshEmbeddedPositions",
+    "dir": false,
+    "d": "Get the current positions of the transformation hierarchy from \\c TargetDeformationSkeleton, deformed by the tetrahedral",
+    "t": "Deformable Tetrahedral Component"
+  },
+  {
+    "s": "Utilities/IsObjectCooked",
+    "dir": false,
+    "d": "Returns true if the object is cooked",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/IsMatchinProgress",
+    "dir": false,
+    "d": "Returns true if the match state is InProgress or other gameplay state",
+    "t": "Game Mode"
+  },
+  {
+    "s": "Physics/GetSpringCurrentEndPoint",
+    "dir": false,
+    "d": "Returns the spring current end point in world space.",
+    "t": "Physics Spring Component"
+  },
+  {
+    "s": "Utilities/IsUnattended",
+    "dir": false,
+    "d": "Returns true if running unattended (-unattended is on the command line)",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/IsStreamingStatePending",
+    "dir": false,
+    "d": "Returns whether level has streaming state change pending",
+    "t": "Level Streaming"
+  },
+  {
+    "s": "Physics/GetSpringDirection",
+    "dir": false,
+    "d": "Returns the spring direction from start to resting point",
+    "t": "Physics Spring Component"
+  },
+  {
+    "s": "Utilities/IsValid",
+    "dir": false,
+    "d": "Return true if the object is usable : non-null and not pending kill",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/LoadStreamLevel_byName",
+    "dir": false,
+    "d": "Stream the level (by Name); Calling again before it finishes has no effect",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetSpringRestingPoint",
+    "dir": false,
+    "d": "Returns the spring resting point in world space.",
+    "t": "Physics Spring Component"
+  },
+  {
+    "s": "Utilities/IsValidClass",
+    "dir": false,
+    "d": "Return true if the class is usable : non-null and not pending kill",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/LoadStreamLevel_byObjectReferenc-",
+    "dir": false,
+    "d": "Stream the level (by Object Reference); Calling again before it finishes has no effect",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/GetStaticwhenNotMoveable",
+    "dir": false,
+    "d": "Get Static when Not Moveable",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/IsValidInterface",
+    "dir": false,
+    "d": "Checks if the interface instance has a valid object for blueprint interface functions. This will return true for both na",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/Loading",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Physics/GetUpdateKinematicfromSimulation",
+    "dir": false,
+    "d": "Returns whether this component should be updated by simulation when it is kinematic.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/IsValidSoftClassReference",
+    "dir": false,
+    "d": "Returns true if the Soft Class Reference is not null",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/OnDestroyed",
+    "dir": false,
+    "d": "Event triggered when the actor has been explicitly destroyed."
+  },
+  {
+    "s": "Physics/GetWalkableSlopeOverride",
+    "dir": false,
+    "d": "Returns the slope override struct for this component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/IsValidSoftObjectReference",
+    "dir": false,
+    "d": "Returns true if the Soft Object Reference is not null",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/OnEndPlay",
+    "dir": false,
+    "d": "Event triggered when the actor is being deleted or removed from a level."
+  },
+  {
+    "s": "Physics/IsAnyRigidBodyAwake",
+    "dir": false,
+    "d": "Returns if any body in this component is currently awake and simulating.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/LoadAssetBlocking",
+    "dir": false,
+    "d": "Resolves or loads a Soft Object Reference immediately, this will cause hitches and Async Load Asset should be used if po",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/OpenLevel_byName",
+    "dir": false,
+    "d": "Travel to another level",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/IsAnySimulatingPhysics",
+    "dir": false,
+    "d": "Returns whether the specified body is currently using physics simulation",
+    "t": "Scene Component"
+  },
+  {
+    "s": "Utilities/LoadClassAssetBlocking",
+    "dir": false,
+    "d": "Resolves or loads a Soft Class Reference immediately, this will cause hitches and Async Load Class Asset should be used ",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/OpenLevel_byObjectReference",
+    "dir": false,
+    "d": "Travel to another level",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/IsBodyGravityEnabled",
+    "dir": false,
+    "d": "Checks whether or not gravity is enabled on the given bone. NAME_None indicates the root body should be queried. If the ",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/LoadFromSoftInputAction",
+    "dir": false,
+    "d": "Asynchronously loads a Soft Input Action Reference and returns that Input Action on successful load"
+  },
+  {
+    "s": "Game/Player",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Physics/IsGravityEnabled",
+    "dir": false,
+    "d": "Returns whether this component is affected by gravity. Returns always false if the component is not simulated.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/LoadFromSoftMaterial",
+    "dir": false,
+    "d": "Asynchronously loads a Soft Material Reference and returns that material on successful load"
+  },
+  {
+    "s": "Game/PlayerCanRestart",
+    "dir": false,
+    "d": "Returns true if it's valid to call RestartPlayer. By default will call Player->CanRestartPlayer",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/IsSimulatingPhysics",
+    "dir": false,
+    "d": "Returns whether the specified body is currently using physics simulation",
+    "t": "Scene Component"
+  },
+  {
+    "s": "Utilities/LoadFromSoftTexture",
+    "dir": false,
+    "d": "Asynchronously loads a Soft Texture Reference and returns that texture on successful load"
+  },
+  {
+    "s": "Game/PredictProjectilePathByObjectTyp-",
+    "dir": false,
+    "d": "Predict the arc of a virtual projectile affected by gravity with collision checks along the arc. Returns a list of posit",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/Material",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Utilities/Macro",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/PredictProjectilePathByTraceChan-",
+    "dir": false,
+    "d": "Predict the arc of a virtual projectile affected by gravity with collision checks along the arc. Returns a list of posit",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/OnComponentPhysicsStateChanged",
+    "dir": false,
+    "d": "Event called when physics state is created or destroyed for this component"
+  },
+  {
+    "s": "Utilities/MakeARFilter",
+    "dir": false,
+    "d": "Builds an ARFilter struct. You should be using ClassPaths and RecursiveClassPathsExclusionSet, ClassNames and RecursiveC",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/PredictProjectilePath_Advanced",
+    "dir": false,
+    "d": "Predict the arc of a virtual projectile affected by gravity with collision checks along the arc. Returns true if it hit ",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/PutRigidBodytoSleep",
+    "dir": false,
+    "d": "Force a single body back to sleep.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/MakeBrushFromSoftMaterial",
+    "dir": false,
+    "d": "Asynchronously loads a Soft Material Reference and returns a slate brush using that material on successful load"
+  },
+  {
+    "s": "Game/QuitGame",
+    "dir": false,
+    "d": "Exit the current game",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Physics/RaycastSingle",
+    "dir": false,
+    "d": "Raycast Single",
+    "t": "Geometry Collection Actor"
+  },
+  {
+    "s": "Utilities/MakeBrushFromSoftTexture",
+    "dir": false,
+    "d": "Asynchronously loads a Soft Texture Reference and returns a slate brush using that texture on successful load"
+  },
+  {
+    "s": "Game/RebaseLocalOriginOntoZero",
+    "dir": false,
+    "d": "Returns origin based position for local world location.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/RemoveConstrainedBodies",
+    "dir": false,
+    "d": "Remove Constrained Bodies",
+    "t": "Deformable Constraints Component"
+  },
+  {
+    "s": "Utilities/MakeSoftClassPath",
+    "dir": false,
+    "d": "Builds a Soft Class Path struct from a string that contains a full /folder/packagename.class path. For blueprint classes",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/RebaseZeroOriginOntoLocal",
+    "dir": false,
+    "d": "Returns local location for origin based position.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/RemoveStaticMeshComponent",
+    "dir": false,
+    "d": "Remove Static Mesh Component",
+    "t": "Deformable Collisions Component"
+  },
+  {
+    "s": "Utilities/MakeSoftObjectPath",
+    "dir": false,
+    "d": "Builds a Soft Object Path struct from a string that contains a full /folder/packagename.object path",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/RemoveLocalPlayer",
+    "dir": false,
+    "d": "Removes a local player from this game.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/ResetAllBodiesSimulatePhysics",
+    "dir": false,
+    "d": "Allows you to reset bodies Simulate state based on where bUsePhysics is set to true in the BodySetup.",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/MakeTopLevelAssetPath",
+    "dir": false,
+    "d": "Builds a TopLevelAssetPath struct from single Path string or from PackageName and AssetName string.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/ResetLevel",
+    "dir": false,
+    "d": "Overridable function called when resetting level. This is used to reset the game state while staying in the same map Def",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/ResetSimulationProperties",
+    "dir": false,
+    "d": "Stop the simulation, and keep the cloth in its last pose.",
+    "t": "Deformable Solver Component"
+  },
+  {
+    "s": "Utilities/MakeUDIMTexturefromTexture2Ds",
+    "dir": false,
+    "d": "Make a UDIM virtual texture from a list of regular 2D textures",
+    "t": "UDIMTexture Function Library"
+  },
+  {
+    "s": "Game/RestartGame",
+    "dir": false,
+    "d": "Restart the game, by default travel to the current map",
+    "t": "Game Mode"
+  },
+  {
+    "s": "Physics/ScalebyMomentOfInertia",
+    "dir": false,
+    "d": "Scales the given vector by the world space moment of inertia. Useful for computing the torque needed to rotate an object",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/Map",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/RestartPlayer",
+    "dir": false,
+    "d": "Tries to spawn the player's pawn, at the location returned by FindPlayerStart",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/SetAllAllowPartialIslandSleep",
+    "dir": false,
+    "d": "[EXPERIMENTAL] Set whether all bodies in this component allow Partial Island Sleeping for the island they are in. Note t",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/MusicalTime",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/RestartPlayeratPlayerStart",
+    "dir": false,
+    "d": "Tries to spawn the player's pawn at the specified actor's location",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/SetAllBodiesBelowLinearVelocity",
+    "dir": false,
+    "d": "set the linear velocity of the child bodies to match that of the given parent bone",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/Name",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/RestartPlayeratTransform",
+    "dir": false,
+    "d": "Tries to spawn the player's pawn at a specific location",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/SetAllBodiesBelowPhysicsBlendWei-",
+    "dir": false,
+    "d": "Set all of the bones below passed in bone to be simulated",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/ObjectHasEditorOnlyData",
+    "dir": false,
+    "d": "Returns true if the object has its editor-only data",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/ReturntoMainMenuHost",
+    "dir": false,
+    "d": "Return to main menu, and disconnect any players",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/SetAllBodiesBelowPhysicsDisabled",
+    "dir": false,
+    "d": "[WARNING: Chaos Only] Set all of the bones below passed in bone to be disabled or not for the associated physics solver ",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/Operators",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/SetGamePaused",
+    "dir": false,
+    "d": "Sets the game's paused state",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/SetAllBodiesBelowSimulatePhysics",
+    "dir": false,
+    "d": "Set all of the bones below passed in bone to be simulated",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/ParseCommandLine",
+    "dir": false,
+    "d": "Parses the given string into loose tokens, switches (arguments that begin with - or /) and parameters (-mySwitch=myVar)",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/SetLocalPlayerControllerID",
+    "dir": false,
+    "d": "Sets what physical controller ID a player should be using. This only works for local player controllers.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/SetAllBodiesPhysicsBlendWeight",
+    "dir": false,
+    "d": "Set All Bodies Physics Blend Weight",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/ParseParam",
+    "dir": false,
+    "d": "Returns true if the string has -param in it (do not specify the leading -)",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/SetLocalPlayerControllerPlatform-",
+    "dir": false,
+    "d": "Sets what platform user id a player should be using. This only works for local player controllers.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/SetAllBodiesSimulatePhysics",
+    "dir": false,
+    "d": "Set bSimulatePhysics to true for all bone bodies. Does not change the component bSimulatePhysics flag.",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/ParseParamValue",
+    "dir": false,
+    "d": "Returns 'value' if -option=value is in the string",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/SetWorldOriginLocation",
+    "dir": false,
+    "d": "Requests a new location for a world origin.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/SetAllMassScale",
+    "dir": false,
+    "d": "Change the mass scale used fo all bodies in this component",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/Paths",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/SpawnActorfromClass",
+    "dir": false,
+    "d": "Attempts to spawn a new Actor with the specified transform"
+  },
+  {
+    "s": "Physics/SetAllMotorsAngularDriveParams",
+    "dir": false,
+    "d": "Set Angular Drive motors params for all constraint instances",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/Platform",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/StartMatch",
+    "dir": false,
+    "d": "Transition from WaitingToStart to InProgress. You can call this manually, will also get called if ReadyToStartMatch retu",
+    "t": "Game Mode"
+  },
+  {
+    "s": "Physics/SetAllMotorsAngularPositionDrive",
+    "dir": false,
+    "d": "Enable or Disable AngularPositionDrive. If motor is in SLERP mode it will be turned on if either bEnableSwingDrive OR bE",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/ResetEditorProperty",
+    "dir": false,
+    "d": "Attempts to reset the value of a named property on the given object so that it matches the value of the archetype.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Game/StartPlay",
+    "dir": false,
+    "d": "Transitions to calls BeginPlay on actors.",
+    "t": "Game Mode Base"
+  },
+  {
+    "s": "Physics/SetAllMotorsAngularVelocityDrive",
+    "dir": false,
+    "d": "Enable or Disable AngularVelocityDrive. If motor is in SLERP mode it will be turned on if either bEnableSwingDrive OR bE",
+    "t": "Skeletal Mesh Component"
+  },
+  {
+    "s": "Utilities/ResolveSoftReference",
+    "dir": false,
+    "d": "Resolves or makes a Soft Reference, connect a soft or hard reference to the input pin."
+  },
+  {
+    "s": "Game/SuggestProjectileVelocity",
+    "dir": false,
+    "d": "Calculates an launch velocity for a projectile to hit a specified point.",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/SetAllPhysicsAngularVelocityinDe-",
+    "dir": false,
+    "d": "Set the angular velocity of all bodies in this component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/Select",
+    "dir": false,
+    "d": "Return the option at Index, (first option is indexed at 0)"
+  },
+  {
+    "s": "Game/SuggestProjectileVelocityCustomA-",
+    "dir": false,
+    "d": "Returns the launch velocity needed for a projectile at rest at StartPos to land on EndPos. Assumes a medium arc (e.g. 45",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/SetAllPhysicsAngularVelocityinRa-",
+    "dir": false,
+    "d": "Set the angular velocity of all bodies in this component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/SelectClass",
+    "dir": false,
+    "d": "If bPickA is true, A is returned, otherwise B is",
+    "t": "Kismet Math Library"
+  },
+  {
+    "s": "Game/SuggestProjectileVelocityMovingT-",
+    "dir": false,
+    "d": "Returns a launch velocity need for a projectile to hit the TargetActor in TimeToTarget seconds based on the TargetActor'",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/SetAllPhysicsLinearVelocity",
+    "dir": false,
+    "d": "Set the linear velocity of all bodies in this component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/SelectObject",
+    "dir": false,
+    "d": "If bPickA is true, A is returned, otherwise B is",
+    "t": "Kismet Math Library"
+  },
+  {
+    "s": "Game/UnloadStreamLevel_byName",
+    "dir": false,
+    "d": "Unload a streamed in level (by Name)",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/SetAllUseCCD",
+    "dir": false,
+    "d": "Set whether all bodies in this component should use Continuous Collision Detection",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/Set",
+    "dir": true,
+    "d": ""
+  },
+  {
+    "s": "Game/UnloadStreamLevel_byObjectRefere-",
+    "dir": false,
+    "d": "Unload a streamed in level (by Object Reference)",
+    "t": "Gameplay Statics"
+  },
+  {
+    "s": "Physics/SetAllUseMACD",
+    "dir": false,
+    "d": "[EXPERIMENTAL] Set whether all bodies in this component should use Motion-Aware Collision Detection",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/SetEditorProperty",
+    "dir": false,
+    "d": "Attempts to set the value of a named property on the given object.",
+    "t": "Kismet System Library"
+  },
+  {
+    "s": "Physics/SetAllowPartialIslandSleep",
+    "dir": false,
+    "d": "[EXPERIMENTAL] Set whether this component allows Partial Island Sleeping for the island it is in. Note that Partial Isla",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/SetSkipAssigningGamepadtoPlayer1",
+    "dir": false,
+    "d": "Modify \"Skip Assigning Gamepad to Player 1\" GameMapsSettings option",
+    "t": "Game Maps Settings"
+  },
+  {
+    "s": "Physics/SetAngularDamping",
+    "dir": false,
+    "d": "Sets the angular damping of this component.",
+    "t": "Primitive Component"
+  },
+  {
+    "s": "Utilities/SetSoftTextureParameter",
+    "dir": false,
+    "d": "Asynchronously loads a Soft Texture Reference and sets the texture property on the slate brush"
+  },
+  {
+    "s": "Physics/SetAngularLimits",
+    "dir": false,
+    "d": "Sets the Angular Motion Ranges for a named constraint",
+    "t": "Skeletal Mesh Component"
+  }
+]

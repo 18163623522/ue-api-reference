@@ -1,0 +1,5760 @@
+{
+  "cursor": 268,
+  "total": 494,
+  "done": false,
+  "count": 268,
+  "newItems": [
+    {
+      "slug": "Editor/VirtualizationEditor",
+      "type": "Editor",
+      "loc": "/Engine/Source/Editor/VirtualizationEditor/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FVirtualizationEditorModule",
+            "The module holding all of the UI related pieces for the Virtualization module"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Editor/VirtualTexturingEditor",
+      "type": "Editor",
+      "loc": "/Engine/Source/Editor/VirtualTexturingEditor/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FRuntimeVirtualTextureComponentDetailsCustomization",
+            "UI customization for URuntimeVirtualTextureComponent"
+          ],
+          [
+            "FRuntimeVirtualTextureDetailsCustomization",
+            "UI customization for URuntimeVirtualTexture"
+          ],
+          [
+            "UMaterialCacheVirtualTextureTagFactory",
+            ""
+          ],
+          [
+            "URuntimeVirtualTextureFactory",
+            "Factory for URuntimeVirtualTexture"
+          ],
+          [
+            "UVirtualTextureBuilderFactory",
+            "Factory for UVirtualTextureBuilder"
+          ]
+        ],
+        "Structs": [
+          [
+            "FBuildAllStreamedMipsParams",
+            ""
+          ],
+          [
+            "FBuildAllStreamedMipsResult",
+            ""
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IVirtualTexturingEditorModule",
+            "Module for virtual texturing editor extensions."
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Editor/VREditor",
+      "type": "Editor",
+      "loc": "/Engine/Source/Editor/VREditor/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "UVREditorModeBase",
+            ""
+          ],
+          [
+            "UVRModeSettings",
+            "Implements the settings for VR Mode."
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IVREditorModule",
+            "The public interface to this module"
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FOnRadialMenuGenerated",
+            "TBaseDelegate_FourParams FMenuBuilder &, TSharedPtr FUICommandList >, UVREditorMode *, float & > UI/VRRadialMenuHandler.h"
+          ],
+          [
+            "FOnVREditingModeEnter",
+            "TMulticastDelegate_NoParams IVREditorModule.h"
+          ],
+          [
+            "FOnVREditingModeExit",
+            "TMulticastDelegate_NoParams IVREditorModule.h"
+          ]
+        ],
+        "Variables": [
+          [
+            "AnimationDirection",
+            "EVREditorAnimationState Stores the animation playback state of a VR UI element Structure to keep track of all relevant interaction and animation elements of a VR Button Animation playback state of the button UI/VREditorUISystem.h"
+          ],
+          [
+            "bHideWindowHandles",
+            "bool Turn off handles under window? (X-To-Close, movement bar...) UI/VREditorFloatingUI.h EditAnywhere BlueprintReadWrite Category=\"VR Mode UI\""
+          ],
+          [
+            "bMaskOutWidgetBackground",
+            "bool Turn off the widget's background to create a see-through look. UI/VREditorFloatingUI.h EditAnywhere BlueprintReadWrite Category=\"Virtual Production UI\""
+          ],
+          [
+            "bNoCloseButton",
+            "bool If bHideWindowHandles is false, this window doesn't have a close button. ( UI/VREditorFloatingUI.h EditAnywhere BlueprintReadWrite Category=\"Virtual Production UI\""
+          ],
+          [
+            "CurrentScale",
+            "float Current scale of the button element UI/VREditorUISystem.h"
+          ],
+          [
+            "EditorUISize",
+            "float Optional override for \"VREd.EditorUISize\". Leave at 0 for default. UI/VREditorFloatingUI.h EditAnywhere BlueprintReadWrite Category=\"VR Mode UI\""
+          ],
+          [
+            "MaxScale",
+            "float Maximum scale of the button element UI/VREditorUISystem.h"
+          ],
+          [
+            "MinScale",
+            "float Minimum scale of the button element UI/VREditorUISystem.h"
+          ],
+          [
+            "OriginalRelativeScale",
+            "FVector Original relative scale of the button element UI/VREditorUISystem.h"
+          ],
+          [
+            "PanelID",
+            "FName Creation parameters for AVREditorFloatingUI ID that the UI system will use to identify the panel. UI/VREditorFloatingUI.h EditAnywhere BlueprintReadWrite Category=\"VR Mode UI\""
+          ],
+          [
+            "PanelMesh",
+            "TObjectPtr UStaticMesh > Optional custom mesh to use for the VR window. UI/VREditorFloatingUI.h EditAnywhere BlueprintReadWrite Category=\"VR Mode UI\""
+          ],
+          [
+            "PanelSize",
+            "FVector2D Panel size. Should match the size of the UMG passed in. UI/VREditorFloatingUI.h EditAnywhere BlueprintReadWrite Category=\"VR Mode UI\""
+          ],
+          [
+            "PanelSpawnOffset",
+            "FTransform Optional offset from HMD where the window opens. UI/VREditorFloatingUI.h EditAnywhere BlueprintReadWrite Category=\"VR Mode UI\""
+          ],
+          [
+            "ParentActor",
+            "TObjectPtr AActor > UI/VREditorFloatingUI.h EditAnywhere BlueprintReadWrite Category=\"Virtual Production UI\""
+          ],
+          [
+            "ScaleRate",
+            "float Rate at which the button changes scale. Currently the same for scaling up and scaling down. UI/VREditorUISystem.h"
+          ]
+        ],
+        "Functions": [
+          [
+            "FVRButton ()",
+            "UI/VREditorUISystem.h"
+          ],
+          [
+            "FVRButton ( UVREditorWidgetComponent* InButtonWidget, FVector InOriginalScale, EVREditorAnimationState InAnimationDirect",
+            "UI/VREditorUISystem.h"
+          ],
+          [
+            "class UE_DEPRECATED ( 7, \"VR Editor mode is deprecated; use the XR Creative Framework plugin instead.\" )",
+            "VREditorStyle.h"
+          ],
+          [
+            "static const FName ConfirmRadialSelection ( \"ConfirmRadialSelection\" )",
+            "VREditorMode.h"
+          ],
+          [
+            "static const FName Modifier ( \"Modifier\" )",
+            "Types of actions that can be performed with VR controller devices VREditorMode.h"
+          ],
+          [
+            "static const FName Modifier2 ( \"Modifier2\" )",
+            "VREditorMode.h"
+          ],
+          [
+            "static const FName TrackpadDown ( \"TrackpadDown\" )",
+            "VREditorMode.h"
+          ],
+          [
+            "static const FName TrackpadLeft ( \"TrackpadLeft\" )",
+            "VREditorMode.h"
+          ],
+          [
+            "static const FName TrackpadPositionX ( \"TrackpadPosition_X\" )",
+            "VREditorMode.h"
+          ],
+          [
+            "static const FName TrackpadPositionY ( \"TrackpadPosition_Y\" )",
+            "VREditorMode.h"
+          ],
+          [
+            "static const FName TrackpadRight ( \"TrackpadRight\" )",
+            "VREditorMode.h"
+          ],
+          [
+            "static const FName TrackpadUp ( \"TrackpadUp\" )",
+            "VREditorMode.h"
+          ],
+          [
+            "static const FName TriggerAxis ( \"TriggerAxis\" )",
+            "VREditorMode.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Editor/WorkspaceMenuStructure",
+      "type": "Editor",
+      "loc": "/Engine/Source/Editor/WorkspaceMenuStructure/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FWorkspaceMenuStructureModule",
+            "The module that defines a structure of the workspace menu."
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IWorkspaceMenuStructure",
+            ""
+          ]
+        ],
+        "Functions": [
+          [
+            "const IWorkspaceMenuStructure & WorkspaceMenu::GetMenuStructure()",
+            "WorkspaceMenuStructureModule.h"
+          ],
+          [
+            "FWorkspaceMenuStructureModule & WorkspaceMenu::GetModule()",
+            "WorkspaceMenuStructureModule.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Editor/WorldBookmark",
+      "type": "Editor",
+      "loc": "/Engine/Source/Editor/WorldBookmark/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "UWorldBookmark",
+            "World Bookmarks are assets that stores the state of the editor world."
+          ]
+        ],
+        "Structs": [
+          [
+            "FWorldBookmarkCategory",
+            "World Bookmark Category"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Editor/WorldBrowser",
+      "type": "Editor",
+      "loc": "/Engine/Source/Editor/WorldBrowser/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FWorldBrowserModule",
+            "The module holding all of the UI related pieces for SubLevels management"
+          ]
+        ],
+        "Structs": [
+          [
+            "IDropTarget",
+            "Interface for validating drag/drop movement"
+          ],
+          [
+            "IWorldTreeItem",
+            "Base tree item interface for the World Browser"
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IWorldHierarchy",
+            "Displays levels for the world."
+          ]
+        ],
+        "Variables": [
+          [
+            "ColumnID_Color",
+            "const FName WorldHierarchyColumns.h"
+          ],
+          [
+            "ColumnID_EditorVisibility",
+            "const FName WorldHierarchyColumns.h"
+          ],
+          [
+            "ColumnID_GameVisibility",
+            "const FName WorldHierarchyColumns.h"
+          ],
+          [
+            "ColumnID_Kismet",
+            "const FName WorldHierarchyColumns.h"
+          ],
+          [
+            "ColumnID_LevelLabel",
+            "const FName IDs for list columns WorldHierarchyColumns.h"
+          ],
+          [
+            "ColumnID_LightingScenario",
+            "const FName WorldHierarchyColumns.h"
+          ],
+          [
+            "ColumnID_Lock",
+            "const FName WorldHierarchyColumns.h"
+          ],
+          [
+            "ColumnID_Save",
+            "const FName WorldHierarchyColumns.h"
+          ],
+          [
+            "ColumnID_SCCStatus",
+            "const FName WorldHierarchyColumns.h"
+          ]
+        ],
+        "Functions": [
+          [
+            "FName WorldHierarchy::GetParentPath ( const FName& InPath )",
+            "Utility function to get the parent path for a specific path IWorldTreeItem.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Editor/WorldPartitionEditor",
+      "type": "Editor",
+      "loc": "/Engine/Source/Editor/WorldPartitionEditor/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FContentBundleHiearchy",
+            ""
+          ],
+          [
+            "FContentBundleMode",
+            ""
+          ],
+          [
+            "FContentBundleOutlinerActorCountColumn",
+            ""
+          ],
+          [
+            "FContentBundleOutlinerClientColumn",
+            ""
+          ],
+          [
+            "FContentBundleOutlinerEditingColumn",
+            ""
+          ],
+          [
+            "FContentBundleOutlinerStatusColumn",
+            ""
+          ],
+          [
+            "FLoaderAdapterHLOD",
+            ""
+          ],
+          [
+            "FWorldPartitionActorFilterColumn",
+            ""
+          ],
+          [
+            "FWorldPartitionActorFilterHierarchy",
+            ""
+          ],
+          [
+            "FWorldPartitionActorFilterMode",
+            ""
+          ],
+          [
+            "FWorldPartitionEditorModule",
+            "The module holding all of the UI related pieces for SubLevels management"
+          ],
+          [
+            "SContentBundleBrowser",
+            ""
+          ],
+          [
+            "SContentBundleOutliner",
+            ""
+          ],
+          [
+            "STableRow",
+            ""
+          ],
+          [
+            "SWorldPartitionEditor",
+            ""
+          ],
+          [
+            "SWorldPartitionEditorGrid",
+            "Base class for world partition editors (goes hand in hand with corresponding UWorldPartition class via GetWorldPartitionEditorName)"
+          ],
+          [
+            "SWorldPartitionEditorGrid2D",
+            ""
+          ],
+          [
+            "SWorldPartitionEditorGridSpatialHash",
+            ""
+          ],
+          [
+            "UActorEditorContextContentBundleState",
+            ""
+          ],
+          [
+            "UContentBundleEditingSubmodule",
+            ""
+          ],
+          [
+            "UContentBundleEditorSubsystem",
+            ""
+          ],
+          [
+            "UContentBundleEditorSubsystemModule",
+            ""
+          ],
+          [
+            "UHLODLayerFactory",
+            ""
+          ],
+          [
+            "UWorldPartitionConvertOptions",
+            ""
+          ],
+          [
+            "UWorldPartitionEditorSettings",
+            ""
+          ],
+          [
+            "UWorldPartitionEditorState",
+            ""
+          ],
+          [
+            "UWorldPartitionHLODEditorSubsystem",
+            "UWorldPartitionHLODEditorSubsystem"
+          ]
+        ],
+        "Structs": [
+          [
+            "FContentBundleModeCreationParams",
+            ""
+          ],
+          [
+            "FContentBundleTreeItem",
+            ""
+          ],
+          [
+            "FWorldPartitionActorFilterDataLayerItem",
+            ""
+          ],
+          [
+            "FWorldPartitionActorFilterItem",
+            ""
+          ],
+          [
+            "FWorldPartitionActorFilterItemBase",
+            ""
+          ],
+          [
+            "FWorldPartitionActorFilterPropertyTypeCustomization",
+            "Registered (FLevelInstanceEditorModule::StartupModule) Property Customization for properties of type FWorldPartitionActorFilter."
+          ]
+        ],
+        "Enums": [
+          [
+            "EHLODSettingsVisibility",
+            "Visibility level for HLOD settings By default, settings are classified in the \"AllSettings\" category"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Editor/ZenEditor",
+      "type": "Editor",
+      "loc": "/Engine/Source/Editor/ZenEditor/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FZenEditor",
+            "The module holding all of the UI related pieces for DerivedData"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AdpcmAudioDecoder",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AdpcmAudioDecoder/Module/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FADPCMAudioInfo",
+            ""
+          ]
+        ],
+        "Structs": [
+          [
+            "ADPCMFormatHeader",
+            ""
+          ],
+          [
+            "WaveFormatHeader",
+            ""
+          ]
+        ],
+        "Functions": [
+          [
+            "static void ADPCM::GetAdaptationCoefficients ( T(&) OutAdaptationCoefficient1, T(&) OutAdaptationCoefficient2 )",
+            "Decoders/ADPCMAudioInfo.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AdvancedWidgets",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AdvancedWidgets/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAdvancedWidgetsModule",
+            "Advanced Widgets module"
+          ],
+          [
+            "FAdvancedWidgetsStyle",
+            "Style for advanced widgets"
+          ],
+          [
+            "FFieldExpander_Default",
+            ""
+          ],
+          [
+            "FFieldIconFinder",
+            ""
+          ],
+          [
+            "FFieldIterator_BlueprintVisible",
+            ""
+          ],
+          [
+            "FPropertyValueFactory",
+            ""
+          ],
+          [
+            "FTrackedVector4PropertyHandle",
+            "Convenience wrapper for an IPropertyHandle that lets us track when we're using this handle to set the property's vector value."
+          ],
+          [
+            "SBoolPropertyValue",
+            ""
+          ],
+          [
+            "SColorGradingComponentViewer",
+            "A slider displayed in tandem with a color grading wheel."
+          ],
+          [
+            "SColorGradingPicker",
+            "Class for placing a color picker."
+          ],
+          [
+            "SColorGradingWheel",
+            "Implements the color wheel widget."
+          ],
+          [
+            "SDefaultPropertyValue",
+            ""
+          ],
+          [
+            "SEnumPropertyValue",
+            ""
+          ],
+          [
+            "SFieldIcon",
+            ""
+          ],
+          [
+            "SFieldName",
+            ""
+          ],
+          [
+            "SNumericPropertyValue",
+            ""
+          ],
+          [
+            "SObjectPropertyValue",
+            ""
+          ],
+          [
+            "SPropertyViewer",
+            ""
+          ],
+          [
+            "SRadialSlider",
+            ""
+          ],
+          [
+            "SStringPropertyValue",
+            ""
+          ],
+          [
+            "URadialSlider",
+            "A simple widget that shows a sliding bar with a handle that allows you to control the value between 0..1."
+          ]
+        ],
+        "Structs": [
+          [
+            "FColorGradingSpinBoxStyle",
+            "Represents the appearance of a color grading spin box"
+          ],
+          [
+            "FFieldColorSettings",
+            ""
+          ],
+          [
+            "FPropertyPath",
+            ""
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IFieldExpander",
+            ""
+          ],
+          [
+            "IFieldIterator",
+            ""
+          ],
+          [
+            "INotifyHook",
+            ""
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FOnGetCurrentVector4Value",
+            "TBaseDelegate_OneParam Callback to get the current FVector4 value Framework/ColorGrading/ColorGradingCommon.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "UE::ColorGrading::EColorGradingColorDisplayMode",
+            "Modes that colors can be displayed in for the color grading panel"
+          ],
+          [
+            "UE::ColorGrading::EColorGradingComponent",
+            "Color components that can be controlled by a color grading widget."
+          ],
+          [
+            "UE::ColorGrading::EColorGradingModes",
+            "Enumerates color picker modes"
+          ],
+          [
+            "UE::ColorGrading::EColorGradingWheelType",
+            "Types of color grading modes"
+          ]
+        ],
+        "Functions": [
+          [
+            "void SRadialSliderHeaderDeprecatedWarning()",
+            "Slate/SRadialSlider.h"
+          ],
+          [
+            "void TriggerSRadialSliderHeaderDeprecatedWarning()",
+            "Slate/SRadialSlider.h"
+          ],
+          [
+            "bool UE::PropertyViewer::operator! ( FFieldExpander_Default::EObjectExpandFlag E )",
+            "Framework/PropertyViewer/IFieldExpander.h"
+          ],
+          [
+            "FFieldExpander_Default::EObjectExpandFlag UE::PropertyViewer::operator& ( FFieldExpander_Default::EObjectExpandFlag Lhs,",
+            "Framework/PropertyViewer/IFieldExpander.h"
+          ],
+          [
+            "FFieldExpander_Default::EObjectExpandFlag & UE::PropertyViewer::operator&= ( FFieldExpander_Default::EObjectExpandFlag &",
+            "Framework/PropertyViewer/IFieldExpander.h"
+          ],
+          [
+            "FFieldExpander_Default::EObjectExpandFlag UE::PropertyViewer::operator^ ( FFieldExpander_Default::EObjectExpandFlag Lhs,",
+            "Framework/PropertyViewer/IFieldExpander.h"
+          ],
+          [
+            "FFieldExpander_Default::EObjectExpandFlag & UE::PropertyViewer::operator^= ( FFieldExpander_Default::EObjectExpandFlag &",
+            "Framework/PropertyViewer/IFieldExpander.h"
+          ],
+          [
+            "FFieldExpander_Default::EObjectExpandFlag UE::PropertyViewer::operator| ( FFieldExpander_Default::EObjectExpandFlag Lhs,",
+            "Framework/PropertyViewer/IFieldExpander.h"
+          ],
+          [
+            "FFieldExpander_Default::EObjectExpandFlag & UE::PropertyViewer::operator|= ( FFieldExpander_Default::EObjectExpandFlag &",
+            "Framework/PropertyViewer/IFieldExpander.h"
+          ],
+          [
+            "FFieldExpander_Default::EObjectExpandFlag UE::PropertyViewer::operator~ ( FFieldExpander_Default::EObjectExpandFlag E )",
+            "Framework/PropertyViewer/IFieldExpander.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/Advertising",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Advertising/Advertising/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAdvertising",
+            "Advertising module interface implementation"
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IAdvertisingProvider",
+            "Generic interface for an advertising provider."
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AIModule",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AIModule/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "AAIController",
+            "AIController is the base class of controllers for AI-controlled Pawns."
+          ],
+          [
+            "ADetourCrowdAIController",
+            ""
+          ],
+          [
+            "AEQSTestingPawn",
+            ""
+          ],
+          [
+            "AGridPathAIController",
+            ""
+          ],
+          [
+            "ANavLinkProxy",
+            "ANavLinkProxy connects areas of Navmesh that don't have a direct navigation path."
+          ],
+          [
+            "FActorPerceptionForgetUpdatedDelegate",
+            ""
+          ],
+          [
+            "FActorPerceptionInfoUpdatedDelegate",
+            ""
+          ],
+          [
+            "FActorPerceptionUpdatedDelegate",
+            ""
+          ],
+          [
+            "FAIMoveCompletedSignature",
+            ""
+          ],
+          [
+            "FEQSRenderingDebugDrawDelegateHelper",
+            ""
+          ],
+          [
+            "FEQSSceneProxy",
+            ""
+          ],
+          [
+            "FLinkReachedSignature",
+            ""
+          ],
+          [
+            "FMoveTaskCompletedSignature",
+            ""
+          ],
+          [
+            "FOAISimpleDelegate",
+            ""
+          ],
+          [
+            "FPerceptionUpdatedDelegate",
+            ""
+          ],
+          [
+            "FRangeChecklessAllocator",
+            ""
+          ],
+          [
+            "FSmartLinkReachedSignature",
+            ""
+          ],
+          [
+            "FVisualLoggerExtension",
+            ""
+          ],
+          [
+            "THierarchicalHashGrid2D",
+            "Hierarchical Hash Grid in 2D."
+          ],
+          [
+            "UAIAsyncTaskBlueprintProxy",
+            ""
+          ],
+          [
+            "UAIBlueprintHelperLibrary",
+            ""
+          ],
+          [
+            "UAIDataProvider",
+            ""
+          ],
+          [
+            "UAIDataProvider_QueryParams",
+            "AIDataProvider_QueryParams is used with environment queries"
+          ],
+          [
+            "UAIDataProvider_Random",
+            ""
+          ],
+          [
+            "UAIHotSpotManager",
+            ""
+          ],
+          [
+            "UAIPerceptionComponent",
+            "AIPerceptionComponent is used to register as stimuli listener in AIPerceptionSystem and gathers registered stimuli."
+          ],
+          [
+            "UAIPerceptionListenerInterface",
+            ""
+          ],
+          [
+            "UAIPerceptionStimuliSourceComponent",
+            "Gives owning actor a way to auto-register as perception system's sense stimuli source"
+          ],
+          [
+            "UAIPerceptionSystem",
+            "AI Subsystem managing AI Perception through registered AI Senses between Listeners and Stimuli Sources"
+          ],
+          [
+            "UAIResource_Logic",
+            ""
+          ],
+          [
+            "UAIResource_Movement",
+            ""
+          ],
+          [
+            "UAIResourceInterface",
+            ""
+          ],
+          [
+            "UAISense",
+            ""
+          ],
+          [
+            "UAISense_Blueprint",
+            ""
+          ],
+          [
+            "UAISense_Damage",
+            ""
+          ],
+          [
+            "UAISense_Hearing",
+            ""
+          ],
+          [
+            "UAISense_Prediction",
+            ""
+          ],
+          [
+            "UAISense_Sight",
+            ""
+          ],
+          [
+            "UAISense_Team",
+            ""
+          ],
+          [
+            "UAISense_Touch",
+            ""
+          ],
+          [
+            "UAISenseBlueprintListener",
+            ""
+          ],
+          [
+            "UAISenseConfig",
+            ""
+          ],
+          [
+            "UAISenseConfig_Blueprint",
+            ""
+          ],
+          [
+            "UAISenseConfig_Damage",
+            ""
+          ],
+          [
+            "UAISenseConfig_Hearing",
+            ""
+          ],
+          [
+            "UAISenseConfig_Prediction",
+            ""
+          ],
+          [
+            "UAISenseConfig_Sight",
+            ""
+          ],
+          [
+            "UAISenseConfig_Team",
+            ""
+          ],
+          [
+            "UAISenseConfig_Touch",
+            ""
+          ],
+          [
+            "UAISenseEvent",
+            ""
+          ],
+          [
+            "UAISenseEvent_Damage",
+            ""
+          ],
+          [
+            "UAISenseEvent_Hearing",
+            ""
+          ],
+          [
+            "UAISightTargetInterface",
+            ""
+          ],
+          [
+            "UAISubsystem",
+            "A class representing a common interface and behavior for AI subsystems"
+          ],
+          [
+            "UAISystem",
+            ""
+          ],
+          [
+            "UAITask",
+            ""
+          ],
+          [
+            "UAITask_LockLogic",
+            ""
+          ],
+          [
+            "UAITask_MoveTo",
+            ""
+          ],
+          [
+            "UAITask_RunEQS",
+            ""
+          ],
+          [
+            "UBehaviorTree",
+            ""
+          ],
+          [
+            "UBehaviorTreeComponent",
+            ""
+          ],
+          [
+            "UBehaviorTreeManager",
+            ""
+          ],
+          [
+            "UBehaviorTreeTypes",
+            ""
+          ],
+          [
+            "UBlackboardAssetProvider",
+            "Helper interface to allow FBlackboardKeySelector properties on DataAssets (and more)."
+          ],
+          [
+            "UBlackboardComponent",
+            ""
+          ],
+          [
+            "UBlackboardData",
+            ""
+          ],
+          [
+            "UBlackboardKeyType",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_Bool",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_Class",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_Enum",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_Float",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_Int",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_Name",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_NativeEnum",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_Object",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_Rotator",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_String",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_Struct",
+            ""
+          ],
+          [
+            "UBlackboardKeyType_Vector",
+            ""
+          ],
+          [
+            "UBrainComponent",
+            ""
+          ],
+          [
+            "UBTAuxiliaryNode",
+            "Auxiliary nodes are supporting nodes, that receive notification about execution flow and can be ticked"
+          ],
+          [
+            "UBTComposite_Selector",
+            ""
+          ],
+          [
+            "UBTComposite_Sequence",
+            ""
+          ],
+          [
+            "UBTComposite_SimpleParallel",
+            "Simple Parallel composite node."
+          ],
+          [
+            "UBTCompositeNode",
+            ""
+          ],
+          [
+            "UBTDecorator",
+            "Decorators are supporting nodes placed on parent-child connection, that receive notification about execution flow and can be ticked"
+          ],
+          [
+            "UBTDecorator_Blackboard",
+            "Blackboard decorator node. A decorator node that bases its condition on a Blackboard key."
+          ],
+          [
+            "UBTDecorator_BlackboardBase",
+            ""
+          ],
+          [
+            "UBTDecorator_BlueprintBase",
+            "Base class for blueprint based decorator nodes."
+          ],
+          [
+            "UBTDecorator_CheckGameplayTagsOnActor",
+            "GameplayTag decorator node."
+          ],
+          [
+            "UBTDecorator_CompareBBEntries",
+            "Blackboard comparison decorator node."
+          ],
+          [
+            "UBTDecorator_ConditionalLoop",
+            "Conditional loop decorator node."
+          ],
+          [
+            "UBTDecorator_ConeCheck",
+            "Cone check decorator node."
+          ],
+          [
+            "UBTDecorator_Cooldown",
+            "Cooldown decorator node."
+          ],
+          [
+            "UBTDecorator_DoesPathExist",
+            "Does Path Exist decorator node."
+          ],
+          [
+            "UBTDecorator_ForceSuccess",
+            "Change node result to Success useful for creating optional branches in sequence"
+          ],
+          [
+            "UBTDecorator_IsAtLocation",
+            "Is At Location decorator node."
+          ],
+          [
+            "UBTDecorator_IsBBEntryOfClass",
+            ""
+          ],
+          [
+            "UBTDecorator_KeepInCone",
+            "Keep In Cone decorator node."
+          ],
+          [
+            "UBTDecorator_Loop",
+            "Loop decorator node."
+          ],
+          [
+            "UBTDecorator_LoopUntil",
+            "Loop until decorator node."
+          ],
+          [
+            "UBTDecorator_ReachedMoveGoal",
+            "Reached Move Goal decorator node."
+          ],
+          [
+            "UBTDecorator_SetTagCooldown",
+            "Set tag cooldown decorator node. A decorator node that sets a gameplay tag cooldown."
+          ],
+          [
+            "UBTDecorator_TagCooldown",
+            "Cooldown decorator node."
+          ],
+          [
+            "UBTDecorator_TimeLimit",
+            ""
+          ],
+          [
+            "UBTFunctionLibrary",
+            ""
+          ],
+          [
+            "UBTNode",
+            ""
+          ],
+          [
+            "UBTService",
+            "Behavior Tree service nodes is designed to perform \"background\" tasks that update AI's knowledge."
+          ],
+          [
+            "UBTService_BlackboardBase",
+            ""
+          ],
+          [
+            "UBTService_BlueprintBase",
+            "Base class for blueprint based service nodes."
+          ],
+          [
+            "UBTService_DefaultFocus",
+            "Default Focus service node."
+          ],
+          [
+            "UBTService_RunEQS",
+            ""
+          ],
+          [
+            "UBTTask_BlackboardBase",
+            ""
+          ],
+          [
+            "UBTTask_BlueprintBase",
+            "Base class for blueprint based task nodes."
+          ],
+          [
+            "UBTTask_FinishWithResult",
+            ""
+          ],
+          [
+            "UBTTask_GameplayTaskBase",
+            "Base class for managing gameplay tasks Since AITask doesn't have any kind of success/failed results, default implemenation will only return EBTNode::Succeeded"
+          ],
+          [
+            "UBTTask_MakeNoise",
+            "Make Noise task node. A task node that calls MakeNoise() on this Pawn when executed."
+          ],
+          [
+            "UBTTask_MoveDirectlyToward",
+            "Move Directly Toward task node."
+          ],
+          [
+            "UBTTask_MoveTo",
+            "Move To task node."
+          ],
+          [
+            "UBTTask_PlayAnimation",
+            "Play indicated AnimationAsset on Pawn controlled by BT Note that this node is generic and is handing multiple special cases, If you want a more efficient solution you'll need to implement it yourself (or wait for our BTTask_PlayCharacterAnimation)"
+          ],
+          [
+            "UBTTask_PlaySound",
+            "Play Sound task node. Plays the specified sound when executed."
+          ],
+          [
+            "UBTTask_RotateToFaceBBEntry",
+            ""
+          ],
+          [
+            "UBTTask_RunBehavior",
+            "RunBehavior task allows pushing subtrees on execution stack."
+          ],
+          [
+            "UBTTask_RunBehaviorDynamic",
+            "RunBehaviorDynamic task allows pushing subtrees on execution stack."
+          ],
+          [
+            "UBTTask_RunEQSQuery",
+            "Run Environment Query System Query task node. Runs the specified environment query when executed."
+          ],
+          [
+            "UBTTask_SetKeyValueBool",
+            ""
+          ],
+          [
+            "UBTTask_SetKeyValueClass",
+            ""
+          ],
+          [
+            "UBTTask_SetKeyValueEnum",
+            ""
+          ],
+          [
+            "UBTTask_SetKeyValueFloat",
+            ""
+          ],
+          [
+            "UBTTask_SetKeyValueInt32",
+            ""
+          ],
+          [
+            "UBTTask_SetKeyValueName",
+            ""
+          ],
+          [
+            "UBTTask_SetKeyValueObject",
+            ""
+          ],
+          [
+            "UBTTask_SetKeyValueRotator",
+            ""
+          ],
+          [
+            "UBTTask_SetKeyValueString",
+            ""
+          ],
+          [
+            "UBTTask_SetKeyValueStruct",
+            ""
+          ],
+          [
+            "UBTTask_SetKeyValueVector",
+            ""
+          ],
+          [
+            "UBTTask_SetTagCooldown",
+            ""
+          ],
+          [
+            "UBTTask_Wait",
+            "Wait task node. Wait for the specified time when executed."
+          ],
+          [
+            "UBTTask_WaitBlackboardTime",
+            "DEPRECATED Replace with UBTTask_Wait that now accepts blackboard keys Wait task node."
+          ],
+          [
+            "UBTTaskNode",
+            "Task are leaf nodes of behavior tree, which perform actual actions"
+          ],
+          [
+            "UCrowdAgentInterface",
+            ""
+          ],
+          [
+            "UCrowdFollowingComponent",
+            ""
+          ],
+          [
+            "UCrowdManager",
+            ""
+          ],
+          [
+            "UEnvQuery",
+            ""
+          ],
+          [
+            "UEnvQueryContext",
+            ""
+          ],
+          [
+            "UEnvQueryContext_BlueprintBase",
+            ""
+          ],
+          [
+            "UEnvQueryContext_Item",
+            ""
+          ],
+          [
+            "UEnvQueryContext_NavigationData",
+            ""
+          ],
+          [
+            "UEnvQueryContext_Querier",
+            ""
+          ],
+          [
+            "UEnvQueryDebugHelpers",
+            ""
+          ],
+          [
+            "UEnvQueryGenerator",
+            ""
+          ],
+          [
+            "UEnvQueryGenerator_ActorsOfClass",
+            ""
+          ],
+          [
+            "UEnvQueryGenerator_BlueprintBase",
+            ""
+          ],
+          [
+            "UEnvQueryGenerator_Composite",
+            "Composite generator allows using multiple generators in single query option All child generators must produce exactly the same item type&#33;"
+          ],
+          [
+            "UEnvQueryGenerator_Cone",
+            ""
+          ],
+          [
+            "UEnvQueryGenerator_CurrentLocation",
+            ""
+          ],
+          [
+            "UEnvQueryGenerator_Donut",
+            ""
+          ],
+          [
+            "UEnvQueryGenerator_OnCircle",
+            ""
+          ],
+          [
+            "UEnvQueryGenerator_PathingGrid",
+            "Navigation grid, generates points on navmesh with paths to/from context no further than given limit"
+          ],
+          [
+            "UEnvQueryGenerator_PerceivedActors",
+            "Gathers actors perceived by context"
+          ],
+          [
+            "UEnvQueryGenerator_ProjectedPoints",
+            ""
+          ],
+          [
+            "UEnvQueryGenerator_SimpleGrid",
+            "Simple grid, generates points in 2D square around context"
+          ],
+          [
+            "UEnvQueryInstanceBlueprintWrapper",
+            ""
+          ],
+          [
+            "UEnvQueryItemType",
+            ""
+          ],
+          [
+            "UEnvQueryItemType_Actor",
+            ""
+          ],
+          [
+            "UEnvQueryItemType_ActorBase",
+            ""
+          ],
+          [
+            "UEnvQueryItemType_Direction",
+            ""
+          ],
+          [
+            "UEnvQueryItemType_Point",
+            ""
+          ],
+          [
+            "UEnvQueryItemType_VectorBase",
+            ""
+          ],
+          [
+            "UEnvQueryManager",
+            ""
+          ],
+          [
+            "UEnvQueryNode",
+            ""
+          ],
+          [
+            "UEnvQueryOption",
+            ""
+          ],
+          [
+            "UEnvQueryTest",
+            ""
+          ],
+          [
+            "UEnvQueryTest_Distance",
+            ""
+          ],
+          [
+            "UEnvQueryTest_Dot",
+            ""
+          ],
+          [
+            "UEnvQueryTest_GameplayTags",
+            "EnvQueryTest_GameplayTags attempts to cast items to IGameplayTagAssetInterface and test their tags with TagQueryToMatch."
+          ],
+          [
+            "UEnvQueryTest_Overlap",
+            ""
+          ],
+          [
+            "UEnvQueryTest_Pathfinding",
+            ""
+          ],
+          [
+            "UEnvQueryTest_PathfindingBatch",
+            ""
+          ],
+          [
+            "UEnvQueryTest_Project",
+            "Projects points on navigation or geometry, will modify value of projected items."
+          ],
+          [
+            "UEnvQueryTest_Random",
+            ""
+          ],
+          [
+            "UEnvQueryTest_Trace",
+            ""
+          ],
+          [
+            "UEnvQueryTest_Volume",
+            ""
+          ],
+          [
+            "UEnvQueryTypes",
+            ""
+          ],
+          [
+            "UEQSQueryResultSourceInterface",
+            ""
+          ],
+          [
+            "UEQSRenderingComponent",
+            ""
+          ],
+          [
+            "UGeneratedNavLinksProxy",
+            "Experimental Blueprintable class used to handle generated links as custom links."
+          ],
+          [
+            "UGenericTeamAgentInterface",
+            ""
+          ],
+          [
+            "UGridPathFollowingComponent",
+            "Path following augmented with local navigation grids"
+          ],
+          [
+            "UNavFilter_AIControllerDefault",
+            ""
+          ],
+          [
+            "UNavLocalGridManager",
+            "Manager for local navigation grids"
+          ],
+          [
+            "UPathFollowingComponent",
+            ""
+          ],
+          [
+            "UPathFollowingManager",
+            ""
+          ],
+          [
+            "UPawnSensingComponent",
+            ""
+          ],
+          [
+            "UVisualLoggerExtension",
+            ""
+          ]
+        ],
+        "Structs": [
+          [
+            "FActorPerceptionBlueprintInfo",
+            ""
+          ],
+          [
+            "FActorPerceptionInfo",
+            ""
+          ],
+          [
+            "FActorPerceptionUpdateInfo",
+            ""
+          ],
+          [
+            "FAIBasicCounter",
+            ""
+          ],
+          [
+            "FAIDamageEvent",
+            ""
+          ],
+          [
+            "FAIDataProviderBoolValue",
+            ""
+          ],
+          [
+            "FAIDataProviderFloatValue",
+            ""
+          ],
+          [
+            "FAIDataProviderIntValue",
+            ""
+          ],
+          [
+            "FAIDataProviderStructValue",
+            ""
+          ],
+          [
+            "FAIDataProviderTypedValue",
+            ""
+          ],
+          [
+            "FAIDataProviderValue",
+            "AIDataProvider is an object that can provide collection of properties associated with bound pawn owner or request Id."
+          ],
+          [
+            "FAIDynamicParam",
+            ""
+          ],
+          [
+            "FAIGenericID",
+            ""
+          ],
+          [
+            "FAIMessage",
+            ""
+          ],
+          [
+            "FAIMessageObserver",
+            ""
+          ],
+          [
+            "FAIMoveRequest",
+            ""
+          ],
+          [
+            "FAINamedID",
+            "TCounter needs to supply following functions: default constructor typedef X Type; where X is an integer type to be used as ID's internal type TCounter::Type GetNextAvailableID() - returns next available ID and advances the internal counter uint32 GetSize() const - returns number of unique IDs created so far OnIndexForced(TCounter::Type Index) - called when given Index has been force-used."
+          ],
+          [
+            "FAINoiseEvent",
+            ""
+          ],
+          [
+            "FAIPredictionEvent",
+            ""
+          ],
+          [
+            "FAIRequestID",
+            ""
+          ],
+          [
+            "FAIResCounter",
+            ""
+          ],
+          [
+            "FAIResourceLock",
+            "Structure used to define which subsystem requested locking of a specific AI resource (like movement, logic, etc.)"
+          ],
+          [
+            "FAIResourcesSet",
+            ""
+          ],
+          [
+            "FAISenseAffiliationFilter",
+            ""
+          ],
+          [
+            "FAISenseCounter",
+            ""
+          ],
+          [
+            "FAISightEvent",
+            ""
+          ],
+          [
+            "FAISightQuery",
+            ""
+          ],
+          [
+            "FAISightQueryID",
+            ""
+          ],
+          [
+            "FAISightTarget",
+            ""
+          ],
+          [
+            "FAIStimulus",
+            ""
+          ],
+          [
+            "FAITeamStimulusEvent",
+            ""
+          ],
+          [
+            "FAITouchEvent",
+            ""
+          ],
+          [
+            "FBBKeyCachedAccessor",
+            "A helper type that improved performance of reading data from BB It's meant for a specific use-case: 1."
+          ],
+          [
+            "FBehaviorTreeDebuggerInstance",
+            "Debugger data about subtree instance"
+          ],
+          [
+            "FBehaviorTreeDelegates",
+            ""
+          ],
+          [
+            "FBehaviorTreeExecutionStep",
+            "Debugger data about current execution step"
+          ],
+          [
+            "FBehaviorTreeInstance",
+            "Data required for instance of single subtree"
+          ],
+          [
+            "FBehaviorTreeInstanceId",
+            "Identifier of subtree instance"
+          ],
+          [
+            "FBehaviorTreeNodeDebugContext",
+            ""
+          ],
+          [
+            "FBehaviorTreeNodeInitializationData",
+            ""
+          ],
+          [
+            "FBehaviorTreeParallelTask",
+            "Wrapper struct for holding a parallel task node and its status"
+          ],
+          [
+            "FBehaviorTreePropertyMemory",
+            "Property block in blueprint defined nodes"
+          ],
+          [
+            "FBehaviorTreeSearchData",
+            "Node search data"
+          ],
+          [
+            "FBehaviorTreeSearchUpdate",
+            "Node update data"
+          ],
+          [
+            "FBehaviorTreeSearchUpdateNotify",
+            "Instance notify data"
+          ],
+          [
+            "FBehaviorTreeTemplateInfo",
+            ""
+          ],
+          [
+            "FBlackboardEntry",
+            ""
+          ],
+          [
+            "FBlackboardInstancedKeyMemory",
+            ""
+          ],
+          [
+            "FBlackboardKeySelector",
+            "Helper struct for defining types of allowed blackboard entries (e.g. only entries holding points and objects derived form actor class)"
+          ],
+          [
+            "FBTAuxiliaryMemory",
+            ""
+          ],
+          [
+            "FBTCompositeChild",
+            ""
+          ],
+          [
+            "FBTCompositeMemory",
+            ""
+          ],
+          [
+            "FBTConditionalLoopDecoratorMemory",
+            ""
+          ],
+          [
+            "FBTConeCheckDecoratorMemory",
+            ""
+          ],
+          [
+            "FBTCooldownDecoratorMemory",
+            ""
+          ],
+          [
+            "FBTDecoratorLogic",
+            ""
+          ],
+          [
+            "FBTEnvQueryTaskMemory",
+            ""
+          ],
+          [
+            "FBTEQSServiceMemory",
+            ""
+          ],
+          [
+            "FBTFocusMemory",
+            ""
+          ],
+          [
+            "FBTGameplayTaskMemory",
+            ""
+          ],
+          [
+            "FBTInstancedNodeMemory",
+            ""
+          ],
+          [
+            "FBTKeepInConeDecoratorMemory",
+            ""
+          ],
+          [
+            "FBTLoopDecoratorMemory",
+            ""
+          ],
+          [
+            "FBTLoopUntilDecoratorMemory",
+            ""
+          ],
+          [
+            "FBTMoveToTaskMemory",
+            ""
+          ],
+          [
+            "FBTNodeExecutionInfo",
+            ""
+          ],
+          [
+            "FBTNodeIndex",
+            ""
+          ],
+          [
+            "FBTNodeIndexRange",
+            ""
+          ],
+          [
+            "FBTParallelMemory",
+            ""
+          ],
+          [
+            "FBTPendingExecutionInfo",
+            ""
+          ],
+          [
+            "FBTTagCooldownDecoratorMemory",
+            ""
+          ],
+          [
+            "FBTTaskMemory",
+            ""
+          ],
+          [
+            "FBTTreeStartInfo",
+            ""
+          ],
+          [
+            "FBTWaitTaskMemory",
+            ""
+          ],
+          [
+            "FCanBeSeenFromContext",
+            ""
+          ],
+          [
+            "FCombinedNavGridData",
+            ""
+          ],
+          [
+            "FCompactIndexedHandleBase",
+            "Compact Index based handle that has a serial number to verify stale handles."
+          ],
+          [
+            "FCompactIndexedHandleManager",
+            ""
+          ],
+          [
+            "FCrowdAgentData",
+            ""
+          ],
+          [
+            "FCrowdAvoidanceConfig",
+            "Crowd manager is responsible for handling crowds using Detour (Recast library)"
+          ],
+          [
+            "FCrowdAvoidanceSamplingPattern",
+            ""
+          ],
+          [
+            "FCrowdTickHelper",
+            ""
+          ],
+          [
+            "FDebugHelper",
+            "Struct filled while collecting data (to store additional debug data needed to display per rendered item)"
+          ],
+          [
+            "FEnvDirection",
+            ""
+          ],
+          [
+            "FEnvNamedValue",
+            ""
+          ],
+          [
+            "FEnvOverlapData",
+            ""
+          ],
+          [
+            "FEnvQueryContextData",
+            ""
+          ],
+          [
+            "FEnvQueryDebugData",
+            ""
+          ],
+          [
+            "FEnvQueryDebugProfileData",
+            ""
+          ],
+          [
+            "FEnvQueryInstance",
+            ""
+          ],
+          [
+            "FEnvQueryInstanceCache",
+            "Cache of instances with sorted tests"
+          ],
+          [
+            "FEnvQueryInstanceContextCacheItem",
+            ""
+          ],
+          [
+            "FEnvQueryItem",
+            ""
+          ],
+          [
+            "FEnvQueryItemDetails",
+            "Detailed information about item, used by tests"
+          ],
+          [
+            "FEnvQueryManagerConfig",
+            "FEnvQueryManagerConfig ."
+          ],
+          [
+            "FEnvQueryOptionInstance",
+            ""
+          ],
+          [
+            "FEnvQueryRequest",
+            "Wrapper for easy query execution"
+          ],
+          [
+            "FEnvQueryResult",
+            ""
+          ],
+          [
+            "FEnvQuerySpatialData",
+            ""
+          ],
+          [
+            "FEnvQueryTestScoringPreview",
+            ""
+          ],
+          [
+            "FEnvTraceData",
+            ""
+          ],
+          [
+            "FEQSDebugger",
+            ""
+          ],
+          [
+            "FEQSParametrizedQueryExecutionRequest",
+            ""
+          ],
+          [
+            "FEQSQueryDebugData",
+            "This struct is now deprecated, please use FEnvQueryDebugData instead."
+          ],
+          [
+            "FFocusKnowledge",
+            ""
+          ],
+          [
+            "FGenericTeamId",
+            ""
+          ],
+          [
+            "FGraphAStar",
+            "Generic graph A&#42; implementation"
+          ],
+          [
+            "FGraphAStarDefaultNode",
+            "Default A&#42; node class."
+          ],
+          [
+            "FGraphAStarDefaultPolicy",
+            ""
+          ],
+          [
+            "FGridSize2D",
+            ""
+          ],
+          [
+            "FIndexedHandleBase",
+            "Index based handle that has a serial number to verify stale handles."
+          ],
+          [
+            "FIndexedHandleManager",
+            ""
+          ],
+          [
+            "FIndexedHandleManagerBase",
+            "Handle Manager meant for FIndexedHandleBase and FCompactIndexedHandleBase derived classes, handles are given out from a freelist and are zero based and consecutive in nature, so ideal for being used as indices in to arrays."
+          ],
+          [
+            "FIntervalCountdown",
+            ""
+          ],
+          [
+            "FItemData",
+            ""
+          ],
+          [
+            "FKey",
+            "The default BB key size is now 16"
+          ],
+          [
+            "FMetaNavMeshPath",
+            "FMetaNavMeshPath allows creating hierarchical or guided navmesh paths"
+          ],
+          [
+            "FMetaPathWayPoint",
+            ""
+          ],
+          [
+            "FNavLocalGridData",
+            "Local navigation grid - simple 2D grid used for navigation."
+          ],
+          [
+            "FPathFollowingRequestResult",
+            ""
+          ],
+          [
+            "FPathFollowingResult",
+            ""
+          ],
+          [
+            "FPerceptionChannelAllowList",
+            ""
+          ],
+          [
+            "FPerceptionListener",
+            "Should contain only cached information common to all senses."
+          ],
+          [
+            "FPerceptionListenerCounter",
+            ""
+          ],
+          [
+            "FPerceptionStimuliSource",
+            ""
+          ],
+          [
+            "FQueryData",
+            ""
+          ],
+          [
+            "FRecastGraphPolicy",
+            ""
+          ],
+          [
+            "FRecastGraphWrapper",
+            ""
+          ],
+          [
+            "FScopedBTLoggingContext",
+            "Helper struct to push a node as the new logging context and automatically reset the context on destruction."
+          ],
+          [
+            "FSequentialIDBase",
+            ""
+          ],
+          [
+            "FSimpleIndexedHandleBase",
+            "Index based handle that doesn't use a serial number."
+          ],
+          [
+            "FTestData",
+            ""
+          ],
+          [
+            "FValueOrBBKey_Bool",
+            ""
+          ],
+          [
+            "FValueOrBBKey_Class",
+            ""
+          ],
+          [
+            "FValueOrBBKey_Enum",
+            ""
+          ],
+          [
+            "FValueOrBBKey_Float",
+            ""
+          ],
+          [
+            "FValueOrBBKey_Int32",
+            ""
+          ],
+          [
+            "FValueOrBBKey_Name",
+            ""
+          ],
+          [
+            "FValueOrBBKey_Object",
+            ""
+          ],
+          [
+            "FValueOrBBKey_Rotator",
+            ""
+          ],
+          [
+            "FValueOrBBKey_String",
+            ""
+          ],
+          [
+            "FValueOrBBKey_Struct",
+            ""
+          ],
+          [
+            "FValueOrBBKey_Vector",
+            ""
+          ],
+          [
+            "FValueOrBlackboardKeyBase",
+            "Base struct to simplify edition in the editor, shouldn't be used elsewhere."
+          ],
+          [
+            "TBVTree",
+            "BVTree - Bounding Volumes Tree"
+          ],
+          [
+            "TDefaultManagerInstanceTracker",
+            ""
+          ],
+          [
+            "TSimpleCellGrid",
+            "No virtuals on purpose"
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IAIModule",
+            "The public interface to this module"
+          ],
+          [
+            "IAIPerceptionListenerInterface",
+            ""
+          ],
+          [
+            "IAIResourceInterface",
+            ""
+          ],
+          [
+            "IAISightTargetInterface",
+            ""
+          ],
+          [
+            "IBlackboardAssetProvider",
+            ""
+          ],
+          [
+            "ICrowdAgentInterface",
+            ""
+          ],
+          [
+            "IEQSQueryResultSourceInterface",
+            ""
+          ],
+          [
+            "IGenericTeamAgentInterface",
+            ""
+          ]
+        ],
+        "Typedefs": [
+          [
+            "dtPolyRef",
+            "uint64 Navigation/RecastGraphAStar.h"
+          ],
+          [
+            "dtStatus",
+            "unsigned int Navigation/RecastGraphAStar.h"
+          ],
+          [
+            "FAIMessageObserverHandle",
+            "TSharedPtr FAIMessageObserver > BrainComponent.h"
+          ],
+          [
+            "FAIResourceID",
+            "FAINamedID FAIResCounter > AITypes.h"
+          ],
+          [
+            "FAISenseID",
+            "FAINamedID FAISenseCounter > Perception/AIPerceptionTypes.h"
+          ],
+          [
+            "FBTInstanceDeactivation",
+            "TBaseDelegate_TwoParams UBehaviorTreeComponent &, EBTNodeResult::Type > BehaviorTree/BehaviorTreeTypes.h"
+          ],
+          [
+            "FCustomMoveSharedPtr",
+            "TSharedPtr FMoveRequestCustomData , ESPMode::ThreadSafe > AITypes.h"
+          ],
+          [
+            "FGetNextChildDelegate",
+            "TBaseDelegate_ThreeParams FBehaviorTreeSearchData &, int32, EBTNodeResult::Type > BehaviorTree/BTCompositeNode.h"
+          ],
+          [
+            "FListenerMap",
+            "TMap FPerceptionListener > Perception/AIPerceptionTypes.h"
+          ],
+          [
+            "FMoveTaskFinishedSignature",
+            "TMulticastDelegate_TwoParams TEnumAsByte EPathFollowingResult::Type >, AAIController * > Tasks/AITask_MoveTo.h"
+          ],
+          [
+            "FOnAIMessage",
+            "TBaseDelegate_TwoParams UBrainComponent *, const FAIMessage & > BrainComponent.h"
+          ],
+          [
+            "FOnBlackboardChange",
+            "TBaseDelegate_TwoParams UBlackboardComponent &, FBlackboard::FKey > Delegate defines BehaviorTree/BehaviorTreeTypes.h"
+          ],
+          [
+            "FOnBlackboardChangeNotification",
+            "TDelegate EBlackboardNotificationResult (const UBlackboardComponent &, FBlackboard::FKey keyID), FNotThreadSafeNotCheckedDelegateUserPolicy > Using \"not checked\" user policy (means race detection is disabled) because this delegate is stored in a TMultiMap and causes its reallocation from inside delegate's execution. BehaviorTree/BehaviorTreeTypes.h"
+          ],
+          [
+            "FOnPendingVisibilityQueryProcessedDelegate",
+            "TBaseDelegate_FiveParams FAISightQueryID &, const bool, const float, const FVector &, const TOptional & > Perception/AISense_Sight.h"
+          ],
+          [
+            "FOnPerceptionListenerUpdateDelegate",
+            "TBaseDelegate_OneParam FPerceptionListener & > Perception/AISense.h"
+          ],
+          [
+            "FPerceptionListenerID",
+            "FAIGenericID FPerceptionListenerCounter > Perception/AIPerceptionTypes.h"
+          ],
+          [
+            "FQueryFinishedSignature",
+            "TBaseDelegate_OneParam TSharedPtr FEnvQueryResult > > EnvironmentQuery/EnvQueryTypes.h"
+          ],
+          [
+            "FSharedConstNavQueryFilter",
+            "TSharedPtr FNavigationQueryFilter , ESPMode::ThreadSafe > Navigation/CrowdManager.h"
+          ],
+          [
+            "Type",
+            "uint16 Navigation/PathFollowingComponent.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "EAIForceParam::Type",
+            ""
+          ],
+          [
+            "EAILockSource::Type",
+            ""
+          ],
+          [
+            "EAILogicResuming::Type",
+            ""
+          ],
+          [
+            "EAIOptionFlag::Type",
+            ""
+          ],
+          [
+            "EAIParamType",
+            ""
+          ],
+          [
+            "EAIRequestPriority::Type",
+            ""
+          ],
+          [
+            "EAISenseNotifyType",
+            ""
+          ],
+          [
+            "EAITaskPriority",
+            ""
+          ],
+          [
+            "EArithmeticKeyOperation::Type",
+            ""
+          ],
+          [
+            "EBasicKeyOperation::Type",
+            ""
+          ],
+          [
+            "EBlackboardCompare::Type",
+            ""
+          ],
+          [
+            "EBlackboardDescription::Type",
+            ""
+          ],
+          [
+            "EBlackBoardEntryComparison::Type",
+            ""
+          ],
+          [
+            "EBlackboardKeyOperation::Type",
+            ""
+          ],
+          [
+            "EBlackboardNotificationResult",
+            ""
+          ],
+          [
+            "EBTActiveNode::Type",
+            "Keep in sync with DescribeActiveNode()"
+          ],
+          [
+            "EBTBlackboardRestart::Type",
+            "Decorator for accessing blackboard values"
+          ],
+          [
+            "EBTBranchAction",
+            ""
+          ],
+          [
+            "EBTChildIndex",
+            ""
+          ],
+          [
+            "EBTDecoratorAbortRequest",
+            ""
+          ],
+          [
+            "EBTDecoratorLogic::Type",
+            ""
+          ],
+          [
+            "EBTDescriptionVerbosity::Type",
+            ""
+          ],
+          [
+            "EBTExecutionMode::Type",
+            ""
+          ],
+          [
+            "EBTExecutionSnap::Type",
+            ""
+          ],
+          [
+            "EBTFlowAbortMode::Type",
+            ""
+          ],
+          [
+            "EBTMemoryClear::Type",
+            ""
+          ],
+          [
+            "EBTMemoryInit::Type",
+            ""
+          ],
+          [
+            "EBTNodeRelativePriority",
+            ""
+          ],
+          [
+            "EBTNodeResult::Type",
+            "Keep in sync with DescribeNodeResult()"
+          ],
+          [
+            "EBTNodeUpdateMode::Type",
+            "Keep in sync with DescribeNodeUpdateMode()"
+          ],
+          [
+            "EBTParallelChild::Type",
+            ""
+          ],
+          [
+            "EBTParallelMode::Type",
+            ""
+          ],
+          [
+            "EBTRestartMode",
+            ""
+          ],
+          [
+            "EBTStopMode::Type",
+            ""
+          ],
+          [
+            "EBTTaskStatus::Type",
+            "Keep in sync with DescribeTaskStatus()"
+          ],
+          [
+            "ECrowdAvoidanceQuality::Type",
+            ""
+          ],
+          [
+            "ECrowdSimulationState",
+            ""
+          ],
+          [
+            "EEnvDirection::Type",
+            ""
+          ],
+          [
+            "EEnvItemStatus::Type",
+            ""
+          ],
+          [
+            "EEnvOverlapShape::Type",
+            ""
+          ],
+          [
+            "EEnvQueryHightlightMode",
+            ""
+          ],
+          [
+            "EEnvQueryParam::Type",
+            ""
+          ],
+          [
+            "EEnvQueryPointSpacingMethod",
+            ""
+          ],
+          [
+            "EEnvQueryResultNormalizationOption",
+            ""
+          ],
+          [
+            "EEnvQueryRunMode::Type",
+            ""
+          ],
+          [
+            "EEnvQueryStatus::Type",
+            ""
+          ],
+          [
+            "EEnvQueryTestClamping::Type",
+            ""
+          ],
+          [
+            "EEnvQueryTrace::Type",
+            ""
+          ],
+          [
+            "EEnvTestCost::Type",
+            ""
+          ],
+          [
+            "EEnvTestDistance::Type",
+            ""
+          ],
+          [
+            "EEnvTestDot",
+            ""
+          ],
+          [
+            "EEnvTestFilterOperator::Type",
+            ""
+          ],
+          [
+            "EEnvTestFilterType::Type",
+            ""
+          ],
+          [
+            "EEnvTestPathfinding::Type",
+            ""
+          ],
+          [
+            "EEnvTestPurpose::Type",
+            ""
+          ],
+          [
+            "EEnvTestScoreEquation::Type",
+            ""
+          ],
+          [
+            "EEnvTestScoreOperator::Type",
+            ""
+          ],
+          [
+            "EEnvTestWeight::Type",
+            ""
+          ],
+          [
+            "EEnvTraceShape::Type",
+            ""
+          ],
+          [
+            "EEQSNormalizationType",
+            ""
+          ],
+          [
+            "EGenericAICheck",
+            ""
+          ],
+          [
+            "EGraphAStarResult",
+            ""
+          ],
+          [
+            "EMetaPathUpdateReason",
+            ""
+          ],
+          [
+            "EPathExistanceQueryType::Type",
+            ""
+          ],
+          [
+            "EPathFollowingAction::Type",
+            "DEPRECATED, will be removed with GetPathActionType function."
+          ],
+          [
+            "EPathFollowingDebugTokens::Type",
+            ""
+          ],
+          [
+            "EPathFollowingMessage::Type",
+            "DEPRECATED, please use EPathFollowingResultDetails instead, will be removed with deprecated override of AbortMove function."
+          ],
+          [
+            "EPathFollowingReachMode",
+            ""
+          ],
+          [
+            "EPathFollowingRequestResult::Type",
+            ""
+          ],
+          [
+            "EPathFollowingResult::Type",
+            ""
+          ],
+          [
+            "EPathFollowingStatus::Type",
+            ""
+          ],
+          [
+            "EPathFollowingVelocityMode",
+            ""
+          ],
+          [
+            "EPawnActionMoveMode::Type",
+            ""
+          ],
+          [
+            "ESightPerceptionEventName::Type",
+            ""
+          ],
+          [
+            "ETeamAttitude::Type",
+            ""
+          ],
+          [
+            "ETextKeyOperation::Type",
+            ""
+          ],
+          [
+            "FAIDistanceType",
+            ""
+          ]
+        ],
+        "Constants": [
+          [
+            "FBTNodeBPImplementationHelper::AISpecific",
+            "const int32 BehaviorTree/BTFunctionLibrary.h"
+          ],
+          [
+            "FBTNodeBPImplementationHelper::All",
+            "const int32 BehaviorTree/BTFunctionLibrary.h"
+          ],
+          [
+            "FBTNodeBPImplementationHelper::Generic",
+            "const int32 BehaviorTree/BTFunctionLibrary.h"
+          ],
+          [
+            "FBTNodeBPImplementationHelper::NoImplementation",
+            "const int32 BehaviorTree/BTFunctionLibrary.h"
+          ]
+        ],
+        "Variables": [
+          [
+            "AlreadyAtGoal",
+            "const Type Finish details: never started, agent was already at goal Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "BlackboardNotSet",
+            "FText BehaviorTree/BehaviorTreeTypes.h"
+          ],
+          [
+            "Blocked",
+            "const Type Movement was blocked ( EPathFollowingResult::Blocked ) Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "DataProviders",
+            "const int32 EnvironmentQuery/EnvQueryGenerator.h"
+          ],
+          [
+            "DataProviders",
+            "const int32 EnvironmentQuery/EnvQueryTest.h"
+          ],
+          [
+            "Default",
+            "const Type AIController.h"
+          ],
+          [
+            "FirstGameplayFlagShift",
+            "const Type Can be used to create project specific reasons Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "FocalPointDistance",
+            "float Distance to focal point along current velocity vector AIConfig.h"
+          ],
+          [
+            "ForcedScript",
+            "const Type Abort details: blueprint MoveTo function was called Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "Gameplay",
+            "const Type AIController.h"
+          ],
+          [
+            "IgnorePathfinding",
+            "bool AITypes.h"
+          ],
+          [
+            "InfiniteInterval",
+            "float AITypes.h"
+          ],
+          [
+            "Initial",
+            "const int32 EnvironmentQuery/EnvQueryGenerator.h"
+          ],
+          [
+            "Initial",
+            "const int32 EnvironmentQuery/EnvQueryTest.h"
+          ],
+          [
+            "InvalidDirection",
+            "FVector AITypes.h"
+          ],
+          [
+            "InvalidKey",
+            "FKey BehaviorTree/Blackboard/BlackboardKey.h"
+          ],
+          [
+            "InvalidLocation",
+            "FVector AITypes.h"
+          ],
+          [
+            "InvalidOrientation",
+            "const FQuat AITypes.h"
+          ],
+          [
+            "InvalidPath",
+            "const Type Abort details: path is no longer valid Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "InvalidRange",
+            "float AITypes.h"
+          ],
+          [
+            "InvalidRotation",
+            "const FRotator AITypes.h"
+          ],
+          [
+            "InvalidUnsignedID",
+            "uint32 AITypes.h"
+          ],
+          [
+            "KeySelf",
+            "const FName BehaviorTree/Blackboard/BlackboardKey.h"
+          ],
+          [
+            "LastFocusPriority",
+            "const Type AIController.h"
+          ],
+          [
+            "Latest",
+            "const int32 EnvironmentQuery/EnvQueryGenerator.h"
+          ],
+          [
+            "Latest",
+            "const int32 EnvironmentQuery/EnvQueryTest.h"
+          ],
+          [
+            "Lowest",
+            "int32 AITypes.h"
+          ],
+          [
+            "Move",
+            "const Type AIController.h"
+          ],
+          [
+            "MovementStop",
+            "const Type Abort details: unable to move Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "NewRequest",
+            "const Type Abort details: new movement request was received Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "NO_COUNT",
+            "const int32 GraphAStar.h"
+          ],
+          [
+            "None",
+            "const Type Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "NotInitialized",
+            "int32 BehaviorTree/BehaviorTreeTypes.h"
+          ],
+          [
+            "OffPath",
+            "const Type Agent is not on path ( EPathFollowingResult::OffPath ) Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "OwnedByComposite",
+            "uint8 BehaviorTree/BehaviorTreeTypes.h"
+          ],
+          [
+            "OwnerFinished",
+            "const Type Abort details: owner no longer wants to move Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "ReferenceValueFix",
+            "const int32 EnvironmentQuery/EnvQueryTest.h"
+          ],
+          [
+            "ReturnToParent",
+            "int32 BehaviorTree/BehaviorTreeTypes.h"
+          ],
+          [
+            "STATCAT_Advanced",
+            "BehaviorTree/BehaviorTreeTypes.h"
+          ],
+          [
+            "STATCAT_Advanced",
+            "EnvironmentQuery/EnvQueryTypes.h"
+          ],
+          [
+            "StopOnOverlap",
+            "bool AITypes.h"
+          ],
+          [
+            "Success",
+            "const Type Reached destination ( EPathFollowingResult::Success ) Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "TAG_EQS",
+            "const FString VisualLoggerExtension.h"
+          ],
+          [
+            "UsePathfinding",
+            "bool AITypes.h"
+          ],
+          [
+            "UserAbort",
+            "const Type Aborted ( EPathFollowingResult::Aborted ) Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "UserAbortFlagMask",
+            "const Type Navigation/PathFollowingComponent.h"
+          ]
+        ],
+        "Functions": [
+          [
+            "void BlueprintNodeHelpers::CopyPropertiesFromContext ( const TArray FProperty * >& PropertyData, uint8* ObjectMemory, ui",
+            "BlueprintNodeHelpers.h"
+          ],
+          [
+            "void BlueprintNodeHelpers::CopyPropertiesToContext ( const TArray FProperty * >& PropertyData, uint8* ObjectMemory, uint",
+            "BlueprintNodeHelpers.h"
+          ],
+          [
+            "FString BlueprintNodeHelpers::GetNodeName ( const UObject & NodeObject )",
+            "BlueprintNodeHelpers.h"
+          ],
+          [
+            "bool BlueprintNodeHelpers::HasBlueprintFunction ( FName FuncName, const UObject & Object, const UClass & StopAtClass )",
+            "BlueprintNodeHelpers.h"
+          ],
+          [
+            "EAIOptionFlag::Type FAISystem::BoolToAIOption ( bool Value )",
+            "AITypes.h"
+          ],
+          [
+            "bool FAISystem::IsValidControllerAndHasValidPawn ( const AController * Controller )",
+            "AIController.h"
+          ],
+          [
+            "bool FAISystem::IsValidDirection ( const FVector& TestVector )",
+            "AITypes.h"
+          ],
+          [
+            "bool FAISystem::IsValidLocation ( const FVector& TestLocation )",
+            "AITypes.h"
+          ],
+          [
+            "bool FAISystem::IsValidOrientation ( const FQuat& TestOrientation )",
+            "AITypes.h"
+          ],
+          [
+            "bool FAISystem::IsValidRotation ( const FRotator& TestRotation )",
+            "AITypes.h"
+          ],
+          [
+            "bool FAISystem::PickAIOption ( EAIOptionFlag::Type Option, bool DefaultOption )",
+            "AITypes.h"
+          ],
+          [
+            "uint32 FBlackboard::GetTypeHash ( const FKey & Key )",
+            "BehaviorTree/Blackboard/BlackboardKey.h"
+          ],
+          [
+            "T::FDataType FBlackboard::GetValue ( const UBlackboardComponent & Blackboard, const FName & Name, FBlackboard::FKey & In",
+            "BehaviorTree/ValueOrBBKey.h"
+          ],
+          [
+            "T::FDataType FBlackboard::GetValue ( const UBehaviorTreeComponent & BehaviorComp, const FName & Name, FBlackboard::FKey ",
+            "BehaviorTree/ValueOrBBKey.h"
+          ],
+          [
+            "TOptional FBlackboard::TryGetBlackboardKeyValue ( const UBlackboardComponent & Blackboard, const FName & Name, FBlackboa",
+            "BehaviorTree/ValueOrBBKey.h"
+          ],
+          [
+            "FString FPathFollowingResultFlags::ToString ( uint16 Value )",
+            "Navigation/PathFollowingComponent.h"
+          ],
+          [
+            "bool operator! ( EBTBranchAction E )",
+            "BehaviorTree/BehaviorTreeComponent.h"
+          ],
+          [
+            "EBTBranchAction operator& ( EBTBranchAction Lhs, EBTBranchAction Rhs )",
+            "BehaviorTree/BehaviorTreeComponent.h"
+          ],
+          [
+            "EBTBranchAction & operator&= ( EBTBranchAction & Lhs, EBTBranchAction Rhs )",
+            "BehaviorTree/BehaviorTreeComponent.h"
+          ],
+          [
+            "EBTBranchAction operator^ ( EBTBranchAction Lhs, EBTBranchAction Rhs )",
+            "BehaviorTree/BehaviorTreeComponent.h"
+          ],
+          [
+            "EBTBranchAction & operator^= ( EBTBranchAction & Lhs, EBTBranchAction Rhs )",
+            "BehaviorTree/BehaviorTreeComponent.h"
+          ],
+          [
+            "EBTBranchAction operator| ( EBTBranchAction Lhs, EBTBranchAction Rhs )",
+            "BehaviorTree/BehaviorTreeComponent.h"
+          ],
+          [
+            "EBTBranchAction & operator|= ( EBTBranchAction & Lhs, EBTBranchAction Rhs )",
+            "BehaviorTree/BehaviorTreeComponent.h"
+          ],
+          [
+            "EBTBranchAction operator~ ( EBTBranchAction E )",
+            "BehaviorTree/BehaviorTreeComponent.h"
+          ],
+          [
+            "bool operator== ( const FEQSDebugger::FEnvQueryInfo & Left, const FEQSDebugger::FEnvQueryInfo & Right )",
+            "EnvironmentQuery/EnvQueryManager.h"
+          ],
+          [
+            "FVector UE::AI::Bilinear ( const FVector2D UV, const FVector VertexA, const FVector VertexB, const FVector VertexC, cons",
+            "Interpolates bilinear patch A,B,C,D. GeomUtils.h"
+          ],
+          [
+            "FVector::FReal UE::AI::Cross2D ( const FVector& A, const FVector& B )",
+            "GeomUtils.h"
+          ],
+          [
+            "bool UE::AI::IntersectLineLine2D ( const FVector& StartA, const FVector& EndA, const FVector& StartB, const FVector& End",
+            "Intersects infinite lines defined by segments A and B in 2D. GeomUtils.h"
+          ],
+          [
+            "FVector2D UE::AI::InvBilinear2DClamped ( const FVector Point, const FVector VertexA, const FVector VertexB, const FVecto",
+            "Finds the UV coordinates of the 'Point' on bilinear patch A,B,C,D. GeomUtils.h"
+          ],
+          [
+            "FVector::FReal UE::AI::ProjectPointOnLine2D ( const FVector Point, const FVector Start, const FVector End )",
+            "GeomUtils.h"
+          ],
+          [
+            "FVector2D::FReal UE::AI::ProjectPointOnSegment2D ( const FVector Point, const FVector Start, const FVector End )",
+            "GeomUtils.h"
+          ],
+          [
+            "FVector::FReal UE::AI::SignedDistancePointLine2D ( const FVector Point, const FVector Start, const FVector End )",
+            "GeomUtils.h"
+          ],
+          [
+            "FVector::FReal UE::AI::TriArea2D ( const FVector& A, const FVector& B, const FVector& C )",
+            "GeomUtils.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/Analytics",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Analytics/Analytics/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAnalytics",
+            "The public interface for interacting with analytics."
+          ],
+          [
+            "FAnalyticsPropertyStore",
+            "Implements a fast key/value database to store the metrics gathered to create the session summary event."
+          ],
+          [
+            "FAnalyticsSpan",
+            "Implementation of an IAnalyticsSpan interface"
+          ],
+          [
+            "FAnalyticsTracer",
+            "Implementation of an IAnalyticsTracer interface"
+          ],
+          [
+            "TAnalyticsProperty",
+            "Utility class to remember the key value type and let the compiler implicitly convert type or fail if such conversion is not possible."
+          ]
+        ],
+        "Structs": [
+          [
+            "FAnalyticsEventAttribute",
+            "Struct to hold key/value pairs that will be sent as attributes along with analytics events."
+          ],
+          [
+            "FJsonFragment",
+            ""
+          ],
+          [
+            "FJsonNull",
+            ""
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IAnalyticsPropertyStore",
+            "Implements a fast type safe key/value database to store analytics properties collected during a session."
+          ],
+          [
+            "IAnalyticsProvider",
+            "Generic interface for an analytics provider."
+          ],
+          [
+            "IAnalyticsProviderModule",
+            "Generic interface for an analytics provider."
+          ],
+          [
+            "IAnalyticsSpan",
+            "IAnalyticsSpan Interface"
+          ],
+          [
+            "IAnalyticsTracer",
+            "IAnalyticsTracer Interface"
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FAnalyticsProviderConfigurationDelegate",
+            "TBaseDelegate_TwoParams FString , const FString &, bool > Analytics providers must be configured when created. AnalyticsProviderConfigurationDelegate.h"
+          ],
+          [
+            "FThreadId",
+            "uint32 AnalyticsTracer.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "EAnalyticsBuildType",
+            "Defines the different build types from an analytics perspective."
+          ],
+          [
+            "EAnalyticsRecordEventMode",
+            ""
+          ]
+        ],
+        "Functions": [
+          [
+            "const TCHAR * AnalyticsBuildTypeToString ( EAnalyticsBuildType Type )",
+            "Convert an EAnalyticsBuildType to string. AnalyticsBuildType.h"
+          ],
+          [
+            "decltype(auto) AnalyticsConversion::ToString ( T&& Value )",
+            "AnalyticsConversion.h"
+          ],
+          [
+            "decltype(auto) AnalyticsConversionToString ( const T& Value )",
+            "Helpers for converting various common types to strings that analytics providers can consume. AnalyticsConversion.h"
+          ],
+          [
+            "FString AnalyticsConversionToString ( FString && Value )",
+            "Make sure we have a direct implementation for moving FStrings as we definitely don't want to copy them as the above const-ref template will cause. AnalyticsConversion.h"
+          ],
+          [
+            "FString AnalyticsConversionToString ( const FString & Value )",
+            "AnalyticsConversion.h"
+          ],
+          [
+            "FString AnalyticsConversionToString ( FStringView Value )",
+            "AnalyticsConversion.h"
+          ],
+          [
+            "FString AnalyticsConversionToString ( float Value )",
+            "AnalyticsConversion.h"
+          ],
+          [
+            "FString AnalyticsConversionToString ( double Value )",
+            "AnalyticsConversion.h"
+          ],
+          [
+            "FString AnalyticsConversionToString ( const TArray & ValueArray )",
+            "Array conversion. Creates comma-separated list. AnalyticsConversion.h"
+          ],
+          [
+            "FString AnalyticsConversionToString ( const TArrayView & ValueArray )",
+            "Array conversion. Creates comma-separated list. AnalyticsConversion.h"
+          ],
+          [
+            "FString AnalyticsConversionToString ( const TMap & ValueMap )",
+            "Map conversion. AnalyticsConversion.h"
+          ],
+          [
+            "TArray FAnalyticsEventAttribute , Allocator > & AppendAnalyticsEventAttributeArray ( TArray FAnalyticsEventAttribute , A",
+            "Helper to append to an array of attributes using a single expression. AnalyticsEventAttribute.h"
+          ],
+          [
+            "EAnalyticsBuildType GetAnalyticsBuildType ()",
+            "Get the analytics build type. AnalyticsBuildType.h"
+          ],
+          [
+            "void ImplMakeAnalyticsEventAttributeArray::AddElement ( TArray FAnalyticsEventAttribute , Allocator >& Attrs, const KeyT",
+            "AddElement actually adds an element to the attributes array and is flagged no-inline so the array insert/value conversion code is generated once per type combination. AnalyticsEventAttribute.h"
+          ],
+          [
+            "void ImplMakeAnalyticsEventAttributeArray::MakeArray ( TArray FAnalyticsEventAttribute , Allocator >& Attrs )",
+            "AnalyticsEventAttribute.h"
+          ],
+          [
+            "void ImplMakeAnalyticsEventAttributeArray::MakeArray ( TArray FAnalyticsEventAttribute , Allocator >& Attrs, KeyType&& K",
+            "MakeArray is just a helper whose only purpose is to generate a sequence of AddElement calls and is meant to be always inlined. AnalyticsEventAttribute.h"
+          ],
+          [
+            "const TCHAR * LexToString ( FJsonNull )",
+            "AnalyticsEventAttribute.h"
+          ],
+          [
+            "const TCHAR * LexToString ( const FJsonFragment & Fragment )",
+            "AnalyticsEventAttribute.h"
+          ],
+          [
+            "FString LexToString ( FJsonFragment && Fragment )",
+            "AnalyticsEventAttribute.h"
+          ],
+          [
+            "const TCHAR * LexToString ( EAnalyticsRecordEventMode Mode )",
+            "Interfaces/IAnalyticsProvider.h"
+          ],
+          [
+            "TArray FAnalyticsEventAttribute , Allocator > MakeAnalyticsEventAttributeArray ( ArgTypes&&... Args )",
+            "Helper to create an array of attributes using a single expression. AnalyticsEventAttribute.h"
+          ],
+          [
+            "bool operator! ( FAnalyticsPropertyStore::ETypeCode E )",
+            "AnalyticsPropertyStore.h"
+          ],
+          [
+            "FAnalyticsPropertyStore::ETypeCode operator& ( FAnalyticsPropertyStore::ETypeCode Lhs, FAnalyticsPropertyStore::ETypeCod",
+            "AnalyticsPropertyStore.h"
+          ],
+          [
+            "FAnalyticsPropertyStore::ETypeCode & operator&= ( FAnalyticsPropertyStore::ETypeCode& Lhs, FAnalyticsPropertyStore::ETyp",
+            "AnalyticsPropertyStore.h"
+          ],
+          [
+            "FAnalyticsPropertyStore::ETypeCode operator^ ( FAnalyticsPropertyStore::ETypeCode Lhs, FAnalyticsPropertyStore::ETypeCod",
+            "AnalyticsPropertyStore.h"
+          ],
+          [
+            "FAnalyticsPropertyStore::ETypeCode & operator^= ( FAnalyticsPropertyStore::ETypeCode& Lhs, FAnalyticsPropertyStore::ETyp",
+            "AnalyticsPropertyStore.h"
+          ],
+          [
+            "FAnalyticsPropertyStore::ETypeCode operator| ( FAnalyticsPropertyStore::ETypeCode Lhs, FAnalyticsPropertyStore::ETypeCod",
+            "AnalyticsPropertyStore.h"
+          ],
+          [
+            "FAnalyticsPropertyStore::ETypeCode & operator|= ( FAnalyticsPropertyStore::ETypeCode& Lhs, FAnalyticsPropertyStore::ETyp",
+            "AnalyticsPropertyStore.h"
+          ],
+          [
+            "FAnalyticsPropertyStore::ETypeCode operator~ ( FAnalyticsPropertyStore::ETypeCode E )",
+            "AnalyticsPropertyStore.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AnalyticsCSV",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Analytics/AnalyticsCSV/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAnalyticsCSV",
+            "Public implementation of IAnalyticsProviderModule that returns a FAnalyticsProviderCSV object"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AnalyticsET",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Analytics/AnalyticsET/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAnalyticsET",
+            "Public implementation of EpicGames.MCP.AnalyticsProvider"
+          ],
+          [
+            "FAnalyticsFlowTracker",
+            ""
+          ],
+          [
+            "FAnalyticsProviderETEventCache",
+            "Mixin class for Epic Telemetry implementors."
+          ],
+          [
+            "FAnalyticsSessionSummaryManager",
+            "Manages the lifecycle of analytics summaries created by an application and its subsidiary processes."
+          ],
+          [
+            "FAnalyticsSessionSummarySender",
+            "Sends the analytics session summary to Epic Games analytics service."
+          ],
+          [
+            "TAnalyticsProperty",
+            ""
+          ]
+        ],
+        "Structs": [
+          [
+            "FAnalyticEventQueuedInfo",
+            ""
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IAnalyticsProviderET",
+            "ET specific analytics provider instance."
+          ],
+          [
+            "IAnalyticsSessionSummarySender",
+            "Sends the analytics session summary to a backend service."
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FOnAnalyticsEventQueued",
+            "TMulticastDelegate_TwoParams FAnalyticEventQueuedInfo & > Fired on every analytic event being queued boolean value should only be left alone or set to false, which will cause the event to not be queued. IAnalyticsProviderET.h"
+          ],
+          [
+            "FOnPreAnalyticsEventProcessed",
+            "TMulticastDelegate_TwoParams TSharedRef ESPMode::ThreadSafe > & > Fired immediately prior to the HTTP request for an analytics event being processed by HTTP IAnalyticsProviderET.h"
+          ],
+          [
+            "FThreadId",
+            "uint32 AnalyticsFlowTracker.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "EAnalyticsSessionShutdownType",
+            "Defines how the principal process (the application for which analytics is gathered) exited."
+          ]
+        ],
+        "Functions": [
+          [
+            "const TCHAR * LexToString ( EAnalyticsSessionShutdownType ShutdownTypeCode )",
+            "Converts the specified shutdown code to its string representation. AnalyticsSessionSummaryManager.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AnalyticsHorde",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Analytics/AnalyticsHorde/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAnalyticsHorde",
+            "Public implementation of IAnalyticsProviderModule"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AnalyticsLog",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Analytics/AnalyticsLog/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAnalyticsLog",
+            "Public implementation of IAnalyticsProviderModule that returns a JSON formatted FAnalayticsProviderLog object"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AnalyticsSwrve",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Analytics/AnalyticsSwrve/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAnalyticsSwrve",
+            "The public interface to this module"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AnalyticsVisualEditing",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Analytics/AnalyticsVisualEditing/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAnalyticsVisualEditingModule",
+            "This module holds the base UObject class that allows visual editing of configuration settings in the Unreal Editor."
+          ],
+          [
+            "UAnalyticsSettings",
+            ""
+          ],
+          [
+            "UAnalyticsSettingsBase",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AnimationCore",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AnimationCore/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FBoneWeight",
+            ""
+          ],
+          [
+            "FBoneWeights",
+            "A simple container for per-vertex influence of bones and their weights."
+          ],
+          [
+            "FBoneWeightsSettings",
+            ""
+          ],
+          [
+            "TBoneWeights",
+            "A templated collection of bone weights algorithms."
+          ],
+          [
+            "UAnimationDataSourceRegistry",
+            ""
+          ]
+        ],
+        "Structs": [
+          [
+            "FAimConstraintDescription",
+            "A description of how to apply aim constraint"
+          ],
+          [
+            "FAxis",
+            "Axis to represent direction"
+          ],
+          [
+            "FBoneIndexBase",
+            ""
+          ],
+          [
+            "FBoneWeightNullAdapter",
+            "A null adapter for a bone weight container to use with TBoneWeights ."
+          ],
+          [
+            "FCCDIKChainLink",
+            "Transient structure for CCDIK node evaluation"
+          ],
+          [
+            "FCompactPoseBoneIndex",
+            "This represents a compact pose bone index. A compact pose is held by a bone container and can have a different ordering than either the skeleton or skeletal mesh."
+          ],
+          [
+            "FConstraintData",
+            "Constraint Data that is contained in Node Datat You can have as many of these per node"
+          ],
+          [
+            "FConstraintDescription",
+            "A description of how to apply a simple transform constraint"
+          ],
+          [
+            "FConstraintDescriptionEx",
+            "A description of how to apply a simple transform constraint"
+          ],
+          [
+            "FConstraintDescriptor",
+            "Constraint data container."
+          ],
+          [
+            "FConstraintOffset",
+            "This is the offset for constraint"
+          ],
+          [
+            "FEulerTransform",
+            ""
+          ],
+          [
+            "FFABRIKChainLink",
+            "Controller which implements the FABRIK IK approximation algorithm - see http://andreasaristidou.com/publications/FABRIK.pdf for details Transient structure for FABRIK node evaluation Transient structure for FABRIK node evaluation"
+          ],
+          [
+            "FFilterOptionPerAxis",
+            "Filter Option Per AxisThis is used to filter per axis for constraint options"
+          ],
+          [
+            "FMeshPoseBoneIndex",
+            "This represents a skeletal mesh bone index which may differ from the skeleton bone index it corresponds to."
+          ],
+          [
+            "FNodeChain",
+            "A chain of nodes in a hierarchy"
+          ],
+          [
+            "FNodeHierarchyData",
+            "Hierarchy of nodes"
+          ],
+          [
+            "FNodeHierarchyWithUserData",
+            ""
+          ],
+          [
+            "FNodeObject",
+            "A node in a named hierarchy"
+          ],
+          [
+            "FSkeletonPoseBoneIndex",
+            "This represents a skeleton bone index which may differ from the skeletal mesh bone index it corresponds to."
+          ],
+          [
+            "FTransformConstraint",
+            ""
+          ],
+          [
+            "FTransformConstraintDescription",
+            "A description of how to apply a simple transform constraint"
+          ],
+          [
+            "FTransformFilter",
+            "A filter for a whole transform"
+          ],
+          [
+            "FTransformNoScale",
+            ""
+          ],
+          [
+            "TCompactPoseBoneIndexMapKeyFuncs",
+            ""
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FBoneIndexType",
+            "uint16 BoneIndices.h"
+          ],
+          [
+            "FFindParamAtFirstSphereIntersection",
+            "TBaseDelegate_ThreeParams Finds a spline parameter (alpha) at the intersection of a spline and a sphere. SplineIK.h"
+          ],
+          [
+            "FFloatMapping",
+            "TBaseDelegate_OneParam Outputs a float given a float input SplineIK.h"
+          ],
+          [
+            "FGetGlobalTransform",
+            "TBaseDelegate_OneParam FName > AnimationCoreLibrary.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "EConstraintType",
+            "New changes of constraints"
+          ],
+          [
+            "EEulerRotationOrder",
+            ""
+          ],
+          [
+            "ETransformConstraintType",
+            "Transform Constraint Types"
+          ],
+          [
+            "UE::AnimationCore::EBoneWeightNormalizeType",
+            "Specifies the method for which the bone weights are normalized after the bone weight list is modified."
+          ]
+        ],
+        "Constants": [
+          [
+            "UE::AnimationCore::BoneWeightThreshold",
+            "float The threshold value at or above which a 0-1 normalized bone weight value will be stored as a non-zero value after scaling and quantizing to a 16-bit integer BoneWeights.h"
+          ],
+          [
+            "UE::AnimationCore::InvMaxRawBoneWeightFloat",
+            "float The inverse of the maximum raw weight value as a float value. Used for scaling. BoneWeights.h"
+          ],
+          [
+            "UE::AnimationCore::MaxInlineBoneWeightCount",
+            "int32 The maximum number of inline bone weights. BoneWeights.h"
+          ],
+          [
+            "UE::AnimationCore::MaxRawBoneWeight",
+            "uint16 The maximum raw weight value BoneWeights.h"
+          ],
+          [
+            "UE::AnimationCore::MaxRawBoneWeightFloat",
+            "float The maximum raw weight value as a float value BoneWeights.h"
+          ],
+          [
+            "UE::AnimationCore::WeightSortPredicate",
+            "auto FBoneWeights implementations. BoneWeights.h"
+          ]
+        ],
+        "Functions": [
+          [
+            "int32 GetIntFromComp ( const int32 InComp )",
+            "BoneIndices.h"
+          ],
+          [
+            "int32 GetIntFromComp ( const FBoneIndexBase & InComp )",
+            "BoneIndices.h"
+          ],
+          [
+            "static uint32 GetTypeHash ( const UE::AnimationCore::FBoneWeight & InBoneWeight )",
+            "A hashing function to allow the FBoneWeight class to be used with hashing containers (e.g. TSet or TMap ). BoneWeights.h"
+          ],
+          [
+            "static uint32 GetTypeHash ( const UE::AnimationCore::FBoneWeights & InBoneWeights )",
+            "BoneWeights.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AnimGraphRuntime",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AnimGraphRuntime/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAnimCustomInstanceHelper",
+            ""
+          ],
+          [
+            "FOnMontagePlayDelegate",
+            ""
+          ],
+          [
+            "FRBFInterpolatorBase",
+            "An implementation detail for the RBF interpolator to hide the use of Eigen from components outside AnimGraphRuntime."
+          ],
+          [
+            "TRBFInterpolator",
+            ""
+          ],
+          [
+            "UAnimationStateMachineLibrary",
+            "Exposes operations to be performed on anim state machine node contexts."
+          ],
+          [
+            "UAnimExecutionContextLibrary",
+            "Exposes operations to be performed on anim node contexts."
+          ],
+          [
+            "UAnimNodeRigidBodyLibrary",
+            "Exposes operations to be performed on a rigid body anim node."
+          ],
+          [
+            "UAnimNotify_PlayMontageNotify",
+            ""
+          ],
+          [
+            "UAnimNotify_PlayMontageNotifyWindow",
+            "UAnimNotify_PlayMontageNotifyWindow ."
+          ],
+          [
+            "UAnimSequencerInstance",
+            ""
+          ],
+          [
+            "UBlendListBaseLibrary",
+            "Exposes operations to be performed on anim state machine node contexts."
+          ],
+          [
+            "UBlendSpaceLibrary",
+            "Exposes operations to be performed on a blend space anim node."
+          ],
+          [
+            "UBlendSpacePlayerLibrary",
+            "Exposes operations to be performed on a blend space player anim node."
+          ],
+          [
+            "UKismetAnimationLibrary",
+            "A library of the most common animation blueprint functions."
+          ],
+          [
+            "ULayeredBoneBlendLibrary",
+            "Exposes operations to be performed on a layered bone blend anim node."
+          ],
+          [
+            "ULinkedAnimGraphLibrary",
+            "Exposes operations to be performed on anim node contexts."
+          ],
+          [
+            "UMirrorAnimLibrary",
+            "Exposes operations that can be run on a Mirror node via Anim Node Functions such as \"On Become Relevant\" and \"On Update\"."
+          ],
+          [
+            "UModifyCurveAnimLibrary",
+            "Exposes operations that can be run on a Modify Curve Node via Anim Node Functions such as \"On Become Relevant\" and \"On Update\"."
+          ],
+          [
+            "UPlayMontageCallbackProxy",
+            ""
+          ],
+          [
+            "USequenceEvaluatorLibrary",
+            "Exposes operations to be performed on a sequence evaluator anim node Note: Experimental and subject to change&#33;"
+          ],
+          [
+            "USequencePlayerLibrary",
+            "Exposes operations to be performed on a sequence player anim node Note: Experimental and subject to change&#33;"
+          ],
+          [
+            "USequencerAnimationOverride",
+            "Sequencer Animation Track Override interface."
+          ],
+          [
+            "USequencerAnimationSupport",
+            ""
+          ],
+          [
+            "USkeletalControlLibrary",
+            "Exposes operations to be performed on a skeletal control anim node Note: Experimental and subject to change&#33;"
+          ]
+        ],
+        "Structs": [
+          [
+            "FAngularRangeLimit",
+            ""
+          ],
+          [
+            "FAnimationCustomVersion",
+            "Custom serialization version for assets/classes in the AnimGraphRuntime and AnimGraph modules."
+          ],
+          [
+            "FAnimationStateMachineReference",
+            ""
+          ],
+          [
+            "FAnimationStateResultReference",
+            ""
+          ],
+          [
+            "FAnimConstraintOffsetPair",
+            ""
+          ],
+          [
+            "FAnimLegIKData",
+            "Runtime foot data after validation, we guarantee these bones to exist"
+          ],
+          [
+            "FAnimLegIKDefinition",
+            "Per foot definitions"
+          ],
+          [
+            "FAnimNode_AimOffsetLookAt",
+            "This node uses a source transform of a socket on the skeletal mesh to automatically calculate Yaw and Pitch directions for a referenced aim offset given a point in the world to look at."
+          ],
+          [
+            "FAnimNode_AnimDynamics",
+            ""
+          ],
+          [
+            "FAnimNode_ApplyAdditive",
+            ""
+          ],
+          [
+            "FAnimNode_ApplyLimits",
+            ""
+          ],
+          [
+            "FAnimNode_BlendBoneByChannel",
+            ""
+          ],
+          [
+            "FAnimNode_BlendListBase",
+            "Blend list node; has many children."
+          ],
+          [
+            "FAnimNode_BlendListByBool",
+            "This node is effectively a 'branch', picking one of two input poses based on an input Boolean value."
+          ],
+          [
+            "FAnimNode_BlendListByEnum",
+            "Blend List by Enum, it changes based on enum input that enters."
+          ],
+          [
+            "FAnimNode_BlendListByInt",
+            "Blend list node; has many children."
+          ],
+          [
+            "FAnimNode_BlendSpaceEvaluator",
+            "Evaluates a BlendSpace at a specific using a specific time input rather than advancing time internally."
+          ],
+          [
+            "FAnimNode_BlendSpaceGraph",
+            "Allows multiple animations to be blended between based on input parameters."
+          ],
+          [
+            "FAnimNode_BlendSpaceGraphBase",
+            "Allows multiple animations to be blended between based on input parameters."
+          ],
+          [
+            "FAnimNode_BlendSpacePlayer",
+            ""
+          ],
+          [
+            "FAnimNode_BlendSpacePlayer_Standalone",
+            ""
+          ],
+          [
+            "FAnimNode_BlendSpacePlayerBase",
+            ""
+          ],
+          [
+            "FAnimNode_BlendSpaceSampleResult",
+            "Root node of a blend space sample (sink node)."
+          ],
+          [
+            "FAnimNode_BoneDrivenController",
+            "This is the runtime version of a bone driven controller, which maps part of the state from one bone to another (e.g., 2 &#42; source.x -> target.z)"
+          ],
+          [
+            "FAnimNode_CallFunction",
+            "Calls specified user-defined events/functions during anim graph execution"
+          ],
+          [
+            "FAnimNode_CCDIK",
+            "Controller which implements the CCDIK IK approximation algorithm"
+          ],
+          [
+            "FAnimNode_Constraint",
+            "Constraint node to parent or world transform for rotation/translation"
+          ],
+          [
+            "FAnimNode_CopyBone",
+            "Simple controller to copy a bone's transform to another one."
+          ],
+          [
+            "FAnimNode_CopyBoneDelta",
+            "Simple controller to copy a transform relative to the ref pose to the target bone, instead of the copy bone node which copies the absolute transform"
+          ],
+          [
+            "FAnimNode_CopyPoseFromMesh",
+            "Simple controller to copy a bone's transform to another one."
+          ],
+          [
+            "FAnimNode_CurveSource",
+            "Supply curves from some external source (e.g. audio)"
+          ],
+          [
+            "FAnimNode_Fabrik",
+            "Controller which implements the FABRIK IK approximation algorithm - see http://www.academia.edu/9165835/FABRIK_A_fast_iterative_solver_for_the_Inverse_Kinematics_problem for details"
+          ],
+          [
+            "FAnimNode_HandIKRetargeting",
+            "Node to handle re-targeting of Hand IK bone chain."
+          ],
+          [
+            "FAnimNode_LayeredBoneBlend",
+            "Layered blend (per bone); has dynamic number of blendposes that can blend per different bone sets."
+          ],
+          [
+            "FAnimNode_LegIK",
+            ""
+          ],
+          [
+            "FAnimNode_LookAt",
+            "Simple controller that make a bone to look at the point or another bone"
+          ],
+          [
+            "FAnimNode_MakeDynamicAdditive",
+            ""
+          ],
+          [
+            "FAnimNode_MeshSpaceRefPose",
+            ""
+          ],
+          [
+            "FAnimNode_Mirror",
+            ""
+          ],
+          [
+            "FAnimNode_Mirror_Standalone",
+            ""
+          ],
+          [
+            "FAnimNode_MirrorBase",
+            ""
+          ],
+          [
+            "FAnimNode_ModifyBone",
+            "Simple controller that replaces or adds to the translation/rotation of a single bone."
+          ],
+          [
+            "FAnimNode_ModifyCurve",
+            "Easy way to modify curve values on a pose"
+          ],
+          [
+            "FAnimNode_MultiWayBlend",
+            "This represents a baked transition."
+          ],
+          [
+            "FAnimNode_ObserveBone",
+            "Debugging node that displays the current value of a bone in a specific space."
+          ],
+          [
+            "FAnimNode_PoseBlendNode",
+            "Evaluates a point in an anim sequence, using a specific time input rather than advancing time internally."
+          ],
+          [
+            "FAnimNode_PoseByName",
+            "Evaluates a point in an anim sequence, using a specific time input rather than advancing time internally."
+          ],
+          [
+            "FAnimNode_PoseDriver",
+            "RBF based orientation driver"
+          ],
+          [
+            "FAnimNode_PoseHandler",
+            "Evaluates a point in an anim sequence, using a specific time input rather than advancing time internally."
+          ],
+          [
+            "FAnimNode_PoseSnapshot",
+            "Provide a snapshot pose, either from the internal named pose cache or via a supplied snapshot"
+          ],
+          [
+            "FAnimNode_RandomPlayer",
+            ""
+          ],
+          [
+            "FAnimNode_RefPose",
+            "RefPose pose nodes - ref pose or additive RefPose pose."
+          ],
+          [
+            "FAnimNode_RemoveCurve",
+            ""
+          ],
+          [
+            "FAnimNode_ResetRoot",
+            ""
+          ],
+          [
+            "FAnimNode_RigidBody",
+            "Controller that simulates physics based on the physics asset of the skeletal mesh component"
+          ],
+          [
+            "FAnimNode_RotateRootBone",
+            ""
+          ],
+          [
+            "FAnimNode_RotationMultiplier",
+            "Simple controller that multiplies scalar value to the translation/rotation/scale of a single bone."
+          ],
+          [
+            "FAnimNode_RotationOffsetBlendSpace",
+            ""
+          ],
+          [
+            "FAnimNode_RotationOffsetBlendSpaceGraph",
+            "Allows multiple animations to be blended between based on input parameters."
+          ],
+          [
+            "FAnimNode_ScaleChainLength",
+            "Scale the length of a chain of bones."
+          ],
+          [
+            "FAnimNode_SequenceEvaluator",
+            "Sequence evaluator node that can be used with constant folding."
+          ],
+          [
+            "FAnimNode_SequenceEvaluator_Standalone",
+            "Sequence evaluator node that can be used standalone (without constant folding)"
+          ],
+          [
+            "FAnimNode_SequenceEvaluatorBase",
+            "Abstract base class."
+          ],
+          [
+            "FAnimNode_SkeletalControlBase",
+            ""
+          ],
+          [
+            "FAnimNode_Slot",
+            "An animation slot node normally acts as a passthru, but a montage or PlaySlotAnimation call from game code can cause an animation to blend in and be played on the slot temporarily, overriding the Source input."
+          ],
+          [
+            "FAnimNode_SplineIK",
+            ""
+          ],
+          [
+            "FAnimNode_SpringBone",
+            "Simple controller that replaces or adds to the translation/rotation of a single bone."
+          ],
+          [
+            "FAnimNode_Sync",
+            ""
+          ],
+          [
+            "FAnimNode_Trail",
+            "Trail Controller"
+          ],
+          [
+            "FAnimNode_TwistCorrectiveNode",
+            "This is the node that apply corrective morphtarget for twist Good example is that if you twist your neck too far right or left, you're going to see odd stretch shape of neck, This node can detect the angle and apply morphtarget curve This isn't the twist control node for bone twist"
+          ],
+          [
+            "FAnimNode_TwoBoneIK",
+            "Simple 2 Bone IK Controller."
+          ],
+          [
+            "FAnimNode_TwoWayBlend",
+            "This represents a baked transition."
+          ],
+          [
+            "FAnimPhysBodyDefinition",
+            ""
+          ],
+          [
+            "FAnimPhysBoneRigidBody",
+            "Helper mapping a rigid body to a bone reference"
+          ],
+          [
+            "FAnimPhysConstraintSetup",
+            "Constraint setup struct, holds data required to build a physics constraint"
+          ],
+          [
+            "FAnimPhysLinkedBody",
+            "Helper describing a body linked to an optional parent (can be nullptr)"
+          ],
+          [
+            "FAnimPhysPlanarLimit",
+            ""
+          ],
+          [
+            "FAnimPhysSimSpaceSettings",
+            ""
+          ],
+          [
+            "FAnimPhysSphericalLimit",
+            ""
+          ],
+          [
+            "FAnimSequencerData",
+            ""
+          ],
+          [
+            "FAnimSequencerInstanceProxy",
+            "Proxy override for this UAnimInstance-derived class"
+          ],
+          [
+            "FBlendBoneByChannelEntry",
+            ""
+          ],
+          [
+            "FBlendListBaseReference",
+            ""
+          ],
+          [
+            "FBlendSpacePlayerReference",
+            ""
+          ],
+          [
+            "FBlendSpaceReference",
+            ""
+          ],
+          [
+            "FConstraint",
+            "Constraint Set up"
+          ],
+          [
+            "FIKChain",
+            ""
+          ],
+          [
+            "FIKChainLink",
+            ""
+          ],
+          [
+            "FIKFootPelvisPullDownSolver",
+            ""
+          ],
+          [
+            "FLayeredBoneBlendReference",
+            ""
+          ],
+          [
+            "FLinkedAnimGraphReference",
+            ""
+          ],
+          [
+            "FMirrorAnimNodeReference",
+            ""
+          ],
+          [
+            "FModifyCurveAnimNodeReference",
+            ""
+          ],
+          [
+            "FPerJointTrailSetup",
+            "In the future, we might use this for stretch set up as well for now this is unserializable, and transient only"
+          ],
+          [
+            "FPoseDriverTarget",
+            "Information about each target in the PoseDriver"
+          ],
+          [
+            "FPoseDriverTransform",
+            "Translation and rotation for a particular bone at a particular target"
+          ],
+          [
+            "FPositionHistory",
+            "An easing type defining how to ease float values."
+          ],
+          [
+            "FRandomAnimPlayData",
+            ""
+          ],
+          [
+            "FRandomPlayerSequenceEntry",
+            "The random player node holds a list of sequences and parameter ranges which will be played continuously In a random order."
+          ],
+          [
+            "FRBFEntry",
+            "Struct storing a particular entry within the RBF"
+          ],
+          [
+            "FRBFOutputWeight",
+            "Struct for storing RBF results - target index and corresponding weight"
+          ],
+          [
+            "FRBFParams",
+            "Parameters used by RBF solver"
+          ],
+          [
+            "FRBFSolver",
+            "Library of Radial Basis Function solver functions"
+          ],
+          [
+            "FRBFTarget",
+            "Data about a particular target in the RBF, including scaling factor"
+          ],
+          [
+            "FReferenceBoneFrame",
+            "Reference Bone Frame"
+          ],
+          [
+            "FRigidBodyAnimNodeReference",
+            ""
+          ],
+          [
+            "FRootMotionOverride",
+            "Optional Override To Specify RootMotion"
+          ],
+          [
+            "FRotationLimit",
+            ""
+          ],
+          [
+            "FRotationRetargetingInfo",
+            "The FRotationRetargetingInfo is used to provide all of the settings required to perform rotational retargeting on a single transform."
+          ],
+          [
+            "FSequenceEvaluatorReference",
+            ""
+          ],
+          [
+            "FSequencePlayerReference",
+            ""
+          ],
+          [
+            "FSequencerPlayerAnimSequence",
+            "Player type that evaluates a sequence-specified UAnimSequence"
+          ],
+          [
+            "FSequencerPlayerBase",
+            "Base class for all 'players' that can attach to and be blended into a sequencer instance's output"
+          ],
+          [
+            "FSimSpaceSettings",
+            ""
+          ],
+          [
+            "FSkeletalControlReference",
+            ""
+          ],
+          [
+            "FSplineIKCachedBoneData",
+            "Data cached per bone in the chain"
+          ],
+          [
+            "FWarpingVectorValue",
+            "Vector values which may be specified in a configured space."
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IAnimGraphRuntime_SequencerMixerTargetConnector",
+            ""
+          ],
+          [
+            "ISequencerAnimationOverride",
+            ""
+          ],
+          [
+            "ISequencerAnimationSupport",
+            ""
+          ]
+        ],
+        "Enums": [
+          [
+            "AnimPhysAngularConstraintType",
+            "Supported angular constraint types"
+          ],
+          [
+            "AnimPhysLinearConstraintType",
+            "Supported linear axis constraints"
+          ],
+          [
+            "AnimPhysSimSpaceType",
+            ""
+          ],
+          [
+            "CopyBoneDeltaMode",
+            ""
+          ],
+          [
+            "EAnimFunctionCallSite",
+            "Copyright Epic Games, Inc. All Rights Reserved."
+          ],
+          [
+            "EBlendListChildUpdateMode",
+            ""
+          ],
+          [
+            "EBlendListTransitionType",
+            ""
+          ],
+          [
+            "EBoneModificationMode",
+            ""
+          ],
+          [
+            "EConstraintOffsetOption",
+            "Enum value to describe how you'd like to maintain offset"
+          ],
+          [
+            "EDrivenBoneModificationMode",
+            "The type of modification to make to the destination component(s)"
+          ],
+          [
+            "EDrivenDestinationMode",
+            "Type of destination value to drive."
+          ],
+          [
+            "EEasingFuncType",
+            "An easing type defining how to ease float values."
+          ],
+          [
+            "EInterpolationBlend::Type",
+            "Various ways to interpolate TAlphaBlend."
+          ],
+          [
+            "ELayeredBoneBlendMode",
+            ""
+          ],
+          [
+            "EMirrorBlendType",
+            ""
+          ],
+          [
+            "EModifyCurveApplyMode",
+            ""
+          ],
+          [
+            "EPoseDriverOutput",
+            "Options for what PoseDriver should be driving"
+          ],
+          [
+            "EPoseDriverSource",
+            "Transform aspect used to drive interpolation"
+          ],
+          [
+            "EPoseDriverType",
+            "Deprecated."
+          ],
+          [
+            "ERandomDataIndexType",
+            ""
+          ],
+          [
+            "ERBFDistanceMethod",
+            "Method for determining distance from input to targets"
+          ],
+          [
+            "ERBFFunctionType",
+            "Function to use for each target falloff"
+          ],
+          [
+            "ERBFNormalizeMethod",
+            "Method to normalize weights"
+          ],
+          [
+            "ERBFSolverType",
+            "The solver type to use. The two solvers have different requirements."
+          ],
+          [
+            "ERefPoseType",
+            ""
+          ],
+          [
+            "ERemoveCurveMode",
+            ""
+          ],
+          [
+            "ERotationComponent",
+            "A rotational component. This is used for retargeting, for example."
+          ],
+          [
+            "EScaleChainInitialLength",
+            ""
+          ],
+          [
+            "ESequenceEvalReinit::Type",
+            ""
+          ],
+          [
+            "ESimulationSpace",
+            "Determines in what space the simulation should run"
+          ],
+          [
+            "ESimulationTiming",
+            "Determines behaviour regarding deferral of simulation tasks."
+          ],
+          [
+            "ESnapshotSourceMode",
+            "How to access the snapshot"
+          ],
+          [
+            "ESphericalLimitType",
+            "Whether spheres keep bodies inside, or outside of their shape"
+          ],
+          [
+            "ESplineBoneAxis",
+            "The different axes we can align our bones to."
+          ],
+          [
+            "ESwapRootBone",
+            ""
+          ],
+          [
+            "EWarpingEvaluationMode",
+            "Specifies the evaluation mode of an animation warping node."
+          ],
+          [
+            "EWarpingVectorMode",
+            "The supported spaces of a corresponding input vector value."
+          ]
+        ],
+        "Variables": [
+          [
+            "bEnableRigidBodyNode",
+            "bool BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "CVarDebugBone",
+            "TAutoConsoleVariable FString > BoneControllers/AnimNode_AnimDynamics.h"
+          ],
+          [
+            "CVarEnableDynamics",
+            "TAutoConsoleVariable BoneControllers/AnimNode_AnimDynamics.h"
+          ],
+          [
+            "CVarEnableRigidBodyNode",
+            "FAutoConsoleVariableRef BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "CVarEnableRigidBodyNodeSimulation",
+            "TAutoConsoleVariable BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "CVarEnableWind",
+            "TAutoConsoleVariable BoneControllers/AnimNode_AnimDynamics.h"
+          ],
+          [
+            "CVarLODThreshold",
+            "TAutoConsoleVariable BoneControllers/AnimNode_AnimDynamics.h"
+          ],
+          [
+            "CVarRigidBodyLODThreshold",
+            "TAutoConsoleVariable BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "CVarShowDebug",
+            "TAutoConsoleVariable BoneControllers/AnimNode_AnimDynamics.h"
+          ]
+        ],
+        "Functions": [
+          [
+            "FVector CommonAnimationLibrary::RetargetSingleLocation ( FVector Location, const FTransform& Source, const FTransform& T",
+            "This function performs retargeting of translation using an easing function. CommonAnimationLibrary.h"
+          ],
+          [
+            "FQuat CommonAnimationLibrary::RetargetSingleRotation ( const FQuat& Rotation, const FTransform& Source, const FTransform",
+            "This function performs retargeting of rotation using an easing function. CommonAnimationLibrary.h"
+          ],
+          [
+            "float CommonAnimationLibrary::ScalarEasing ( float Value, const FRuntimeFloatCurve & CustomCurve, EEasingFuncType Easing",
+            "This function perform easing on a float value using a variety of easing types. CommonAnimationLibrary.h"
+          ],
+          [
+            "FVector ConvertCSPositionToSimSpace ( ESimulationSpace SimSpace, const FVector& InCSPosition, const FTransform& Componen",
+            "BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "FTransform ConvertCSTransformToSimSpace ( ESimulationSpace SimSpace, const FTransform& InCSTransform, const FTransform& ",
+            "BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "FVector ConvertCSVectorToSimSpace ( ESimulationSpace SimSpace, const FVector& InCSVector, const FTransform& ComponentToW",
+            "BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "bool RigidBodyNodeIsPoseScalePropagationEnabledGlobally()",
+            "BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "FTransform SpaceToWorldTransform ( ESimulationSpace Space, const FTransform& ComponentToWorld, const FTransform& BaseBon",
+            "BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "FVector WorldPositionToSpace ( ESimulationSpace Space, const FVector& WorldPoint, const FTransform& ComponentToWorld, co",
+            "BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "FVector WorldVectorToSpaceNoScale ( ESimulationSpace Space, const FVector& WorldDir, const FTransform& ComponentToWorld,",
+            "BoneControllers/AnimNode_RigidBody.h"
+          ],
+          [
+            "static double RBFDistanceMetric::ArcLength ( const FVector& A, const FVector B )",
+            "Returns the arc length between two unit vectors (i.e. the distance between two points on a unit sphere, traveling along the surface of the sphere) RBF/RBFInterpolator.h"
+          ],
+          [
+            "static double RBFDistanceMetric::ArcLength ( const FRotator& A, const FRotator& B )",
+            "Returns the arc-length distance, on a unit sphere, between two rotation vectors. RBF/RBFInterpolator.h"
+          ],
+          [
+            "static double RBFDistanceMetric::ArcLength ( const FQuat& A, const FQuat& B )",
+            "Returns the arc-length distance, on a unit sphere, between two quaternions. RBF/RBFInterpolator.h"
+          ],
+          [
+            "static double RBFDistanceMetric::Euclidean ( const FVector& A, const FVector& B )",
+            "Returns the Euclidean (L2) distance between two coordinate vectors. RBF/RBFInterpolator.h"
+          ],
+          [
+            "static double RBFDistanceMetric::Euclidean ( const FRotator& A, const FRotator& B )",
+            "Returns a straight-up Euclidean distance between two rotation values expressed in radians. RBF/RBFInterpolator.h"
+          ],
+          [
+            "static double RBFDistanceMetric::Euclidean ( const FQuat& A, const FQuat& B )",
+            "Returns the Euclidean (L2) distance between two quaternion values expressed. RBF/RBFInterpolator.h"
+          ],
+          [
+            "static double RBFDistanceMetric::Manhattan ( const FVector& A, const FVector& B )",
+            "Returns the Manhattan (L1), or Taxi-cab distance between two coordinate vectors. RBF/RBFInterpolator.h"
+          ],
+          [
+            "static double RBFDistanceMetric::SwingAngle ( const FQuat& A, const FQuat& B, const FVector& TwistAxis )",
+            "Returns the swing arc length distance between two quaternions, using a specific twist basis vector as reference. RBF/RBFInterpolator.h"
+          ],
+          [
+            "static double RBFDistanceMetric::TwistAngle ( const FQuat& A, const FQuat& B, const FVector& TwistAxis )",
+            "Returns the twist arc length distance between two quaternions, using a specific twist basis vector as reference. RBF/RBFInterpolator.h"
+          ],
+          [
+            "static float RBFKernel::Cubic ( float Value, float Sigma )",
+            "A cubic falloff, with identical clamping behavior to the linear falloff, but with a smooth peak RBF/RBFInterpolator.h"
+          ],
+          [
+            "static float RBFKernel::Exponential ( float Value, float Sigma )",
+            "An exponential falloff with a sharp peak RBF/RBFInterpolator.h"
+          ],
+          [
+            "static float RBFKernel::Gaussian ( float Value, float Sigma )",
+            "A gaussian falloff RBF/RBFInterpolator.h"
+          ],
+          [
+            "static float RBFKernel::Linear ( float Value, float Sigma )",
+            "A simple linear falloff, clamping at zero out when the norm of Value exceeds Sigma RBF/RBFInterpolator.h"
+          ],
+          [
+            "static float RBFKernel::Quintic ( float Value, float Sigma )",
+            "A quintic falloff, with identical clamping behavior to the linear falloff, but with a flatter peak than cubic RBF/RBFInterpolator.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AppFramework",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AppFramework/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FColorDragDrop",
+            "This operation is a color which can be dragged and dropped between widgets."
+          ],
+          [
+            "FColorTheme",
+            "A Color Theme is a name and an array of Colors."
+          ],
+          [
+            "SColorGradingPicker",
+            "Enumerates color picker modes."
+          ],
+          [
+            "SColorPicker",
+            "Class for placing a color picker."
+          ],
+          [
+            "SColorThemeBar",
+            "SColorThemeBars include a ThemeColorBlocksBar in addition to a label."
+          ],
+          [
+            "SColorThemesViewer",
+            "The widget that manages the dropdown menu in the Color Themes Panel"
+          ],
+          [
+            "SColorTrash",
+            "The SColorTrash is a multipurpose widget which allows FColorDragDrops to be dropped on to to be"
+          ],
+          [
+            "SMultipleOptionTable",
+            ""
+          ],
+          [
+            "SOptionTableRow",
+            "Implements a row widget for an option list."
+          ],
+          [
+            "SThemeColorBlock",
+            "SThemeColorBlocks are Color Blocks which point to a Color in a ColorTheme."
+          ],
+          [
+            "SThemeColorBlocksBar",
+            "A panel for displaying SColorBlocks in a FColorTheme"
+          ],
+          [
+            "SWizard",
+            "Implements a wizard widget."
+          ]
+        ],
+        "Structs": [
+          [
+            "FColorChannels",
+            "Struct for holding individual pointers to float values."
+          ],
+          [
+            "FColorInfo",
+            ""
+          ],
+          [
+            "FColorPickerArgs",
+            ""
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FOnColorPickerCancelled",
+            "TBaseDelegate_OneParam FLinearColor > Called when the color picker cancel button is pressed Widgets/Colors/SColorPicker.h"
+          ],
+          [
+            "FOnCurrentThemeChanged",
+            "TBaseDelegate_OneParam TSharedPtr FColorTheme > > Widgets/Colors/SColorThemes.h"
+          ],
+          [
+            "FOnGetCurrentVector4Value",
+            "TBaseDelegate_OneParam Callback to get the current FVector4 value Widgets/Colors/SColorGradingPicker.h"
+          ],
+          [
+            "FOnGetPageIndex",
+            "TBaseDelegate_OneParam Delegate type for getting the next page to show. Widgets/Workflow/SWizard.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "EColorPickerChannels",
+            "Enumerates color channels (do not reorder)."
+          ],
+          [
+            "EColorPickerHexMode",
+            "Enumerates hexadecimal text modes."
+          ],
+          [
+            "EColorPickerModes",
+            "Enumerates color picker modes."
+          ]
+        ],
+        "Variables": [
+          [
+            "StarshipGalleryTabName",
+            "const FLazyName Widgets/Testing/SStarshipSuite.h"
+          ]
+        ],
+        "Functions": [
+          [
+            "void DestroyColorPicker ()",
+            "Destroy the current color picker. Widgets/Colors/SColorPicker.h"
+          ],
+          [
+            "TSharedPtr SColorPicker > GetColorPicker()",
+            "Get a pointer to the static color picker, or nullptr if it does not exist. Widgets/Colors/SColorPicker.h"
+          ],
+          [
+            "void MakeSplitterTest()",
+            "Widgets/Testing/STestSuite.h"
+          ],
+          [
+            "bool OpenColorPicker ( const FColorPickerArgs & Args )",
+            "Open up the static color picker, destroying any previously existing one. Widgets/Colors/SColorPicker.h"
+          ],
+          [
+            "void RegisterStarshipGalleryTabSpawner()",
+            "Widgets/Testing/SStarshipSuite.h"
+          ],
+          [
+            "void RestoreSlateTestSuite()",
+            "Widgets/Testing/STestSuite.h"
+          ],
+          [
+            "void RestoreStarshipSuite()",
+            "Widgets/Testing/SStarshipSuite.h"
+          ],
+          [
+            "void SummonPerfTestSuite()",
+            "Widgets/Testing/SPerfSuite.h"
+          ],
+          [
+            "void UnregisterStarshipGalleryTabSpawner()",
+            "Widgets/Testing/SStarshipSuite.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/ApplicationCore",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/ApplicationCore/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FGenericAccessibleMessageHandler",
+            "Platform and application-agnostic messaging system for accessible events."
+          ],
+          [
+            "FGenericAccessibleUser",
+            "An accessible user is an input source that can interact with the application and needs to provide accessibility services such as a screen reader."
+          ],
+          [
+            "FGenericAccessibleUserRegistry",
+            "The base class for an accessible user registry that all accessible users must register with."
+          ],
+          [
+            "FGenericApplicationMessageHandler",
+            "Interface that defines how to handle interaction with a user via hardware input and output"
+          ],
+          [
+            "FGenericConfigRules",
+            ""
+          ],
+          [
+            "FGenericPlatformInputDeviceMapper",
+            "Generic implementation of the IPlatformInputDeviceMapper ."
+          ],
+          [
+            "FGenericPlatformSoftwareCursor",
+            "Windows has special needs with RECT, and we don't need this class on Windows anyway, so just skip it."
+          ],
+          [
+            "FGenericWindow",
+            ""
+          ],
+          [
+            "FInputDeviceRegistry",
+            "Thread-safe singleton registry mapping FInputDeviceId to FInputDeviceDescriptor ."
+          ],
+          [
+            "FInputDeviceScope",
+            "Context scope that indicates which IInputDevice is currently being handled."
+          ],
+          [
+            "FModifierKeysState",
+            "FModifierKeysState stores the pressed state of keys that are commonly used as modifiers"
+          ],
+          [
+            "FNullApplication",
+            "An implementation of GenericApplication specifically for use when rendering off screen."
+          ],
+          [
+            "FNullCursor",
+            "An implementation of an ICursor specifically for use when rendering off screen."
+          ],
+          [
+            "FNullWindow",
+            "An implementation of FGenericWindow specifically for use when rendering off screen."
+          ],
+          [
+            "FUnixFeedbackContext",
+            "Feedback context implementation for Unix."
+          ],
+          [
+            "GenericApplication",
+            "Generic platform application interface"
+          ],
+          [
+            "TInputDeviceMap",
+            "An interface which can be added to any IInputDevice (or any other type which is creating Human Interface Devices) to store it's unique identifier for those physical devices and associate them with a FInputDeviceId so that the rest of the Unreal Engine can interact with them"
+          ]
+        ],
+        "Structs": [
+          [
+            "FAccessibleEventArgs",
+            "The arguments for an accessible event that is raised by accessible widgets to be passed to an accessibility event handler such as a native OS."
+          ],
+          [
+            "FDisplayMetrics",
+            "Contains metrics information for the desktop area"
+          ],
+          [
+            "FDynamicReleaseDeadZone",
+            "Properties and functions for a trigger's Dyanamic Release DeadZone."
+          ],
+          [
+            "FForceFeedbackValues",
+            ""
+          ],
+          [
+            "FGamepadKeyNames",
+            ""
+          ],
+          [
+            "FGenericPlatformApplicationMisc",
+            ""
+          ],
+          [
+            "FGenericPlatformRHIFramePacer",
+            "Generic implementation for most platforms"
+          ],
+          [
+            "FGenericPlatformSplash",
+            "Generic implementation for most platforms"
+          ],
+          [
+            "FGenericPlatformSurvey",
+            "Generic implementation for most platforms, these tend to be unused and unimplemented"
+          ],
+          [
+            "FGenericWindowDefinition",
+            ""
+          ],
+          [
+            "FGPUAdpater",
+            ""
+          ],
+          [
+            "FHapticFeedbackBuffer",
+            ""
+          ],
+          [
+            "FHapticFeedbackValues",
+            ""
+          ],
+          [
+            "FHardwareDisplay",
+            ""
+          ],
+          [
+            "FHardwareSurveyResults",
+            ""
+          ],
+          [
+            "FInputDeviceAnalogStickDeadZoneProperty",
+            "A generic input device property that sets Deadzone for Analog Sticks."
+          ],
+          [
+            "FInputDeviceAnalogStickProperty",
+            "Base class for device properties that affect Analog Sticks"
+          ],
+          [
+            "FInputDeviceDescriptor",
+            "Stable per-device descriptor stored in FInputDeviceRegistry ."
+          ],
+          [
+            "FInputDeviceGyroAutoCalibrationProperty",
+            "A generic gyro calibration property for input devices whose gyroscopes (angular velocity sensors) can have their calibration enabled or disabled"
+          ],
+          [
+            "FInputDeviceLightColorProperty",
+            "A generic light color property for input devices that have lights on them"
+          ],
+          [
+            "FInputDeviceProperty",
+            ""
+          ],
+          [
+            "FInputDeviceTriggerDynamicReleaseDeadZoneProperty",
+            "A generic input device property that sets \"Dynamic Release DeadZones\" for Analog Triggers."
+          ],
+          [
+            "FInputDeviceTriggerFeedbackProperty",
+            "Trigger resistance that is applied at a single position with the given strength."
+          ],
+          [
+            "FInputDeviceTriggerProperty",
+            "Base class for device properties that affect Triggers"
+          ],
+          [
+            "FInputDeviceTriggerResetProperty",
+            "This property can be used to reset the state of a given trigger."
+          ],
+          [
+            "FInputDeviceTriggerResistanceProperty",
+            "A generic trigger effect that allows analog triggers to have a resistance curve between two points (Start and End)"
+          ],
+          [
+            "FInputDeviceTriggerVibrationProperty",
+            "A generic input device property that sets vibration on triggers"
+          ],
+          [
+            "FMonitorInfo",
+            "Contains info on a physical monitor connected to the display device"
+          ],
+          [
+            "FNullPlatformApplicationMisc",
+            ""
+          ],
+          [
+            "FNullPlatformDisplayMetrics",
+            ""
+          ],
+          [
+            "FPlatformRect",
+            ""
+          ],
+          [
+            "FPlatformUserSelectionCompleteParams",
+            "Callback for when ShowPlatformUserSelector has completed."
+          ],
+          [
+            "FShowInputDeviceSelectorParams",
+            "Callback for when FindInputDeviceForUserWithUI has completed"
+          ],
+          [
+            "FSynthBenchmarkResults",
+            ""
+          ],
+          [
+            "FSynthBenchmarkStat",
+            ""
+          ],
+          [
+            "FTimeSample",
+            "Time and amount of work that was measured"
+          ],
+          [
+            "FUnixApplicationErrorOutputDevice",
+            ""
+          ],
+          [
+            "FUnixPlatformSurvey",
+            "Unix implementation of FGenericPlatformSurvey"
+          ],
+          [
+            "FWindowDrawAttentionParameters",
+            "Parameters for drawing attention to a window or application."
+          ],
+          [
+            "FWindowSizeLimits",
+            "Defines the minimum and maximum dimensions that a window can take on."
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IAccessibleActivatable",
+            "A widget that can be triggered to fire an event, such as buttons or checkboxes."
+          ],
+          [
+            "IAccessibleProperty",
+            "An accessible widget that stores an arbitrary value of any type capable of being serialized into a string."
+          ],
+          [
+            "IAccessibleTable",
+            "A widget that represents a table such as list views, tile views or tree views Data about the items that are selected in the table or if selection is supported can be queried."
+          ],
+          [
+            "IAccessibleTableRow",
+            "A widget that is an element in an accessible table."
+          ],
+          [
+            "IAccessibleText",
+            "A widget that contains text, with the potential ability to select sections, read specific words/paragraphs, etc."
+          ],
+          [
+            "IAccessibleWidget",
+            "Provides the core set of accessible data that is necessary in order for widget traversal and TTS to be implemented."
+          ],
+          [
+            "IAccessibleWindow",
+            "An accessible window corresponds to a native OS window."
+          ],
+          [
+            "ICursor",
+            ""
+          ],
+          [
+            "IInputInterface",
+            "Interface for the input interface."
+          ],
+          [
+            "IPlatformInputDeviceMapper",
+            "Base class to private a mapping of Platform Users (FPlatformUserID) to their associated available input devices (FInputDeviceID)."
+          ],
+          [
+            "ITextInputMethodChangeNotifier",
+            "Platform owners implement this class to react to changes in the view/model of editable text widgets."
+          ],
+          [
+            "ITextInputMethodContext",
+            "Editable texts should implement this class and maintain an object of this type after registering it."
+          ],
+          [
+            "ITextInputMethodSystem",
+            "Platform owners implement this class to interface with the platform's input method system."
+          ]
+        ],
+        "Typedefs": [
+          [
+            "AccessibleWidgetId",
+            "int32 GenericPlatform/Accessibility/GenericAccessibleInterfaces.h"
+          ],
+          [
+            "FAccessibleUserIndex",
+            "int32 An index that uniquely identifies every registered accessible user in the application. GenericPlatform/Accessibility/GenericAccessibleInterfaces.h"
+          ],
+          [
+            "FOnInputDeviceDescriptorChanged",
+            "TMulticastDelegate_OneParam FInputDeviceDescriptor & > Broadcast when RegisterDevice() stores a descriptor that DIFFERS from the previously-registered descriptor for the same FInputDeviceId . GenericPlatform/InputDeviceRegistry.h"
+          ],
+          [
+            "FPlatformRHIFramePacer",
+            "FGenericPlatformRHIFramePacer HAL/PlatformFramePacer.h"
+          ],
+          [
+            "FPlatformSurvey",
+            "FUnixPlatformSurvey Unix/UnixPlatformSurvey.h"
+          ],
+          [
+            "FPlatformUserSelectionComplete",
+            "TFunction FPlatformUserSelectionCompleteParams &Params)> GenericPlatform/GenericPlatformApplicationMisc.h"
+          ],
+          [
+            "FShowInputDeviceSelectorComplete",
+            "TFunction FShowInputDeviceSelectorParams &)> GenericPlatform/GenericPlatformApplicationMisc.h"
+          ],
+          [
+            "Type",
+            "uint8 GenericPlatform/GenericApplication.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "EAccessibleBehavior",
+            "Whether a widget should be included in accessibility, and if so, how its text should be retrieved."
+          ],
+          [
+            "EAccessibleEvent",
+            "Events that can be raised from accessible widgets to report back to the platform"
+          ],
+          [
+            "EAccessibleWidgetType",
+            "What kind of widget to tell the operating system this is."
+          ],
+          [
+            "EDropEffect::Type",
+            ""
+          ],
+          [
+            "EGestureEvent",
+            ""
+          ],
+          [
+            "EGesturePhase",
+            ""
+          ],
+          [
+            "EInputDeviceAnalogStickMask",
+            "Represents input device analog sticks that are available"
+          ],
+          [
+            "EInputDeviceMappingPolicy",
+            "The input device mapping policy controls how Human Interface Devices (HID's) are \"mapped\" or \"assigned\" to local players in your game."
+          ],
+          [
+            "EInputDeviceTriggerMask",
+            "Represents input device triggers that are available"
+          ],
+          [
+            "EMouseButtons::Type",
+            ""
+          ],
+          [
+            "EMouseCursor::Type",
+            "Mouse cursor types"
+          ],
+          [
+            "EPlatformUserSelectorFlags",
+            "Options for ShowPlatformUserSelector. Not all platforms will support all flags"
+          ],
+          [
+            "EPopUpOrientation::Type",
+            ""
+          ],
+          [
+            "EScreenPhysicalAccuracy",
+            "The accuracy when dealing with physical characteristics of the monitor/screen of the device we're running on."
+          ],
+          [
+            "ESplashTextBrightnessType",
+            ""
+          ],
+          [
+            "ESplashTextFlags",
+            ""
+          ],
+          [
+            "ESplashTextSizeType",
+            ""
+          ],
+          [
+            "EWindowAction::Type",
+            ""
+          ],
+          [
+            "EWindowActivation",
+            ""
+          ],
+          [
+            "EWindowActivationPolicy",
+            "Enumeration to specify whether the window gets activated upon showing it"
+          ],
+          [
+            "EWindowDrawAttentionRequestType",
+            ""
+          ],
+          [
+            "EWindowMode::Type",
+            "Modes that an FGenericWindow can be in"
+          ],
+          [
+            "EWindowTitleAlignment::Type",
+            "Enumerates available horizontal alignments for window title bars."
+          ],
+          [
+            "EWindowTransparency",
+            "Enumeration to specify different transparency options for SWindows"
+          ],
+          [
+            "EWindowType",
+            "Enumeration to specify different window types for SWindows"
+          ],
+          [
+            "EWindowZone::Type",
+            "The Window Zone is the window area we are currently over to send back to the operating system for operating system compliance."
+          ],
+          [
+            "FForceFeedbackChannelType",
+            "General identifiers for potential force feedback channels."
+          ],
+          [
+            "SplashImageType::Type",
+            "SplashImageType defines the types of images on the splash screen"
+          ],
+          [
+            "SplashTextType::Type",
+            "SplashTextType defines the types of text on the splash screen"
+          ]
+        ],
+        "Variables": [
+          [
+            "Alt",
+            "const Type Alt key. GenericPlatform/GenericApplication.h"
+          ],
+          [
+            "Command",
+            "const Type Cmd key (Control key on Mac, Win key on Windows) GenericPlatform/GenericApplication.h"
+          ],
+          [
+            "Control",
+            "const Type Ctrl key (Command key on Mac, Control key on Windows). GenericPlatform/GenericApplication.h"
+          ],
+          [
+            "None",
+            "const Type No key. GenericPlatform/GenericApplication.h"
+          ],
+          [
+            "NullApplication",
+            "FNullApplication * Null/NullApplication.h"
+          ],
+          [
+            "Shift",
+            "const Type Shift key. GenericPlatform/GenericApplication.h"
+          ],
+          [
+            "STATCAT_Advanced",
+            "GenericPlatform/Accessibility/GenericAccessibleInterfaces.h"
+          ]
+        ],
+        "Functions": [
+          [
+            "EModifierKey::Type EModifierKey::FromBools ( const bool bControl, const bool bAlt, const bool bShift, const bool bComman",
+            "GenericPlatform/GenericApplication.h"
+          ],
+          [
+            "Type EWindowMode::ConvertIntToWindowMode ( int32 InWindowMode )",
+            "GenericPlatform/GenericWindow.h"
+          ],
+          [
+            "bool EWindowZone::IsBorder ( Type Zone )",
+            "GenericPlatform/GenericApplicationMessageHandler.h"
+          ],
+          [
+            "const TCHAR * LexToString ( EWindowMode::Type WindowMode )",
+            "GenericPlatform/GenericWindow.h"
+          ],
+          [
+            "bool operator! ( EPlatformUserSelectorFlags E )",
+            "GenericPlatform/GenericPlatformApplicationMisc.h"
+          ],
+          [
+            "bool operator! ( ESplashTextFlags E )",
+            "GenericPlatform/GenericPlatformSplash.h"
+          ],
+          [
+            "bool operator! ( EInputDeviceTriggerMask E )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "bool operator! ( EInputDeviceAnalogStickMask E )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EPlatformUserSelectorFlags operator& ( EPlatformUserSelectorFlags Lhs, EPlatformUserSelectorFlags Rhs )",
+            "GenericPlatform/GenericPlatformApplicationMisc.h"
+          ],
+          [
+            "ESplashTextFlags operator& ( ESplashTextFlags Lhs, ESplashTextFlags Rhs )",
+            "GenericPlatform/GenericPlatformSplash.h"
+          ],
+          [
+            "EInputDeviceTriggerMask operator& ( EInputDeviceTriggerMask Lhs, EInputDeviceTriggerMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EInputDeviceAnalogStickMask operator& ( EInputDeviceAnalogStickMask Lhs, EInputDeviceAnalogStickMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EPlatformUserSelectorFlags & operator&= ( EPlatformUserSelectorFlags & Lhs, EPlatformUserSelectorFlags Rhs )",
+            "GenericPlatform/GenericPlatformApplicationMisc.h"
+          ],
+          [
+            "ESplashTextFlags & operator&= ( ESplashTextFlags & Lhs, ESplashTextFlags Rhs )",
+            "GenericPlatform/GenericPlatformSplash.h"
+          ],
+          [
+            "EInputDeviceTriggerMask & operator&= ( EInputDeviceTriggerMask & Lhs, EInputDeviceTriggerMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EInputDeviceAnalogStickMask & operator&= ( EInputDeviceAnalogStickMask & Lhs, EInputDeviceAnalogStickMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EPlatformUserSelectorFlags operator^ ( EPlatformUserSelectorFlags Lhs, EPlatformUserSelectorFlags Rhs )",
+            "GenericPlatform/GenericPlatformApplicationMisc.h"
+          ],
+          [
+            "ESplashTextFlags operator^ ( ESplashTextFlags Lhs, ESplashTextFlags Rhs )",
+            "GenericPlatform/GenericPlatformSplash.h"
+          ],
+          [
+            "EInputDeviceTriggerMask operator^ ( EInputDeviceTriggerMask Lhs, EInputDeviceTriggerMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EInputDeviceAnalogStickMask operator^ ( EInputDeviceAnalogStickMask Lhs, EInputDeviceAnalogStickMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EPlatformUserSelectorFlags & operator^= ( EPlatformUserSelectorFlags & Lhs, EPlatformUserSelectorFlags Rhs )",
+            "GenericPlatform/GenericPlatformApplicationMisc.h"
+          ],
+          [
+            "ESplashTextFlags & operator^= ( ESplashTextFlags & Lhs, ESplashTextFlags Rhs )",
+            "GenericPlatform/GenericPlatformSplash.h"
+          ],
+          [
+            "EInputDeviceTriggerMask & operator^= ( EInputDeviceTriggerMask & Lhs, EInputDeviceTriggerMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EInputDeviceAnalogStickMask & operator^= ( EInputDeviceAnalogStickMask & Lhs, EInputDeviceAnalogStickMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EPlatformUserSelectorFlags operator| ( EPlatformUserSelectorFlags Lhs, EPlatformUserSelectorFlags Rhs )",
+            "GenericPlatform/GenericPlatformApplicationMisc.h"
+          ],
+          [
+            "ESplashTextFlags operator| ( ESplashTextFlags Lhs, ESplashTextFlags Rhs )",
+            "GenericPlatform/GenericPlatformSplash.h"
+          ],
+          [
+            "EInputDeviceTriggerMask operator| ( EInputDeviceTriggerMask Lhs, EInputDeviceTriggerMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EInputDeviceAnalogStickMask operator| ( EInputDeviceAnalogStickMask Lhs, EInputDeviceAnalogStickMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EPlatformUserSelectorFlags & operator|= ( EPlatformUserSelectorFlags & Lhs, EPlatformUserSelectorFlags Rhs )",
+            "GenericPlatform/GenericPlatformApplicationMisc.h"
+          ],
+          [
+            "ESplashTextFlags & operator|= ( ESplashTextFlags & Lhs, ESplashTextFlags Rhs )",
+            "GenericPlatform/GenericPlatformSplash.h"
+          ],
+          [
+            "EInputDeviceTriggerMask & operator|= ( EInputDeviceTriggerMask & Lhs, EInputDeviceTriggerMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EInputDeviceAnalogStickMask & operator|= ( EInputDeviceAnalogStickMask & Lhs, EInputDeviceAnalogStickMask Rhs )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EPlatformUserSelectorFlags operator~ ( EPlatformUserSelectorFlags E )",
+            "GenericPlatform/GenericPlatformApplicationMisc.h"
+          ],
+          [
+            "ESplashTextFlags operator~ ( ESplashTextFlags E )",
+            "GenericPlatform/GenericPlatformSplash.h"
+          ],
+          [
+            "EInputDeviceTriggerMask operator~ ( EInputDeviceTriggerMask E )",
+            "GenericPlatform/IInputInterface.h"
+          ],
+          [
+            "EInputDeviceAnalogStickMask operator~ ( EInputDeviceAnalogStickMask E )",
+            "GenericPlatform/IInputInterface.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AssetRegistry",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AssetRegistry/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAssetRegistryModule",
+            "Asset registry module"
+          ],
+          [
+            "FAssetRegistryState",
+            "The state of an asset registry, this is used internally by IAssetRegistry to represent the disk cache, and is also accessed directly to save/load cooked caches."
+          ],
+          [
+            "FPathTree",
+            ""
+          ],
+          [
+            "FRegisteredAssetDependencyGatherer",
+            ""
+          ],
+          [
+            "TFunctionRef",
+            ""
+          ],
+          [
+            "UAssetRegistry",
+            ""
+          ],
+          [
+            "UAssetRegistryHelpers",
+            ""
+          ]
+        ],
+        "Structs": [
+          [
+            "FAssetDependency",
+            "An output struct to hold both an AssetIdentifier and the properties of the dependency on that AssetIdentifier"
+          ],
+          [
+            "FAssetRegistryAppendResult",
+            ""
+          ],
+          [
+            "FAssetRegistryDependencyOptions",
+            ""
+          ],
+          [
+            "FAssetRegistryLoadOptions",
+            ""
+          ],
+          [
+            "FAssetRegistryLoadResults",
+            "Extra data about the load of an AssetRegistryState from disk that is optionally returned from Load."
+          ],
+          [
+            "FAssetRegistryPruneOptions",
+            ""
+          ],
+          [
+            "FAssetRegistrySerializationOptions",
+            "Load/Save options used to modify how the cache is serialized."
+          ],
+          [
+            "FCachedAssetKey",
+            "Key type for TSet in the asset registry."
+          ],
+          [
+            "FCachedAssetKeyFuncs",
+            "Policy type for TSet to use FCachedAssetKey for hashing/equality."
+          ],
+          [
+            "FDeserializeObjectPackageData",
+            ""
+          ],
+          [
+            "FDeserializePackageData",
+            ""
+          ],
+          [
+            "FDeserializeTagData",
+            ""
+          ],
+          [
+            "FDirectoryWatcherUpdateTelemetry",
+            "Information about an asset registry update that was triggered by the directory watcher module."
+          ],
+          [
+            "FFileJournalErrorTelemetry",
+            "Information about a failure in our FileJournal area."
+          ],
+          [
+            "FFileJournalWrappedTelemetry",
+            ""
+          ],
+          [
+            "FGatherTelemetry",
+            "Information about asset registry scanning either as the initial scan when the process starts, or when an additional mount point is added."
+          ],
+          [
+            "FReadPackageDataDependenciesArgs",
+            ""
+          ],
+          [
+            "FSetManageReferencesContext",
+            "Information passed into SetManageReferences from ther caller."
+          ],
+          [
+            "FShouldSetManagerContext",
+            "Information passed into ShouldSetManager calls from the graph search performed in SetManageReferences."
+          ],
+          [
+            "FStartupTelemetry",
+            "Information about very early asset registry startup."
+          ],
+          [
+            "FSynchronousScanTelemetry",
+            "Information about a synchronous scan that was executed, blocking the calling thread."
+          ],
+          [
+            "FTagAndValue",
+            ""
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IAssetDependencyGatherer",
+            "Interface class for functions that return extra dependencies to add to Assets of a given Class, to e.g. add dependencies on external Assets in a subdirectory."
+          ],
+          [
+            "IAssetRegistry",
+            "Global singleton interface for accessing a catalog of all packages (and some other content file types) that are stored in any mounted directory."
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FAssetDataMap",
+            "TSet FCachedAssetKeyFuncs > When not using indirection, an FAssetDataMap is a TSet, but with the complication that it stores pointers to FAssetData while supporting lookup by FCachedAssetKey . AssetRegistry/AssetDataMap.h"
+          ],
+          [
+            "FConstAssetDataMap",
+            "TSet FCachedAssetKeyFuncs > AssetRegistry/AssetDataMap.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "EAssetAvailability::Type",
+            ""
+          ],
+          [
+            "EAssetAvailabilityProgressReportingType::Type",
+            ""
+          ],
+          [
+            "EAssetRegistrySortOrder",
+            ""
+          ],
+          [
+            "EAssetsWithOuterForPathsFlags",
+            ""
+          ],
+          [
+            "UE::AssetRegistry::EAppendMode",
+            "Enum controlling how FAssetRegistryStates are merged during Append functions, e.g. when adding plugin's serialized AssetRegistry into global AssetRegistry."
+          ],
+          [
+            "UE::AssetRegistry::EAssetSetManagerAssetFlags",
+            "Properties about each node in the graph search conducted from SetManageReferences."
+          ],
+          [
+            "UE::AssetRegistry::EGetMostImportantAssetFlags",
+            "Inline implementations."
+          ],
+          [
+            "UE::AssetRegistry::EReadPackageDataMainErrorCode",
+            "Inline implementations."
+          ],
+          [
+            "UE::AssetRegistry::EScanFlags",
+            "Please update LexToString when modifying this enum."
+          ]
+        ],
+        "Variables": [
+          [
+            "Stage_ChunkCompressedSizeFName",
+            "const FName AssetRegistry/IAssetRegistry.h"
+          ],
+          [
+            "Stage_ChunkCountFName",
+            "const FName Various FNames for asset tags that get added during staging if asset registry writeback is enabled. AssetRegistry/IAssetRegistry.h"
+          ],
+          [
+            "Stage_ChunkInstalledSizeFName",
+            "const FName AssetRegistry/IAssetRegistry.h"
+          ],
+          [
+            "Stage_ChunkOptionalSizeFName",
+            "const FName AssetRegistry/IAssetRegistry.h"
+          ],
+          [
+            "Stage_ChunkSizeFName",
+            "const FName AssetRegistry/IAssetRegistry.h"
+          ],
+          [
+            "Stage_ChunkStreamingSizeFName",
+            "const FName AssetRegistry/IAssetRegistry.h"
+          ],
+          [
+            "WildcardFName",
+            "const FName Wildcards (&#42;) used when looking up assets in the asset registry. AssetRegistry/IAssetRegistry.h"
+          ],
+          [
+            "WildcardPathName",
+            "const FTopLevelAssetPath AssetRegistry/IAssetRegistry.h"
+          ]
+        ],
+        "Functions": [
+          [
+            "const FName AssetRegistryConstants::ModuleName ( \"AssetRegistry\" )",
+            "AssetRegistry/AssetRegistryModule.h"
+          ],
+          [
+            "ENUM_CLASS_FLAGS ( EAssetsWithOuterForPathsFlags )",
+            "AssetRegistry/AssetRegistryHelpers.h"
+          ],
+          [
+            "ENUM_CLASS_FLAGS ( FAssetRegistryState::ERemoveDependsFlags )",
+            "Inline implementations. AssetRegistry/AssetRegistryState.h"
+          ],
+          [
+            "const TCHAR * GetDevelopmentAssetRegistryFilename()",
+            "Returns the filename without filepath for the DevelopmentAssetRegistry written by the cooker. AssetRegistry/IAssetRegistry.h"
+          ],
+          [
+            "UE::AssetRegistry::ENUM_CLASS_FLAGS ( EScanFlags )",
+            "AssetRegistry/IAssetRegistry.h"
+          ],
+          [
+            "UE::AssetRegistry::ENUM_CLASS_FLAGS ( EAssetSetManagerAssetFlags )",
+            "AssetRegistry/IAssetRegistry.h"
+          ],
+          [
+            "uint32 UE::AssetRegistry::Private::GetTypeHash ( const FCachedAssetKey & A )",
+            "AssetRegistry/AssetDataMap.h"
+          ],
+          [
+            "uint32 UE::AssetRegistry::Private::HashCombineQuick ( uint32 A, uint32 B )",
+            "AssetRegistry/AssetDataMap.h"
+          ],
+          [
+            "bool UE::AssetRegistry::Private::operator!= ( const FCachedAssetKey & A, const FCachedAssetKey & B )",
+            "AssetRegistry/AssetDataMap.h"
+          ],
+          [
+            "bool UE::AssetRegistry::Private::operator== ( const FCachedAssetKey & A, const FCachedAssetKey & B )",
+            "AssetRegistry/AssetDataMap.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AudioAnalyzer",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AudioAnalyzer/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAnalyzerFacade",
+            "FAnalyzer"
+          ],
+          [
+            "FAnalyzerNRTFacade",
+            "FAnalyzerNRTFacade"
+          ],
+          [
+            "FAudioAnalyzerModule",
+            ""
+          ],
+          [
+            "FAudioAnalyzeTask",
+            ""
+          ],
+          [
+            "FOnAudioAnalyzerNRTAnalysisComplete",
+            "Delegate to receive all meter results per channel (time-stamped in an array) since last delegate call."
+          ],
+          [
+            "UAudioAnalyzer",
+            "UAudioAnalyzer"
+          ],
+          [
+            "UAudioAnalyzerAssetBase",
+            "UAudioAnalyzerAssetBase"
+          ],
+          [
+            "UAudioAnalyzerNRT",
+            "UAudioAnalyzerNRT"
+          ],
+          [
+            "UAudioAnalyzerNRTSettings",
+            "Interface for Non Real-Time (NRT) Audio Analyzer UObjects."
+          ],
+          [
+            "UAudioAnalyzerSettings",
+            "UAudioAnalyzerSettings"
+          ],
+          [
+            "UAudioAnalyzerSubsystem",
+            "Class manages querying analysis results from various audio analyzers."
+          ]
+        ],
+        "Structs": [
+          [
+            "FAnalyzerNRTParameters",
+            "FAnalyzerNRTParameters"
+          ],
+          [
+            "FAnalyzerParameters",
+            "FAnalyzerParameters"
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IAnalyzerControls",
+            "IAnalyzerControls"
+          ],
+          [
+            "IAnalyzerFactory",
+            "Audio analyzer factory. Primarily used for creating a worker."
+          ],
+          [
+            "IAnalyzerNRTFactory",
+            "IAnalyzerNRTFactory"
+          ],
+          [
+            "IAnalyzerNRTResult",
+            "IAnalyzerNRTResult"
+          ],
+          [
+            "IAnalyzerNRTSettings",
+            "IAnalyzerNRTSettings"
+          ],
+          [
+            "IAnalyzerNRTWorker",
+            "IAnalyzerNRTWorker"
+          ],
+          [
+            "IAnalyzerResult",
+            "IAnalyzerResult"
+          ],
+          [
+            "IAnalyzerSettings",
+            "IAnalyzerSettings"
+          ],
+          [
+            "IAnalyzerWorker",
+            "An audio analyzer worker."
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FAnalyzeAudioDelegate",
+            "TMulticastDelegate_NoParams Interface for Audio Analyzer Assets. AudioAnalyzerAsset.h"
+          ],
+          [
+            "FAnalyzerResultSharedPtr",
+            "TSharedPtr Audio::IAnalyzerResult , ESPMode::ThreadSafe > AudioAnalyzer.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AudioCaptureCore",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AudioCaptureCore/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FAudioCapture",
+            "Class which handles audio capture internally, implemented with a back-end per platform."
+          ],
+          [
+            "FAudioCaptureCoreModule",
+            "Public dependencies"
+          ],
+          [
+            "FAudioCaptureSynth",
+            "Class which contains an FAudioCapture object and performs analysis on the audio stream, only outputing audio if it matches a detection criteria."
+          ]
+        ],
+        "Structs": [
+          [
+            "FAudioCaptureDeviceParams",
+            ""
+          ],
+          [
+            "FCaptureDeviceInfo",
+            ""
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IAudioCaptureFactory",
+            ""
+          ],
+          [
+            "IAudioCaptureStream",
+            ""
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FOnAudioCaptureFunction",
+            "TFunction Callable function type used for audio capture callbacks. AudioCaptureDeviceInterface.h"
+          ],
+          [
+            "FOnCaptureFunction",
+            "TFunction AudioCaptureDeviceInterface.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "Audio::EHardwareInputFeature",
+            "Various hardware-accelerated features that an input device can have."
+          ],
+          [
+            "Audio::EPCMAudioEncoding",
+            "PCM audio format (bits per sample) supported by device layers (WASAPI, CoreAudio, etc.)"
+          ]
+        ],
+        "Variables": [
+          [
+            "DefaultDeviceEncoding",
+            "EPCMAudioEncoding Some clients such as UAudioCaptureComponent assume 32-bit float bit depth. AudioCaptureDeviceInterface.h"
+          ],
+          [
+            "DefaultDeviceIndex",
+            "int32 Indicates the default, system capture device should be used for capturing audio. AudioCaptureDeviceInterface.h"
+          ],
+          [
+            "InvalidDeviceChannelCount",
+            "int32 Indicates invalid channel count and that the input channel count of the default device should be used. AudioCaptureDeviceInterface.h"
+          ],
+          [
+            "InvalidDeviceSampleRate",
+            "int32 Indicates invalid sample rate and that the default device's sample rate should be used. AudioCaptureDeviceInterface.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AudioCaptureRtAudio",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AudioCaptureImplementations/AudioCaptureRtAudio/",
+      "desc": [],
+      "sections": {
+        "Structs": [
+          [
+            "FDeviceInfo",
+            "Parameters describing audio input device."
+          ],
+          [
+            "FStreamParameters",
+            "Parameters used for opening streams."
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FAudioCallback",
+            "{ public: static constexpr uint32 InvalidDeviceID=INDEX_NONE int(*)(void *OutputBuffer, void *InputBuffer, unsigned int NumFrames, double StreamTime, uint32 StreamStatus, void *UserData) Callback function for receiving audio from RtAudio. RtAudioWrapper.h"
+          ]
+        ],
+        "Functions": [
+          [
+            "void Audio::AbortStream()",
+            "Stops stream, discarding any remaining samples. RtAudioWrapper.h"
+          ],
+          [
+            "void Audio::CloseStream()",
+            "Close stream and free associated memory. RtAudioWrapper.h"
+          ],
+          [
+            "Audio::FRtAudioInputWrapper()",
+            "RtAudioWrapper.h"
+          ],
+          [
+            "uint32 Audio::GetDefaultInputDevice()",
+            "Returns ID of default input device. RtAudioWrapper.h"
+          ],
+          [
+            "FDeviceInfo Audio::GetDeviceInfo ( uint32 InDeviceID )",
+            "Returns info about device. RtAudioWrapper.h"
+          ],
+          [
+            "bool Audio::IsStreamOpen()",
+            "Returns true if the stream is open. RtAudioWrapper.h"
+          ],
+          [
+            "bool Audio::OpenStream ( const FStreamParameters & InStreamParams, float InDesiredSampleRate, uint32* InOutDesiredBuffer",
+            "Opens an audio stream. Returns true on success, false on error. RtAudioWrapper.h"
+          ],
+          [
+            "void Audio::StartStream()",
+            "Starts an open stream. RtAudioWrapper.h"
+          ],
+          [
+            "void Audio::StopStream()",
+            "Stops stream, allowing any remaining samples to be played. RtAudioWrapper.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/AudioChannelAgnosticCore",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/AudioChannelAgnosticCore/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FChannelAgnosticType",
+            ""
+          ],
+          [
+            "FChannelAgnosticUtils",
+            ""
+          ],
+          [
+            "FChannelTypeFamily",
+            "Base type for all \"channel\" based types."
+          ],
+          [
+            "FCompositeChannelTypeFamily",
+            ""
+          ],
+          [
+            "FDiscreteChannelTypeFamily",
+            ""
+          ],
+          [
+            "FSimpleAllocBase",
+            ""
+          ],
+          [
+            "FSimpleHeapAllocator",
+            ""
+          ],
+          [
+            "FSimpleLinearAllocator",
+            ""
+          ],
+          [
+            "FSimpleLinearAllocatorFromHeap",
+            ""
+          ],
+          [
+            "FSoundfieldChannelTypeFamily",
+            "Soundfield."
+          ],
+          [
+            "FTypeFamily",
+            ""
+          ],
+          [
+            "TScratchBuffer",
+            ""
+          ]
+        ],
+        "Structs": [
+          [
+            "FGetTranscoderParams",
+            ""
+          ],
+          [
+            "FTranscoderResolver",
+            ""
+          ],
+          [
+            "TFamilyRegistry",
+            "Convenience template so we don't have to specialize each Find."
+          ],
+          [
+            "TFromVisitor",
+            ""
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IChannelTypeRegistry",
+            "Channel type registry."
+          ],
+          [
+            "IChannelTypeVisitor",
+            ""
+          ],
+          [
+            "ITypeFamilyRegistry",
+            "Simple type registry."
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FComposite",
+            "FCompositeChannelTypeFamily ChannelAgnostic/ChannelAgnosticTranscoding.h"
+          ],
+          [
+            "FDiscrete",
+            "FDiscreteChannelTypeFamily ChannelAgnostic/ChannelAgnosticTranscoding.h"
+          ],
+          [
+            "FParams",
+            "FGetTranscoderParams ChannelAgnostic/ChannelAgnosticTranscoding.h"
+          ],
+          [
+            "FSoundfield",
+            "FSoundfieldChannelTypeFamily ChannelAgnostic/ChannelAgnosticTranscoding.h"
+          ],
+          [
+            "FTranscoder",
+            "TFunction TArrayView , TArrayView , const int32 NumFrames)> ChannelAgnostic/ChannelAgnosticTranscoding.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "ESpeakerShortNames",
+            "A Comprehensive Short form Speaker enumeration"
+          ]
+        ],
+        "Functions": [
+          [
+            "FName LexToName ( const ESpeakerShortNames InSpeaker )",
+            "TypeFamily/ChannelTypeFamily.h"
+          ],
+          [
+            "const TCHAR * LexToString ( const ESpeakerShortNames InSpeaker )",
+            "TypeFamily/ChannelTypeFamily.h"
+          ],
+          [
+            "TOptional ESpeakerShortNames > NameToShortSpeakerName ( const FName InName )",
+            "TypeFamily/ChannelTypeFamily.h"
+          ],
+          [
+            "uint32 ShortNamesToChannelMask ( const TArray ESpeakerShortNames >& InChannels )",
+            "TypeFamily/ChannelTypeFamily.h"
+          ],
+          [
+            "static uint32 Audio::SimpleAllocBasePrivate::GetDefaultSizeToAlignment ( const uint32 InSize )",
+            "This is what's defined in MemoryBase, so follow it here. SimpleAlloc/SimpleAllocBase.h"
+          ]
+        ]
+      }
+    }
+  ]
+}

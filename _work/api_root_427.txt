@@ -1,0 +1,17 @@
+{
+  "4.27": {
+    "status": 200,
+    "html_len": 2877,
+    "head": "<h2>Disclaimer</h2>\n\n<p>The API reference is an early work in progress, and some information may be missing or out of date. It serves mainly as a low level index of Engine classes and functions.\nFor tutorials, walkthroughs and detailed guides to programming with Unreal, please see the <a href=\"https"
+  },
+  "5.0": {
+    "status": 200,
+    "html_len": 2866,
+    "head": "<h2>Disclaimer</h2>\n\n<p>The API reference is an early work in progress, and some information may be missing or out of date. It serves mainly as a low level index of Engine classes and functions.\nFor tutorials, walkthroughs and detailed guides to programming with Unreal, please see the <a href=\"https"
+  },
+  "5.4": {
+    "status": 200,
+    "html_len": 2866,
+    "head": "<h2>Disclaimer</h2>\n\n<p>The API reference is an early work in progress, and some information may be missing or out of date. It serves mainly as a low level index of Engine classes and functions.\nFor tutorials, walkthroughs and detailed guides to programming with Unreal, please see the <a href=\"https"
+  }
+}

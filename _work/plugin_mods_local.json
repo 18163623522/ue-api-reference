@@ -1,0 +1,2622 @@
+[
+ {
+  "name": "Paper2D",
+  "plug": "Paper2D",
+  "exp": false,
+  "uclass": 23,
+  "ustruct": 13,
+  "uenum": 7,
+  "uinterface": 0,
+  "total": 43
+ },
+ {
+  "name": "Paper2DEditor",
+  "plug": "Paper2D",
+  "exp": false,
+  "uclass": 22,
+  "ustruct": 1,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 24
+ },
+ {
+  "name": "PaperTiledImporter",
+  "plug": "Paper2D",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "MassAIBehavior",
+  "plug": "MassAI",
+  "exp": false,
+  "uclass": 20,
+  "ustruct": 60,
+  "uenum": 4,
+  "uinterface": 0,
+  "total": 84
+ },
+ {
+  "name": "MassAIDebug",
+  "plug": "MassAI",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "MassAIReplication",
+  "plug": "MassAI",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "MassAITestSuite",
+  "plug": "MassAI",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "MassNavigation",
+  "plug": "MassAI",
+  "exp": false,
+  "uclass": 14,
+  "ustruct": 18,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 34
+ },
+ {
+  "name": "MassNavigationEditor",
+  "plug": "MassAI",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "MassNavMeshNavigation",
+  "plug": "MassAI",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 4,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 7
+ },
+ {
+  "name": "MassZoneGraphNavigation",
+  "plug": "MassAI",
+  "exp": false,
+  "uclass": 4,
+  "ustruct": 8,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 12
+ },
+ {
+  "name": "MassCrowd",
+  "plug": "MassCrowd",
+  "exp": false,
+  "uclass": 24,
+  "ustruct": 17,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 42
+ },
+ {
+  "name": "ACLPlugin",
+  "plug": "ACLPlugin",
+  "exp": false,
+  "uclass": 7,
+  "ustruct": 0,
+  "uenum": 6,
+  "uinterface": 0,
+  "total": 13
+ },
+ {
+  "name": "ACLPluginEditor",
+  "plug": "ACLPlugin",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 3
+ },
+ {
+  "name": "ControlRig",
+  "plug": "ControlRig",
+  "exp": false,
+  "uclass": 35,
+  "ustruct": 646,
+  "uenum": 46,
+  "uinterface": 2,
+  "total": 729
+ },
+ {
+  "name": "ControlRigDeveloper",
+  "plug": "ControlRig",
+  "exp": false,
+  "uclass": 7,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 1,
+  "total": 8
+ },
+ {
+  "name": "ControlRigEditor",
+  "plug": "ControlRig",
+  "exp": false,
+  "uclass": 54,
+  "ustruct": 37,
+  "uenum": 9,
+  "uinterface": 0,
+  "total": 100
+ },
+ {
+  "name": "IKRig",
+  "plug": "IKRig",
+  "exp": false,
+  "uclass": 55,
+  "ustruct": 115,
+  "uenum": 23,
+  "uinterface": 1,
+  "total": 194
+ },
+ {
+  "name": "IKRigDeveloper",
+  "plug": "IKRig",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "IKRigEditor",
+  "plug": "IKRig",
+  "exp": false,
+  "uclass": 37,
+  "ustruct": 8,
+  "uenum": 3,
+  "uinterface": 0,
+  "total": 48
+ },
+ {
+  "name": "IKRigUAF",
+  "plug": "IKRig",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 2,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "LiveLink",
+  "plug": "LiveLink",
+  "exp": false,
+  "uclass": 30,
+  "ustruct": 4,
+  "uenum": 5,
+  "uinterface": 0,
+  "total": 39
+ },
+ {
+  "name": "LiveLinkComponents",
+  "plug": "LiveLink",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 7
+ },
+ {
+  "name": "LiveLinkEditor",
+  "plug": "LiveLink",
+  "exp": false,
+  "uclass": 5,
+  "ustruct": 2,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 7
+ },
+ {
+  "name": "LiveLinkGraphNode",
+  "plug": "LiveLink",
+  "exp": false,
+  "uclass": 8,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 8
+ },
+ {
+  "name": "LiveLinkMovieScene",
+  "plug": "LiveLink",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 3,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 9
+ },
+ {
+  "name": "LiveLinkSequencer",
+  "plug": "LiveLink",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 7
+ },
+ {
+  "name": "MotionWarping",
+  "plug": "MotionWarping",
+  "exp": false,
+  "uclass": 21,
+  "ustruct": 10,
+  "uenum": 13,
+  "uinterface": 0,
+  "total": 44
+ },
+ {
+  "name": "PhysicsControl",
+  "plug": "PhysicsControl",
+  "exp": false,
+  "uclass": 5,
+  "ustruct": 35,
+  "uenum": 7,
+  "uinterface": 0,
+  "total": 47
+ },
+ {
+  "name": "PhysicsControlEditor",
+  "plug": "PhysicsControl",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 7
+ },
+ {
+  "name": "PhysicsControlUncookedOnly",
+  "plug": "PhysicsControl",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "EngineCameras",
+  "plug": "EngineCameras",
+  "exp": false,
+  "uclass": 13,
+  "ustruct": 8,
+  "uenum": 5,
+  "uinterface": 0,
+  "total": 26
+ },
+ {
+  "name": "ChaosClothAsset",
+  "plug": "ChaosClothAsset",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "ChaosClothAssetEngine",
+  "plug": "ChaosClothAsset",
+  "exp": false,
+  "uclass": 10,
+  "ustruct": 7,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 19
+ },
+ {
+  "name": "ChaosClothAssetTools",
+  "plug": "ChaosClothAsset",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 6
+ },
+ {
+  "name": "Chooser",
+  "plug": "Chooser",
+  "exp": false,
+  "uclass": 15,
+  "ustruct": 73,
+  "uenum": 9,
+  "uinterface": 7,
+  "total": 104
+ },
+ {
+  "name": "ChooserEditor",
+  "plug": "Chooser",
+  "exp": false,
+  "uclass": 10,
+  "ustruct": 4,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 15
+ },
+ {
+  "name": "ChooserUncooked",
+  "plug": "Chooser",
+  "exp": false,
+  "uclass": 4,
+  "ustruct": 0,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 6
+ },
+ {
+  "name": "ProxyTable",
+  "plug": "Chooser",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 7,
+  "uenum": 0,
+  "uinterface": 1,
+  "total": 11
+ },
+ {
+  "name": "Composite",
+  "plug": "Composite",
+  "exp": false,
+  "uclass": 35,
+  "ustruct": 7,
+  "uenum": 18,
+  "uinterface": 0,
+  "total": 60
+ },
+ {
+  "name": "CompositeEditor",
+  "plug": "Composite",
+  "exp": false,
+  "uclass": 4,
+  "ustruct": 0,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 6
+ },
+ {
+  "name": "DataflowEditor",
+  "plug": "Dataflow",
+  "exp": false,
+  "uclass": 64,
+  "ustruct": 21,
+  "uenum": 17,
+  "uinterface": 2,
+  "total": 104
+ },
+ {
+  "name": "DataflowEnginePlugin",
+  "plug": "Dataflow",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 2,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 4
+ },
+ {
+  "name": "DataflowNodes",
+  "plug": "Dataflow",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 179,
+  "uenum": 7,
+  "uinterface": 0,
+  "total": 186
+ },
+ {
+  "name": "MultiUserClient",
+  "plug": "MultiUserClient",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 8,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 11
+ },
+ {
+  "name": "MultiUserClientLibrary",
+  "plug": "MultiUserClient",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 18,
+  "uenum": 10,
+  "uinterface": 2,
+  "total": 36
+ },
+ {
+  "name": "Concert",
+  "plug": "ConcertMain",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 57,
+  "uenum": 15,
+  "uinterface": 0,
+  "total": 72
+ },
+ {
+  "name": "ConcertClient",
+  "plug": "ConcertMain",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 2,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 5
+ },
+ {
+  "name": "ConcertServer",
+  "plug": "ConcertMain",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 3,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 4
+ },
+ {
+  "name": "ConcertTransport",
+  "plug": "ConcertMain",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 12,
+  "uenum": 4,
+  "uinterface": 0,
+  "total": 17
+ },
+ {
+  "name": "ModelingToolsEditorMode",
+  "plug": "ModelingToolsEditorMode",
+  "exp": false,
+  "uclass": 7,
+  "ustruct": 3,
+  "uenum": 5,
+  "uinterface": 0,
+  "total": 15
+ },
+ {
+  "name": "StaticMeshEditorModeling",
+  "plug": "StaticMeshEditorModeling",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "EnhancedInput",
+  "plug": "EnhancedInput",
+  "exp": false,
+  "uclass": 42,
+  "ustruct": 20,
+  "uenum": 17,
+  "uinterface": 1,
+  "total": 80
+ },
+ {
+  "name": "InputBlueprintNodes",
+  "plug": "EnhancedInput",
+  "exp": false,
+  "uclass": 9,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 9
+ },
+ {
+  "name": "InputEditor",
+  "plug": "EnhancedInput",
+  "exp": false,
+  "uclass": 12,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 13
+ },
+ {
+  "name": "DatasmithContent",
+  "plug": "DatasmithContent",
+  "exp": false,
+  "uclass": 41,
+  "ustruct": 17,
+  "uenum": 11,
+  "uinterface": 0,
+  "total": 69
+ },
+ {
+  "name": "DatasmithContentEditor",
+  "plug": "DatasmithContent",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "DatasmithExternalSource",
+  "plug": "DatasmithImporter",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "DatasmithImporter",
+  "plug": "DatasmithImporter",
+  "exp": false,
+  "uclass": 34,
+  "ustruct": 1,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 37
+ },
+ {
+  "name": "DatasmithNativeTranslator",
+  "plug": "DatasmithImporter",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "DatasmithTranslator",
+  "plug": "DatasmithImporter",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "DirectLinkExtension",
+  "plug": "DatasmithImporter",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "DirectLinkExtensionEditor",
+  "plug": "DatasmithImporter",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "DirectLinkTest",
+  "plug": "DatasmithImporter",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "ExternalSource",
+  "plug": "DatasmithImporter",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "GLTFExporter",
+  "plug": "GLTFExporter",
+  "exp": false,
+  "uclass": 11,
+  "ustruct": 3,
+  "uenum": 4,
+  "uinterface": 0,
+  "total": 18
+ },
+ {
+  "name": "ChaosSolverEditor",
+  "plug": "ChaosSolverPlugin",
+  "exp": true,
+  "uclass": 3,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 3
+ },
+ {
+  "name": "ChaosVehicles",
+  "plug": "ChaosVehiclesPlugin",
+  "exp": true,
+  "uclass": 5,
+  "ustruct": 25,
+  "uenum": 9,
+  "uinterface": 0,
+  "total": 39
+ },
+ {
+  "name": "ChaosVehiclesEditor",
+  "plug": "ChaosVehiclesPlugin",
+  "exp": true,
+  "uclass": 3,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 3
+ },
+ {
+  "name": "DaySequence",
+  "plug": "DaySequence",
+  "exp": true,
+  "uclass": 19,
+  "ustruct": 11,
+  "uenum": 5,
+  "uinterface": 0,
+  "total": 35
+ },
+ {
+  "name": "DaySequenceEditor",
+  "plug": "DaySequence",
+  "exp": true,
+  "uclass": 8,
+  "ustruct": 2,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 10
+ },
+ {
+  "name": "FractureEngine",
+  "plug": "Fracture",
+  "exp": true,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 10,
+  "uinterface": 0,
+  "total": 10
+ },
+ {
+  "name": "GameplayBehaviorsEditorModule",
+  "plug": "GameplayBehaviors",
+  "exp": true,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "GameplayBehaviorsModule",
+  "plug": "GameplayBehaviors",
+  "exp": true,
+  "uclass": 13,
+  "ustruct": 3,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 17
+ },
+ {
+  "name": "LearningAgents",
+  "plug": "LearningAgents",
+  "exp": true,
+  "uclass": 17,
+  "ustruct": 19,
+  "uenum": 8,
+  "uinterface": 0,
+  "total": 44
+ },
+ {
+  "name": "LearningAgentsReplay",
+  "plug": "LearningAgents",
+  "exp": true,
+  "uclass": 4,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 4
+ },
+ {
+  "name": "LearningAgentsTraining",
+  "plug": "LearningAgents",
+  "exp": true,
+  "uclass": 14,
+  "ustruct": 25,
+  "uenum": 2,
+  "uinterface": 3,
+  "total": 44
+ },
+ {
+  "name": "LearningAgentsTrainingEditor",
+  "plug": "LearningAgents",
+  "exp": true,
+  "uclass": 5,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 5
+ },
+ {
+  "name": "Mover",
+  "plug": "Mover",
+  "exp": true,
+  "uclass": 53,
+  "ustruct": 100,
+  "uenum": 15,
+  "uinterface": 4,
+  "total": 172
+ },
+ {
+  "name": "MoverCVDData",
+  "plug": "Mover",
+  "exp": true,
+  "uclass": 0,
+  "ustruct": 2,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "MoverCVDEditor",
+  "plug": "Mover",
+  "exp": true,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 3
+ },
+ {
+  "name": "MoverEditor",
+  "plug": "Mover",
+  "exp": true,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "NNEModelTests",
+  "plug": "NNEModelTests",
+  "exp": true,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "NNEModelTestsEditor",
+  "plug": "NNEModelTests",
+  "exp": true,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "PCGWaterInterop",
+  "plug": "PCGWaterInterop",
+  "exp": true,
+  "uclass": 2,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 3
+ },
+ {
+  "name": "PythonScriptPlugin",
+  "plug": "PythonScriptPlugin",
+  "exp": true,
+  "uclass": 20,
+  "ustruct": 4,
+  "uenum": 7,
+  "uinterface": 4,
+  "total": 35
+ },
+ {
+  "name": "RemoteControlComponents",
+  "plug": "RemoteControlComponents",
+  "exp": true,
+  "uclass": 2,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 3
+ },
+ {
+  "name": "StructUtils",
+  "plug": "StructUtils",
+  "exp": true,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "StructUtilsEngine",
+  "plug": "StructUtils",
+  "exp": true,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "UMGToolSet",
+  "plug": "UMGToolSet",
+  "exp": true,
+  "uclass": 4,
+  "ustruct": 9,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 13
+ },
+ {
+  "name": "Niagara",
+  "plug": "Niagara",
+  "exp": false,
+  "uclass": 224,
+  "ustruct": 286,
+  "uenum": 155,
+  "uinterface": 5,
+  "total": 670
+ },
+ {
+  "name": "NiagaraAnimNotifies",
+  "plug": "Niagara",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 1,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 5
+ },
+ {
+  "name": "NiagaraCore",
+  "plug": "Niagara",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 2,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 7
+ },
+ {
+  "name": "NiagaraEditor",
+  "plug": "Niagara",
+  "exp": false,
+  "uclass": 214,
+  "ustruct": 111,
+  "uenum": 27,
+  "uinterface": 0,
+  "total": 352
+ },
+ {
+  "name": "NiagaraEditorWidgets",
+  "plug": "Niagara",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "NiagaraShader",
+  "plug": "Niagara",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 6,
+  "uenum": 6,
+  "uinterface": 0,
+  "total": 13
+ },
+ {
+  "name": "NiagaraVertexFactories",
+  "plug": "Niagara",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "NiagaraFluids",
+  "plug": "NiagaraFluids",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "NiagaraSimCaching",
+  "plug": "NiagaraSimCaching",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 3,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 7
+ },
+ {
+  "name": "NiagaraSimCachingEditor",
+  "plug": "NiagaraSimCaching",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "AlembicImporter",
+  "plug": "AlembicImporter",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "AlembicLibrary",
+  "plug": "AlembicImporter",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 7,
+  "uenum": 5,
+  "uinterface": 0,
+  "total": 15
+ },
+ {
+  "name": "GeometryCacheUSD",
+  "plug": "USDImporter",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "USDClassesEditor",
+  "plug": "USDImporter",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "USDExporter",
+  "plug": "USDImporter",
+  "exp": false,
+  "uclass": 16,
+  "ustruct": 4,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 20
+ },
+ {
+  "name": "USDSchemas",
+  "plug": "USDImporter",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "USDStage",
+  "plug": "USDImporter",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 1,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 8
+ },
+ {
+  "name": "USDStageEditor",
+  "plug": "USDImporter",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 3
+ },
+ {
+  "name": "USDStageEditorViewModels",
+  "plug": "USDImporter",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "USDStageImporter",
+  "plug": "USDImporter",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 1,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 6
+ },
+ {
+  "name": "USDTests",
+  "plug": "USDImporter",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "ElectraPlayerPlugin",
+  "plug": "ElectraPlayer",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "ElectraPlayerPluginHandler",
+  "plug": "ElectraPlayer",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "ElectraPlayerRuntime",
+  "plug": "ElectraPlayer",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "ElectraProtron",
+  "plug": "ElectraPlayer",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "ExrReaderGpu",
+  "plug": "ImgMedia",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "ImgMedia",
+  "plug": "ImgMedia",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "ImgMediaEngine",
+  "plug": "ImgMedia",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "ImgMediaFactory",
+  "plug": "ImgMedia",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "OpenExrWrapper",
+  "plug": "ImgMedia",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "MovieRenderPipelineCore",
+  "plug": "MovieRenderPipeline",
+  "exp": false,
+  "uclass": 140,
+  "ustruct": 41,
+  "uenum": 33,
+  "uinterface": 4,
+  "total": 218
+ },
+ {
+  "name": "MovieRenderPipelineEditor",
+  "plug": "MovieRenderPipeline",
+  "exp": false,
+  "uclass": 27,
+  "ustruct": 4,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 31
+ },
+ {
+  "name": "MovieRenderPipelineMP4Encoder",
+  "plug": "MovieRenderPipeline",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 3,
+  "uinterface": 0,
+  "total": 5
+ },
+ {
+  "name": "MovieRenderPipelineRenderPasses",
+  "plug": "MovieRenderPipeline",
+  "exp": false,
+  "uclass": 23,
+  "ustruct": 1,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 26
+ },
+ {
+  "name": "MovieRenderPipelineSettings",
+  "plug": "MovieRenderPipeline",
+  "exp": false,
+  "uclass": 4,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 4
+ },
+ {
+  "name": "SequencerScripting",
+  "plug": "SequencerScripting",
+  "exp": false,
+  "uclass": 42,
+  "ustruct": 1,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 44
+ },
+ {
+  "name": "SequencerScriptingEditor",
+  "plug": "SequencerScripting",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 4,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 6
+ },
+ {
+  "name": "CustomizableObject",
+  "plug": "Mutable",
+  "exp": false,
+  "uclass": 19,
+  "ustruct": 49,
+  "uenum": 11,
+  "uinterface": 0,
+  "total": 79
+ },
+ {
+  "name": "CustomizableObjectEditor",
+  "plug": "Mutable",
+  "exp": false,
+  "uclass": 175,
+  "ustruct": 38,
+  "uenum": 26,
+  "uinterface": 4,
+  "total": 243
+ },
+ {
+  "name": "MutableRuntime",
+  "plug": "Mutable",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 6,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 8
+ },
+ {
+  "name": "MutableTools",
+  "plug": "Mutable",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "OnlineServicesCommon",
+  "plug": "OnlineServices",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "OnlineServicesCommonEngineUtils",
+  "plug": "OnlineServices",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "OnlineServicesInterface",
+  "plug": "OnlineServices",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "OnlineBlueprintSupport",
+  "plug": "OnlineSubsystemUtils",
+  "exp": false,
+  "uclass": 12,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 12
+ },
+ {
+  "name": "OnlineSubsystemUtils",
+  "plug": "OnlineSubsystemUtils",
+  "exp": false,
+  "uclass": 49,
+  "ustruct": 11,
+  "uenum": 7,
+  "uinterface": 0,
+  "total": 67
+ },
+ {
+  "name": "PCG",
+  "plug": "PCG",
+  "exp": false,
+  "uclass": 443,
+  "ustruct": 195,
+  "uenum": 207,
+  "uinterface": 7,
+  "total": 852
+ },
+ {
+  "name": "PCGCompute",
+  "plug": "PCG",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "PCGEditor",
+  "plug": "PCG",
+  "exp": false,
+  "uclass": 77,
+  "ustruct": 23,
+  "uenum": 9,
+  "uinterface": 0,
+  "total": 109
+ },
+ {
+  "name": "AudioModulation",
+  "plug": "AudioModulation",
+  "exp": false,
+  "uclass": 28,
+  "ustruct": 12,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 41
+ },
+ {
+  "name": "AudioModulationEditor",
+  "plug": "AudioModulation",
+  "exp": false,
+  "uclass": 12,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 12
+ },
+ {
+  "name": "CommonInput",
+  "plug": "CommonUI",
+  "exp": false,
+  "uclass": 8,
+  "ustruct": 5,
+  "uenum": 3,
+  "uinterface": 0,
+  "total": 16
+ },
+ {
+  "name": "CommonUI",
+  "plug": "CommonUI",
+  "exp": false,
+  "uclass": 57,
+  "ustruct": 16,
+  "uenum": 9,
+  "uinterface": 5,
+  "total": 87
+ },
+ {
+  "name": "CommonUIEditor",
+  "plug": "CommonUI",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "CustomMeshComponent",
+  "plug": "CustomMeshComponent",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "GameFeatures",
+  "plug": "GameFeatures",
+  "exp": false,
+  "uclass": 19,
+  "ustruct": 6,
+  "uenum": 1,
+  "uinterface": 1,
+  "total": 27
+ },
+ {
+  "name": "GameFeaturesEditor",
+  "plug": "GameFeatures",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 4
+ },
+ {
+  "name": "GameplayAbilities",
+  "plug": "GameplayAbilities",
+  "exp": false,
+  "uclass": 115,
+  "ustruct": 116,
+  "uenum": 42,
+  "uinterface": 4,
+  "total": 277
+ },
+ {
+  "name": "GameplayAbilitiesEditor",
+  "plug": "GameplayAbilities",
+  "exp": false,
+  "uclass": 7,
+  "ustruct": 2,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 11
+ },
+ {
+  "name": "GameplayInteractionsModule",
+  "plug": "GameplayInteractions",
+  "exp": false,
+  "uclass": 4,
+  "ustruct": 34,
+  "uenum": 9,
+  "uinterface": 0,
+  "total": 47
+ },
+ {
+  "name": "GeometryScriptingCore",
+  "plug": "GeometryScripting",
+  "exp": false,
+  "uclass": 46,
+  "ustruct": 145,
+  "uenum": 85,
+  "uinterface": 0,
+  "total": 276
+ },
+ {
+  "name": "GeometryScriptingEditor",
+  "plug": "GeometryScripting",
+  "exp": false,
+  "uclass": 8,
+  "ustruct": 8,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 18
+ },
+ {
+  "name": "HairCardGeneratorFramework",
+  "plug": "HairStrands",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "HairStrandsCore",
+  "plug": "HairStrands",
+  "exp": false,
+  "uclass": 24,
+  "ustruct": 44,
+  "uenum": 28,
+  "uinterface": 0,
+  "total": 96
+ },
+ {
+  "name": "HairStrandsDataflow",
+  "plug": "HairStrands",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 28,
+  "uenum": 3,
+  "uinterface": 0,
+  "total": 31
+ },
+ {
+  "name": "HairStrandsEditor",
+  "plug": "HairStrands",
+  "exp": false,
+  "uclass": 12,
+  "ustruct": 0,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 13
+ },
+ {
+  "name": "HairStrandsSolver",
+  "plug": "HairStrands",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 3,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 4
+ },
+ {
+  "name": "InstancedActors",
+  "plug": "InstancedActors",
+  "exp": false,
+  "uclass": 23,
+  "ustruct": 21,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 45
+ },
+ {
+  "name": "InstancedActorsEditor",
+  "plug": "InstancedActors",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "InstancedActorsTestSuite",
+  "plug": "InstancedActors",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "MeshModelingTools",
+  "plug": "MeshModelingToolset",
+  "exp": false,
+  "uclass": 224,
+  "ustruct": 2,
+  "uenum": 79,
+  "uinterface": 0,
+  "total": 305
+ },
+ {
+  "name": "MeshModelingToolsEditorOnly",
+  "plug": "MeshModelingToolset",
+  "exp": false,
+  "uclass": 42,
+  "ustruct": 2,
+  "uenum": 18,
+  "uinterface": 3,
+  "total": 65
+ },
+ {
+  "name": "ModelingComponents",
+  "plug": "MeshModelingToolset",
+  "exp": false,
+  "uclass": 72,
+  "ustruct": 15,
+  "uenum": 20,
+  "uinterface": 8,
+  "total": 115
+ },
+ {
+  "name": "ModelingComponentsEditorOnly",
+  "plug": "MeshModelingToolset",
+  "exp": false,
+  "uclass": 19,
+  "ustruct": 0,
+  "uenum": 4,
+  "uinterface": 2,
+  "total": 25
+ },
+ {
+  "name": "ModelingOperators",
+  "plug": "MeshModelingToolset",
+  "exp": false,
+  "uclass": 7,
+  "ustruct": 0,
+  "uenum": 22,
+  "uinterface": 0,
+  "total": 29
+ },
+ {
+  "name": "ModelingOperatorsEditorOnly",
+  "plug": "MeshModelingToolset",
+  "exp": false,
+  "uclass": 5,
+  "ustruct": 0,
+  "uenum": 5,
+  "uinterface": 0,
+  "total": 10
+ },
+ {
+  "name": "SkeletalMeshModifiers",
+  "plug": "MeshModelingToolset",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 4,
+  "uenum": 3,
+  "uinterface": 0,
+  "total": 10
+ },
+ {
+  "name": "MetasoundEditor",
+  "plug": "Metasound",
+  "exp": false,
+  "uclass": 38,
+  "ustruct": 46,
+  "uenum": 6,
+  "uinterface": 2,
+  "total": 92
+ },
+ {
+  "name": "MetasoundEngine",
+  "plug": "Metasound",
+  "exp": false,
+  "uclass": 15,
+  "ustruct": 11,
+  "uenum": 3,
+  "uinterface": 0,
+  "total": 29
+ },
+ {
+  "name": "MetasoundEngineTest",
+  "plug": "Metasound",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "MetasoundFrontend",
+  "plug": "Metasound",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 66,
+  "uenum": 11,
+  "uinterface": 1,
+  "total": 81
+ },
+ {
+  "name": "MetasoundGenerator",
+  "plug": "Metasound",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "MetasoundGraphCore",
+  "plug": "Metasound",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "MetasoundStandardNodes",
+  "plug": "Metasound",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "ModularGameplay",
+  "plug": "ModularGameplay",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 1,
+  "uenum": 1,
+  "uinterface": 1,
+  "total": 9
+ },
+ {
+  "name": "OpenXRAR",
+  "plug": "OpenXR",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "OpenXREditor",
+  "plug": "OpenXR",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "OpenXRHMD",
+  "plug": "OpenXR",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 3
+ },
+ {
+  "name": "OpenXRInput",
+  "plug": "OpenXR",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "ProceduralMeshComponent",
+  "plug": "ProceduralMeshComponent",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 3,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 6
+ },
+ {
+  "name": "ProceduralMeshComponentEditor",
+  "plug": "ProceduralMeshComponent",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "SmartObjectsEditorModule",
+  "plug": "SmartObjects",
+  "exp": false,
+  "uclass": 5,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 5
+ },
+ {
+  "name": "SmartObjectsModule",
+  "plug": "SmartObjects",
+  "exp": false,
+  "uclass": 28,
+  "ustruct": 52,
+  "uenum": 16,
+  "uinterface": 0,
+  "total": 96
+ },
+ {
+  "name": "SmartObjectsTestSuite",
+  "plug": "SmartObjects",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 2,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 5
+ },
+ {
+  "name": "StateTreeDeveloper",
+  "plug": "StateTree",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 2,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "StateTreeEditorModule",
+  "plug": "StateTree",
+  "exp": false,
+  "uclass": 23,
+  "ustruct": 18,
+  "uenum": 7,
+  "uinterface": 1,
+  "total": 49
+ },
+ {
+  "name": "StateTreeModule",
+  "plug": "StateTree",
+  "exp": false,
+  "uclass": 10,
+  "ustruct": 145,
+  "uenum": 35,
+  "uinterface": 1,
+  "total": 191
+ },
+ {
+  "name": "StateTreeTestSuite",
+  "plug": "StateTree",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 59,
+  "uenum": 4,
+  "uinterface": 0,
+  "total": 69
+ },
+ {
+  "name": "UnrealUSDWrapper",
+  "plug": "USDCore",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 2,
+  "uenum": 9,
+  "uinterface": 0,
+  "total": 11
+ },
+ {
+  "name": "USDClasses",
+  "plug": "USDCore",
+  "exp": false,
+  "uclass": 17,
+  "ustruct": 7,
+  "uenum": 8,
+  "uinterface": 0,
+  "total": 32
+ },
+ {
+  "name": "USDUtilities",
+  "plug": "USDCore",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "SubtitlesAndClosedCaptions",
+  "plug": "SubtitlesAndClosedCaptions",
+  "exp": false,
+  "uclass": 8,
+  "ustruct": 2,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 10
+ },
+ {
+  "name": "SubtitlesAndClosedCaptionsEditor",
+  "plug": "SubtitlesAndClosedCaptions",
+  "exp": false,
+  "uclass": 4,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 4
+ },
+ {
+  "name": "TextureGraph",
+  "plug": "TextureGraph",
+  "exp": false,
+  "uclass": 97,
+  "ustruct": 21,
+  "uenum": 10,
+  "uinterface": 0,
+  "total": 128
+ },
+ {
+  "name": "TextureGraphEditor",
+  "plug": "TextureGraph",
+  "exp": false,
+  "uclass": 9,
+  "ustruct": 3,
+  "uenum": 4,
+  "uinterface": 0,
+  "total": 16
+ },
+ {
+  "name": "TextureGraphEngine",
+  "plug": "TextureGraph",
+  "exp": false,
+  "uclass": 7,
+  "ustruct": 8,
+  "uenum": 31,
+  "uinterface": 0,
+  "total": 46
+ },
+ {
+  "name": "TextureGraphInsight",
+  "plug": "TextureGraph",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "TextureGraphInsightEditor",
+  "plug": "TextureGraph",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "ActorModifier",
+  "plug": "ActorModifier",
+  "exp": false,
+  "uclass": 4,
+  "ustruct": 6,
+  "uenum": 8,
+  "uinterface": 3,
+  "total": 21
+ },
+ {
+  "name": "ActorModifierEditor",
+  "plug": "ActorModifier",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "ActorModifierLayout",
+  "plug": "ActorModifier",
+  "exp": false,
+  "uclass": 7,
+  "ustruct": 1,
+  "uenum": 8,
+  "uinterface": 0,
+  "total": 16
+ },
+ {
+  "name": "ActorModifierRendering",
+  "plug": "ActorModifier",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "Avalanche",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 20,
+  "ustruct": 18,
+  "uenum": 7,
+  "uinterface": 3,
+  "total": 48
+ },
+ {
+  "name": "AvalancheAttribute",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 5,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 5
+ },
+ {
+  "name": "AvalancheAttributeEditor",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "AvalancheCamera",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 3,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 6
+ },
+ {
+  "name": "AvalancheComponentVisualizers",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "AvalancheCore",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "AvalancheEditorCore",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 5,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 5
+ },
+ {
+  "name": "AvalancheFunctionalTest",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "AvalancheInteractiveTools",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 19,
+  "ustruct": 0,
+  "uenum": 3,
+  "uinterface": 0,
+  "total": 22
+ },
+ {
+  "name": "AvalancheInteractiveToolsRuntime",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 2,
+  "total": 2
+ },
+ {
+  "name": "AvalancheLevelViewport",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "AvalancheMask",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 14,
+  "ustruct": 15,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 30
+ },
+ {
+  "name": "AvalancheMaskEditor",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 3
+ },
+ {
+  "name": "AvalancheMaterial",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 10,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 12
+ },
+ {
+  "name": "AvalancheMedia",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 50,
+  "ustruct": 151,
+  "uenum": 37,
+  "uinterface": 2,
+  "total": 240
+ },
+ {
+  "name": "AvalancheMediaEditor",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 23,
+  "ustruct": 3,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 28
+ },
+ {
+  "name": "AvalancheModifiers",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 28,
+  "ustruct": 15,
+  "uenum": 19,
+  "uinterface": 0,
+  "total": 62
+ },
+ {
+  "name": "AvalancheMRQ",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "AvalancheOutliner",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 5,
+  "ustruct": 1,
+  "uenum": 3,
+  "uinterface": 0,
+  "total": 9
+ },
+ {
+  "name": "AvalancheRemoteControl",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 1,
+  "total": 3
+ },
+ {
+  "name": "AvalancheSceneRig",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "AvalancheSceneRigEditor",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "AvalancheSceneTree",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 3,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 4
+ },
+ {
+  "name": "AvalancheSequence",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 9,
+  "ustruct": 18,
+  "uenum": 8,
+  "uinterface": 2,
+  "total": 37
+ },
+ {
+  "name": "AvalancheSequencer",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 5,
+  "uenum": 3,
+  "uinterface": 0,
+  "total": 14
+ },
+ {
+  "name": "AvalancheShapes",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 23,
+  "ustruct": 10,
+  "uenum": 6,
+  "uinterface": 0,
+  "total": 39
+ },
+ {
+  "name": "AvalancheShapesEditor",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 16,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 16
+ },
+ {
+  "name": "AvalancheTag",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 7,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 9
+ },
+ {
+  "name": "AvalancheText",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 6,
+  "uenum": 5,
+  "uinterface": 0,
+  "total": 14
+ },
+ {
+  "name": "AvalancheTransition",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 9,
+  "ustruct": 27,
+  "uenum": 8,
+  "uinterface": 2,
+  "total": 46
+ },
+ {
+  "name": "AvalancheTransitionEditor",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 6,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 7
+ },
+ {
+  "name": "AvalancheViewport",
+  "plug": "Avalanche",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 5,
+  "uenum": 5,
+  "uinterface": 0,
+  "total": 13
+ },
+ {
+  "name": "ClonerEffector",
+  "plug": "ClonerEffector",
+  "exp": false,
+  "uclass": 52,
+  "ustruct": 7,
+  "uenum": 19,
+  "uinterface": 0,
+  "total": 78
+ },
+ {
+  "name": "ClonerEffectorEditor",
+  "plug": "ClonerEffector",
+  "exp": false,
+  "uclass": 4,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 4
+ },
+ {
+  "name": "ClonerEffectorMeshBuilder",
+  "plug": "ClonerEffector",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "LevelSnapshots",
+  "plug": "LevelSnapshots",
+  "exp": false,
+  "uclass": 13,
+  "ustruct": 27,
+  "uenum": 5,
+  "uinterface": 0,
+  "total": 45
+ },
+ {
+  "name": "LevelSnapshotsEditor",
+  "plug": "LevelSnapshots",
+  "exp": false,
+  "uclass": 15,
+  "ustruct": 0,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 16
+ },
+ {
+  "name": "PropertyAnimator",
+  "plug": "PropertyAnimator",
+  "exp": false,
+  "uclass": 31,
+  "ustruct": 6,
+  "uenum": 9,
+  "uinterface": 0,
+  "total": 46
+ },
+ {
+  "name": "RemoteControl",
+  "plug": "RemoteControl",
+  "exp": false,
+  "uclass": 17,
+  "ustruct": 52,
+  "uenum": 9,
+  "uinterface": 0,
+  "total": 78
+ },
+ {
+  "name": "RemoteControlCommon",
+  "plug": "RemoteControl",
+  "exp": false,
+  "uclass": 4,
+  "ustruct": 5,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 11
+ },
+ {
+  "name": "RemoteControlLogic",
+  "plug": "RemoteControl",
+  "exp": false,
+  "uclass": 26,
+  "ustruct": 11,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 38
+ },
+ {
+  "name": "RemoteControlProtocol",
+  "plug": "RemoteControl",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 1,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "RemoteControlProtocolWidgets",
+  "plug": "RemoteControl",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "RemoteControlUI",
+  "plug": "RemoteControl",
+  "exp": false,
+  "uclass": 5,
+  "ustruct": 2,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 9
+ },
+ {
+  "name": "WebRemoteControl",
+  "plug": "RemoteControl",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 69,
+  "uenum": 2,
+  "uinterface": 0,
+  "total": 72
+ },
+ {
+  "name": "StormSyncCore",
+  "plug": "StormSync",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 4,
+  "uenum": 3,
+  "uinterface": 0,
+  "total": 8
+ },
+ {
+  "name": "StormSyncDrives",
+  "plug": "StormSync",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ },
+ {
+  "name": "StormSyncEditor",
+  "plug": "StormSync",
+  "exp": false,
+  "uclass": 3,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 3
+ },
+ {
+  "name": "StormSyncTransportClient",
+  "plug": "StormSync",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "StormSyncTransportCore",
+  "plug": "StormSync",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 20,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 22
+ },
+ {
+  "name": "StormSyncTransportServer",
+  "plug": "StormSync",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "CacheTrackRecorder",
+  "plug": "Takes",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 4,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 6
+ },
+ {
+  "name": "TakeMovieScene",
+  "plug": "Takes",
+  "exp": false,
+  "uclass": 4,
+  "ustruct": 1,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 5
+ },
+ {
+  "name": "TakeRecorder",
+  "plug": "Takes",
+  "exp": false,
+  "uclass": 9,
+  "ustruct": 6,
+  "uenum": 3,
+  "uinterface": 1,
+  "total": 19
+ },
+ {
+  "name": "TakeRecorderNamingTokens",
+  "plug": "Takes",
+  "exp": false,
+  "uclass": 1,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 1
+ },
+ {
+  "name": "TakeRecorderSources",
+  "plug": "Takes",
+  "exp": false,
+  "uclass": 12,
+  "ustruct": 0,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 13
+ },
+ {
+  "name": "TakesCore",
+  "plug": "Takes",
+  "exp": false,
+  "uclass": 10,
+  "ustruct": 5,
+  "uenum": 1,
+  "uinterface": 1,
+  "total": 17
+ },
+ {
+  "name": "TakeSequencer",
+  "plug": "Takes",
+  "exp": false,
+  "uclass": 0,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 0
+ },
+ {
+  "name": "TakeTrackRecorders",
+  "plug": "Takes",
+  "exp": false,
+  "uclass": 12,
+  "ustruct": 2,
+  "uenum": 1,
+  "uinterface": 0,
+  "total": 15
+ },
+ {
+  "name": "VirtualScouting",
+  "plug": "VirtualScouting",
+  "exp": false,
+  "uclass": 2,
+  "ustruct": 0,
+  "uenum": 0,
+  "uinterface": 0,
+  "total": 2
+ }
+]

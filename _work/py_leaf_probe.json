@@ -1,0 +1,22 @@
+{
+  "title": "unreal.EditorAssetLibrary — Unreal Python 5.8 (Experimental) documentation",
+  "dtCount": 40,
+  "sample": [
+    "unreal.EditorAssetLibrary",
+    "unreal.EditorAssetLibrary.checkout_asset",
+    "unreal.EditorAssetLibrary.checkout_directory",
+    "unreal.EditorAssetLibrary.checkout_loaded_asset",
+    "unreal.EditorAssetLibrary.checkout_loaded_assets",
+    "unreal.EditorAssetLibrary.consolidate_assets",
+    "unreal.EditorAssetLibrary.delete_asset",
+    "unreal.EditorAssetLibrary.delete_directory",
+    "unreal.EditorAssetLibrary.delete_loaded_asset",
+    "unreal.EditorAssetLibrary.delete_loaded_assets",
+    "unreal.EditorAssetLibrary.do_assets_exist",
+    "unreal.EditorAssetLibrary.does_asset_exist"
+  ],
+  "methodCount": 39,
+  "tryFetch": {
+    "err": "TypeError: Failed to fetch"
+  }
+}

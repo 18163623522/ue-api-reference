@@ -1,0 +1,138 @@
+{
+ "verb_top30": [
+  [
+   "Get",
+   3692
+  ],
+  [
+   "Set",
+   1404
+  ],
+  [
+   "Is",
+   448
+  ],
+  [
+   "Add",
+   445
+  ],
+  [
+   "On",
+   327
+  ],
+  [
+   "Remove",
+   240
+  ],
+  [
+   "Create",
+   194
+  ],
+  [
+   "Find",
+   150
+  ],
+  [
+   "Draw",
+   108
+  ],
+  [
+   "Has",
+   103
+  ],
+  [
+   "Clear",
+   91
+  ],
+  [
+   "Make",
+   64
+  ],
+  [
+   "Stop",
+   59
+  ],
+  [
+   "Reset",
+   57
+  ],
+  [
+   "Apply",
+   56
+  ],
+  [
+   "Convert",
+   51
+  ],
+  [
+   "Update",
+   44
+  ],
+  [
+   "Load",
+   44
+  ],
+  [
+   "Can",
+   41
+  ],
+  [
+   "Request",
+   38
+  ],
+  [
+   "Start",
+   37
+  ],
+  [
+   "Delete",
+   36
+  ],
+  [
+   "Read",
+   36
+  ],
+  [
+   "Frame",
+   36
+  ],
+  [
+   "Database",
+   35
+  ],
+  [
+   "Assert",
+   35
+  ],
+  [
+   "Niagara",
+   34
+  ],
+  [
+   "Enable",
+   34
+  ],
+  [
+   "Send",
+   34
+  ],
+  [
+   "Play",
+   34
+  ]
+ ],
+ "semantic": {
+  "读（Get/Find/Query）": 3859,
+  "（其他）": 2527,
+  "写（Set/Add/Put/Apply）": 2310,
+  "判定（Is/Has/Can/Check）": 631,
+  "删/清（Remove/Clear/Delete/Reset）": 552,
+  "事件（On/Bind/Event/Delegate）": 364,
+  "控制（Play/Start/Stop/Pause/Advance）": 246,
+  "调试（Debug/Draw/Print/Log）": 124,
+  "转换（Convert/Break/Make/To）": 24
+ },
+ "unique": 10637,
+ "total": 11595,
+ "cross_cat_dups": 589
+}

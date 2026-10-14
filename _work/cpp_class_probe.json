@@ -1,0 +1,18 @@
+{
+  "status": 200,
+  "len": 349206,
+  "h2": [
+    "Navigation",
+    "Syntax",
+    "Inheritance Hierarchy",
+    "Derived Classes",
+    "Constructors",
+    "Structs",
+    "Constants",
+    "Variables",
+    "Functions",
+    "Deprecated Variables",
+    "See Also"
+  ],
+  "head": "<h2>Navigation</h2>\n\n<p><a href=\"https://dev.epicgames.com/documentation/unreal-engine/API\">API</a> > <a href=\"https://dev.epicgames.com/documentation/unreal-engine/API/Runtime\">API/Runtime</a> > <a href=\"https://dev.epicgames.com/documentation/unreal-engine/API/Runtime/Engine\">API/Runtime/Engine</a></p>\n\n<p>Actor is the base class for an Object that can be placed or spawned in a level. Actors may contain a collection of ActorComponents, which can be used to control how actors move, how they are rendered, etc. The other main function of an Actor is the replication of properties and function calls across the network during play.</p>\n\n<p>Actor initialization has multiple steps, here's the order of important virtual functions that get called:</p>\n<ul>\n  <li>UObject::PostLoad: For actors statically placed in a level, the normal <a href=\"https://dev.epicgames.com/documentation/unreal-engine/API/Runtime/CoreUObject/UObject\">UObject</a> PostLoad gets called both in the editor and during gameplay. This is not called for newly spawned actors.</li>\n  <li>UActorComponent::OnComponentCreated: When an actor is spawned in the editor or during gameplay, this gets called for any native components."
+}

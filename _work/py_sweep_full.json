@@ -1,0 +1,1002 @@
+[
+{
+"name": "MathLibrary",
+"m": 705
+},
+{
+"name": "SystemLibrary",
+"m": 273
+},
+{
+"name": "UsdConversionLibrary",
+"m": 166
+},
+{
+"name": "ControlRigSequencerLibrary",
+"m": 131
+},
+{
+"name": "AnimationLibrary",
+"m": 119
+},
+{
+"name": "BlueprintSpringMathLibrary",
+"m": 103
+},
+{
+"name": "BlueprintEditorLibrary",
+"m": 80
+},
+{
+"name": "StringLibrary",
+"m": 80
+},
+{
+"name": "MaterialEditingLibrary",
+"m": 77
+},
+{
+"name": "StaticMeshEditorSubsystem",
+"m": 64
+},
+{
+"name": "LevelSequenceEditorBlueprintLibrary",
+"m": 62
+},
+{
+"name": "TakeRecorderSubsystem",
+"m": 58
+},
+{
+"name": "ConstraintInstanceBlueprintLibrary",
+"m": 56
+},
+{
+"name": "VariantManagerLibrary",
+"m": 56
+},
+{
+"name": "InputLibrary",
+"m": 54
+},
+{
+"name": "TextLibrary",
+"m": 52
+},
+{
+"name": "WidgetLibrary",
+"m": 52
+},
+{
+"name": "DataLayerEditorSubsystem",
+"m": 52
+},
+{
+"name": "LayersSubsystem",
+"m": 46
+},
+{
+"name": "NiagaraDataInterfaceArrayFunctionLibrary",
+"m": 44
+},
+{
+"name": "EditorAssetSubsystem",
+"m": 43
+},
+{
+"name": "AudioMixerLibrary",
+"m": 40
+},
+{
+"name": "EditorStaticMeshLibrary",
+"m": 40
+},
+{
+"name": "EditorAssetLibrary",
+"m": 39
+},
+{
+"name": "LevelSequenceEditorSubsystem",
+"m": 38
+},
+{
+"name": "EditorLevelLibrary",
+"m": 37
+},
+{
+"name": "SkeletalMeshEditorSubsystem",
+"m": 37
+},
+{
+"name": "GameplayTagLibrary",
+"m": 37
+},
+{
+"name": "LevelEditorSubsystem",
+"m": 36
+},
+{
+"name": "AutomationLibrary",
+"m": 35
+},
+{
+"name": "LevelSequenceShotMetaDataLibrary",
+"m": 35
+},
+{
+"name": "LiveLinkBlueprintLibrary",
+"m": 35
+},
+{
+"name": "EditorActorSubsystem",
+"m": 35
+},
+{
+"name": "RenderingLibrary",
+"m": 34
+},
+{
+"name": "CollectionManagerSubsystem",
+"m": 31
+},
+{
+"name": "EnhancedInputEditorSubsystem",
+"m": 31
+},
+{
+"name": "EnhancedInputLocalPlayerSubsystem",
+"m": 30
+},
+{
+"name": "AnalyticsLibrary",
+"m": 29
+},
+{
+"name": "SubobjectDataBlueprintFunctionLibrary",
+"m": 29
+},
+{
+"name": "BTFunctionLibrary",
+"m": 28
+},
+{
+"name": "AssetTagsSubsystem",
+"m": 28
+},
+{
+"name": "EnhancedInputWorldSubsystem",
+"m": 28
+},
+{
+"name": "MetaSoundBuilderSubsystem",
+"m": 28
+},
+{
+"name": "DataTableFunctionLibrary",
+"m": 26
+},
+{
+"name": "SubobjectDataSubsystem",
+"m": 25
+},
+{
+"name": "UsdStageEditorLibrary",
+"m": 24
+},
+{
+"name": "WidgetLayoutLibrary",
+"m": 24
+},
+{
+"name": "NiagaraFunctionLibrary",
+"m": 22
+},
+{
+"name": "InputDeviceLibrary",
+"m": 21
+},
+{
+"name": "EditorUtilitySubsystem",
+"m": 21
+},
+{
+"name": "MVVMEditorSubsystem",
+"m": 21
+},
+{
+"name": "AssetRegistryHelpers",
+"m": 20
+},
+{
+"name": "BlueprintCameraPoseFunctionLibrary",
+"m": 20
+},
+{
+"name": "SlateLibrary",
+"m": 20
+},
+{
+"name": "TimeManagementLibrary",
+"m": 20
+},
+{
+"name": "TypedElementListLibrary",
+"m": 20
+},
+{
+"name": "DataLayerSubsystem",
+"m": 20
+},
+{
+"name": "QuartzSubsystem",
+"m": 20
+},
+{
+"name": "BlueprintCameraVariableTableFunctionLibrary",
+"m": 18
+},
+{
+"name": "WaterSubsystem",
+"m": 18
+},
+{
+"name": "EditorUtilityLibrary",
+"m": 17
+},
+{
+"name": "GooglePADFunctionLibrary",
+"m": 17
+},
+{
+"name": "TakeRecorderBlueprintLibrary",
+"m": 17
+},
+{
+"name": "InternationalizationLibrary",
+"m": 16
+},
+{
+"name": "PCGDataFunctionLibrary",
+"m": 16
+},
+{
+"name": "PhysicsControlBPLibrary",
+"m": 16
+},
+{
+"name": "AIHelperLibrary",
+"m": 15
+},
+{
+"name": "BlueprintGraphPinLibrary",
+"m": 15
+},
+{
+"name": "RigVMBlueprintLibrary",
+"m": 15
+},
+{
+"name": "ConsoleVariablesEditorFunctionLibrary",
+"m": 14
+},
+{
+"name": "SequencePlayerLibrary",
+"m": 14
+},
+{
+"name": "TraceUtilLibrary",
+"m": 14
+},
+{
+"name": "EditorSkeletalMeshLibrary",
+"m": 13
+},
+{
+"name": "PluginBlueprintLibrary",
+"m": 13
+},
+{
+"name": "StringTableLibrary",
+"m": 13
+},
+{
+"name": "UAFRigVMAssetLibrary",
+"m": 13
+},
+{
+"name": "VisualLoggerLibrary",
+"m": 13
+},
+{
+"name": "BlueprintMaterialTextureNodesBPLibrary",
+"m": 12
+},
+{
+"name": "CachedAnimDataLibrary",
+"m": 12
+},
+{
+"name": "DataflowBlueprintLibrary",
+"m": 12
+},
+{
+"name": "GlobalConfigurationDataBlueprintLibrary",
+"m": 12
+},
+{
+"name": "NamingTokensEngineSubsystem",
+"m": 12
+},
+{
+"name": "AnimGraphLibrary",
+"m": 11
+},
+{
+"name": "ControlRigBlueprintLibrary",
+"m": 11
+},
+{
+"name": "PlatformLibrary",
+"m": 11
+},
+{
+"name": "WorldPartitionBlueprintLibrary",
+"m": 11
+},
+{
+"name": "AnimationStateMachineLibrary",
+"m": 10
+},
+{
+"name": "ProceduralMeshLibrary",
+"m": 10
+},
+{
+"name": "InputDeviceSubsystem",
+"m": 10
+},
+{
+"name": "InterchangeEditorScriptLibrary",
+"m": 9
+},
+{
+"name": "PyTestStructLibrary",
+"m": 9
+},
+{
+"name": "SequenceEvaluatorLibrary",
+"m": 9
+},
+{
+"name": "ContentBrowserDataSubsystem",
+"m": 9
+},
+{
+"name": "MVVMSubsystem",
+"m": 9
+},
+{
+"name": "AnimExecutionContextLibrary",
+"m": 8
+},
+{
+"name": "MVVMFontConversionLibrary",
+"m": 8
+},
+{
+"name": "MVVMSlateBrushConversionLibrary",
+"m": 8
+},
+{
+"name": "EditorValidatorSubsystem",
+"m": 8
+},
+{
+"name": "GameViewportSubsystem",
+"m": 8
+},
+{
+"name": "MetaSoundEditorSubsystem",
+"m": 8
+},
+{
+"name": "UnrealEditorSubsystem",
+"m": 7
+},
+{
+"name": "ConstraintsScriptingLibrary",
+"m": 7
+},
+{
+"name": "EditorFilterLibrary",
+"m": 7
+},
+{
+"name": "EnhancedInputLibrary",
+"m": 7
+},
+{
+"name": "GuidLibrary",
+"m": 7
+},
+{
+"name": "ImportanceSamplingLibrary",
+"m": 7
+},
+{
+"name": "KismetArrayLibrary",
+"m": 7
+},
+{
+"name": "MirrorAnimLibrary",
+"m": 7
+},
+{
+"name": "ModifyCurveAnimLibrary",
+"m": 7
+},
+{
+"name": "ToolsetLibrary",
+"m": 7
+},
+{
+"name": "UAnimNotifyLibrary",
+"m": 7
+},
+{
+"name": "DatasmithContentLibrary",
+"m": 6
+},
+{
+"name": "MaterialLibrary",
+"m": 6
+},
+{
+"name": "NiagaraDataChannelLibrary",
+"m": 6
+},
+{
+"name": "PythonScriptLibrary",
+"m": 6
+},
+{
+"name": "AudioDeviceNotificationSubsystem",
+"m": 6
+},
+{
+"name": "MetaSoundAssetSubsystem",
+"m": 6
+},
+{
+"name": "ReplaySubsystem",
+"m": 6
+},
+{
+"name": "BlueprintCameraEvaluationDataFunctionLibrary",
+"m": 5
+},
+{
+"name": "BlueprintInstancedStructLibrary",
+"m": 5
+},
+{
+"name": "ChaosVDRuntimeBlueprintLibrary",
+"m": 5
+},
+{
+"name": "EditorUtilityDialogLibrary",
+"m": 5
+},
+{
+"name": "GeometryCollectionLibrary",
+"m": 5
+},
+{
+"name": "GroomLibrary",
+"m": 5
+},
+{
+"name": "MobilePatchingLibrary",
+"m": 5
+},
+{
+"name": "RigVMFunctionLibrary",
+"m": 5
+},
+{
+"name": "TypedElementSelectionSetLibrary",
+"m": 5
+},
+{
+"name": "EngineCamerasSubsystem",
+"m": 5
+},
+{
+"name": "AutomationUtilsBlueprintLibrary",
+"m": 4
+},
+{
+"name": "BlueprintPostProcessSettingsCollectionFunctionLibrary",
+"m": 4
+},
+{
+"name": "CameraLensEffectInterfaceClassSupportLibrary",
+"m": 4
+},
+{
+"name": "ContentBrowserItemLibrary",
+"m": 4
+},
+{
+"name": "DataflowEditorBlueprintLibrary",
+"m": 4
+},
+{
+"name": "EditorSubsystemBlueprintLibrary",
+"m": 4
+},
+{
+"name": "EngineElementsLibrary",
+"m": 4
+},
+{
+"name": "LandmassBlueprintFunctionLibrary",
+"m": 4
+},
+{
+"name": "LayeredBoneBlendLibrary",
+"m": 4
+},
+{
+"name": "LinkedAnimGraphLibrary",
+"m": 4
+},
+{
+"name": "LocalizableMessageLibrary",
+"m": 4
+},
+{
+"name": "MotionExtractorUtilityLibrary",
+"m": 4
+},
+{
+"name": "MusicalTimeFunctionLibrary",
+"m": 4
+},
+{
+"name": "PhysicsObjectBlueprintLibrary",
+"m": 4
+},
+{
+"name": "ProceduralFoliageEditorLibrary",
+"m": 4
+},
+{
+"name": "SkeletalControlLibrary",
+"m": 4
+},
+{
+"name": "TakesCoreBlueprintLibrary",
+"m": 4
+},
+{
+"name": "TileMapLibrary",
+"m": 4
+},
+{
+"name": "TurnBasedLibrary",
+"m": 4
+},
+{
+"name": "TypedElementHandleLibrary",
+"m": 4
+},
+{
+"name": "UserObjectListEntryLibrary",
+"m": 4
+},
+{
+"name": "ImportSubsystem",
+"m": 4
+},
+{
+"name": "AssetEditorSubsystem",
+"m": 3
+},
+{
+"name": "AndroidFileServerBPLibrary",
+"m": 3
+},
+{
+"name": "AnimNodeControlRigLibrary",
+"m": 3
+},
+{
+"name": "AnimNodeRigidBodyLibrary",
+"m": 3
+},
+{
+"name": "EngineCameraAnimationFunctionLibrary",
+"m": 3
+},
+{
+"name": "HealthSnapshotBlueprintLibrary",
+"m": 3
+},
+{
+"name": "JsonObjectGraphFunctionLibrary",
+"m": 3
+},
+{
+"name": "LayersBlueprintLibrary",
+"m": 3
+},
+{
+"name": "MediaLibrary",
+"m": 3
+},
+{
+"name": "MeshVertexPainterLibrary",
+"m": 3
+},
+{
+"name": "SequenceRecorderLibrary",
+"m": 3
+},
+{
+"name": "UAnimNotifyStateMachineInspectionLibrary",
+"m": 3
+},
+{
+"name": "UserListEntryLibrary",
+"m": 3
+},
+{
+"name": "MetaSoundCacheSubsystem",
+"m": 3
+},
+{
+"name": "ViewportStatsSubsystem",
+"m": 3
+},
+{
+"name": "AchievementLibrary",
+"m": 2
+},
+{
+"name": "AndroidPermissionFunctionLibrary",
+"m": 2
+},
+{
+"name": "AudioCaptureLibrary",
+"m": 2
+},
+{
+"name": "AudioInsightsBlueprintLibrary",
+"m": 2
+},
+{
+"name": "CustomizableObjectEditorFunctionLibrary",
+"m": 2
+},
+{
+"name": "DNAImporterLibrary",
+"m": 2
+},
+{
+"name": "FieldNotificationLibrary",
+"m": 2
+},
+{
+"name": "LegacyCameraShakeFunctionLibrary",
+"m": 2
+},
+{
+"name": "LightWeightInstanceBlueprintFunctionLibrary",
+"m": 2
+},
+{
+"name": "NiagaraSimCacheFunctionLibrary",
+"m": 2
+},
+{
+"name": "NiagaraWaterFunctionLibrary",
+"m": 2
+},
+{
+"name": "ResonanceAudioBlueprintFunctionLibrary",
+"m": 2
+},
+{
+"name": "RetargetProfileLibrary",
+"m": 2
+},
+{
+"name": "SkeletalMergingLibrary",
+"m": 2
+},
+{
+"name": "UAnimNotifyMirrorInspectionLibrary",
+"m": 2
+},
+{
+"name": "UserWidgetFunctionLibrary",
+"m": 2
+},
+{
+"name": "WidgetAnimationHandleFunctionLibrary",
+"m": 2
+},
+{
+"name": "WorldPartitionDestructibleInHLODSupportLibrary",
+"m": 2
+},
+{
+"name": "WorldPartitionHLODBlueprintLibrary",
+"m": 2
+},
+{
+"name": "CompositeCoreSubsystem",
+"m": 2
+},
+{
+"name": "ConstraintSubsystem",
+"m": 2
+},
+{
+"name": "LiveLinkDeviceSubsystem",
+"m": 2
+},
+{
+"name": "MetaSoundOutputSubsystem",
+"m": 2
+},
+{
+"name": "WorldPartitionSubsystem",
+"m": 2
+},
+{
+"name": "AudioCaptureFunctionLibrary",
+"m": 1
+},
+{
+"name": "BatchProcessLibrary",
+"m": 1
+},
+{
+"name": "BuiltInDynamicBindingResolverLibrary",
+"m": 1
+},
+{
+"name": "CameraShakeInstanceFunctionLibrary",
+"m": 1
+},
+{
+"name": "ChaosBlueprintLibrary",
+"m": 1
+},
+{
+"name": "ChaosSolverEngineBlueprintLibrary",
+"m": 1
+},
+{
+"name": "CookFunctionLibrary",
+"m": 1
+},
+{
+"name": "FunctionalTestUtilityLibrary",
+"m": 1
+},
+{
+"name": "ImageWriteBlueprintLibrary",
+"m": 1
+},
+{
+"name": "InterchangeTestsBlueprintFunctionLibrary",
+"m": 1
+},
+{
+"name": "LeaderboardLibrary",
+"m": 1
+},
+{
+"name": "MVVMBlueprintLibrary",
+"m": 1
+},
+{
+"name": "MVVMConversionLibrary",
+"m": 1
+},
+{
+"name": "ModularSynthLibrary",
+"m": 1
+},
+{
+"name": "MovieSceneFadeTrackTestLibrary",
+"m": 1
+},
+{
+"name": "NiagaraBakerFunctionLibrary",
+"m": 1
+},
+{
+"name": "NiagaraDIRigidMeshCollisionFunctionLibrary",
+"m": 1
+},
+{
+"name": "PaperSpriteLibrary",
+"m": 1
+},
+{
+"name": "PhysicsThreadLibrary",
+"m": 1
+},
+{
+"name": "PyTestObjectLibrary",
+"m": 1
+},
+{
+"name": "StateTreeFunctionLibrary",
+"m": 1
+},
+{
+"name": "TransformTrajectoryBlueprintLibrary",
+"m": 1
+},
+{
+"name": "UAFInjectionLibrary",
+"m": 1
+},
+{
+"name": "UDIMTextureFunctionLibrary",
+"m": 1
+},
+{
+"name": "UsdDynamicBindingResolverLibrary",
+"m": 1
+},
+{
+"name": "DataDrivenCVarEngineSubsystem",
+"m": 1
+},
+{
+"name": "MVVMGameSubsystem",
+"m": 1
+},
+{
+"name": "SlateFXBaseSubsystem",
+"m": 1
+},
+{
+"name": "AnimNextRigVMAssetLibrary",
+"m": 0
+},
+{
+"name": "BlueprintFunctionLibrary",
+"m": 0
+},
+{
+"name": "ControlRigGizmoLibrary",
+"m": 0
+},
+{
+"name": "ControlRigShapeLibrary",
+"m": 0
+},
+{
+"name": "CustomizableObjectMacroLibrary",
+"m": 0
+},
+{
+"name": "GameplayCamerasFunctionLibrary",
+"m": 0
+},
+{
+"name": "MatineeCameraShakeFunctionLibrary",
+"m": 0
+},
+{
+"name": "PlatformInputDeviceMapperLibrary",
+"m": 0
+},
+{
+"name": "SkeletalMeshUtilitiesLibrary",
+"m": 0
+},
+{
+"name": "StaticMeshUtilitiesLibrary",
+"m": 0
+},
+{
+"name": "StructUtilsFunctionLibrary",
+"m": 0
+},
+{
+"name": "AISubsystem",
+"m": 0
+},
+{
+"name": "AudioEngineSubsystem",
+"m": 0
+},
+{
+"name": "DynamicSubsystem",
+"m": 0
+},
+{
+"name": "EditorSubsystem",
+"m": 0
+},
+{
+"name": "EngineSubsystem",
+"m": 0
+},
+{
+"name": "GameInstanceSubsystem",
+"m": 0
+},
+{
+"name": "GameplayCamerasSubsystem",
+"m": 0
+},
+{
+"name": "HoldoutCompositeSubsystem",
+"m": 0
+},
+{
+"name": "K2Node_GetEditorSubsystem",
+"m": 0
+},
+{
+"name": "K2Node_GetEngineSubsystem",
+"m": 0
+},
+{
+"name": "K2Node_GetSubsystem",
+"m": 0
+},
+{
+"name": "LocalPlayerSubsystem",
+"m": 0
+},
+{
+"name": "SlateFXSubsystem",
+"m": 0
+},
+{
+"name": "Subsystem",
+"m": 0
+},
+{
+"name": "TickableWorldSubsystem",
+"m": 0
+},
+{
+"name": "ToolsetRegistrySubsystem",
+"m": 0
+},
+{
+"name": "WorldSubsystem",
+"m": 0
+},
+{
+"name": "SynthesisUtilitiesBlueprintLibrary",
+"m": -2
+},
+{
+"name": "BehaviorTreeLibrary",
+"m": -2
+},
+{
+"name": "BlueprintMaterialLibrary",
+"m": -2
+},
+{
+"name": "BlueprintPathsLibrary",
+"m": -2
+},
+{
+"name": "CameraLibrary",
+"m": -2
+}
+]

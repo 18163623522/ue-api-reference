@@ -1,0 +1,116 @@
+{
+  "cursor": 8,
+  "total": 842,
+  "done": false,
+  "count": 8,
+  "newItems": [
+    {
+      "slug": "PluginIndex/AbilitySystemGameFeatureActions",
+      "desc": [
+        "Game feature actions to support modular use of the gameplay abilities system"
+      ],
+      "path": "Engine\\Plugins\\Experimental\\AbilitySystemGameFeatureActions\\AbilitySystemGameFeatureActions.uplugin",
+      "cat": "Gameplay",
+      "modules": [
+        "AbilitySystemGameFeatureActions",
+        "Game Features",
+        "Gameplay Abilities"
+      ]
+    },
+    {
+      "slug": "PluginIndex/AccumulationDOF",
+      "desc": [
+        "Thin-lens aperture-sampled depth of field for production rendering"
+      ],
+      "path": "Engine\\Plugins\\VirtualProduction\\AccumulationDOF\\AccumulationDOF.uplugin",
+      "cat": "Virtual Production",
+      "modules": [
+        "AccumulationDOF",
+        "Movie Render Queue"
+      ]
+    },
+    {
+      "slug": "PluginIndex/ACLPlugin",
+      "desc": [
+        "Use the Animation Compression Library (ACL) to compress AnimSequences."
+      ],
+      "path": "Engine\\Plugins\\Animation\\ACLPlugin\\ACLPlugin.uplugin",
+      "cat": "Animation",
+      "modules": [
+        "ACLPlugin",
+        "ACLPluginEditor"
+      ]
+    },
+    {
+      "slug": "PluginIndex/ActorLayerUtilities",
+      "desc": [
+        "Utilites for interacting with actor layers from blueprints"
+      ],
+      "path": "Engine\\Plugins\\Runtime\\ActorLayerUtilities\\ActorLayerUtilities.uplugin",
+      "cat": "Editor",
+      "modules": [
+        "ActorLayerUtilities",
+        "Legacy Composure",
+        "Movie Render Queue Additional Render Passes",
+        "Movie Render Queue"
+      ]
+    },
+    {
+      "slug": "PluginIndex/ActorModifier",
+      "desc": [
+        "Actual implementation of modifiers for actors based on ActorModifierCore plugin"
+      ],
+      "path": "Engine\\Plugins\\VirtualProduction\\ActorModifier\\ActorModifier.uplugin",
+      "cat": "Virtual Production",
+      "modules": [
+        "ActorModifier",
+        "ActorModifierEditor",
+        "ActorModifierLayout",
+        "ActorModifierRendering",
+        "Actor Modifier Core",
+        "Cloners and Effectors",
+        "CompositeCore",
+        "Motion Design"
+      ]
+    },
+    {
+      "slug": "PluginIndex/ActorModifierCore",
+      "desc": [
+        "Use modifier objects on actors to apply a custom behavior"
+      ],
+      "path": "Engine\\Plugins\\VirtualProduction\\ActorModifierCore\\ActorModifierCore.uplugin",
+      "cat": "Virtual Production",
+      "modules": [
+        "ActorModifierCore",
+        "ActorModifierCoreBlueprint",
+        "ActorModifierCoreEditor",
+        "Operator Stack",
+        "Remote Control Actor Modifier Bridge",
+        "Actor Modifier",
+        "Motion Design"
+      ]
+    },
+    {
+      "slug": "PluginIndex/ActorPalette",
+      "desc": [
+        "Allows creation of Actor Palettes based on existing levels to quickly select actors and drag them into the level editor"
+      ],
+      "path": "Engine\\Plugins\\Experimental\\ActorPalette\\ActorPalette.uplugin",
+      "cat": "Experimental",
+      "modules": [
+        "ActorPalette"
+      ]
+    },
+    {
+      "slug": "PluginIndex/ActorSequence",
+      "desc": [
+        "Runtime for embedded actor sequences"
+      ],
+      "path": "Engine\\Plugins\\MovieScene\\ActorSequence\\ActorSequence.uplugin",
+      "cat": "Editor",
+      "modules": [
+        "ActorSequence"
+      ]
+    }
+  ]
+}

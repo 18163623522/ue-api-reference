@@ -1,0 +1,336 @@
+{
+  "cursor": 494,
+  "total": 494,
+  "done": true,
+  "count": 494,
+  "newItems": [
+    {
+      "slug": "Runtime/WebSockets",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Online/WebSockets/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FWebSocketsModule",
+            "Module for web socket implementations"
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IWebSocket",
+            ""
+          ],
+          [
+            "IWebSocketsManager",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/WebSocketServer",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Online/WebSocketServer/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FWebSocketServerModule",
+            ""
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IWebSocketClientConnection",
+            ""
+          ],
+          [
+            "IWebSocketServer",
+            "A WebSocket server listening on a single port. Handlers are invoked on the game thread."
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FWsConnectedHandler",
+            "TFunction IWebSocketClientConnection >)> IWebSocketServer.h"
+          ],
+          [
+            "FWsDisconnectedHandler",
+            "TFunction IWebSocketClientConnection >)> Called when a client disconnects (clean or error). IWebSocketServer.h"
+          ],
+          [
+            "FWsMessageHandler",
+            "TFunction IWebSocketClientConnection >, const FString &)> Called when a client sends a text message. IWebSocketServer.h"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/WidgetCarousel",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/WidgetCarousel/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FWidgetCarouselModule",
+            ""
+          ],
+          [
+            "FWidgetCarouselModuleStyle",
+            "Manages the style which provides resources for the add content dialog."
+          ],
+          [
+            "SCarouselNavigationBar",
+            "A horizontal bar of buttons for navigating to a specific item in the widget carousel."
+          ],
+          [
+            "SCarouselNavigationButton",
+            "A widget used to navigate the carousel widget"
+          ],
+          [
+            "SWidgetCarousel",
+            "Implements a widget Carousel."
+          ],
+          [
+            "SWidgetCarouselWithNavigation",
+            "A widget carousel which includes embedded left and right navigation buttons and a navigation bar below."
+          ]
+        ],
+        "Structs": [
+          [
+            "FCarouselDisplayItem",
+            "The Carousel display widget that gets animated by the carousel widget"
+          ],
+          [
+            "FWidgetCarouselNavigationBarStyle",
+            ""
+          ],
+          [
+            "FWidgetCarouselNavigationButtonStyle",
+            ""
+          ]
+        ],
+        "Enums": [
+          [
+            "EWidgetCarouselScrollDirection::Type",
+            "The desired Carousel scroll direction"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/XmlParser",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/XmlParser/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FFastXml",
+            "Fast XML parser based on John W."
+          ],
+          [
+            "FXmlAttribute",
+            ""
+          ],
+          [
+            "FXmlFile",
+            "Class representing an XML file"
+          ],
+          [
+            "FXmlNode",
+            "Xml Node representing a line in an xml file"
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IFastXmlCallback",
+            "Create your own class that implements the IFastXmlCallback interface to process the XML elements as they are loaded by FFastXml::ParseXmlFile() ."
+          ]
+        ],
+        "Enums": [
+          [
+            "EConstructMethod::Type",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "Runtime/XMPP",
+      "type": "Runtime",
+      "loc": "/Engine/Source/Runtime/Online/XMPP/",
+      "desc": [],
+      "sections": {
+        "Classes": [
+          [
+            "FXmppChatMember",
+            "Member of a chat room"
+          ],
+          [
+            "FXmppChatMessage",
+            "Chat message received from another Xmpp user"
+          ],
+          [
+            "FXmppMessage",
+            "Message received from Xmpp user/admin"
+          ],
+          [
+            "FXmppModule",
+            "Module for Xmpp connections Use CreateConnection to create a new Xmpp connection"
+          ],
+          [
+            "FXmppMucPresence",
+            "Muc room presence from an Xmpp muc room member"
+          ],
+          [
+            "FXmppPubSubConfig",
+            "Info to configure a new PubSub node"
+          ],
+          [
+            "FXmppPubSubMessage",
+            "Message received from PubSub node"
+          ],
+          [
+            "FXmppPubSubNode",
+            "Info cached about a PubSub node"
+          ],
+          [
+            "FXmppRoomConfig",
+            "Info to configure a new room"
+          ],
+          [
+            "FXmppRoomInfo",
+            "Info for a joined/created chat room"
+          ],
+          [
+            "FXmppServer",
+            "Info needed for connecting to an XMPP server"
+          ],
+          [
+            "FXmppUserJid",
+            "Jid for identifying user on the current connection as well as roster members"
+          ],
+          [
+            "FXmppUserPresence",
+            "User presence info obtained from Xmpp roster"
+          ]
+        ],
+        "Interfaces": [
+          [
+            "IXmppChat",
+            "Interface for sending/receiving chat messages between users"
+          ],
+          [
+            "IXmppConnection",
+            "Base interface for connecting to Xmpp"
+          ],
+          [
+            "IXmppMessages",
+            "Interface for sending/receiving messages between users (also admin to user notifications)"
+          ],
+          [
+            "IXmppMultiUserChat",
+            "Interface for creating/joining/chatting in a MUC"
+          ],
+          [
+            "IXmppPresence",
+            "Interface for updating presence for current user and for obtaining updates of roster members"
+          ],
+          [
+            "IXmppPubSub",
+            "Interface for publishing/subscribing to events"
+          ],
+          [
+            "IXmppStanza",
+            "Xmpp stanza abstract interface Exposes getters for various attributes and fields of an Xmpp stanza"
+          ]
+        ],
+        "Typedefs": [
+          [
+            "FXmppChatMemberPtr",
+            "TSharedPtr FXmppChatMember , ESPMode::ThreadSafe > XmppMultiUserChat.h"
+          ],
+          [
+            "FXmppChatMemberRef",
+            "TSharedRef FXmppChatMember , ESPMode::ThreadSafe > XmppMultiUserChat.h"
+          ],
+          [
+            "FXmppPubSubId",
+            "FString Id of a PubSub node XmppPubSub.h"
+          ],
+          [
+            "FXmppRoomId",
+            "FString Id of a chat room XmppMultiUserChat.h"
+          ],
+          [
+            "IXmppChatPtr",
+            "TSharedPtr IXmppChat , ESPMode::ThreadSafe > XmppConnection.h"
+          ],
+          [
+            "IXmppMessagesPtr",
+            "TSharedPtr IXmppMessages , ESPMode::ThreadSafe > XmppConnection.h"
+          ],
+          [
+            "IXmppMultiUserChatPtr",
+            "TSharedPtr IXmppMultiUserChat , ESPMode::ThreadSafe > XmppConnection.h"
+          ],
+          [
+            "IXmppPresencePtr",
+            "TSharedPtr IXmppPresence , ESPMode::ThreadSafe > XmppConnection.h"
+          ],
+          [
+            "IXmppPubSubPtr",
+            "TSharedPtr IXmppPubSub , ESPMode::ThreadSafe > XmppConnection.h"
+          ]
+        ],
+        "Enums": [
+          [
+            "EXmppChatMemberAffiliation::Type",
+            "Affiliation of a chat room member (long term associations with a room, persists across visits) http://xmpp.org/extensions/xep-0045.html#affil"
+          ],
+          [
+            "EXmppChatMemberRole::Type",
+            "Role of a chat room member (temporary role while in the room) http://xmpp.org/extensions/xep-0045.html#roles"
+          ],
+          [
+            "EXmppLoginStatus::Type",
+            "Possible XMPP login states"
+          ],
+          [
+            "EXmppPresenceStatus::Type",
+            "Basic presence online states"
+          ]
+        ],
+        "Functions": [
+          [
+            "const TCHAR * EXmppChatMemberAffiliation::ToString ( Type Affiliation )",
+            "XmppMultiUserChat.h"
+          ],
+          [
+            "Type EXmppChatMemberAffiliation::ToType ( const FString& Affiliation )",
+            "XmppMultiUserChat.h"
+          ],
+          [
+            "const TCHAR * EXmppChatMemberRole::ToString ( Type Role )",
+            "XmppMultiUserChat.h"
+          ],
+          [
+            "Type EXmppChatMemberRole::ToType ( const FString& Role )",
+            "XmppMultiUserChat.h"
+          ],
+          [
+            "const TCHAR * EXmppLoginStatus::ToString ( EXmppLoginStatus::Type EnumVal )",
+            "XmppConnection.h"
+          ],
+          [
+            "const TCHAR * EXmppPresenceStatus::ToString ( EXmppPresenceStatus::Type EnumVal )",
+            "XmppPresence.h"
+          ]
+        ]
+      }
+    }
+  ]
+}
