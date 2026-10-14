@@ -263,7 +263,172 @@ NavMesh 生成/压缩/分区、AI 感知系统的参数。
 | `Sequencer.VolatileSequencesInEditor` | `1` | (Default: 1) When non-zero, all assets will be treated as volatile in editor. Can be disabled to bypass volatility check |
 | `Sequencer.DuplicateLinkedAnimSequence` | `false` | When true when we duplicate a level sequence that has a linked anim sequence it will duplicate and link the anim sequenc |
 
-## 三、高频实用命令（跨分类精选）
+
+## 三、核心命令详解与实操用法
+
+> 以下按使用场景分组，每个命令解释**它控制什么、常见值、改了之后你会看到什么变化**。
+
+### 3.1 性能诊断——先看瓶颈在哪
+
+**`stat unit`**
+- **控制什么**：分别显示 Game（逻辑线程）、Draw（渲染线程）、RHI（驱动提交）四个维度的帧耗时（ms）
+- **怎么用**：在 PIE 或游戏中输入 `stat unit`，屏幕左上角出现实时面板
+- **怎么看**：哪个数字最大，瓶颈就在哪。Game 高 = 逻辑/蓝图/动画太重；Draw 高 = 场景太复杂/Draw Call 太多；GPU 高 = 分辨率/后处理/着色器太贵
+- **常见值**：无需设值，纯查看
+
+**`stat fps`**
+- **控制什么**：显示当前帧率和帧时间
+- **怎么用**：`stat fps` 开启，再输一次关闭。帧时间（ms）= 1000 / 帧率，16.6ms = 60fps，8.3ms = 120fps
+- **与 stat unit 的区别**：stat fps 只显示总帧率，stat unit 拆分到各线程
+
+**`stat scenerendering`**
+- **控制什么**：场景渲染的详细统计（Draw Call 数、三角形数、Pass 耗时）
+- **怎么看**：重点看 "Primitives"（Draw Call 数，移动端建议 < 500，PC 建议 < 5000）和 "Triangles"
+
+**`stat memory`**
+- **控制什么**：各级内存占用概览（纹理/网格/物理/音频/GC）
+- **怎么看**：重点看 LLM（Low Level Memory）分类中最大的项
+
+**`stat gc`**
+- **控制什么**：GC（垃圾回收）统计——回收频率、每次耗时、对象数
+- **怎么看**：如果 GC 时间 > 5ms 就该优化了。配合 `gc.TimeBetweenPurgingPendingKillObjects 120` 降低频率
+
+**`stat streaming`**
+- **控制什么**：纹理/网格的流送状态——多少在加载、多少在等待
+- **怎么看**：如果 "Pending" 数持续 > 0，说明流送跟不上，可以调 `r.Streaming.PoolSize` 增大池
+
+### 3.2 渲染调试——快速定位视觉问题
+
+**`r.ScreenPercentage [值]`**
+- **控制什么**：内部渲染分辨率相对于最终输出分辨率的百分比
+- **常见值**：`r.ScreenPercentage 50`（半分辨率，性能提升约 4 倍）、`r.ScreenPercentage 100`（恢复）、`r.ScreenPercentage 25`（极低，用于排查是否 GPU 瓶颈）
+- **效果**：画面变模糊但帧率显著提升。如果 50% 时帧率翻倍以上，说明确实是 GPU 瓶颈
+- **注意**：TSR 时此值控制 TSR 内部渲染分辨率
+
+**`r.AntiAliasingMethod [0-4]`**
+- **控制什么**：抗锯齿方法
+- **值对照**：0=无 AA、1=FXAA（快但模糊）、2=TAA（默认，有时间抖动）、3=SMAA、4=TSR（UE5 推荐，时序超分辨率）
+- **实操**：从 TAA 切到 FXAA 可以快速判断是否 TAA 造成了画面模糊；切到 TSR 时配合 `r.ScreenPercentage` 控制内部分辨率
+
+**`r.Lumen.ScreenProbeGather [0/1]`**
+- **控制什么**：Lumen 全局光照的屏幕空间探针采集（Lumen GI 的核心）
+- **效果**：设为 0 时 Lumen 全局光照关闭，场景只剩直接光+烘焙/SkyLight——画面会明显变暗/平淡
+- **什么时候关**：排查 GI artefact（漏光/闪烁），或移动端性能不够时
+
+**`r.Nanite [0/1]`**
+- **控制什么**：Nanite 虚拟几何系统总开关
+- **效果**：关闭后所有 Nanite 网格回退到传统 LOD 渲染——三角形数会暴增，帧率可能反而下降（因为 Nanite 的优势就是处理高面数）
+- **注意**：如果你看到关闭 Nanite 后帧率变好了，说明场景的面数其实不高，可能不需要 Nanite
+
+**`r.ShadowQuality [0-5]`**
+- **控制什么**：阴影质量等级（影响 CSM 分辨率/级联数/VSM 精度）
+- **值对照**：0=无阴影、1=极低、2=低、3=中（默认）、4=高、5=极高
+- **实操**：降到 0 可以快速验证阴影占了多少 GPU 时间
+
+**`r.RayTracing [0/1]`**
+- **控制什么**：硬件光线追踪总开关（需要 RTX 显卡 + DX12/Vulkan）
+- **效果**：关闭后光追反射/GI/阴影全部回退到 Lumen/SSR 等非光追方案
+- **性能影响**：光追是 GPU 大户，关闭后帧率通常显著提升
+
+**`r.PathTracing [0/1]`**
+- **控制什么**：路径追踪（无偏物理渲染，用于高质量截图/验证光照）
+- **效果**：开启后画面逐帧收敛（越来越干净），配合 `r.PathTracing.SamplesPerPixel` 控制每帧采样数
+- **注意**：不适合实时游戏，仅用于离线渲染/截图
+
+**`viewmode [模式名]`**
+- **控制什么**：整个视口的渲染模式
+- **常用模式**：
+  - `viewmode lit` — 正常光照（默认）
+  - `viewmode unlit` — 无光照（只看反照率/基础色）
+  - `viewmode wireframe` — 线框
+  - `viewmode detaillighting` — 只看细节光照
+  - `viewmode lightingonly` — 只看光照（反照率为白）
+  - `viewmode reflections` — 只看反射
+  - `viewmode postprocessonly` — 只看后处理
+- **实操**：`viewmode unlit` 用于检查贴图/UV 是否正确；`viewmode lightingonly` 用于隔离光照问题
+
+**`showflag.[名称] [0/1/2]`**
+- **控制什么**：单个渲染 Pass 或可视元素的开关（比 viewmode 更细粒度）
+- **常用**：
+  - `showflag.bloom 0` — 关 Bloom
+  - `showflag.ambientocclusion 0` — 关 AO
+  - `showflag.fog 0` — 关雾
+  - `showflag.postprocessing 0` — 关全部后处理
+  - `showflag.staticmeshes 0` — 隐藏静态网格
+  - `showflag.particles 0` — 隐藏粒子
+  - `showflag.skeletalMeshes 0` — 隐藏骨骼网格
+- **值**：0=关、1=开、2=使用项目设置（默认）
+
+**`r.BufferVisualization [1]` + `BufferVisualizationMode [名称]`**
+- **控制什么**：G-Buffer 可视化——直接查看延迟渲染的中间缓冲
+- **常用模式**：
+  - `r.BufferVisualizationOverview` — 总览
+  - `BufferVisualizationMode BaseColor` — 基础色
+  - `BufferVisualizationMode Roughness` — 粗糙度
+  - `BufferVisualizationMode Metallic` — 金属度
+  - `BufferVisualizationMode SceneColor` — 场景色
+  - `BufferVisualizationMode SceneDepth` — 场景深度
+  - `BufferVisualizationMode WorldNormal` — 世界法线
+  - `BufferVisualizationMode ShadingModel` — 着色模型 ID（排查 Substrate/自定义着色）
+- **用途**：排查材质参数错误（比如 Roughness 贴图接反了）时直接看 G-Buffer 最直观
+
+### 3.3 物理调试
+
+**`show Collision`**
+- **控制什么**：显示所有碰撞体（胶囊/盒/球/凸包）
+- **效果**：视口中所有碰撞形状变为绿色半透明——排查"角色被卡住"或"子弹穿墙"时必开
+
+**`p.Chaos.DebugDraw.Enabled [1]`**
+- **控制什么**：Chaos 物理的调试绘制（接触点/约束/速度向量）
+- **注意**：需要配合 `p.Chaos.DebugDraw.DrawContacts 1` 等子开关
+
+### 3.4 特效调试
+
+**`fx.Budget.GameThread [毫秒]`**
+- **控制什么**：特效系统在 Game Thread 上的时间预算（毫秒/帧）
+- **常见值**：`fx.Budget.GameThread 0`（无限制，默认 2ms）
+- **效果**：超出预算时 Niagara 会降低粒子生成率
+
+**`niagara.DebugDraw [1]`**
+- **控制什么**：Niagara 粒子的调试绘制（边界框/速度向量/事件）
+
+### 3.5 开发效率
+
+**`t.MaxFPS [帧率]`**
+- **控制什么**：限制最大帧率（帧率限制器）
+- **常见值**：`t.MaxFPS 60`（锁定 60fps）、`t.MaxFPS 0`（无限制）、`t.MaxFPS 30`（模拟低端设备）
+- **用途**：模拟不同设备的帧率表现；锁定帧率减少风扇噪音/功耗
+
+**`r.VSync [0/1]`**
+- **控制什么**：垂直同步（帧率与显示器刷新率同步，消除撕裂但增加延迟）
+- **常见值**：`r.VSync 0`（关闭，用于性能测试）、`r.VSync 1`（开启，正常游戏）
+
+**`slomo [倍率]`**
+- **控制什么**：全局时间缩放（慢动作/快进）
+- **常见值**：`slomo 0.1`（十分之一速，观察粒子/物理细节）、`slomo 1`（恢复正常）
+- **用途**：慢动作下观察 Niagara 粒子的生命周期/物理碰撞弹跳轨迹
+
+**`open [关卡路径]`**
+- **控制什么**：直接跳转到指定关卡
+- **用法**：`open /Game/Maps/MyLevel` 或直接 `open MyLevel`
+- **注意**：在 PIE 中使用会退出 PIE 并加载新关卡
+
+**`DumpConsoleCommands`**
+- **控制什么**：导出当前所有已注册的控制台命令和变量到文件
+- **输出**：保存在 `Engine/Saved/ConsoleCommands.txt`
+
+### 3.6 GC（垃圾回收）调优
+
+**`gc.TimeBetweenPurgingPendingKillObjects [秒]`**
+- **控制什么**：两次 GC 之间的间隔（默认 61.1 秒）
+- **常见值**：`gc.TimeBetweenPurgingPendingKillObjects 120`（降低频率）、`... 30`（提高频率，适合频繁销毁对象的场景）
+- **权衡**：间隔越长 → 单次 GC 耗时越长但频率低；间隔越短 → 每次更快但总开销更大
+
+**`gc.ContinuousIncrementalGC [1]`**
+- **控制什么**：启用增量 GC（把一次大 GC 拆成多帧小步）
+- **效果**：消除 GC 引起的帧率尖峰（ hitch），但总体 GC 时间可能略增
+
+## 四、高频实用命令速查表（跨分类精选）
 
 ### 性能调试
 
@@ -327,7 +492,7 @@ NavMesh 生成/压缩/分区、AI 感知系统的参数。
 | `quit` | 退出 |
 | `DumpConsoleCommands` | 导出全部命令到文件 |
 
-## 四、怎么查全部 6,581 个变量
+## 五、怎么查全部 6,581 个变量
 
 结构化数据已保存在 `_work/cvar_data.json`（按分类组织的 JSON）。可以用以下方式查：
 
